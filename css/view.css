@@ -1,0 +1,58 @@
+/* Style the buttons */
+.btn_ {
+  border: 1px solid #E5E5E5;
+  outline: none;
+  background-color: #F9FAFC;
+  cursor: pointer;
+  width: 41px;
+  height: 41px;
+  border-radius: 4px;
+  margin-left: 10px;
+
+}
+
+.btn_:hover {
+  background-color: #A5CE36;
+  color: #fff!important;
+}
+
+.btn_:hover .icon_btn_view {
+  color: #fff;
+
+}
+/*css cho grid and list view*/
+.wrapper_btnContainer {
+    display: none;
+}
+
+/*query media*/
+/*css cho mobile*/
+@media only screen and (min-width: 260px) and (max-width: 576px) {
+    * {
+
+    }
+    .active_btn {
+	    
+	       color: #fff!important;
+	       background-color: #A5CE36;
+	 }
+   .active_btn .icon_btn_view {
+    color: #fff;
+   }
+    .wrapper_btnContainer {
+  		  display: block;
+  	}
+}
+@media only screen and (min-width: 577px) and (max-width: 767px) {
+    * {
+
+    }
+    .active_btn {
+      
+      color: #fff!important;
+      background-color: #A5CE36;
+     }
+    .wrapper_btnContainer {
+      display: block;
+    }
+}

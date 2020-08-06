@@ -1,0 +1,48 @@
+/*css grid and list view cho phan thuc don tiec 04/08/2020 byhathao*/
+.col-grid-4 {
+	display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(4, 23%);
+}
+@media only screen and (min-width: 260px) and (max-width: 576px) {
+    * {
+
+    }
+    .col-xl-12.col-fle.col-grid-4 {
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: repeat(2, 47%);
+    }
+}
+@media only screen and (min-width: 577px) and (max-width: 767px) {
+    * {
+
+    }
+    .col-xl-12.col-flex.col-grid-4 {
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: repeat(2, 47%);
+
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px){
+    * {
+        
+    }
+    .col-xl-12.col-flex.col-grid-4 {
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: repeat(3, 30%)!important;
+        
+    }
+}
+@media only screen and (min-width: 1200px) {
+    * {
+        
+    }
+    .col-xl-12.col-flex.col-grid-4 {
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: repeat(4, 23%)!important;
+    }
+}

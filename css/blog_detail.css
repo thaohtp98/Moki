@@ -1,0 +1,71 @@
+*{margin: 0; padding: 0; font-family: 'Barlow', sans-serif; color: #333333}
+
+
+a {
+    color: #333333;
+}
+/*css cho blog_detail 03/08/2020 byhathao*/
+.header_blog_detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container_blog_detail {
+    background: #fff;
+    padding: 40px 20px;
+}
+
+.name_topic_blog {
+	font-family: Barlow;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	letter-spacing: -0.005em;
+	color: #A5CE36;
+	display: inline-block;
+}
+button.btn.btn-primary.btn_share {
+    padding: 0;
+    background: none;
+    border: none;
+}
+button.btn.btn-primary.btn_share:hover span {
+	color: #A5CE36;
+}
+.share_text {
+	margin-right: 25px;
+}
+.btn_share_twitter {
+	margin-left: 10px;
+}
+h2.title_blog {
+    font-weight: 500;
+    font-size: 30px;
+    color: #333333;
+    font-family: Barlow;
+    font-style: normal;
+}
+h5.item_content_blog {
+    font-weight: 500;
+    font-size: 18px;
+    color: #333333;
+    font-family: Barlow;
+    font-style: normal;
+}
+.container_blog_detail p,ul,li {
+	font-family: Barlow;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: #666666;
+}
+.container_blog_detail img {
+	margin-bottom: 16px;
+}
+.container_blog_detail p small {
+	font-family: Barlow;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: #848484!important;
+}

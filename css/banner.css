@@ -1,0 +1,372 @@
+@font-face {
+    src: url(../fonts/Barlow-Black.ttf);
+    font-family: Barlow;
+}
+@font-face {
+    src: url(../fonts/Fonticonui1.ttf);
+    font-family: UI1;
+}
+@font-face {
+    src: url(../fonts/Vbutlong.ttf);
+    font-family: butlong;
+}
+/*reset css*/
+*{margin: 0; padding: 0; font-family: 'Barlow', sans-serif; color: #333333} 
+a {
+    text-decoration: none;
+}
+/*css cho banner 28/07/2020 byhathao */
+
+.banner {
+    background: url(../images/banner.png) rgba(0, 0, 0, 0.6);
+    background-size: cover!important;
+    -webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+    height: 450px;
+}
+.banner_foods {
+
+	background: url(../images/banner_foods.png) no-repeat center center;
+	background-size: cover!important;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	height: 300px!important;
+	display: flex;
+    align-items: center;
+}
+.banner_cooking_recipe {
+
+	background: url(../images/banner_cooking_recipe.png) no-repeat center center;
+	
+	background-size: cover!important;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	height: 300px!important;
+	display: flex;
+    align-items: center;
+}
+.row.row_content {
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+.col_right_banner {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner_img {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.img_banner1 {
+    transform: rotate(-11.41deg);
+    position: absolute;
+    left: 15%;
+    top: 20%;
+    z-index: 3;
+}
+.img_banner2 {
+    position: absolute;
+    left: 45%;
+    top: 10%;
+    transform: rotate(9.24deg);
+    z-index: 2;
+}
+.title_banner {
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 52px;
+}
+h3.name_url {
+    width: 162px;
+    height: 45px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+.col_left_banner span.green-white {
+	font-family: Barlow;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 52px;
+}
+span.green-white {
+    
+    color: #A5CE36;
+}
+.wrapper_search {
+    width: 100%;
+    height: 90px;
+    border: 1px solid #fff;
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(11, 20, 45, 0.1);
+    border-radius: 4px;
+    /* padding: 20px 0; */
+}
+
+.search {
+    padding: 20px 0;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-right: 1px solid #E6E8EE;
+}
+.search form {
+    width: 85%;
+}
+.icon-search:before {
+    font-size: 20px;
+    color: #333333;
+}
+.icon-location-pin.icon-location-banner:before {
+	font-size: 20px;
+    color: #333333;
+}
+.icon-stats:before {
+	font-size: 20px;
+	color: #333333;
+}
+fieldset.form-group.form-group-search {
+    /* margin: 8px 0; */
+}
+label.label_group {
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+}
+.area {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-right: 1px solid #E6E8EE;
+}
+.category {
+	width: 20%;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	border-right: 1px solid #E6E8EE;
+}
+.icon_search {
+    width: 30px;
+    text-align: center;
+}
+.wrapper_btn_search {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+}
+button.btn.btn-primary.btn_search {
+    width: 124px;
+    padding: 13px 30px;
+    height: 60px;
+    background: #A5CE36;
+    border: none;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* margin-top: 29px; */
+}
+button.btn.btn-primary.btn_search:hover {
+    background: #B0DB39;
+}
+.row.row_search {
+    margin-bottom: 20px;
+}
+.text-help {
+	font-family: Barlow;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+}
+/*query media*/
+/*css cho mobile*/
+@media only screen and (min-width: 260px) and (max-width: 576px) {
+    * {
+
+    }
+
+	img.img_banner2 {
+		left: 36%;
+		width: 150px;
+		height: 150px;
+		top: 10%;
+	}
+
+	button.btn.btn-primary.btn_search {
+	    width: 85%;
+	}
+
+	.icon_search {
+	    display: none;
+	}
+    .col_left_banner span.green-white {
+		font-size: 18px!important;
+	}
+
+	.title_banner {
+		font-size: 16px!important;
+	}
+
+	h3.name_url {
+		text-align: center;
+		margin: 15px auto;
+	}
+
+	.col-xl-6.col-lg-6.col-md-6.col-sm-12.col_left_banner {
+		text-align: center;
+	}
+
+	h3.name_url {
+		font-size: 18px;
+	}
+
+	.search {
+		width: 75%;
+	}
+
+	.area {
+		display: none;
+	}
+
+	.category {
+		display: none;
+	}
+
+	img.img_banner1 {
+		top: 0%;
+		left: 8%;
+		width: 150px;
+		height: 150px;
+	}
+	.text-help {
+		font-size: 12px;
+	}
+
+	.col-xl-6.col-lg-6.col-md-6.col-sm-12.col_right_banner {
+		/* height: auto; */
+	}
+
+	.row.row_content {
+		height: 450px;
+	}
+
+	.banner {height: 600px;}
+}
+/*css cho tablet*/
+@media only screen and (min-width: 577px) and (max-width: 767px) {
+    * {
+
+    }
+    span.icon-search.icon_search {
+    	display: none;
+    }
+
+	.col_left_banner span.green-white {
+		font-size: 30px!important;
+	}
+
+	.title_banner {
+		font-size: 30px!important;
+	}
+
+	h3.name_url {
+		text-align: center;
+		margin: 15px auto;
+	}
+
+	.col-xl-6.col-lg-6.col-md-6.col-sm-12.col_left_banner {
+		text-align: center;
+	}
+
+	h3.name_url {
+		font-size: 25px;
+	}
+
+	.search {
+		width: 70%;
+	}
+
+	.area {
+		display: none;
+	}
+
+	.category {
+		display: none;
+	}
+
+	img.img_banner1 {
+		top: 5%;
+	}
+
+	.row.row_content {
+		height: 450px;
+	}
+
+	.banner {height: 600px;}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px){
+    * {
+        
+    }
+
+	img.img_banner1 {
+	    left: 5%;
+	}
+
+	img.img_banner2 {
+	    left: 40%;
+	}
+	.icon_search {
+	    display: none;
+	}
+	.col_left_banner span.green-white {
+	    font-size: 30px;
+	}
+
+	.title_banner {
+	    font-size: 30px!important;
+	}
+
+	.search {
+	    width: 40%;
+	}
+
+	button.btn.btn-primary.btn_search {
+	    width: 90%;
+	    font-size: 14px;
+	}
+
+	.category {
+	    width: 25%;
+	}
+
+	.area {
+	    width: 25%;
+	}
+}

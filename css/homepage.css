@@ -1,0 +1,677 @@
+@font-face {
+    src: url(../fonts/Barlow-Black.ttf);
+    font-family: Barlow;
+}
+@font-face {
+    src: url(../fonts/Fonticonui1.ttf);
+    font-family: UI1;
+}
+@font-face {
+    src: url(../fonts/Vbutlong.ttf);
+    font-family: butlong;
+}
+/*reset css*/
+*{margin: 0; padding: 0; font-family: 'Barlow', sans-serif; color: #333333} 
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a.nav-link.menu_link.active {
+    color: #A5CE36!important;
+}
+
+
+/*css cho slick 28/07/2020 byhathao */
+.slider {
+    width: 100%;
+    margin: 70px auto;
+}
+
+.slick-slide {
+
+  margin: 0px 7.5px;
+}
+.container.container-slick {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: 1;
+}
+
+.slick-active {
+  opacity: 1;
+}
+
+.slick-current {
+  opacity: 1;
+}
+.slick-arrow {
+    width: 20px!important;
+    height: 20px!important;
+    background: #fff!important;
+    /*box-shadow: 0px 10px 30px rgba(11, 11, 11, 0.1)!important;*/
+    border-radius: 50%!important;
+}
+.wrapper_img_slick {
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+}
+.wrapper_img_slick {
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+    height: 300px;
+    /*box-shadow: 0px 4px 30px rgba(11, 20, 45, 0.1);*/
+    border-radius: 4px;
+}
+a.link_slick_img {
+    width: 100%;
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.label_img {
+    border-radius: 4px;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    color: #fff;
+    z-index: 3;
+    width: 58px;
+    height: 31px;
+    background: #FF3F34;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 31px;
+    text-align: center;
+}
+.label_img:hover {
+  color: #FF3F34;;
+  background: #fff;
+  transition: 0.2s;
+  text-decoration: none;
+}
+.slick-slide img {
+    width: 100%;
+    position: absolute;
+    height: 300px;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+a.subtile {
+    position: absolute;
+    width: 105px;
+    height: 24px;
+    left: 10%;
+    bottom: 40%;
+    z-index: 3;
+    color: #fff;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+a.subtile:hover {
+  text-decoration: none;
+}
+a.headline {
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    height: 72px;
+    width: 165px;
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+    z-index: 3;
+    color: #fff;
+}
+
+/*css cho phan outstanding_partner 29/07/2020 byhathao*/
+.outstanding_partner {
+    background: #F9FAFC;
+    padding: 70px 0;
+}
+a.link_title_ {
+    font-family: Barlow;
+    font-style: normal;
+    display: block;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    color: #333333;
+}
+h2.tittle_ {
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+}
+p.tittle_text {
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #666666;
+}
+.cart_partner {
+    border-radius: 4px!important;
+}
+/*css cho phan wrap_blog*/
+.wrap_blog {
+    display: block;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 200px;
+    border-radius: 4px 4px 0 0;
+}
+
+.wrap_blog.wrap_two_banner2 {
+    height: 163px;
+}
+
+.wrap_blog.wrap_two_banner {
+    height: 227px;
+}
+
+
+img.layer-img {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    height: 100%;
+    border-radius: 4px 4px 0 0;
+}
+
+img.layer-img.img-beauti.img-blog {
+    width: 100%;
+    height: 100%;
+}
+.layer-effect-x {
+    position: absolute;
+    z-index: 3;
+    background-color: rgba(255,255,255,0.4);
+    opacity: 0.3;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.layer-effect-y {
+    position: absolute;
+    z-index: 3;
+    background-color: rgba(255,255,255,0.4);  
+    opacity: 0.3;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*css-phan hieu ung*/
+@-webkit-keyframes zoom-x {
+    from {
+        width: 5%;
+        height: 100%;
+    }
+    to {
+        width: 100%;
+        height: 100%;
+    }
+}
+@-webkit-keyframes zoom-y {
+    from {
+        width: 100%;
+        height: 5%;
+    }
+    to {
+        width: 100%;
+        height: 100%;
+    }
+}
+.wrap_blog:hover .layer-effect-x {
+    animation: zoom-x 0.8s forwards;
+    transition-delay: 0.3s;
+}
+.wrap_blog:hover .layer-effect-y {
+    animation: zoom-y 0.8s forwards;
+    transition-delay: 0.3s;
+}
+
+/*finish css cho phan wrap_blog*/
+.ultensils_layer {
+    width: 60px;
+    height: 60px;
+    background: #AF1F30;
+    border-radius: 4px;
+    position: absolute;
+    z-index: 5;
+    top: 170px;
+    left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*css cho phan rating*/
+.wrapper_rating {
+    padding: 0 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center
+}
+
+.rating>input {
+    display: none
+}
+
+.rating>label {
+    position: relative;
+    width: 1em;
+    font-size: 25px;
+    color: #FF9138;
+    cursor: pointer
+}
+
+.rating>label::before {
+    content: "\2605";
+    position: absolute;
+    opacity: 0
+}
+
+.rating>label:hover:before,
+.rating>label:hover~label:before {
+    opacity: 1 !important
+}
+
+.rating>input:checked~label:before {
+    opacity: 1
+}
+
+.rating:hover>input:checked~label:before {
+    opacity: 0.4
+}
+/*finish rating*/
+.partner_body {
+    padding: 0 30px;
+}
+.link_info_parner {
+    display: block;
+    height: 60px;
+    width: 100%;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #333333;
+
+}
+.name_partner {
+    height: 100%;
+    width: 100%;
+    color: #333333;
+}
+.name_partner:hover {
+    color: #A5CE36;
+    transition: 0.2s;
+}
+p.card-text.address_partner {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    height: 20px;
+    margin-bottom: .75rem;
+    font-size: 16px;
+}
+.icon-location-partner {
+    margin-right: 10px;
+}
+a.link_address_partner {
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #A5CE36;
+} 
+a.link_address_partner:hover {
+    color: #B0DB39;
+}
+.partner_footer {
+    background: #fff!important;
+}
+.btn_load_more {
+    width: 197px;
+    height: 46px;
+    background: #FF3F34!important;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    color: #FFFFFF;
+
+}
+.btn_load_more:hover {
+    color: #FF3F34;
+    background: #fff!important;
+    border: 1px solid #FF3F34!important;
+    transition: 0.2s;
+}
+/*finish css cho phan partner*/
+/*css cho phan cooking_recipe 29/07/2020 byhathao*/
+.cooking_recipe {
+    padding: 70px 0;
+}
+.cooking_body {
+    padding: 20px 30px;
+}
+a.topic {
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #A5CE36;
+    margin-right: 40px;
+}
+a.topic:hover {
+    color: #B0DB39;
+}
+.link_info_cooking {
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #333333;
+    margin: 12px 0;
+    height: 54px!important;
+}
+.name_cooking {
+    font-size: 18px;
+    line-height: 27px;
+}
+span.time {
+    font-size: 14px;
+    line-height: 21px;
+    color: #666666;
+}
+span.time .icon-wall-clock {
+    margin-right: 8px;
+}
+a.view_detail {
+    font-size: 14px;
+    color: #666666;
+    opacity: 0.8;
+    line-height: 21px;
+    height: 21px;
+    margin-bottom: 10px!important;
+    display: block;
+}
+a.view_detail:hover {
+    opacity: 1;
+}
+/*finish cooking_recipe*/
+/*css cho trademark*/
+.trademark {
+    background: #F2F3F8;
+    padding: 10px 0;
+}
+.wrapper_trademark {
+    height: 100%;
+}
+/*finish trademark*/
+
+/*query media*/
+/*css cho mobile*/
+@media only screen and (min-width: 260px) and (max-width: 576px) {
+    * {
+
+    }
+    .slick-arrow {
+        display: none!important;
+    }
+
+    /* css cho outstanding_partner */
+    .card-body.partner_body {
+        padding: 0 10px!important;
+    }
+    a.wrap_blog {
+        height: 150px;
+    }
+    .ultensils_layer {
+        left: 15px!important;
+        top: 180px;
+        width: 40px;
+        height: 40px;
+        display: none;
+    }
+
+    .ultensils_layer img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .wrapper_rating {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 15px!important;
+    }
+    p.card-text.address_partner {
+        font-size: 12px;
+    }
+
+    h4.card-title.name_partner {
+        font-size: 14px;
+    }
+
+    a.link_info_parner {
+        font-size: 16px!important;
+        height: 60px;
+        text-align: center;
+    }
+    
+    .icon-location-partner {
+        display: none;
+    }
+    .rating>label {
+        font-size: 20px;
+    }
+    a.link_address_partner {
+        font-size: 13px;
+    }
+    /* finish css cho outstanding_partner */
+    /*     css cho phan cooking_recipe */
+    .link_info_cooking {
+        height: 80px!important;
+
+    }
+    h4.card-title.name_partner.name_cooking {
+        font-size: 14px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    a.topic {
+        width: 100%;
+        margin: 0;
+        font-size: 13px;
+        display: block;
+        text-align: center;
+    }
+    span.time {
+        font-size: 13px;
+        display: block;
+        text-align: center;
+    }
+    a.card-text.view_detail {
+        text-align: center;
+        font-size: 12px;
+    }
+}
+
+/*css cho tablet*/
+@media only screen and (min-width: 577px) and (max-width: 767px) {
+    * {
+
+    }
+    .slick-arrow {
+        display: none!important;
+    }
+    /* css cho outstanding_partner */
+    .card-body.partner_body {
+        padding: 0 15px!important;
+    }
+    .ultensils_layer {
+        left: 15px!important;
+        
+    }
+
+    .wrapper_rating {
+        padding: 0 15px!important;
+    }
+    p.card-text.address_partner {
+        font-size: 16px;
+    }
+
+    h4.card-title.name_partner {
+        font-size: 20px;
+    }
+
+    a.link_info_parner {
+        font-size: 22px!important;
+        height: 60px;
+    }
+
+    /* finish css cho outstanding_partner */
+
+    /*     css cho phan cooking_recipe */
+    .link_info_cooking {
+        height: 80px!important;
+    }
+    
+    a.topic {
+        width: 100%;
+        margin: 0;
+        display: block;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px){
+    * {
+        
+    }
+ 
+    /* css cho outstanding_partner */
+    .card-body.partner_body {
+        padding: 0 15px!important;
+    }
+    .ultensils_layer {
+        left: 15px!important;
+        top: 180px;
+        width: 40px;
+        height: 40px;
+        display: flex;
+    }
+
+    .ultensils_layer img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .wrapper_rating {
+        padding: 0 15px!important;
+    }
+    p.card-text.address_partner {
+        font-size: 14px;
+    }
+
+    h4.card-title.name_partner {
+        font-size: 20px;
+    }
+
+    a.link_info_parner {
+        font-size: 20px!important;
+        height: 80px;
+    }
+
+    .rating>label {
+        font-size: 20px;
+    }
+    /* finish css cho outstanding_partner */
+    /* finish css cho outstanding_partner */
+
+    /*     css cho phan cooking_recipe */
+    .link_info_cooking {
+        height: 80px!important;
+    }
+    
+    a.topic {
+        width: 100%;
+        margin: 0;
+        display: block;
+    }
+    h4.name_cooking {
+        font-size: 18px!important;
+    }
+    a.headline {
+        font-size: 25px;
+        width: 140px;
+    }
+    .slick-arrow {
+        display: none!important;
+    }
+
+    .wrapper_img_slick {
+    
+        /*height: 250px;*/
+        
+    }
+    .slick-slide {
+
+        margin: 0px 10px;
+    }
+
+}
