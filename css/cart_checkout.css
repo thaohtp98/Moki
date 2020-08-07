@@ -1,0 +1,79 @@
+/* cart address */
+
+.cart_address {
+    padding-top: 40px;
+}
+
+.cart_address-button {
+    width: 100%;
+    text-align: right;
+}
+
+.cart_address-button button {
+    background-color: #2ED477;
+    color: white;
+    border: 0px;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.cart-change {
+    text-align: right;
+}
+
+.cart-change a {
+    color: #A5CE36;
+}
+
+.cart-change span {
+    color: #FF9138;
+    font-size: 10px;
+}
+
+
+/* cart list product */
+
+.cart_content-left p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.cart_add-bottom input {
+    padding: 8px;
+    margin-left: 20px;
+    width: 70%;
+}
+
+
+/* cart bottom 2 */
+
+.card_checkout-price {
+    text-align: right;
+}
+
+.cart_checkout-price p {
+    text-align: right;
+    font-weight: bold;
+}
+
+.cart-sticker a {
+    color: #FF3F34;
+}
+
+
+/* cart bottom 3 */
+
+.cart_checkout-total p {
+    font-size: 18px;
+    text-align: right;
+    color: #FF3F34;
+    font-weight: bold;
+}
+
+
+/* pay method */
+
+.pay_method {
+    padding-top: 30px;
+}

@@ -1,0 +1,171 @@
+.breadcrumb-item a:hover {
+    color: #A5CE36;
+}
+
+
+/* code list product cart by ThuyDuong */
+
+.cart_content {
+    font-size: 14px;
+}
+
+.cart_content-left {
+    color: #666666;
+}
+
+.cart_content-right {
+    width: 50%;
+    float: left;
+}
+
+.price {
+    margin-bottom: 10px;
+}
+
+.total p {
+    color: #A5CE36;
+}
+
+.action {
+    text-align: right;
+}
+
+
+/* cart between */
+
+.cart_between {
+    padding-top: 40px;
+}
+
+.cart_between-left span {
+    color: black;
+    font-weight: bold;
+    color: #333333;
+}
+
+.icon-chart {
+    color: #666666 !important;
+}
+
+.cart_between-right {
+    text-align: right;
+}
+
+.cart_between-right p {
+    color: red;
+}
+
+@media only screen and (max-width: 600px) {
+    .price1 {
+        display: none;
+    }
+    .number1 {
+        display: none;
+    }
+    .total {
+        display: none;
+    }
+    .action {
+        display: none;
+    }
+}
+
+
+/* cart bottom */
+
+.cart_bottom {
+    margin-top: 10px;
+}
+
+.cart_bottom-left span {
+    width: 145px;
+    word-wrap: break-word;
+}
+
+.cart_bottom-button button {
+    background: #B1B0B9;
+    border-radius: 4px;
+    color: white;
+    font-size: 10px;
+    border: 0px;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+.cart_bottom-button {
+    margin-right: 0px;
+}
+
+.cart_bottom-img img {
+    margin-bottom: 10px;
+}
+
+.cart_bottom-type {
+    margin-bottom: 0px;
+}
+
+.cart_bottom-listPD {
+    margin-bottom: 20px;
+}
+
+.type {
+    margin-bottom: 0px;
+}
+
+
+/* list sản phẩm */
+
+.check-number button {
+    font-size: 20px;
+    line-height: 0px;
+    border: solid 1px #666666;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    color: #333;
+    text-align: center;
+    padding-bottom: 8px;
+    float: left;
+}
+
+#qty {
+    font-size: 1em;
+    margin: 0;
+    padding: 0 2px;
+    text-align: center;
+}
+
+.check-number input {
+    margin: 0px;
+    display: block;
+    float: left;
+    width: 30px;
+    text-align: center;
+    box-shadow: none;
+    border-radius: 0px;
+    font-size: 15px;
+    outline: none;
+    border: 0px;
+}
+
+
+/* pick total */
+
+.pick_total {
+    padding-top: 40px;
+}
+
+.price-total p {
+    font-size: 25px;
+    color: #FF3F34;
+}
+
+.pick_total-button button {
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    border: 0px;
+    background-color: #A5CE36;
+    float: right;
+}
