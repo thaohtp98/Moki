@@ -43,6 +43,11 @@ a {
 .active_btn .icon_btn_view {
     color: #fff;
 }
+nav.navigation_page {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
 .active_btn:hover .icon_btn_view {
     color: #fff;
 }
@@ -236,6 +241,9 @@ span.time_news {
     * {
 
     }
+    nav.navigation_page {
+        justify-content: center;
+    }
     .col_pagegination_text {
         justify-content: center;
     }
@@ -259,6 +267,9 @@ span.time_news {
     * {
 
     }
+    nav.navigation_page {
+        justify-content: center;
+    }
     .list_pagination .page_item .page_link {
         margin-left: 0;
     }
@@ -277,6 +288,9 @@ span.time_news {
 }
 @media only screen and (max-width: 767px) and (min-width: 577px) {
     * {
+    }
+    nav.navigation_page {
+        justify-content: center;
     }
     .list_pagination .page_item .page_link {
         margin-left: 0;

@@ -1,20 +1,8 @@
-$(".toggle-password").click(function() {
 
-  $(this).toggleClass("fa-eye fa-eye-slash");
-  var input = $($(this).attr("toggle"));
-  if (input.attr("type") == "password") {
-    input.attr("type", "text");
-  } else {
-    input.attr("type", "password");
-  }
-});
-$(".toggle-password2").click(function() {
-
-  $(this).toggleClass("fa-eye fa-eye-slash");
-  var input = $($(this).siblings().attr("toggle"));
-  if (input.attr("type") == "password") {
-    input.attr("type", "text");
-  } else {
-    input.attr("type", "password");
-  }
+var $vp = $('.vp');
+$vp.on('click', function() {
+    $(this).toggleClass("fa-eye fa-eye-slash");
+    var $target = $(this).siblings('input[name*="password"]');
+  if ($target.attr('type') == "password") {$target.attr('type','text');}
+  else {$target.attr('type','password');}
 });

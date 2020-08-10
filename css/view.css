@@ -51,7 +51,10 @@
       
       color: #fff!important;
       background-color: #A5CE36;
-     }
+    }
+    .active_btn .icon_btn_view {
+      color: #fff;
+    }
     .wrapper_btnContainer {
       display: block;
     }

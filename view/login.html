@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="../vendor/font-awesome.css">
 	<link rel="stylesheet" href="../vendor/style.css">
 	<link rel="stylesheet" href="../css/login.css">
+	<link rel="stylesheet" href="../css/chat.css">
 	<link rel="stylesheet" href="../css/footer.css">
 	<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
@@ -44,9 +45,151 @@
 		</div>
 	</div>
 	<div class="navbar-fixed-bottom navbar-fixed-chat">
-		<a href="" class="btn btn-primary btn_chat float-xs-right">
+		<div class="btn btn-primary btn_chat float-xs-right" id="btn_messaging">
 			<span class="icon-chat-2 icon-chat"></span>
-		</a>
+			
+		</div>
+		<div class="wrapper_messaging_popup" id="messaging_popup">
+	        <h3 class="title_messaging">
+	          <span>Hỏi đáp CSKH</span>
+	          <button type="" class="cancel_messaging"><span class="icon-cancel"></span></button>
+	        </h3>
+	        <div class="messaging">
+
+	            <div class="inbox_msg">
+	              <div class="inbox_people">
+	                <div class="headind_srch">
+	                  <div class="wrapper_search_posts">
+	                    <span class="icon-search icon_search_posts"></span>
+	                    <input class="form-control search_posts" type="text" placeholder="Tìm kiếm" aria-label="Search">
+	                  </div>
+	                
+	                </div>
+	                <div class="inbox_chat">
+	                
+	                <div class="chat_list">
+	                  <div class="chat_people">
+	                    <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+	                    <div class="chat_ib">
+	                      <h5>Nhà hàng Talents Wind <span class="chat_date">3 giờ trước</span></h5>
+	                      <p>Xác nhận đơn hàng mã số #78888 của ...</p>
+	                    </div>
+	                  </div>
+	                </div>
+	                <div class="chat_list">
+	                  <div class="chat_people">
+	                    <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+	                    <div class="chat_ib">
+	                      <h5>Nhà hàng Talents Wind <span class="chat_date">3 giờ trước</span></h5>
+	                      <p>Xác nhận đơn hàng mã số #78888 của ...</p>
+	                    </div>
+	                  </div>
+	                </div>
+	                <div class="chat_list">
+	                  <div class="chat_people">
+	                    <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+	                    <div class="chat_ib">
+	                      <h5>Nhà hàng Talents Wind <span class="chat_date">3 giờ trước</span></h5>
+	                      <p>Xác nhận đơn hàng mã số #78888 của ...</p>
+	                    </div>
+	                  </div>
+	                </div>
+	                <div class="chat_list">
+	                  <div class="chat_people">
+	                    <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+	                    <div class="chat_ib">
+	                      <h5>Nhà hàng Talents Wind <span class="chat_date">3 giờ trước</span></h5>
+	                      <p>Xác nhận đơn hàng mã số #78888 của ...</p>
+	                    </div>
+	                  </div>
+	                </div>
+	                <div class="chat_list">
+	                  <div class="chat_people">
+	                    <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+	                    <div class="chat_ib">
+	                      <h5>Nhà hàng Talents Wind <span class="chat_date">3 giờ trước</span></h5>
+	                      <p>Xác nhận đơn hàng mã số #78888 của ...</p>
+	                    </div>
+	                  </div>
+	                </div>
+	                <div class="chat_list">
+	                  <div class="chat_people">
+	                    <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+	                    <div class="chat_ib">
+	                      <h5>Nhà hàng Talents Wind <span class="chat_date">3 giờ trước</span></h5>
+	                      <p>Xác nhận đơn hàng mã số #78888 của ...</p>
+	                    </div>
+	                  </div>
+	                </div>
+	                <div class="chat_list">
+	                  <div class="chat_people">
+	                    <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+	                    <div class="chat_ib">
+	                      <h5>Nhà hàng Talents Wind <span class="chat_date">3 giờ trước</span></h5>
+	                      <p>Xác nhận đơn hàng mã số #78888 của ...</p>
+	                    </div>
+	                  </div>
+	                </div>
+	                </div>
+	            </div>
+	            <div class="mesgs">
+	              <div class="chat_list active_chat">
+	                <div class="chat_people">
+	                  <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+	                  <div class="chat_ib">
+	                    <h5 class="title_active_chat">Nhà hàng Talents Wind <div class="status_active_chat"></div></h5>
+	                    <p>Online now</p>
+	                  </div>
+	                </div>
+	              </div>
+	              <div class="msg_history">
+	                <div class="incoming_msg">
+	                  <div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+	                  <div class="received_msg">
+	                    <div class="received_withd_msg">
+	                      <p>Lorem Ipsum is simply dummy text of the des printing and typesetting industry. Lorem psum has been the industry's standard dummy text ever since the 1500 when an unknown printer took a galley of type and scrambled it </p>
+	                      <span class="time_date"> 3 phút trước</span></div>
+	                  </div>
+	                </div>
+	                <div class="outgoing_msg">
+	                  <div class="sent_msg">
+	                    <p>Lorem Ipsum is simply dummy text of the des printing and typesetting industry. Lorem psum has been the industry's standard dummy text ever since the 1500 when an unknown printer took a galley of type and scrambled it </p>
+	                    <span class="time_date"> 3 phút trước</span> </div>
+	                </div>
+	                <div class="incoming_msg">
+	                  <div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+	                  <div class="received_msg">
+	                    <div class="received_withd_msg">
+	                      <p>Test, which is a new approach to have</p>
+	                      <span class="time_date"> 3 phút trước</span></div>
+	                  </div>
+	                </div>
+	                <div class="outgoing_msg">
+	                  <div class="sent_msg">
+	                    <p>Apollo University, Delhi, India Test</p>
+	                    <span class="time_date"> 3 phút trước</span> </div>
+	                </div>
+	                <div class="incoming_msg">
+	                  <div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+	                  <div class="received_msg">
+	                    <div class="received_withd_msg">
+	                      <p>Lorem Ipsum is simply dummy text of the des printing and typesetting industry. Lorem psum has been the industry's standard dummy text ever since the 1500 when an unknown printer took a galley of type and scrambled it</p>
+	                      <span class="time_date"> 3 phút trước</span></div>
+	                  </div>
+	                </div>
+	              </div>
+	              <div class="type_msg">
+	                <div class="input_msg_write">
+	                  <input class="form-control write_msg" type="text" placeholder="Input text entry">
+	                  
+	                  <button class="msg_send_btn" type="button"><span class="icon-right-arrow-1"></span></button>
+	                </div>
+	              </div>
+	            </div>
+	        </div>
+	      </div>
+	    </div>
 	</div> <!-- finish btn chat -->
+	<script src="../main/chat.js" charset="utf-8"></script>
 </body>
 </html>

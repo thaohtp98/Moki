@@ -290,7 +290,8 @@ img.layer-img.img-beauti.img-blog {
 .rating {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: center
+    justify-content: center;
+    align-items: center;
 }
 
 .rating>input {

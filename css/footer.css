@@ -46,6 +46,9 @@ a.link_item_footer {
 a.link_item_footer:hover {
     color: #A5CE36;
 }
+a.link_item_footer:hover span {
+    color: #A5CE36;
+}
 .footer {
     padding: 70px 0;
     border-bottom: 1px solid #D7D9E2;
@@ -63,7 +66,7 @@ p.copy_text {
     color: #333333;
     margin: 0;
 }
-a.btn.btn-primary.btn_ontop.float-xs-right {
+.btn.btn-primary.btn_ontop.float-xs-right {
     width: 30px;
     height: 30px;
     font-size: 10px;
@@ -78,27 +81,27 @@ a.btn.btn-primary.btn_ontop.float-xs-right {
     right: 15px;
     bottom: 100px;
 }
-a.btn.btn-primary.btn_chat.float-xs-right {
+.btn.btn-primary.btn_chat.float-xs-right {
     width: 30px;
     height: 30px;
     font-size: 10px;
-    text-align: center;
     border-radius: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
     background: #A5CE36;
     border: 1px solid #A5CE36!important;
-    position: absolute;
+    /*position: absolute;*/
     right: 15px;
     bottom: 200px;
+    position: relative;
 }
-a.btn.btn-primary.btn_chat.float-xs-right:hover {
+.btn.btn-primary.btn_chat.float-xs-right:hover {
     background: #B0DB39;;
     border: 1px solid #B0DB39!important;
 }
     
-a.btn.btn-primary.btn_ontop.float-xs-right:hover {
+.btn.btn-primary.btn_ontop.float-xs-right:hover {
     background: #B0DB39;;
     border: 1px solid #B0DB39!important;
 }
@@ -126,6 +129,9 @@ a.btn.btn-primary.btn_ontop.float-xs-right:hover {
     * {
 
     }
+    .navbar-fixed-bottom.navbar-fixed-chat {
+        display: none;
+    }
     a.nav-link.menu_link.active {
         color: #fff!important;
     }
@@ -150,6 +156,10 @@ a.btn.btn-primary.btn_ontop.float-xs-right:hover {
 @media only screen and (min-width: 577px) and (max-width: 767px) {
     * {
 
+    }
+
+    .navbar-fixed-bottom.navbar-fixed-chat {
+        display: none;
     }
     a.nav-link.menu_link.active {
         color: #fff!important;
@@ -189,6 +199,14 @@ a.btn.btn-primary.btn_ontop.float-xs-right:hover {
     }
     .col_wrap_link {
         margin-top: 15px;
+    }
+    .btn.btn-primary.btn_chat.float-xs-right {
+        bottom: 350px;
+    }
+    .wrapper_messaging_popup {
+        bottom: 200px;
+        width: 650px;
+        right: 6%;
     }
 }
 
