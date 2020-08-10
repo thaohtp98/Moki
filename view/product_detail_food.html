@@ -1,0 +1,3076 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> Sản phẩm chi tiết - Thực phẩm </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">  
+	<script src="../vendor/bootstrap.js"></script>
+ 	<script src="../main/main.js"></script>
+	<link rel="stylesheet" href="../vendor/bootstrap.css">
+	<link rel="stylesheet" href="../vendor/font-awesome.css">
+ 	<link rel="stylesheet" href="../css/header.css">
+	<link rel="stylesheet" href="../css/homepage.css">
+	<link rel="stylesheet" href="../css/product_detail.css">
+	<link rel="stylesheet" href="../css/counter.css">
+	<link rel="stylesheet" href="../css/chat.css">
+	<link rel="stylesheet" href="../css/footer.css">
+
+ 	<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+ 	<link rel="stylesheet" href="../vendor/style.css">
+ 	
+
+</head>
+<body>
+	<nav class="navbar navbar-light bg-faded navbar-fixed-top menu_top">
+		<div class="container container_menu">
+			
+			<a class="navbar-brand link_logo" href="homepage.html"><img class="img_logo " src="../images/logo.png" alt=""></a>
+			<a class="nav-link menu_link menu_link_cart display-none" href="#"><span class="icon-shopping-cart icon-cart-header"></span><span class="number_pro_cart cart">0</span></a>
+			<div class="btn-group display-none">
+				<a href="" class="btn dropdown-toggle btn-language" data-toggle="dropdown"><img src="../images/vn.png" style="width: 30px; height: 20px; margin-right: 10px;" alt="">Vie</a>
+				<div class="dropdown-menu dropdown-language">
+					<a href="" class="dropdown-item"><img src="../images/vn.png" style="width: 30px; height: 20px; margin-right: 10px;" alt="">Vie</a>
+					<a href="" class="dropdown-item"><img src="../images/eng.jpg" style="width: 30px; height: 20px; margin-right: 10px;" alt="">Eng</a>
+				</div>
+			</div>
+			<button class="navbar-toggler hidden-xl-up float-lg-left" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
+			
+			</button>
+			<div class="collapse navbar-toggleable-lg wrapper_menu" id="exCollapsingNavbar2">
+				
+				<ul class="nav navbar-nav float-xl-right">
+					<li class="nav-item menu_item ">
+						<a class="nav-link menu_link" href="homepage.html">Trang chủ </a>
+					</li>
+					<li class="nav-item menu_item ">
+						<a class="nav-link menu_link " href="dish.html">Đồ ăn</a>
+					</li>
+					<li class="nav-item menu_item active">
+						<a class="nav-link menu_link active" href="foods.html">Thực phẩm</a>
+					</li>
+					<li class="nav-item menu_item">
+						<a class="nav-link menu_link" href="grocery.html">Tạp hóa</a>
+					</li>
+					<li class="nav-item menu_item">
+						<a class="nav-link menu_link" href="party_menu.html">Thực đơn tiệc</a>
+					</li>
+					<li class="nav-item menu_item">
+						<a class="nav-link menu_link" href="#">Tạo thực đơn</a>
+					</li>
+					<li class="nav-item menu_item menu_item_login">
+						<a class="nav-link menu_link" href="login.html"><span class="icon-open-lock"></span>Đăng nhập</a>
+					</li>
+					<li class="nav-item menu_item menu_item_cart">
+			            	
+		                <a class="nav-link menu_link menu_link_cart" href="#"><span class="icon-shopping-cart"></span><span class="number_pro_cart cart">0</span></a>
+
+		            </li>
+		            <li class="nav-item menu_item menu_item_language">
+			            	
+		                <div class="btn-group ">
+							<a href="" class="btn dropdown-toggle btn-language" data-toggle="dropdown"><img src="../images/vn.png" style="width: 30px; height: 20px; margin-right: 10px;" alt="">Vie</a>
+							<div class="dropdown-menu dropdown-language">
+								<a href="" class="dropdown-item"><img src="../images/vn.png" style="width: 30px; height: 20px; margin-right: 10px;" alt="">Vie</a>
+								<a href="" class="dropdown-item"><img src="../images/eng.jpg" style="width: 30px; height: 20px; margin-right: 10px;" alt="">Eng</a>
+							</div>
+						</div>
+
+		            </li>
+				</ul>
+			</div>
+
+
+		</div>
+	</nav> <!-- finish menu_top -->
+	<div id="section-1">
+		<span></span>
+	</div>
+
+	<nav aria-label="breadcrumb">
+		
+	  	<ol class="breadcrumb breadcrumb_wrapper">
+	  		<div class="container">
+		    	<li class="breadcrumb-item" ><a href="homepage.html"><span class="icon-home"></span></a></li>
+		    	<li class="breadcrumb-item"><a href="foods.html" class="">Thực phẩm</a></li>
+		    	<li class="breadcrumb-item active" aria-current="page"><a href="product_detail_food.html" class="active">Thực phẩm tươi sạch</a></li>
+		    	
+	    	</div>
+	  	</ol>
+	  	
+	</nav> <!-- finish breadcrumb -->
+	<div class="product_detail">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-6 col-lg-6 col-md-5 img-product-detail">
+					<img src="../images/store.png" alt="" class="img_store img-fluid">
+				</div>
+				<div class="col-xl-6 col-lg-6 col-md-7 col_info_product">
+					<div class="info_product_detail">
+						<nav aria-label="breadcrumb">
+		
+						  	<ol class="breadcrumb breadcrumb_wrapper">
+						  	
+						    	<li class="breadcrumb-item" ><a href="homepage.html">Home</a></li>
+						    	<li class="breadcrumb-item"><a href="foods.html" class="">Thực phẩm</a></li>
+						    	<li class="breadcrumb-item active" aria-current="page"><a href="product_detail_food.html" class="active">Thực phẩm tươi sạch</a></li>
+						
+						  	</ol>
+						  	
+						</nav> <!-- finish breadcrumb -->
+						<h1 class="name_product_detail">Thực phẩm tươi sạch</h1>
+						<p class="address_partner"><span class="icon-pin"></span></span>Học viện Nông nghiệp Việt Nam</p>
+						<div class="view_status">
+							<div class="status">
+								<span class="ellipse_status ellipse_status_onl">
+								
+								</span>
+							
+								<span class="text_status text_status_onl">Hiện đang mở cửa</span>
+							</div>
+							
+							<span class="time"><span class="icon-wall-clock "></span> Từ 7:00 - 23:00</span>
+							<div class="rating"> <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label> <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label> <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label> <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label> <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+							</div>
+
+						</div>
+						<h6 class="price_product_detail">Giá từ 50.000 - 500.000 đ</h6>
+						<table class="table table_general_info">
+						  <thead>
+						    <tr>
+						      <th scope="col">Chuẩn bị</th>
+						      <th scope="col">Giấy phép kinh doanh</th>
+						      <th scope="col">Giấy phép an toàn vệ sinh</th>
+						      
+						    </tr>
+						  </thead>
+						  <tbody>
+						    <tr>
+						     
+						      <td>20 phút</td>
+						      <td>Đã xác nhận</td>
+						      <td>Chưa duyệt</td>
+						    </tr>
+						    
+						  </tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div> <!-- finish product_detail -->
+	<div class="other_products">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-3 col-lg-2 col-left-tab">
+					<div class="row">
+						<div class="col-xl-12">
+							
+						
+							<div class="wrapper_topic_favourite">
+								
+								<ul class="list-group list-group-flush topic_favourite_group">
+									<li class="list-group-item topic_favourite_item cls-favourite-0 active">Món ăn yêu thích</li>
+								  	<li class="list-group-item topic_favourite_item cls-favourite-1">Phở bò</li>
+								  	<li class="list-group-item topic_favourite_item cls-favourite-2">Bún bò</li>
+								 	<li class="list-group-item topic_favourite_item cls-favourite-3">Miến gà</li>
+								  	<li class="list-group-item topic_favourite_item cls-favourite-4">Cơm rang</li>
+								  	<li class="list-group-item topic_favourite_item cls-favourite-5">Phở xào</li>
+								  	<li class="list-group-item topic_favourite_item cls-favourite-6">Mì xào</li>
+								  	<li class="list-group-item topic_favourite_item cls-favourite-7">Đồ uống</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				<div class="col-xl-5 col-lg-6">	
+					<div class="row">
+						<div class="col-xl-12 margin-bottom-25">
+							<h6 class="text_col_main">Mã khuyến mãi</h6>
+							<div class="wrapper_promotion_code">							
+								<ul class="list-group list-group-flush promotion_code_group">
+								  	<li class="list-group-item promotion_code_item row m-0">
+								  		<span class="promotion_code_icon wrapper_icon_ship col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2">
+								  			<span class="icon-delivery-truck"></span>
+								  		</span>
+								  		<p id="p1" class="promotion_code col-xl-7 col-lg-7 col-md-7 col-sm-7 col-xs-7">Nhập mã Freeship lên tới 5km</p>
+								  		<button onclick="copyToClipboard('#p1')" class="btn_coppy col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3">Copy code<span class="icon-copy"></span></button>
+									</li>
+									<li class="list-group-item promotion_code_item row m-0">
+								  		<span class="promotion_code_icon wrapper_icon_percent col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2">
+								  			<span class="icon-percentage"></span>
+								  		</span>
+								  		<p id="p2" class="promotion_code col-xl-7 col-lg-7 col-md-7 col-sm-7 col-xs-7">Giảm trực tiếp 20% trên giá món</p>
+								  		<button onclick="copyToClipboard('#p2')" class="btn_coppy  col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3">Copy code<span class="icon-copy"></span></button>
+									</li>
+								  
+								  
+								</ul>
+							</div>
+						</div>
+						<div class="col-xl-12 margin-bottom-25">
+							<div class="wrapper_search_posts">
+								<span class="icon-search icon_search_posts"></span>
+								<input class="form-control search_posts" type="text" placeholder="Tìm kiếm món ăn" aria-label="Search">
+							</div>
+						</div>
+						<div class="col-xl-12 margin-bottom-25 favourite-0-parent">
+							<h6 class="text_col_main">Món được yêu thích</h6>
+							<div class="wrapper_favourite">							
+								<ul class="list-group list-group-flush favourite_group">
+								  	
+									<li class="list-group-item favourite_item">
+								  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+								  		<div class="wrapper_content_favourite">
+									  		<a href="#" class="link_favourite">Món ăn số 1</a>
+									  		
+									  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+									  		<div class="wrapper_interactive row">
+										  		<span class="price_favourite col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">50.000 đ</span>
+										  		<!-- Button trigger modal -->
+												<a class="btn btn_add_cart col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12" data-toggle="modal" data-target="#exampleModalCenter">
+												  Thêm vào giỏ hàng<span class="icon-plus"></span>
+												</a>
+
+												<!-- Modal -->
+												<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+												  <div class="modal-dialog modal-dialog-centered" role="document">
+												    <div class="modal-content modal_content">
+												      <div class="modal-header modal_header">
+												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												          <span aria-hidden="true">&times;</span>
+												        </button>
+												        <ul class="list-group list-group-flush favourite_group">
+														  	<li class="list-group-item favourite_item">
+														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+														  		<div class="wrapper_content_favourite">
+															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
+															  		
+															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+															  	</div>
+															</li>
+														</ul>
+												        
+												      </div>
+												      <div class="modal-body modal_body">
+												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát trẻ em
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát người lớn
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát đặc biệt (+5.000đ)
+															  </label>
+															</div>
+														</div>
+														<h6 class="text_form_check">Yêu cầu khác:</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Không hành
+															  </label>
+															</div>
+															
+														
+														</div>
+														<div class="wrapper_note">
+															<span class="icon-pencil icon_note"></span>
+															<input class="form-control note_posts" type="text" placeholder="Ghi chú" aria-label="Note">
+														</div>
+													
+												 
+												      </div>
+												      <div class="modal-footer modal_footer">
+												        <div class="qty">
+												        	<span class="icon-minus"></span>
+									                      
+									                        <input type="number" class="count" name="qty" value="1">
+									                        <span class="icon-plus"></span>
+									                       
+									                    </div>
+
+									                    <div class="total_price"><span class="text_total">Tổng:</span>
+									                    	<span class="total_money">50.000 đ</span>
+									                    </div>
+									                    <div class="wrapper_btn_modal">
+									                    	
+									                    
+													        <button type="button" class="btn btn_footer_modal btn_book">Đặt ngay</button>
+													        <button type="button" class="btn btn_footer_modal btn_cancel" data-dismiss="modal">Hủy bỏ</button>
+												        </div>
+												      </div>
+												    </div>
+												  </div>
+												</div>
+												<a class="btn btn_favourite  col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">Yêu thích<span class="icon-heart"></span></a>
+											</div>
+											
+										</div>
+									</li>
+									<li class="list-group-item favourite_item">
+								  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+								  		<div class="wrapper_content_favourite">
+									  		<a href="#" class="link_favourite">Món ăn số 2</a>
+									  		
+									  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+									  		<div class="wrapper_interactive row">
+										  		<span class="price_favourite col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">50.000 đ</span>
+										  		<!-- Button trigger modal -->
+												<a class="btn btn_add_cart col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12" data-toggle="modal" data-target="#exampleModalCenter">
+												  Thêm vào giỏ hàng<span class="icon-plus"></span>
+												</a>
+
+												<!-- Modal -->
+												<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+												  <div class="modal-dialog modal-dialog-centered" role="document">
+												    <div class="modal-content modal_content">
+												      <div class="modal-header modal_header">
+												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												          <span aria-hidden="true">&times;</span>
+												        </button>
+												        <ul class="list-group list-group-flush favourite_group">
+														  	<li class="list-group-item favourite_item">
+														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+														  		<div class="wrapper_content_favourite">
+															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
+															  		
+															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+															  	</div>
+															</li>
+														</ul>
+												        
+												      </div>
+												      <div class="modal-body modal_body">
+												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát trẻ em
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát người lớn
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát đặc biệt (+5.000đ)
+															  </label>
+															</div>
+														</div>
+														<h6 class="text_form_check">Yêu cầu khác:</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Không hành
+															  </label>
+															</div>
+															
+														
+														</div>
+														<div class="wrapper_note">
+															<span class="icon-pencil icon_note"></span>
+															<input class="form-control note_posts" type="text" placeholder="Ghi chú" aria-label="Note">
+														</div>
+													
+												 
+												      </div>
+												      <div class="modal-footer modal_footer">
+												        <div class="qty">
+												        	<span class="icon-minus"></span>
+									                      
+									                        <input type="number" class="count" name="qty" value="1">
+									                        <span class="icon-plus"></span>
+									                       
+									                    </div>
+
+									                    <div class="total_price"><span class="text_total">Tổng:</span>
+									                    	<span class="total_money">50.000 đ</span>
+									                    </div>
+									                    <div class="wrapper_btn_modal">
+									                    	
+									                    
+													        <button type="button" class="btn btn_footer_modal btn_book">Đặt ngay</button>
+													        <button type="button" class="btn btn_footer_modal btn_cancel" data-dismiss="modal">Hủy bỏ</button>
+												        </div>
+												      </div>
+												    </div>
+												  </div>
+												</div>
+												<a class="btn btn_favourite  col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">Yêu thích<span class="icon-heart"></span></a>
+											</div>
+											
+										</div>
+									</li>
+									<li class="list-group-item favourite_item">
+								  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+								  		<div class="wrapper_content_favourite">
+									  		<a href="#" class="link_favourite">Món ăn số 3</a>
+									  		
+									  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+									  		<div class="wrapper_interactive row">
+										  		<span class="price_favourite col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">50.000 đ</span>
+										  		<!-- Button trigger modal -->
+												<a class="btn btn_add_cart col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12" data-toggle="modal" data-target="#exampleModalCenter">
+												  Thêm vào giỏ hàng<span class="icon-plus"></span>
+												</a>
+
+												<!-- Modal -->
+												<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+												  <div class="modal-dialog modal-dialog-centered" role="document">
+												    <div class="modal-content modal_content">
+												      <div class="modal-header modal_header">
+												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												          <span aria-hidden="true">&times;</span>
+												        </button>
+												        <ul class="list-group list-group-flush favourite_group">
+														  	<li class="list-group-item favourite_item">
+														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+														  		<div class="wrapper_content_favourite">
+															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
+															  		
+															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+															  	</div>
+															</li>
+														</ul>
+												        
+												      </div>
+												      <div class="modal-body modal_body">
+												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát trẻ em
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát người lớn
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát đặc biệt (+5.000đ)
+															  </label>
+															</div>
+														</div>
+														<h6 class="text_form_check">Yêu cầu khác:</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Không hành
+															  </label>
+															</div>
+															
+														
+														</div>
+														<div class="wrapper_note">
+															<span class="icon-pencil icon_note"></span>
+															<input class="form-control note_posts" type="text" placeholder="Ghi chú" aria-label="Note">
+														</div>
+													
+												 
+												      </div>
+												      <div class="modal-footer modal_footer">
+												        <div class="qty">
+												        	<span class="icon-minus"></span>
+									                      
+									                        <input type="number" class="count" name="qty" value="1">
+									                        <span class="icon-plus"></span>
+									                       
+									                    </div>
+
+									                    <div class="total_price"><span class="text_total">Tổng:</span>
+									                    	<span class="total_money">50.000 đ</span>
+									                    </div>
+									                    <div class="wrapper_btn_modal">
+									                    	
+									                    
+													        <button type="button" class="btn btn_footer_modal btn_book">Đặt ngay</button>
+													        <button type="button" class="btn btn_footer_modal btn_cancel" data-dismiss="modal">Hủy bỏ</button>
+												        </div>
+												      </div>
+												    </div>
+												  </div>
+												</div>
+												<a class="btn btn_favourite  col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">Yêu thích<span class="icon-heart"></span></a>
+											</div>
+											
+										</div>
+									</li>
+									
+								  
+								  
+								</ul>
+							</div>
+						</div>
+						<div class="col-xl-12 margin-bottom-25 favourite-1-parent display-none">	
+							<h6 class="text_col_main">Phở bò</h6>
+							<div class="wrapper_favourite">							
+								<ul class="list-group list-group-flush favourite_group">
+								  	
+									<li class="list-group-item favourite_item">
+								  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+								  		<div class="wrapper_content_favourite">
+									  		<a href="#" class="link_favourite">Món ăn số 1</a>
+									  		
+									  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+									  		<div class="wrapper_interactive row">
+										  		<span class="price_favourite col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">50.000 đ</span>
+										  		<!-- Button trigger modal -->
+												<a class="btn btn_add_cart col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12" data-toggle="modal" data-target="#exampleModalCenter">
+												  Thêm vào giỏ hàng<span class="icon-plus"></span>
+												</a>
+
+												<!-- Modal -->
+												<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+												  <div class="modal-dialog modal-dialog-centered" role="document">
+												    <div class="modal-content modal_content">
+												      <div class="modal-header modal_header">
+												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												          <span aria-hidden="true">&times;</span>
+												        </button>
+												        <ul class="list-group list-group-flush favourite_group">
+														  	<li class="list-group-item favourite_item">
+														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+														  		<div class="wrapper_content_favourite">
+															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
+															  		
+															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+															  	</div>
+															</li>
+														</ul>
+												        
+												      </div>
+												      <div class="modal-body modal_body">
+												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát trẻ em
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát người lớn
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát đặc biệt (+5.000đ)
+															  </label>
+															</div>
+														</div>
+														<h6 class="text_form_check">Yêu cầu khác:</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Không hành
+															  </label>
+															</div>
+															
+														
+														</div>
+														<div class="wrapper_note">
+															<span class="icon-pencil icon_note"></span>
+															<input class="form-control note_posts" type="text" placeholder="Ghi chú" aria-label="Note">
+														</div>
+													
+												 
+												      </div>
+												      <div class="modal-footer modal_footer">
+												        <div class="qty">
+												        	<span class="icon-minus"></span>
+									                      
+									                        <input type="number" class="count" name="qty" value="1">
+									                        <span class="icon-plus"></span>
+									                       
+									                    </div>
+
+									                    <div class="total_price"><span class="text_total">Tổng:</span>
+									                    	<span class="total_money">50.000 đ</span>
+									                    </div>
+									                    <div class="wrapper_btn_modal">
+									                    	
+									                    
+													        <button type="button" class="btn btn_footer_modal btn_book">Đặt ngay</button>
+													        <button type="button" class="btn btn_footer_modal btn_cancel" data-dismiss="modal">Hủy bỏ</button>
+												        </div>
+												      </div>
+												    </div>
+												  </div>
+												</div>
+												<a class="btn btn_favourite  col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">Yêu thích<span class="icon-heart"></span></a>
+											</div>
+											
+										</div>
+									</li>
+									<li class="list-group-item favourite_item">
+								  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+								  		<div class="wrapper_content_favourite">
+									  		<a href="#" class="link_favourite">Món ăn số 2</a>
+									  		
+									  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+									  		<div class="wrapper_interactive row">
+										  		<span class="price_favourite col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">50.000 đ</span>
+										  		<!-- Button trigger modal -->
+												<a class="btn btn_add_cart col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12" data-toggle="modal" data-target="#exampleModalCenter">
+												  Thêm vào giỏ hàng<span class="icon-plus"></span>
+												</a>
+
+												<!-- Modal -->
+												<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+												  <div class="modal-dialog modal-dialog-centered" role="document">
+												    <div class="modal-content modal_content">
+												      <div class="modal-header modal_header">
+												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												          <span aria-hidden="true">&times;</span>
+												        </button>
+												        <ul class="list-group list-group-flush favourite_group">
+														  	<li class="list-group-item favourite_item">
+														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+														  		<div class="wrapper_content_favourite">
+															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
+															  		
+															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+															  	</div>
+															</li>
+														</ul>
+												        
+												      </div>
+												      <div class="modal-body modal_body">
+												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát trẻ em
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát người lớn
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát đặc biệt (+5.000đ)
+															  </label>
+															</div>
+														</div>
+														<h6 class="text_form_check">Yêu cầu khác:</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Không hành
+															  </label>
+															</div>
+															
+														
+														</div>
+														<div class="wrapper_note">
+															<span class="icon-pencil icon_note"></span>
+															<input class="form-control note_posts" type="text" placeholder="Ghi chú" aria-label="Note">
+														</div>
+													
+												 
+												      </div>
+												      <div class="modal-footer modal_footer">
+												        <div class="qty">
+												        	<span class="icon-minus"></span>
+									                      
+									                        <input type="number" class="count" name="qty" value="1">
+									                        <span class="icon-plus"></span>
+									                       
+									                    </div>
+
+									                    <div class="total_price"><span class="text_total">Tổng:</span>
+									                    	<span class="total_money">50.000 đ</span>
+									                    </div>
+									                    <div class="wrapper_btn_modal">
+									                    	
+									                    
+													        <button type="button" class="btn btn_footer_modal btn_book">Đặt ngay</button>
+													        <button type="button" class="btn btn_footer_modal btn_cancel" data-dismiss="modal">Hủy bỏ</button>
+												        </div>
+												      </div>
+												    </div>
+												  </div>
+												</div>
+												<a class="btn btn_favourite  col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">Yêu thích<span class="icon-heart"></span></a>
+											</div>
+											
+										</div>
+									</li>
+									<li class="list-group-item favourite_item">
+								  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+								  		<div class="wrapper_content_favourite">
+									  		<a href="#" class="link_favourite">Món ăn số 3</a>
+									  		
+									  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+									  		<div class="wrapper_interactive row">
+										  		<span class="price_favourite col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">50.000 đ</span>
+										  		<!-- Button trigger modal -->
+												<a class="btn btn_add_cart col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12" data-toggle="modal" data-target="#exampleModalCenter">
+												  Thêm vào giỏ hàng<span class="icon-plus"></span>
+												</a>
+
+												<!-- Modal -->
+												<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+												  <div class="modal-dialog modal-dialog-centered" role="document">
+												    <div class="modal-content modal_content">
+												      <div class="modal-header modal_header">
+												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												          <span aria-hidden="true">&times;</span>
+												        </button>
+												        <ul class="list-group list-group-flush favourite_group">
+														  	<li class="list-group-item favourite_item">
+														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+														  		<div class="wrapper_content_favourite">
+															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
+															  		
+															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+															  	</div>
+															</li>
+														</ul>
+												        
+												      </div>
+												      <div class="modal-body modal_body">
+												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát trẻ em
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát người lớn
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát đặc biệt (+5.000đ)
+															  </label>
+															</div>
+														</div>
+														<h6 class="text_form_check">Yêu cầu khác:</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Không hành
+															  </label>
+															</div>
+															
+														
+														</div>
+														<div class="wrapper_note">
+															<span class="icon-pencil icon_note"></span>
+															<input class="form-control note_posts" type="text" placeholder="Ghi chú" aria-label="Note">
+														</div>
+													
+												 
+												      </div>
+												      <div class="modal-footer modal_footer">
+												        <div class="qty">
+												        	<span class="icon-minus"></span>
+									                      
+									                        <input type="number" class="count" name="qty" value="1">
+									                        <span class="icon-plus"></span>
+									                       
+									                    </div>
+
+									                    <div class="total_price"><span class="text_total">Tổng:</span>
+									                    	<span class="total_money">50.000 đ</span>
+									                    </div>
+									                    <div class="wrapper_btn_modal">
+									                    	
+									                    
+													        <button type="button" class="btn btn_footer_modal btn_book">Đặt ngay</button>
+													        <button type="button" class="btn btn_footer_modal btn_cancel" data-dismiss="modal">Hủy bỏ</button>
+												        </div>
+												      </div>
+												    </div>
+												  </div>
+												</div>
+												<a class="btn btn_favourite  col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">Yêu thích<span class="icon-heart"></span></a>
+											</div>
+											
+										</div>
+									</li>
+									
+								  
+								  
+								</ul>
+							</div>
+						</div>
+						<div class="col-xl-12 margin-bottom-25 favourite-2-parent display-none">	
+							<h6 class="text_col_main">Bún bò</h6>
+							<div class="wrapper_favourite">							
+								<ul class="list-group list-group-flush favourite_group">
+								  	
+									<li class="list-group-item favourite_item">
+								  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+								  		<div class="wrapper_content_favourite">
+									  		<a href="#" class="link_favourite">Món ăn số 1</a>
+									  		
+									  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+									  		<div class="wrapper_interactive row">
+										  		<span class="price_favourite col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">50.000 đ</span>
+										  		<!-- Button trigger modal -->
+												<a class="btn btn_add_cart col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12" data-toggle="modal" data-target="#exampleModalCenter">
+												  Thêm vào giỏ hàng<span class="icon-plus"></span>
+												</a>
+
+												<!-- Modal -->
+												<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+												  <div class="modal-dialog modal-dialog-centered" role="document">
+												    <div class="modal-content modal_content">
+												      <div class="modal-header modal_header">
+												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												          <span aria-hidden="true">&times;</span>
+												        </button>
+												        <ul class="list-group list-group-flush favourite_group">
+														  	<li class="list-group-item favourite_item">
+														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+														  		<div class="wrapper_content_favourite">
+															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
+															  		
+															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+															  	</div>
+															</li>
+														</ul>
+												        
+												      </div>
+												      <div class="modal-body modal_body">
+												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát trẻ em
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát người lớn
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát đặc biệt (+5.000đ)
+															  </label>
+															</div>
+														</div>
+														<h6 class="text_form_check">Yêu cầu khác:</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Không hành
+															  </label>
+															</div>
+															
+														
+														</div>
+														<div class="wrapper_note">
+															<span class="icon-pencil icon_note"></span>
+															<input class="form-control note_posts" type="text" placeholder="Ghi chú" aria-label="Note">
+														</div>
+													
+												 
+												      </div>
+												      <div class="modal-footer modal_footer">
+												        <div class="qty">
+												        	<span class="icon-minus"></span>
+									                      
+									                        <input type="number" class="count" name="qty" value="1">
+									                        <span class="icon-plus"></span>
+									                       
+									                    </div>
+
+									                    <div class="total_price"><span class="text_total">Tổng:</span>
+									                    	<span class="total_money">50.000 đ</span>
+									                    </div>
+									                    <div class="wrapper_btn_modal">
+									                    	
+									                    
+													        <button type="button" class="btn btn_footer_modal btn_book">Đặt ngay</button>
+													        <button type="button" class="btn btn_footer_modal btn_cancel" data-dismiss="modal">Hủy bỏ</button>
+												        </div>
+												      </div>
+												    </div>
+												  </div>
+												</div>
+												<a class="btn btn_favourite  col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">Yêu thích<span class="icon-heart"></span></a>
+											</div>
+											
+										</div>
+									</li>
+									<li class="list-group-item favourite_item">
+								  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+								  		<div class="wrapper_content_favourite">
+									  		<a href="#" class="link_favourite">Món ăn số 2</a>
+									  		
+									  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+									  		<div class="wrapper_interactive row">
+										  		<span class="price_favourite col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">50.000 đ</span>
+										  		<!-- Button trigger modal -->
+												<a class="btn btn_add_cart col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12" data-toggle="modal" data-target="#exampleModalCenter">
+												  Thêm vào giỏ hàng<span class="icon-plus"></span>
+												</a>
+
+												<!-- Modal -->
+												<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+												  <div class="modal-dialog modal-dialog-centered" role="document">
+												    <div class="modal-content modal_content">
+												      <div class="modal-header modal_header">
+												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												          <span aria-hidden="true">&times;</span>
+												        </button>
+												        <ul class="list-group list-group-flush favourite_group">
+														  	<li class="list-group-item favourite_item">
+														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+														  		<div class="wrapper_content_favourite">
+															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
+															  		
+															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+															  	</div>
+															</li>
+														</ul>
+												        
+												      </div>
+												      <div class="modal-body modal_body">
+												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát trẻ em
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát người lớn
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát đặc biệt (+5.000đ)
+															  </label>
+															</div>
+														</div>
+														<h6 class="text_form_check">Yêu cầu khác:</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Không hành
+															  </label>
+															</div>
+															
+														
+														</div>
+														<div class="wrapper_note">
+															<span class="icon-pencil icon_note"></span>
+															<input class="form-control note_posts" type="text" placeholder="Ghi chú" aria-label="Note">
+														</div>
+													
+												 
+												      </div>
+												      <div class="modal-footer modal_footer">
+												        <div class="qty">
+												        	<span class="icon-minus"></span>
+									                      
+									                        <input type="number" class="count" name="qty" value="1">
+									                        <span class="icon-plus"></span>
+									                       
+									                    </div>
+
+									                    <div class="total_price"><span class="text_total">Tổng:</span>
+									                    	<span class="total_money">50.000 đ</span>
+									                    </div>
+									                    <div class="wrapper_btn_modal">
+									                    	
+									                    
+													        <button type="button" class="btn btn_footer_modal btn_book">Đặt ngay</button>
+													        <button type="button" class="btn btn_footer_modal btn_cancel" data-dismiss="modal">Hủy bỏ</button>
+												        </div>
+												      </div>
+												    </div>
+												  </div>
+												</div>
+												<a class="btn btn_favourite  col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">Yêu thích<span class="icon-heart"></span></a>
+											</div>
+											
+										</div>
+									</li>
+									<li class="list-group-item favourite_item">
+								  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+								  		<div class="wrapper_content_favourite">
+									  		<a href="#" class="link_favourite">Món ăn số 3</a>
+									  		
+									  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+									  		<div class="wrapper_interactive row">
+										  		<span class="price_favourite col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">50.000 đ</span>
+										  		<!-- Button trigger modal -->
+												<a class="btn btn_add_cart col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12" data-toggle="modal" data-target="#exampleModalCenter">
+												  Thêm vào giỏ hàng<span class="icon-plus"></span>
+												</a>
+
+												<!-- Modal -->
+												<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+												  <div class="modal-dialog modal-dialog-centered" role="document">
+												    <div class="modal-content modal_content">
+												      <div class="modal-header modal_header">
+												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												          <span aria-hidden="true">&times;</span>
+												        </button>
+												        <ul class="list-group list-group-flush favourite_group">
+														  	<li class="list-group-item favourite_item">
+														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+														  		<div class="wrapper_content_favourite">
+															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
+															  		
+															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+															  	</div>
+															</li>
+														</ul>
+												        
+												      </div>
+												      <div class="modal-body modal_body">
+												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát trẻ em
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát người lớn
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát đặc biệt (+5.000đ)
+															  </label>
+															</div>
+														</div>
+														<h6 class="text_form_check">Yêu cầu khác:</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Không hành
+															  </label>
+															</div>
+															
+														
+														</div>
+														<div class="wrapper_note">
+															<span class="icon-pencil icon_note"></span>
+															<input class="form-control note_posts" type="text" placeholder="Ghi chú" aria-label="Note">
+														</div>
+													
+												 
+												      </div>
+												      <div class="modal-footer modal_footer">
+												        <div class="qty">
+												        	<span class="icon-minus"></span>
+									                      
+									                        <input type="number" class="count" name="qty" value="1">
+									                        <span class="icon-plus"></span>
+									                       
+									                    </div>
+
+									                    <div class="total_price"><span class="text_total">Tổng:</span>
+									                    	<span class="total_money">50.000 đ</span>
+									                    </div>
+									                    <div class="wrapper_btn_modal">
+									                    	
+									                    
+													        <button type="button" class="btn btn_footer_modal btn_book">Đặt ngay</button>
+													        <button type="button" class="btn btn_footer_modal btn_cancel" data-dismiss="modal">Hủy bỏ</button>
+												        </div>
+												      </div>
+												    </div>
+												  </div>
+												</div>
+												<a class="btn btn_favourite  col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">Yêu thích<span class="icon-heart"></span></a>
+											</div>
+											
+										</div>
+									</li>
+									
+								  
+								  
+								</ul>
+							</div>
+						</div>
+						<div class="col-xl-12 margin-bottom-25 favourite-3-parent display-none">	
+							<h6 class="text_col_main">Miến gà</h6>
+							<div class="wrapper_favourite">							
+								<ul class="list-group list-group-flush favourite_group">
+								  	
+									<li class="list-group-item favourite_item">
+								  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+								  		<div class="wrapper_content_favourite">
+									  		<a href="#" class="link_favourite">Món ăn số 1</a>
+									  		
+									  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+									  		<div class="wrapper_interactive row">
+										  		<span class="price_favourite col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">50.000 đ</span>
+										  		<!-- Button trigger modal -->
+												<a class="btn btn_add_cart col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12" data-toggle="modal" data-target="#exampleModalCenter">
+												  Thêm vào giỏ hàng<span class="icon-plus"></span>
+												</a>
+
+												<!-- Modal -->
+												<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+												  <div class="modal-dialog modal-dialog-centered" role="document">
+												    <div class="modal-content modal_content">
+												      <div class="modal-header modal_header">
+												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												          <span aria-hidden="true">&times;</span>
+												        </button>
+												        <ul class="list-group list-group-flush favourite_group">
+														  	<li class="list-group-item favourite_item">
+														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+														  		<div class="wrapper_content_favourite">
+															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
+															  		
+															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+															  	</div>
+															</li>
+														</ul>
+												        
+												      </div>
+												      <div class="modal-body modal_body">
+												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát trẻ em
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát người lớn
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát đặc biệt (+5.000đ)
+															  </label>
+															</div>
+														</div>
+														<h6 class="text_form_check">Yêu cầu khác:</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Không hành
+															  </label>
+															</div>
+															
+														
+														</div>
+														<div class="wrapper_note">
+															<span class="icon-pencil icon_note"></span>
+															<input class="form-control note_posts" type="text" placeholder="Ghi chú" aria-label="Note">
+														</div>
+													
+												 
+												      </div>
+												      <div class="modal-footer modal_footer">
+												        <div class="qty">
+												        	<span class="icon-minus"></span>
+									                      
+									                        <input type="number" class="count" name="qty" value="1">
+									                        <span class="icon-plus"></span>
+									                       
+									                    </div>
+
+									                    <div class="total_price"><span class="text_total">Tổng:</span>
+									                    	<span class="total_money">50.000 đ</span>
+									                    </div>
+									                    <div class="wrapper_btn_modal">
+									                    	
+									                    
+													        <button type="button" class="btn btn_footer_modal btn_book">Đặt ngay</button>
+													        <button type="button" class="btn btn_footer_modal btn_cancel" data-dismiss="modal">Hủy bỏ</button>
+												        </div>
+												      </div>
+												    </div>
+												  </div>
+												</div>
+												<a class="btn btn_favourite  col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">Yêu thích<span class="icon-heart"></span></a>
+											</div>
+											
+										</div>
+									</li>
+									<li class="list-group-item favourite_item">
+								  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+								  		<div class="wrapper_content_favourite">
+									  		<a href="#" class="link_favourite">Món ăn số 2</a>
+									  		
+									  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+									  		<div class="wrapper_interactive row">
+										  		<span class="price_favourite col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">50.000 đ</span>
+										  		<!-- Button trigger modal -->
+												<a class="btn btn_add_cart col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12" data-toggle="modal" data-target="#exampleModalCenter">
+												  Thêm vào giỏ hàng<span class="icon-plus"></span>
+												</a>
+
+												<!-- Modal -->
+												<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+												  <div class="modal-dialog modal-dialog-centered" role="document">
+												    <div class="modal-content modal_content">
+												      <div class="modal-header modal_header">
+												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												          <span aria-hidden="true">&times;</span>
+												        </button>
+												        <ul class="list-group list-group-flush favourite_group">
+														  	<li class="list-group-item favourite_item">
+														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+														  		<div class="wrapper_content_favourite">
+															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
+															  		
+															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+															  	</div>
+															</li>
+														</ul>
+												        
+												      </div>
+												      <div class="modal-body modal_body">
+												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát trẻ em
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát người lớn
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát đặc biệt (+5.000đ)
+															  </label>
+															</div>
+														</div>
+														<h6 class="text_form_check">Yêu cầu khác:</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Không hành
+															  </label>
+															</div>
+															
+														
+														</div>
+														<div class="wrapper_note">
+															<span class="icon-pencil icon_note"></span>
+															<input class="form-control note_posts" type="text" placeholder="Ghi chú" aria-label="Note">
+														</div>
+													
+												 
+												      </div>
+												      <div class="modal-footer modal_footer">
+												        <div class="qty">
+												        	<span class="icon-minus"></span>
+									                      
+									                        <input type="number" class="count" name="qty" value="1">
+									                        <span class="icon-plus"></span>
+									                       
+									                    </div>
+
+									                    <div class="total_price"><span class="text_total">Tổng:</span>
+									                    	<span class="total_money">50.000 đ</span>
+									                    </div>
+									                    <div class="wrapper_btn_modal">
+									                    	
+									                    
+													        <button type="button" class="btn btn_footer_modal btn_book">Đặt ngay</button>
+													        <button type="button" class="btn btn_footer_modal btn_cancel" data-dismiss="modal">Hủy bỏ</button>
+												        </div>
+												      </div>
+												    </div>
+												  </div>
+												</div>
+												<a class="btn btn_favourite  col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">Yêu thích<span class="icon-heart"></span></a>
+											</div>
+											
+										</div>
+									</li>
+									<li class="list-group-item favourite_item">
+								  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+								  		<div class="wrapper_content_favourite">
+									  		<a href="#" class="link_favourite">Món ăn số 3</a>
+									  		
+									  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+									  		<div class="wrapper_interactive row">
+										  		<span class="price_favourite col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">50.000 đ</span>
+										  		<!-- Button trigger modal -->
+												<a class="btn btn_add_cart col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12" data-toggle="modal" data-target="#exampleModalCenter">
+												  Thêm vào giỏ hàng<span class="icon-plus"></span>
+												</a>
+
+												<!-- Modal -->
+												<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+												  <div class="modal-dialog modal-dialog-centered" role="document">
+												    <div class="modal-content modal_content">
+												      <div class="modal-header modal_header">
+												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												          <span aria-hidden="true">&times;</span>
+												        </button>
+												        <ul class="list-group list-group-flush favourite_group">
+														  	<li class="list-group-item favourite_item">
+														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+														  		<div class="wrapper_content_favourite">
+															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
+															  		
+															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+															  	</div>
+															</li>
+														</ul>
+												        
+												      </div>
+												      <div class="modal-body modal_body">
+												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát trẻ em
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát người lớn
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát đặc biệt (+5.000đ)
+															  </label>
+															</div>
+														</div>
+														<h6 class="text_form_check">Yêu cầu khác:</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Không hành
+															  </label>
+															</div>
+															
+														
+														</div>
+														<div class="wrapper_note">
+															<span class="icon-pencil icon_note"></span>
+															<input class="form-control note_posts" type="text" placeholder="Ghi chú" aria-label="Note">
+														</div>
+													
+												 
+												      </div>
+												      <div class="modal-footer modal_footer">
+												        <div class="qty">
+												        	<span class="icon-minus"></span>
+									                      
+									                        <input type="number" class="count" name="qty" value="1">
+									                        <span class="icon-plus"></span>
+									                       
+									                    </div>
+
+									                    <div class="total_price"><span class="text_total">Tổng:</span>
+									                    	<span class="total_money">50.000 đ</span>
+									                    </div>
+									                    <div class="wrapper_btn_modal">
+									                    	
+									                    
+													        <button type="button" class="btn btn_footer_modal btn_book">Đặt ngay</button>
+													        <button type="button" class="btn btn_footer_modal btn_cancel" data-dismiss="modal">Hủy bỏ</button>
+												        </div>
+												      </div>
+												    </div>
+												  </div>
+												</div>
+												<a class="btn btn_favourite  col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">Yêu thích<span class="icon-heart"></span></a>
+											</div>
+											
+										</div>
+									</li>
+									
+								  
+								  
+								</ul>
+							</div>
+						</div>
+						<div class="col-xl-12 margin-bottom-25 favourite-4-parent display-none">	
+							<h6 class="text_col_main">Cơm rang</h6>
+							<div class="wrapper_favourite">							
+								<ul class="list-group list-group-flush favourite_group">
+								  	
+									<li class="list-group-item favourite_item">
+								  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+								  		<div class="wrapper_content_favourite">
+									  		<a href="#" class="link_favourite">Món ăn số 1</a>
+									  		
+									  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+									  		<div class="wrapper_interactive row">
+										  		<span class="price_favourite col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">50.000 đ</span>
+										  		<!-- Button trigger modal -->
+												<a class="btn btn_add_cart col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12" data-toggle="modal" data-target="#exampleModalCenter">
+												  Thêm vào giỏ hàng<span class="icon-plus"></span>
+												</a>
+
+												<!-- Modal -->
+												<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+												  <div class="modal-dialog modal-dialog-centered" role="document">
+												    <div class="modal-content modal_content">
+												      <div class="modal-header modal_header">
+												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												          <span aria-hidden="true">&times;</span>
+												        </button>
+												        <ul class="list-group list-group-flush favourite_group">
+														  	<li class="list-group-item favourite_item">
+														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+														  		<div class="wrapper_content_favourite">
+															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
+															  		
+															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+															  	</div>
+															</li>
+														</ul>
+												        
+												      </div>
+												      <div class="modal-body modal_body">
+												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát trẻ em
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát người lớn
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát đặc biệt (+5.000đ)
+															  </label>
+															</div>
+														</div>
+														<h6 class="text_form_check">Yêu cầu khác:</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Không hành
+															  </label>
+															</div>
+															
+														
+														</div>
+														<div class="wrapper_note">
+															<span class="icon-pencil icon_note"></span>
+															<input class="form-control note_posts" type="text" placeholder="Ghi chú" aria-label="Note">
+														</div>
+													
+												 
+												      </div>
+												      <div class="modal-footer modal_footer">
+												        <div class="qty">
+												        	<span class="icon-minus"></span>
+									                      
+									                        <input type="number" class="count" name="qty" value="1">
+									                        <span class="icon-plus"></span>
+									                       
+									                    </div>
+
+									                    <div class="total_price"><span class="text_total">Tổng:</span>
+									                    	<span class="total_money">50.000 đ</span>
+									                    </div>
+									                    <div class="wrapper_btn_modal">
+									                    	
+									                    
+													        <button type="button" class="btn btn_footer_modal btn_book">Đặt ngay</button>
+													        <button type="button" class="btn btn_footer_modal btn_cancel" data-dismiss="modal">Hủy bỏ</button>
+												        </div>
+												      </div>
+												    </div>
+												  </div>
+												</div>
+												<a class="btn btn_favourite  col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">Yêu thích<span class="icon-heart"></span></a>
+											</div>
+											
+										</div>
+									</li>
+									<li class="list-group-item favourite_item">
+								  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+								  		<div class="wrapper_content_favourite">
+									  		<a href="#" class="link_favourite">Món ăn số 2</a>
+									  		
+									  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+									  		<div class="wrapper_interactive row">
+										  		<span class="price_favourite col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">50.000 đ</span>
+										  		<!-- Button trigger modal -->
+												<a class="btn btn_add_cart col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12" data-toggle="modal" data-target="#exampleModalCenter">
+												  Thêm vào giỏ hàng<span class="icon-plus"></span>
+												</a>
+
+												<!-- Modal -->
+												<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+												  <div class="modal-dialog modal-dialog-centered" role="document">
+												    <div class="modal-content modal_content">
+												      <div class="modal-header modal_header">
+												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												          <span aria-hidden="true">&times;</span>
+												        </button>
+												        <ul class="list-group list-group-flush favourite_group">
+														  	<li class="list-group-item favourite_item">
+														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+														  		<div class="wrapper_content_favourite">
+															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
+															  		
+															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+															  	</div>
+															</li>
+														</ul>
+												        
+												      </div>
+												      <div class="modal-body modal_body">
+												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát trẻ em
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát người lớn
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát đặc biệt (+5.000đ)
+															  </label>
+															</div>
+														</div>
+														<h6 class="text_form_check">Yêu cầu khác:</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Không hành
+															  </label>
+															</div>
+															
+														
+														</div>
+														<div class="wrapper_note">
+															<span class="icon-pencil icon_note"></span>
+															<input class="form-control note_posts" type="text" placeholder="Ghi chú" aria-label="Note">
+														</div>
+													
+												 
+												      </div>
+												      <div class="modal-footer modal_footer">
+												        <div class="qty">
+												        	<span class="icon-minus"></span>
+									                      
+									                        <input type="number" class="count" name="qty" value="1">
+									                        <span class="icon-plus"></span>
+									                       
+									                    </div>
+
+									                    <div class="total_price"><span class="text_total">Tổng:</span>
+									                    	<span class="total_money">50.000 đ</span>
+									                    </div>
+									                    <div class="wrapper_btn_modal">
+									                    	
+									                    
+													        <button type="button" class="btn btn_footer_modal btn_book">Đặt ngay</button>
+													        <button type="button" class="btn btn_footer_modal btn_cancel" data-dismiss="modal">Hủy bỏ</button>
+												        </div>
+												      </div>
+												    </div>
+												  </div>
+												</div>
+												<a class="btn btn_favourite  col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">Yêu thích<span class="icon-heart"></span></a>
+											</div>
+											
+										</div>
+									</li>
+									<li class="list-group-item favourite_item">
+								  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+								  		<div class="wrapper_content_favourite">
+									  		<a href="#" class="link_favourite">Món ăn số 3</a>
+									  		
+									  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+									  		<div class="wrapper_interactive row">
+										  		<span class="price_favourite col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">50.000 đ</span>
+										  		<!-- Button trigger modal -->
+												<a class="btn btn_add_cart col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12" data-toggle="modal" data-target="#exampleModalCenter">
+												  Thêm vào giỏ hàng<span class="icon-plus"></span>
+												</a>
+
+												<!-- Modal -->
+												<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+												  <div class="modal-dialog modal-dialog-centered" role="document">
+												    <div class="modal-content modal_content">
+												      <div class="modal-header modal_header">
+												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												          <span aria-hidden="true">&times;</span>
+												        </button>
+												        <ul class="list-group list-group-flush favourite_group">
+														  	<li class="list-group-item favourite_item">
+														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+														  		<div class="wrapper_content_favourite">
+															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
+															  		
+															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+															  	</div>
+															</li>
+														</ul>
+												        
+												      </div>
+												      <div class="modal-body modal_body">
+												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát trẻ em
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát người lớn
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát đặc biệt (+5.000đ)
+															  </label>
+															</div>
+														</div>
+														<h6 class="text_form_check">Yêu cầu khác:</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Không hành
+															  </label>
+															</div>
+															
+														
+														</div>
+														<div class="wrapper_note">
+															<span class="icon-pencil icon_note"></span>
+															<input class="form-control note_posts" type="text" placeholder="Ghi chú" aria-label="Note">
+														</div>
+													
+												 
+												      </div>
+												      <div class="modal-footer modal_footer">
+												        <div class="qty">
+												        	<span class="icon-minus"></span>
+									                      
+									                        <input type="number" class="count" name="qty" value="1">
+									                        <span class="icon-plus"></span>
+									                       
+									                    </div>
+
+									                    <div class="total_price"><span class="text_total">Tổng:</span>
+									                    	<span class="total_money">50.000 đ</span>
+									                    </div>
+									                    <div class="wrapper_btn_modal">
+									                    	
+									                    
+													        <button type="button" class="btn btn_footer_modal btn_book">Đặt ngay</button>
+													        <button type="button" class="btn btn_footer_modal btn_cancel" data-dismiss="modal">Hủy bỏ</button>
+												        </div>
+												      </div>
+												    </div>
+												  </div>
+												</div>
+												<a class="btn btn_favourite  col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">Yêu thích<span class="icon-heart"></span></a>
+											</div>
+											
+										</div>
+									</li>
+									
+								  
+								  
+								</ul>
+							</div>
+						</div>
+						<div class="col-xl-12 margin-bottom-25 favourite-5-parent display-none">	
+							<h6 class="text_col_main">Phở xào</h6>
+							<div class="wrapper_favourite">							
+								<ul class="list-group list-group-flush favourite_group">
+								  	
+									<li class="list-group-item favourite_item">
+								  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+								  		<div class="wrapper_content_favourite">
+									  		<a href="#" class="link_favourite">Món ăn số 1</a>
+									  		
+									  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+									  		<div class="wrapper_interactive row">
+										  		<span class="price_favourite col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">50.000 đ</span>
+										  		<!-- Button trigger modal -->
+												<a class="btn btn_add_cart col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12" data-toggle="modal" data-target="#exampleModalCenter">
+												  Thêm vào giỏ hàng<span class="icon-plus"></span>
+												</a>
+
+												<!-- Modal -->
+												<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+												  <div class="modal-dialog modal-dialog-centered" role="document">
+												    <div class="modal-content modal_content">
+												      <div class="modal-header modal_header">
+												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												          <span aria-hidden="true">&times;</span>
+												        </button>
+												        <ul class="list-group list-group-flush favourite_group">
+														  	<li class="list-group-item favourite_item">
+														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+														  		<div class="wrapper_content_favourite">
+															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
+															  		
+															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+															  	</div>
+															</li>
+														</ul>
+												        
+												      </div>
+												      <div class="modal-body modal_body">
+												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát trẻ em
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát người lớn
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát đặc biệt (+5.000đ)
+															  </label>
+															</div>
+														</div>
+														<h6 class="text_form_check">Yêu cầu khác:</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Không hành
+															  </label>
+															</div>
+															
+														
+														</div>
+														<div class="wrapper_note">
+															<span class="icon-pencil icon_note"></span>
+															<input class="form-control note_posts" type="text" placeholder="Ghi chú" aria-label="Note">
+														</div>
+													
+												 
+												      </div>
+												      <div class="modal-footer modal_footer">
+												        <div class="qty">
+												        	<span class="icon-minus"></span>
+									                      
+									                        <input type="number" class="count" name="qty" value="1">
+									                        <span class="icon-plus"></span>
+									                       
+									                    </div>
+
+									                    <div class="total_price"><span class="text_total">Tổng:</span>
+									                    	<span class="total_money">50.000 đ</span>
+									                    </div>
+									                    <div class="wrapper_btn_modal">
+									                    	
+									                    
+													        <button type="button" class="btn btn_footer_modal btn_book">Đặt ngay</button>
+													        <button type="button" class="btn btn_footer_modal btn_cancel" data-dismiss="modal">Hủy bỏ</button>
+												        </div>
+												      </div>
+												    </div>
+												  </div>
+												</div>
+												<a class="btn btn_favourite  col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">Yêu thích<span class="icon-heart"></span></a>
+											</div>
+											
+										</div>
+									</li>
+									<li class="list-group-item favourite_item">
+								  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+								  		<div class="wrapper_content_favourite">
+									  		<a href="#" class="link_favourite">Món ăn số 2</a>
+									  		
+									  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+									  		<div class="wrapper_interactive row">
+										  		<span class="price_favourite col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">50.000 đ</span>
+										  		<!-- Button trigger modal -->
+												<a class="btn btn_add_cart col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12" data-toggle="modal" data-target="#exampleModalCenter">
+												  Thêm vào giỏ hàng<span class="icon-plus"></span>
+												</a>
+
+												<!-- Modal -->
+												<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+												  <div class="modal-dialog modal-dialog-centered" role="document">
+												    <div class="modal-content modal_content">
+												      <div class="modal-header modal_header">
+												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												          <span aria-hidden="true">&times;</span>
+												        </button>
+												        <ul class="list-group list-group-flush favourite_group">
+														  	<li class="list-group-item favourite_item">
+														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+														  		<div class="wrapper_content_favourite">
+															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
+															  		
+															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+															  	</div>
+															</li>
+														</ul>
+												        
+												      </div>
+												      <div class="modal-body modal_body">
+												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát trẻ em
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát người lớn
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát đặc biệt (+5.000đ)
+															  </label>
+															</div>
+														</div>
+														<h6 class="text_form_check">Yêu cầu khác:</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Không hành
+															  </label>
+															</div>
+															
+														
+														</div>
+														<div class="wrapper_note">
+															<span class="icon-pencil icon_note"></span>
+															<input class="form-control note_posts" type="text" placeholder="Ghi chú" aria-label="Note">
+														</div>
+													
+												 
+												      </div>
+												      <div class="modal-footer modal_footer">
+												        <div class="qty">
+												        	<span class="icon-minus"></span>
+									                      
+									                        <input type="number" class="count" name="qty" value="1">
+									                        <span class="icon-plus"></span>
+									                       
+									                    </div>
+
+									                    <div class="total_price"><span class="text_total">Tổng:</span>
+									                    	<span class="total_money">50.000 đ</span>
+									                    </div>
+									                    <div class="wrapper_btn_modal">
+									                    	
+									                    
+													        <button type="button" class="btn btn_footer_modal btn_book">Đặt ngay</button>
+													        <button type="button" class="btn btn_footer_modal btn_cancel" data-dismiss="modal">Hủy bỏ</button>
+												        </div>
+												      </div>
+												    </div>
+												  </div>
+												</div>
+												<a class="btn btn_favourite  col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">Yêu thích<span class="icon-heart"></span></a>
+											</div>
+											
+										</div>
+									</li>
+									<li class="list-group-item favourite_item">
+								  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+								  		<div class="wrapper_content_favourite">
+									  		<a href="#" class="link_favourite">Món ăn số 3</a>
+									  		
+									  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+									  		<div class="wrapper_interactive row">
+										  		<span class="price_favourite col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">50.000 đ</span>
+										  		<!-- Button trigger modal -->
+												<a class="btn btn_add_cart col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12" data-toggle="modal" data-target="#exampleModalCenter">
+												  Thêm vào giỏ hàng<span class="icon-plus"></span>
+												</a>
+
+												<!-- Modal -->
+												<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+												  <div class="modal-dialog modal-dialog-centered" role="document">
+												    <div class="modal-content modal_content">
+												      <div class="modal-header modal_header">
+												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												          <span aria-hidden="true">&times;</span>
+												        </button>
+												        <ul class="list-group list-group-flush favourite_group">
+														  	<li class="list-group-item favourite_item">
+														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+														  		<div class="wrapper_content_favourite">
+															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
+															  		
+															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+															  	</div>
+															</li>
+														</ul>
+												        
+												      </div>
+												      <div class="modal-body modal_body">
+												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát trẻ em
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát người lớn
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát đặc biệt (+5.000đ)
+															  </label>
+															</div>
+														</div>
+														<h6 class="text_form_check">Yêu cầu khác:</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Không hành
+															  </label>
+															</div>
+															
+														
+														</div>
+														<div class="wrapper_note">
+															<span class="icon-pencil icon_note"></span>
+															<input class="form-control note_posts" type="text" placeholder="Ghi chú" aria-label="Note">
+														</div>
+													
+												 
+												      </div>
+												      <div class="modal-footer modal_footer">
+												        <div class="qty">
+												        	<span class="icon-minus"></span>
+									                      
+									                        <input type="number" class="count" name="qty" value="1">
+									                        <span class="icon-plus"></span>
+									                       
+									                    </div>
+
+									                    <div class="total_price"><span class="text_total">Tổng:</span>
+									                    	<span class="total_money">50.000 đ</span>
+									                    </div>
+									                    <div class="wrapper_btn_modal">
+									                    	
+									                    
+													        <button type="button" class="btn btn_footer_modal btn_book">Đặt ngay</button>
+													        <button type="button" class="btn btn_footer_modal btn_cancel" data-dismiss="modal">Hủy bỏ</button>
+												        </div>
+												      </div>
+												    </div>
+												  </div>
+												</div>
+												<a class="btn btn_favourite  col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">Yêu thích<span class="icon-heart"></span></a>
+											</div>
+											
+										</div>
+									</li>
+									
+								  
+								  
+								</ul>
+							</div>
+						</div>
+						<div class="col-xl-12 margin-bottom-25 favourite-6-parent display-none">	
+							<h6 class="text_col_main">Mì xào</h6>
+							<div class="wrapper_favourite">							
+								<ul class="list-group list-group-flush favourite_group">
+								  	
+									<li class="list-group-item favourite_item">
+								  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+								  		<div class="wrapper_content_favourite">
+									  		<a href="#" class="link_favourite">Món ăn số 1</a>
+									  		
+									  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+									  		<div class="wrapper_interactive row">
+										  		<span class="price_favourite col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">50.000 đ</span>
+										  		<!-- Button trigger modal -->
+												<a class="btn btn_add_cart col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12" data-toggle="modal" data-target="#exampleModalCenter">
+												  Thêm vào giỏ hàng<span class="icon-plus"></span>
+												</a>
+
+												<!-- Modal -->
+												<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+												  <div class="modal-dialog modal-dialog-centered" role="document">
+												    <div class="modal-content modal_content">
+												      <div class="modal-header modal_header">
+												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												          <span aria-hidden="true">&times;</span>
+												        </button>
+												        <ul class="list-group list-group-flush favourite_group">
+														  	<li class="list-group-item favourite_item">
+														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+														  		<div class="wrapper_content_favourite">
+															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
+															  		
+															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+															  	</div>
+															</li>
+														</ul>
+												        
+												      </div>
+												      <div class="modal-body modal_body">
+												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát trẻ em
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát người lớn
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát đặc biệt (+5.000đ)
+															  </label>
+															</div>
+														</div>
+														<h6 class="text_form_check">Yêu cầu khác:</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Không hành
+															  </label>
+															</div>
+															
+														
+														</div>
+														<div class="wrapper_note">
+															<span class="icon-pencil icon_note"></span>
+															<input class="form-control note_posts" type="text" placeholder="Ghi chú" aria-label="Note">
+														</div>
+													
+												 
+												      </div>
+												      <div class="modal-footer modal_footer">
+												        <div class="qty">
+												        	<span class="icon-minus"></span>
+									                      
+									                        <input type="number" class="count" name="qty" value="1">
+									                        <span class="icon-plus"></span>
+									                       
+									                    </div>
+
+									                    <div class="total_price"><span class="text_total">Tổng:</span>
+									                    	<span class="total_money">50.000 đ</span>
+									                    </div>
+									                    <div class="wrapper_btn_modal">
+									                    	
+									                    
+													        <button type="button" class="btn btn_footer_modal btn_book">Đặt ngay</button>
+													        <button type="button" class="btn btn_footer_modal btn_cancel" data-dismiss="modal">Hủy bỏ</button>
+												        </div>
+												      </div>
+												    </div>
+												  </div>
+												</div>
+												<a class="btn btn_favourite  col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">Yêu thích<span class="icon-heart"></span></a>
+											</div>
+											
+										</div>
+									</li>
+									<li class="list-group-item favourite_item">
+								  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+								  		<div class="wrapper_content_favourite">
+									  		<a href="#" class="link_favourite">Món ăn số 2</a>
+									  		
+									  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+									  		<div class="wrapper_interactive row">
+										  		<span class="price_favourite col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">50.000 đ</span>
+										  		<!-- Button trigger modal -->
+												<a class="btn btn_add_cart col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12" data-toggle="modal" data-target="#exampleModalCenter">
+												  Thêm vào giỏ hàng<span class="icon-plus"></span>
+												</a>
+
+												<!-- Modal -->
+												<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+												  <div class="modal-dialog modal-dialog-centered" role="document">
+												    <div class="modal-content modal_content">
+												      <div class="modal-header modal_header">
+												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												          <span aria-hidden="true">&times;</span>
+												        </button>
+												        <ul class="list-group list-group-flush favourite_group">
+														  	<li class="list-group-item favourite_item">
+														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+														  		<div class="wrapper_content_favourite">
+															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
+															  		
+															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+															  	</div>
+															</li>
+														</ul>
+												        
+												      </div>
+												      <div class="modal-body modal_body">
+												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát trẻ em
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát người lớn
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát đặc biệt (+5.000đ)
+															  </label>
+															</div>
+														</div>
+														<h6 class="text_form_check">Yêu cầu khác:</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Không hành
+															  </label>
+															</div>
+															
+														
+														</div>
+														<div class="wrapper_note">
+															<span class="icon-pencil icon_note"></span>
+															<input class="form-control note_posts" type="text" placeholder="Ghi chú" aria-label="Note">
+														</div>
+													
+												 
+												      </div>
+												      <div class="modal-footer modal_footer">
+												        <div class="qty">
+												        	<span class="icon-minus"></span>
+									                      
+									                        <input type="number" class="count" name="qty" value="1">
+									                        <span class="icon-plus"></span>
+									                       
+									                    </div>
+
+									                    <div class="total_price"><span class="text_total">Tổng:</span>
+									                    	<span class="total_money">50.000 đ</span>
+									                    </div>
+									                    <div class="wrapper_btn_modal">
+									                    	
+									                    
+													        <button type="button" class="btn btn_footer_modal btn_book">Đặt ngay</button>
+													        <button type="button" class="btn btn_footer_modal btn_cancel" data-dismiss="modal">Hủy bỏ</button>
+												        </div>
+												      </div>
+												    </div>
+												  </div>
+												</div>
+												<a class="btn btn_favourite  col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">Yêu thích<span class="icon-heart"></span></a>
+											</div>
+											
+										</div>
+									</li>
+									<li class="list-group-item favourite_item">
+								  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+								  		<div class="wrapper_content_favourite">
+									  		<a href="#" class="link_favourite">Món ăn số 3</a>
+									  		
+									  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+									  		<div class="wrapper_interactive row">
+										  		<span class="price_favourite col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">50.000 đ</span>
+										  		<!-- Button trigger modal -->
+												<a class="btn btn_add_cart col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12" data-toggle="modal" data-target="#exampleModalCenter">
+												  Thêm vào giỏ hàng<span class="icon-plus"></span>
+												</a>
+
+												<!-- Modal -->
+												<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+												  <div class="modal-dialog modal-dialog-centered" role="document">
+												    <div class="modal-content modal_content">
+												      <div class="modal-header modal_header">
+												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												          <span aria-hidden="true">&times;</span>
+												        </button>
+												        <ul class="list-group list-group-flush favourite_group">
+														  	<li class="list-group-item favourite_item">
+														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+														  		<div class="wrapper_content_favourite">
+															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
+															  		
+															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+															  	</div>
+															</li>
+														</ul>
+												        
+												      </div>
+												      <div class="modal-body modal_body">
+												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát trẻ em
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát người lớn
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát đặc biệt (+5.000đ)
+															  </label>
+															</div>
+														</div>
+														<h6 class="text_form_check">Yêu cầu khác:</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Không hành
+															  </label>
+															</div>
+															
+														
+														</div>
+														<div class="wrapper_note">
+															<span class="icon-pencil icon_note"></span>
+															<input class="form-control note_posts" type="text" placeholder="Ghi chú" aria-label="Note">
+														</div>
+													
+												 
+												      </div>
+												      <div class="modal-footer modal_footer">
+												        <div class="qty">
+												        	<span class="icon-minus"></span>
+									                      
+									                        <input type="number" class="count" name="qty" value="1">
+									                        <span class="icon-plus"></span>
+									                       
+									                    </div>
+
+									                    <div class="total_price"><span class="text_total">Tổng:</span>
+									                    	<span class="total_money">50.000 đ</span>
+									                    </div>
+									                    <div class="wrapper_btn_modal">
+									                    	
+									                    
+													        <button type="button" class="btn btn_footer_modal btn_book">Đặt ngay</button>
+													        <button type="button" class="btn btn_footer_modal btn_cancel" data-dismiss="modal">Hủy bỏ</button>
+												        </div>
+												      </div>
+												    </div>
+												  </div>
+												</div>
+												<a class="btn btn_favourite  col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">Yêu thích<span class="icon-heart"></span></a>
+											</div>
+											
+										</div>
+									</li>
+									
+								  
+								  
+								</ul>
+							</div>
+						</div>
+						<div class="col-xl-12 margin-bottom-25 favourite-7-parent display-none">	
+							<h6 class="text_col_main">Đồ uống</h6>
+							<div class="wrapper_favourite">							
+								<ul class="list-group list-group-flush favourite_group">
+								  	
+									<li class="list-group-item favourite_item">
+								  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+								  		<div class="wrapper_content_favourite">
+									  		<a href="#" class="link_favourite">Món ăn số 1</a>
+									  		
+									  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+									  		<div class="wrapper_interactive row">
+										  		<span class="price_favourite col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">50.000 đ</span>
+										  		<!-- Button trigger modal -->
+												<a class="btn btn_add_cart col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12" data-toggle="modal" data-target="#exampleModalCenter">
+												  Thêm vào giỏ hàng<span class="icon-plus"></span>
+												</a>
+
+												<!-- Modal -->
+												<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+												  <div class="modal-dialog modal-dialog-centered" role="document">
+												    <div class="modal-content modal_content">
+												      <div class="modal-header modal_header">
+												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												          <span aria-hidden="true">&times;</span>
+												        </button>
+												        <ul class="list-group list-group-flush favourite_group">
+														  	<li class="list-group-item favourite_item">
+														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+														  		<div class="wrapper_content_favourite">
+															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
+															  		
+															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+															  	</div>
+															</li>
+														</ul>
+												        
+												      </div>
+												      <div class="modal-body modal_body">
+												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát trẻ em
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát người lớn
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát đặc biệt (+5.000đ)
+															  </label>
+															</div>
+														</div>
+														<h6 class="text_form_check">Yêu cầu khác:</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Không hành
+															  </label>
+															</div>
+															
+														
+														</div>
+														<div class="wrapper_note">
+															<span class="icon-pencil icon_note"></span>
+															<input class="form-control note_posts" type="text" placeholder="Ghi chú" aria-label="Note">
+														</div>
+													
+												 
+												      </div>
+												      <div class="modal-footer modal_footer">
+												        <div class="qty">
+												        	<span class="icon-minus"></span>
+									                      
+									                        <input type="number" class="count" name="qty" value="1">
+									                        <span class="icon-plus"></span>
+									                       
+									                    </div>
+
+									                    <div class="total_price"><span class="text_total">Tổng:</span>
+									                    	<span class="total_money">50.000 đ</span>
+									                    </div>
+									                    <div class="wrapper_btn_modal">
+									                    	
+									                    
+													        <button type="button" class="btn btn_footer_modal btn_book">Đặt ngay</button>
+													        <button type="button" class="btn btn_footer_modal btn_cancel" data-dismiss="modal">Hủy bỏ</button>
+												        </div>
+												      </div>
+												    </div>
+												  </div>
+												</div>
+												<a class="btn btn_favourite  col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">Yêu thích<span class="icon-heart"></span></a>
+											</div>
+											
+										</div>
+									</li>
+									<li class="list-group-item favourite_item">
+								  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+								  		<div class="wrapper_content_favourite">
+									  		<a href="#" class="link_favourite">Món ăn số 2</a>
+									  		
+									  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+									  		<div class="wrapper_interactive row">
+										  		<span class="price_favourite col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">50.000 đ</span>
+										  		<!-- Button trigger modal -->
+												<a class="btn btn_add_cart col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12" data-toggle="modal" data-target="#exampleModalCenter">
+												  Thêm vào giỏ hàng<span class="icon-plus"></span>
+												</a>
+
+												<!-- Modal -->
+												<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+												  <div class="modal-dialog modal-dialog-centered" role="document">
+												    <div class="modal-content modal_content">
+												      <div class="modal-header modal_header">
+												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												          <span aria-hidden="true">&times;</span>
+												        </button>
+												        <ul class="list-group list-group-flush favourite_group">
+														  	<li class="list-group-item favourite_item">
+														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+														  		<div class="wrapper_content_favourite">
+															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
+															  		
+															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+															  	</div>
+															</li>
+														</ul>
+												        
+												      </div>
+												      <div class="modal-body modal_body">
+												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát trẻ em
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát người lớn
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát đặc biệt (+5.000đ)
+															  </label>
+															</div>
+														</div>
+														<h6 class="text_form_check">Yêu cầu khác:</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Không hành
+															  </label>
+															</div>
+															
+														
+														</div>
+														<div class="wrapper_note">
+															<span class="icon-pencil icon_note"></span>
+															<input class="form-control note_posts" type="text" placeholder="Ghi chú" aria-label="Note">
+														</div>
+													
+												 
+												      </div>
+												      <div class="modal-footer modal_footer">
+												        <div class="qty">
+												        	<span class="icon-minus"></span>
+									                      
+									                        <input type="number" class="count" name="qty" value="1">
+									                        <span class="icon-plus"></span>
+									                       
+									                    </div>
+
+									                    <div class="total_price"><span class="text_total">Tổng:</span>
+									                    	<span class="total_money">50.000 đ</span>
+									                    </div>
+									                    <div class="wrapper_btn_modal">
+									                    	
+									                    
+													        <button type="button" class="btn btn_footer_modal btn_book">Đặt ngay</button>
+													        <button type="button" class="btn btn_footer_modal btn_cancel" data-dismiss="modal">Hủy bỏ</button>
+												        </div>
+												      </div>
+												    </div>
+												  </div>
+												</div>
+												<a class="btn btn_favourite  col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">Yêu thích<span class="icon-heart"></span></a>
+											</div>
+											
+										</div>
+									</li>
+									<li class="list-group-item favourite_item">
+								  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+								  		<div class="wrapper_content_favourite">
+									  		<a href="#" class="link_favourite">Món ăn số 3</a>
+									  		
+									  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+									  		<div class="wrapper_interactive row">
+										  		<span class="price_favourite col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">50.000 đ</span>
+										  		<!-- Button trigger modal -->
+												<a class="btn btn_add_cart col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12" data-toggle="modal" data-target="#exampleModalCenter">
+												  Thêm vào giỏ hàng<span class="icon-plus"></span>
+												</a>
+
+												<!-- Modal -->
+												<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+												  <div class="modal-dialog modal-dialog-centered" role="document">
+												    <div class="modal-content modal_content">
+												      <div class="modal-header modal_header">
+												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												          <span aria-hidden="true">&times;</span>
+												        </button>
+												        <ul class="list-group list-group-flush favourite_group">
+														  	<li class="list-group-item favourite_item">
+														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+														  		<div class="wrapper_content_favourite">
+															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
+															  		
+															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+															  	</div>
+															</li>
+														</ul>
+												        
+												      </div>
+												      <div class="modal-body modal_body">
+												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát trẻ em
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát người lớn
+															  </label>
+															</div>
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Bát đặc biệt (+5.000đ)
+															  </label>
+															</div>
+														</div>
+														<h6 class="text_form_check">Yêu cầu khác:</h6>
+												      	<div class="wrapper_form_check">
+												      	
+															<div class="form-check">
+															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+															  <label class="form-check-label size_check_label" for="defaultCheck1">
+															    Không hành
+															  </label>
+															</div>
+															
+														
+														</div>
+														<div class="wrapper_note">
+															<span class="icon-pencil icon_note"></span>
+															<input class="form-control note_posts" type="text" placeholder="Ghi chú" aria-label="Note">
+														</div>
+													
+												 
+												      </div>
+												      <div class="modal-footer modal_footer">
+												        <div class="qty">
+												        	<span class="icon-minus"></span>
+									                      
+									                        <input type="number" class="count" name="qty" value="1">
+									                        <span class="icon-plus"></span>
+									                       
+									                    </div>
+
+									                    <div class="total_price"><span class="text_total">Tổng:</span>
+									                    	<span class="total_money">50.000 đ</span>
+									                    </div>
+									                    <div class="wrapper_btn_modal">
+									                    	
+									                    
+													        <button type="button" class="btn btn_footer_modal btn_book">Đặt ngay</button>
+													        <button type="button" class="btn btn_footer_modal btn_cancel" data-dismiss="modal">Hủy bỏ</button>
+												        </div>
+												      </div>
+												    </div>
+												  </div>
+												</div>
+												<a class="btn btn_favourite  col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">Yêu thích<span class="icon-heart"></span></a>
+											</div>
+											
+										</div>
+									</li>
+									
+								  
+								  
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				<div class="col-xl-4 col-lg-4">
+					<div class="row">
+						<div class="col-xl-12">
+							<div class="card text-center wrapper_payment">
+							  <div class="card-header payment_header">
+							    	<a href="" class="btn btn_payment">Thanh toán</a>
+							  </div>
+							  <div class="card-body payment_body">
+							  	<ul class="list_item_payment">
+								    <li class="item_payment">
+										<div class="content_product_payment">
+										
+											<a href="">Phở bò tái chín</a>
+							    			<span class="price_favourite">50.000 đ</span> 
+										
+											
+								    		<p class="note_item_payment">Không hành, thêm thịt</p>
+										</div>
+								    	
+								    	
+								    </li>
+								    <li class="item_payment">
+										<div class="content_product_payment">
+										
+											<a href="">Phở bò tái gầu</a>
+							    			<span class="price_favourite">50.000 đ</span> 
+										
+											
+								    		<p class="note_item_payment">Không hành, ít phở</p>
+										</div>
+								    	
+								    	
+								    </li>
+								    <li class="item_payment">
+										<div class="content_product_payment">
+										
+											<a href="">Pepsi</a>
+							    			<span class="price_favourite">50.000 đ</span> 
+										
+											
+								    		<p class="note_item_payment">Lon, không đá</p>
+										</div>
+								    	
+								    	
+								    </li>
+								</ul>
+							    
+							  </div>
+							  <div class="card-body payment_body">
+							  	<div class="wrapper_total">
+							  		
+							  	
+								  	<div class="total_price">
+								  		<span class="text_total">Cộng:</span>
+				                    	<span class="total_money">150.000 đ</span>
+				                    </div>
+								    <div class="transport_fee">
+								    	<span class="text_fee">Phí vận chuyển:</span>
+								    	<span class="fee_money">30.000 đ</span>
+								    </div>
+								    <div class="wrapper_input_code">
+
+				    					<input class="form-control input_promotion_code" type="text" placeholder="Nhập mã khuyến mãi">	
+				    					<a href="#" class="btn btn_apply_code">Áp dụng</a>
+								    </div>
+								    
+							    </div>
+							  </div>
+							  <div class="card-footer text-muted payment_footer">
+							    	<div class="money_payment">	
+							    		<span class="text_money_payment">Tổng cộng</span>
+							    		<span class="buy">180.000 đ</span>
+							    	</div>
+							  </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			  
+			</div>
+		</div>
+	</div> <!-- finish other_products -->
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 col-xs-6 col_wrap_link">
+					<div class="col-link">
+						<h6 class="title_footer">Liên kết</h6>
+						<ul class="list_footer">
+							<li class="item_footer"><a href="homepage.html" class="link_item_footer active">Trang chủ</a></li>
+							<li class="item_footer"><a href="" class="link_item_footer">Tạo thực đơn</a></li>
+							<li class="item_footer"><a href="cooking_recipe.html" class="link_item_footer">Công thức nấu ăn</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 col-xs-6 col_wrap_link">
+					<div class="col-link">
+						<h6 class="title_footer">Sản phẩm</h6>
+						<ul class="list_footer">
+							<li class="item_footer"><a href="dish.html" class="link_item_footer">Đồ ăn</a></li>
+							<li class="item_footer"><a href="foods.html" class="link_item_footer">Thực phẩm</a></li>
+							<li class="item_footer"><a href="grocery.html" class="link_item_footer">Tạp hóa</a></li>
+							<li class="item_footer"><a href="party_menu.html" class="link_item_footer">Thực đơn tiệc</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 col-xs-6 col_wrap_link">
+					<div class="col-link">
+						<h6 class="title_footer">Liên kết khác</h6>
+						<ul class="list_footer">
+							<li class="item_footer"><a href="" class="link_item_footer ">Chính sách đổi trả</a></li>
+							<li class="item_footer"><a href="" class="link_item_footer">Chính sách sử dụng</a></li>
+							<li class="item_footer"><a href="" class="link_item_footer">Điều khoản bảo mật</a></li>
+							<li class="item_footer"><a href="" class="link_item_footer">Điều khoản sử dụng</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-xs-6 col_wrap_link">
+					<div class="col-link">
+						<h6 class="title_footer">Liên hệ</h6>
+						<ul class="list_footer ">
+							<li class="item_footer"><a href="callto:092.715.1535" class="link_item_footer">(+84) 092.715.1535</a></li>
+							<li class="item_footer"><a href="mailto:Contact.moki@gmail.com" class="link_item_footer">Contact.moki@gmail.com</a></li>
+							<li class="item_footer"><a href="" class="link_item_footer">Tòa CT2 Constrexim Thái Hà, Phạm Văn Đồng, Bắc Từ Liêm, Hà Nội</a></li>
+							
+						</ul>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-6 col-md-6 col-sm-6 col-xs-12 col_wrap_link">
+					<div class="col-link">
+						<h6 class="title_footer">Follow us on</h6>
+						<ul class="list_footer list_follow">
+							<li class="item_footer"><a href="" class="link_item_footer"><span class="icon-facebook icon-follow"></span></a></li>
+							<li class="item_footer"><a href="" class="link_item_footer"><span class="icon-youtube icon-follow"></span></a></li>
+							<li class="item_footer"><a href="" class="link_item_footer"><span class="icon-twitter icon-follow"></span></a></li>
+							<li class="item_footer"><a href="" class="link_item_footer"><span class="icon-instagram icon-follow"></span></a></li>
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> <!-- finish footer -->
+	<div class="copyright">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-12 text-xs-center">
+					<p class="copy_text">MOKI © A product of Talentwind 2020. All Rights Reserved.</p>
+				</div>
+			</div>
+		</div>
+		
+	</div> <!-- finish copyright -->
+	<div class="navbar-fixed-bottom navbar-fixed-chat">
+		<div class="btn btn-primary btn_chat float-xs-right" id="btn_messaging">
+			<span class="icon-chat-2 icon-chat"></span>
+			
+		</div>
+		<div class="wrapper_messaging_popup" id="messaging_popup">
+	        <h3 class="title_messaging">
+	          <span>Hỏi đáp CSKH</span>
+	          <button type="" class="cancel_messaging"><span class="icon-cancel"></span></button>
+	        </h3>
+	        <div class="messaging">
+
+	            <div class="inbox_msg">
+	              <div class="inbox_people">
+	                <div class="headind_srch">
+	                  <div class="wrapper_search_posts">
+	                    <span class="icon-search icon_search_posts"></span>
+	                    <input class="form-control search_posts" type="text" placeholder="Tìm kiếm" aria-label="Search">
+	                  </div>
+	                
+	                </div>
+	                <div class="inbox_chat">
+	                
+	                <div class="chat_list">
+	                  <div class="chat_people">
+	                    <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+	                    <div class="chat_ib">
+	                      <h5>Nhà hàng Talents Wind <span class="chat_date">3 giờ trước</span></h5>
+	                      <p>Xác nhận đơn hàng mã số #78888 của ...</p>
+	                    </div>
+	                  </div>
+	                </div>
+	                <div class="chat_list">
+	                  <div class="chat_people">
+	                    <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+	                    <div class="chat_ib">
+	                      <h5>Nhà hàng Talents Wind <span class="chat_date">3 giờ trước</span></h5>
+	                      <p>Xác nhận đơn hàng mã số #78888 của ...</p>
+	                    </div>
+	                  </div>
+	                </div>
+	                <div class="chat_list">
+	                  <div class="chat_people">
+	                    <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+	                    <div class="chat_ib">
+	                      <h5>Nhà hàng Talents Wind <span class="chat_date">3 giờ trước</span></h5>
+	                      <p>Xác nhận đơn hàng mã số #78888 của ...</p>
+	                    </div>
+	                  </div>
+	                </div>
+	                <div class="chat_list">
+	                  <div class="chat_people">
+	                    <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+	                    <div class="chat_ib">
+	                      <h5>Nhà hàng Talents Wind <span class="chat_date">3 giờ trước</span></h5>
+	                      <p>Xác nhận đơn hàng mã số #78888 của ...</p>
+	                    </div>
+	                  </div>
+	                </div>
+	                <div class="chat_list">
+	                  <div class="chat_people">
+	                    <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+	                    <div class="chat_ib">
+	                      <h5>Nhà hàng Talents Wind <span class="chat_date">3 giờ trước</span></h5>
+	                      <p>Xác nhận đơn hàng mã số #78888 của ...</p>
+	                    </div>
+	                  </div>
+	                </div>
+	                <div class="chat_list">
+	                  <div class="chat_people">
+	                    <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+	                    <div class="chat_ib">
+	                      <h5>Nhà hàng Talents Wind <span class="chat_date">3 giờ trước</span></h5>
+	                      <p>Xác nhận đơn hàng mã số #78888 của ...</p>
+	                    </div>
+	                  </div>
+	                </div>
+	                <div class="chat_list">
+	                  <div class="chat_people">
+	                    <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+	                    <div class="chat_ib">
+	                      <h5>Nhà hàng Talents Wind <span class="chat_date">3 giờ trước</span></h5>
+	                      <p>Xác nhận đơn hàng mã số #78888 của ...</p>
+	                    </div>
+	                  </div>
+	                </div>
+	                </div>
+	            </div>
+	            <div class="mesgs">
+	              <div class="chat_list active_chat">
+	                <div class="chat_people">
+	                  <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+	                  <div class="chat_ib">
+	                    <h5 class="title_active_chat">Nhà hàng Talents Wind <div class="status_active_chat"></div></h5>
+	                    <p>Online now</p>
+	                  </div>
+	                </div>
+	              </div>
+	              <div class="msg_history">
+	                <div class="incoming_msg">
+	                  <div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+	                  <div class="received_msg">
+	                    <div class="received_withd_msg">
+	                      <p>Lorem Ipsum is simply dummy text of the des printing and typesetting industry. Lorem psum has been the industry's standard dummy text ever since the 1500 when an unknown printer took a galley of type and scrambled it </p>
+	                      <span class="time_date"> 3 phút trước</span></div>
+	                  </div>
+	                </div>
+	                <div class="outgoing_msg">
+	                  <div class="sent_msg">
+	                    <p>Lorem Ipsum is simply dummy text of the des printing and typesetting industry. Lorem psum has been the industry's standard dummy text ever since the 1500 when an unknown printer took a galley of type and scrambled it </p>
+	                    <span class="time_date"> 3 phút trước</span> </div>
+	                </div>
+	                <div class="incoming_msg">
+	                  <div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+	                  <div class="received_msg">
+	                    <div class="received_withd_msg">
+	                      <p>Test, which is a new approach to have</p>
+	                      <span class="time_date"> 3 phút trước</span></div>
+	                  </div>
+	                </div>
+	                <div class="outgoing_msg">
+	                  <div class="sent_msg">
+	                    <p>Apollo University, Delhi, India Test</p>
+	                    <span class="time_date"> 3 phút trước</span> </div>
+	                </div>
+	                <div class="incoming_msg">
+	                  <div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+	                  <div class="received_msg">
+	                    <div class="received_withd_msg">
+	                      <p>Lorem Ipsum is simply dummy text of the des printing and typesetting industry. Lorem psum has been the industry's standard dummy text ever since the 1500 when an unknown printer took a galley of type and scrambled it</p>
+	                      <span class="time_date"> 3 phút trước</span></div>
+	                  </div>
+	                </div>
+	              </div>
+	              <div class="type_msg">
+	                <div class="input_msg_write">
+	                  <input class="form-control write_msg" type="text" placeholder="Input text entry">
+	                  
+	                  <button class="msg_send_btn" type="button"><span class="icon-right-arrow-1"></span></button>
+	                </div>
+	              </div>
+	            </div>
+	        </div>
+	      </div>
+	    </div>
+	</div> <!-- finish btn chat -->
+	<div class="navbar-fixed-bottom">
+		<div class="btn btn-primary btn_ontop float-xs-right">
+			<span class="icon-up-arrow-1 icon-ontop"></span>
+
+		</div>
+	</div> <!-- finish btn scroll top -->
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  	<script src="../main/slick.js" charset="utf-8"></script>
+  	<script src="../main/slick-homepage.js" charset="utf-8"></script>
+  	<script src="../main/copy-promotion-code.js" charset="utf-8"></script>
+  	<script src="../main/counter.js" charset="utf-8"></script>
+  	<script src="../main/favourite.js" charset="utf-8"></script>
+  	<script src="../main/favourite_tab.js" charset="utf-8"></script>
+  	<script src="../main/chat.js" charset="utf-8"></script>
+		
+
+
+  	
+</body>
+	
+</html>
