@@ -201,12 +201,12 @@ p.copy_text {
         margin-top: 15px;
     }
     .btn.btn-primary.btn_chat.float-xs-right {
-        bottom: 500px;
+        bottom: 350px;
     }
     .wrapper_messaging_popup {
-        bottom: 300px;
+        bottom: 200px;
         width: 650px;
-
+        right: 6%;
     }
 }
 

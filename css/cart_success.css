@@ -1,0 +1,27 @@
+.cart_success {
+    text-align: center;
+    padding-top: 200px;
+}
+
+.cart_success-icon {
+    width: 60px;
+    height: 60px;
+    background-color: #edf5d7;
+    border-radius: 50%;
+    margin-top: 200px;
+    margin: auto;
+}
+
+.cart_success-icon i {
+    line-height: 60px;
+    color: #A5CE36;
+}
+
+.cart_success button {
+    padding: 10px;
+    background-color: #A5CE36;
+    color: white;
+    border: 0px;
+    border-radius: 4px;
+    cursor: pointer;
+}

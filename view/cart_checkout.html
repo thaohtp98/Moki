@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Check Out </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="../vendor/bootstrap.js"></script>
+    <script src="../main/main.js"></script>
+    <link rel="stylesheet" href="../vendor/bootstrap.css">
+    <link rel="stylesheet" href="../vendor/font-awesome.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/banner.css">
+    <link rel="stylesheet" href="../css/homepage.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/cart.css">
+    <link rel="stylesheet" href="../css/cart_checkout.css">
+    <link rel="stylesheet" href="../css/blog_detail.css">
+    <link rel="stylesheet" type="text/css" href="../css/slick.css">
+    <link rel="stylesheet" type="text/css" href="../css/slick-theme.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../vendor/style.css">
+
+    <!-- link date -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav class="navbar navbar-light bg-faded navbar-fixed-top menu_top">
+            <div class="container container_menu">
+                <a class="navbar-brand link_logo" href="homepage.html"><img class="img_logo " src="../images/logo.png" alt=""></a>
+                <!-- cart mobile -->
+                <div class="dropdown">
+                    <a class="nav-link menu_link menu_link_cart display-none" href="#">
+                        <span class="icon-shopping-cart icon-cart-header"></span>
+                        <span class="number_pro_cart cart">0</span>
+                    </a>
+                    <div class="dropdown-content">
+                        <p>Sản phẩm mới thêm</p>
+                        <!-- cart list mobile 1 -->
+                        <div class="cart_listMB">
+                            <a href="http://">
+                                <img src="../images/category_4.png" alt="" width="20%;">
+                            </a>
+                            <div class="cart_listMB-content">
+                                <span class="cart_listMB-name"><a href="http://">Phở bò tái chín</a></span>
+                                <span class="cart_listMB-price">150.000 đ</span>
+                            </div>
+                            <div class="cart_listMB-content">
+                                <span class="cart_listMB-type">Phân loại:Không hành,thêm thịt</span>
+                                <span class="cart_listMB-del">
+                                    Xóa
+                                </span>
+                            </div>
+                        </div>
+                        <!-- cart list mobile 2 -->
+                        <div class="cart_listMB">
+                            <a href="http://">
+                                <img src="../images/category_4.png" alt="" width="20%;">
+                            </a>
+                            <div class="cart_listMB-content">
+                                <span class="cart_listMB-name"><a href="http://">Phở bò tái chín</a></span>
+                                <span class="cart_listMB-price">150.000 đ</span>
+                            </div>
+                            <div class="cart_listMB-content">
+                                <span class="cart_listMB-type">Phân loại:Không hành,thêm thịt</span>
+                                <span class="cart_listMB-del">
+                                    Xóa
+                                </span>
+                            </div>
+                        </div>
+                        <!-- cart list mobile 3 -->
+                        <div class="cart_listMB">
+                            <a href="http://">
+                                <img src="../images/category_4.png" alt="" width="20%;">
+                            </a>
+                            <div class="cart_listMB-content">
+                                <span class="cart_listMB-name"><a href="http://">Phở bò tái chín</a></span>
+                                <span class="cart_listMB-price">150.000 đ</span>
+                            </div>
+                            <div class="cart_listMB-content">
+                                <span class="cart_listMB-type">Phân loại:Không hành,thêm thịt</span>
+                                <span class="cart_listMB-del">
+                                    Xóa
+                                </span>
+                            </div>
+                        </div>
+                        <!-- cart list mobile 4 -->
+                        <div class="cart_listMB">
+                            <a href="http://">
+                                <img src="../images/category_4.png" alt="" width="20%;">
+                            </a>
+                            <div class="cart_listMB-content">
+                                <span class="cart_listMB-name"><a href="http://">Phở bò tái chín</a></span>
+                                <span class="cart_listMB-price">150.000 đ</span>
+                            </div>
+                            <div class="cart_listMB-content">
+                                <span class="cart_listMB-type">Phân loại:Không hành,thêm thịt</span>
+                                <span class="cart_listMB-del">
+                                    Xóa
+                                </span>
+                            </div>
+                        </div>
+                        <!-- cart list mobile 5 -->
+                        <div class="cart_listMB">
+                            <a href="http://">
+                                <img src="../images/category_4.png" alt="" width="20%;">
+                            </a>
+                            <div class="cart_listMB-content">
+                                <span class="cart_listMB-name"><a href="http://">Phở bò tái chín</a></span>
+                                <span class="cart_listMB-price">150.000 đ</span>
+                            </div>
+                            <div class="cart_listMB-content">
+                                <span class="cart_listMB-type">Phân loại:Không hành,thêm thịt</span>
+                                <span class="cart_listMB-del">
+                                    Xóa
+                                </span>
+                            </div>
+                        </div>
+                        <div class="cart_listMB-button">
+                            <a href="../view/cart.html"><button>Xem giỏ hàng</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn-group display-none">
+                    <a href="" class="btn dropdown-toggle btn-language" data-toggle="dropdown"><img src="../images/vn.png" style="width: 30px; height: 20px; margin-right: 10px;" alt="">Vie</a>
+                    <div class="dropdown-menu dropdown-language">
+                        <a href="" class="dropdown-item"><img src="../images/vn.png" style="width: 30px; height: 20px; margin-right: 10px;" alt="">Vie</a>
+                        <a href="" class="dropdown-item"><img src="../images/eng.jpg" style="width: 30px; height: 20px; margin-right: 10px;" alt="">Eng</a>
+                    </div>
+                </div>
+                <button class="navbar-toggler hidden-xl-up float-lg-left" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
+                
+                </button>
+                <div class="collapse navbar-toggleable-lg wrapper_menu" id="exCollapsingNavbar2">
+
+                    <ul class="nav navbar-nav float-xl-right">
+                        <li class="nav-item menu_item active">
+                            <a class="nav-link menu_link active" href="homepage.html">Trang chủ <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item menu_item">
+                            <a class="nav-link menu_link" href="dish.html">Đồ ăn</a>
+                        </li>
+                        <li class="nav-item menu_item">
+                            <a class="nav-link menu_link" href="foods.html">Thực phẩm</a>
+                        </li>
+                        <li class="nav-item menu_item">
+                            <a class="nav-link menu_link" href="grocery.html">Tạp hóa</a>
+                        </li>
+                        <li class="nav-item menu_item">
+                            <a class="nav-link menu_link" href="party_menu.html">Thực đơn tiệc</a>
+                        </li>
+                        <li class="nav-item menu_item">
+                            <a class="nav-link menu_link" href="#">Tạo thực đơn</a>
+                        </li>
+                        <li class="nav-item menu_item menu_item_login">
+                            <a class="nav-link menu_link" href="login.html"><span class="icon-open-lock"></span>Đăng nhập</a>
+                        </li>
+                        <li class="nav-item menu_item menu_item_cart">
+                            <!-- cart desktop -->
+                            <div class="dropdown">
+                                <a class="nav-link menu_link menu_link_cart" href="../view/cart.html">
+                                    <span class="icon-shopping-cart"></span>
+                                    <span class="number_pro_cart cart">0</span>
+                                </a>
+                                <div class="dropdown-content1">
+                                    <p>Sản phẩm mới thêm</p>
+                                    <!-- cart list desktop 1 -->
+                                    <div class="row cart_list">
+                                        <div class="col-md-3 cart_list-pd">
+                                            <a href="http://">
+                                                <img src="../images/category_4.png" alt="" width="100%;">
+                                            </a>
+                                        </div>
+                                        <div class="col-md-6 cart_list-pd">
+                                            <h6><a href="http://">Phở bò tái chín</a></h6>
+                                            <p class="type">Phân loại:Không hành,thêm thịt</p>
+                                        </div>
+                                        <div class="col-md-3 cart_list-pd" style="margin-top:10px;">
+                                            <p class="cart_list-price">150.000 đ</p><br>
+                                            <a href="#"><span class="cart_list-del">Xóa</span></a>
+                                        </div>
+                                    </div>
+                                    <!-- cart list desktop 2 -->
+                                    <div class="row cart_list">
+                                        <div class="col-md-3 cart_list-pd">
+                                            <a href="http://">
+                                                <img src="../images/category_4.png" alt="" width="100%;">
+                                            </a>
+                                        </div>
+                                        <div class="col-md-6 cart_list-pd">
+                                            <h6><a href="http://">Phở bò tái chín</a></h6>
+                                            <p class="type">Phân loại:Không hành,thêm thịt</p>
+                                        </div>
+                                        <div class="col-md-3 cart_list-pd" style="margin-top:10px;">
+                                            <p class="cart_list-price">150.000 đ</p><br>
+                                            <a href="#"><span class="cart_list-del">Xóa</span></a>
+                                        </div>
+                                    </div>
+                                    <!-- cart list desktop 3 -->
+                                    <div class="row cart_list">
+                                        <div class="col-md-3 cart_list-pd">
+                                            <a href="http://">
+                                                <img src="../images/category_4.png" alt="" width="100%;">
+                                            </a>
+                                        </div>
+                                        <div class="col-md-6 cart_list-pd">
+                                            <h6><a href="http://">Phở bò tái chín</a></h6>
+                                            <p class="type">Phân loại:Không hành,thêm thịt</p>
+                                        </div>
+                                        <div class="col-md-3 cart_list-pd" style="margin-top:10px;">
+                                            <p class="cart_list-price">150.000 đ</p><br>
+                                            <a href="#"><span class="cart_list-del">Xóa</span></a>
+                                        </div>
+                                    </div>
+                                    <!-- cart list desktop 4 -->
+                                    <div class="row cart_list">
+                                        <div class="col-md-3 cart_list-pd">
+                                            <a href="http://">
+                                                <img src="../images/category_4.png" alt="" width="100%;">
+                                            </a>
+                                        </div>
+                                        <div class="col-md-6 cart_list-pd">
+                                            <h6><a href="http://">Phở bò tái chín</a></h6>
+                                            <p class="type">Phân loại:Không hành,thêm thịt</p>
+                                        </div>
+                                        <div class="col-md-3 cart_list-pd" style="margin-top:10px;">
+                                            <p class="cart_list-price">150.000 đ</p><br>
+                                            <a href="#"><span class="cart_list-del">Xóa</span></a>
+                                        </div>
+                                    </div>
+                                    <!-- cart list desktop 5 -->
+                                    <div class="row cart_list">
+                                        <div class="col-md-3 cart_list-pd">
+                                            <a href="http://">
+                                                <img src="../images/category_4.png" alt="" width="100%;">
+                                            </a>
+                                        </div>
+                                        <div class="col-md-6 cart_list-pd">
+                                            <h6><a href="http://">Phở bò tái chín</a></h6>
+                                            <p class="type">Phân loại:Không hành,thêm thịt</p>
+                                        </div>
+                                        <div class="col-md-3 cart_list-pd" style="margin-top:10px;">
+                                            <p class="cart_list-price">150.000 đ</p><br>
+                                            <a href="#"><span class="cart_list-del">Xóa</span></a>
+                                        </div>
+                                    </div>
+                                    <div class="cart_listMB-button">
+                                        <a href="../view/cart.html"><button>Xem giỏ hàng</button></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="nav-item menu_item menu_item_language">
+
+                            <div class="btn-group ">
+                                <a href="" class="btn dropdown-toggle btn-language" data-toggle="dropdown"><img src="../images/vn.png" style="width: 30px; height: 20px; margin-right: 10px;" alt="">Vie</a>
+                                <div class="dropdown-menu dropdown-language">
+                                    <a href="" class="dropdown-item"><img src="../images/vn.png" style="width: 30px; height: 20px; margin-right: 10px;" alt="">Vie</a>
+                                    <a href="" class="dropdown-item"><img src="../images/eng.jpg" style="width: 30px; height: 20px; margin-right: 10px;" alt="">Eng</a>
+                                </div>
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </nav>
+        <!-- finish menu_top -->
+        <div id="section-1">
+            <span></span>
+        </div>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb breadcrumb_wrapper">
+                <div class="container">
+                    <li class="breadcrumb-item"><a href="homepage.html"><span class="icon-home"></span></a></li>
+                    <li class="breadcrumb-item"><a href="cooking_recipe.html" class="">Giỏ hàng</a></li>
+                    <li class="breadcrumb-item"><a href="cooking_recipe.html" class="">Check out</a></li>
+                </div>
+            </ol>
+        </nav>
+        <!-- finish breadcrumb -->
+
+        <!-- cart address -->
+        <div class="container">
+            <div class="row cart_address">
+                <div class="col-md-4 cart_address-add">
+                    <h6>Địa chỉ nhận hàng</h6>
+                    <p class="type">Nguyễn Văn A</p>
+                    <p>0919 919 9119</p>
+                </div>
+                <div class="col-md-4">
+                    <p>Tòa CT2 Constrexim Thái Hà, Phạm Văn Đồng, Phường Cổ Nhuế 2 Quận Bắc Từ Liêm, T.P Hà Nội</p>
+                </div>
+                <div class="col-md-2 cart_address-button">
+                    <button>Mặc định</button>
+                </div>
+                <div class="col-md-2 cart-change">
+                    <a href="http://">Thay đổi</a>
+                </div>
+            </div>
+            <!-- list product cart-->
+            <div class="cart_content">
+                <div class="row">
+                    <div class="col-md-4">
+                        <p>Sản phẩm</p>
+                    </div>
+                    <div class="col-md-2 cart-change">
+                        <p>Phân loại</p>
+                    </div>
+                    <div class="col-md-2 cart-change">
+                        <p>Đơn giá</p>
+                    </div>
+                    <div class="col-md-2 cart-change">
+                        <p>Số lượng</p>
+                    </div>
+                    <div class="col-md-2 cart-change">
+                        <p>Thành tiền</p>
+                    </div>
+                </div>
+
+                <div class="cart_between">
+                    <div class="row">
+                        <div class="col-md-6 col-12 cart_between-left">
+                            Cung cấp bởi:
+                            <a href="http://">
+                                <span>Nhà hàng Talent Wins </span> &nbsp;</a>
+                            <span class="icon-chat" style="color: #666666;"></span>
+                        </div>
+                        <div class="col-md-6 col-12 cart_between-right">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cart_bottom">
+                    <div class="row cart_bottom-listPD">
+                        <div class="col-md-4">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="../images/cart1.png" alt="" width="100%;">
+                                </div>
+                                <div class="col-md-9">
+                                    <h6>Bánh plan việt quất phủ hạnh nhân chiên giòn</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 cart-change">
+                            <p>Size bé, không siro</p>
+                        </div>
+                        <div class="col-md-2 cart-change">
+                            <p>100.000 đ</p>
+                        </div>
+                        <div class="col-md-2 cart-change">
+                            <p>1</p>
+                        </div>
+                        <div class="col-md-2 cart-change">
+                            <p>100.000 đ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart_bottom">
+                    <div class="row cart_bottom-listPD">
+                        <div class="col-md-4">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="../images/cart1.png" alt="" width="100%;">
+                                </div>
+                                <div class="col-md-9">
+                                    <h6>Bánh plan việt quất phủ hạnh nhân chiên giòn</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 cart-change">
+                            <p>Size lớn, không siro</p>
+                        </div>
+                        <div class="col-md-2 cart-change">
+                            <del>150.000 đ</del>
+                            <p>120.000 đ</p>
+                        </div>
+                        <div class="col-md-2 cart-change">
+                            <p>1</p>
+                        </div>
+                        <div class="col-md-2 cart-change">
+                            <p>120.000 đ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart_bottom">
+                    <div class="row cart_bottom-listPD">
+                        <div class="col-md-4">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="../images/cart1.png" alt="" width="100%;">
+                                </div>
+                                <div class="col-md-9">
+                                    <h6>Bánh plan việt quất phủ hạnh nhân chiên giòn</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 cart-change">
+                            <p>Size vừa</p>
+                        </div>
+                        <div class="col-md-2 cart-change">
+                            <p>110.000 đ</p>
+                        </div>
+                        <div class="col-md-2 cart-change">
+                            <p>1</p>
+                        </div>
+                        <div class="col-md-2 cart-change">
+                            <p>110.000 đ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- cart address bottom -->
+            <hr>
+            <div class="row">
+                <div class="col-md-6 cart_add-bottom">
+                    <span>Ghi chú</span>
+                    <input type="text" name="" id="" placeholder="Lời nhắn cho người bán">
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-4 cart_checkout-date">
+                            <input type="text" name="abc" placeholder="Thời gian giao hàng:" value="" />
+                            <script>
+                                $(function() {
+                                    $('input[name="abc"]').daterangepicker({
+                                        singleDatePicker: true,
+                                        autoUpdateInput: false,
+                                        weekdaysShort: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'],
+                                        showMonthsShort: true,
+                                        locale: {
+                                            cancelLabel: 'Hủy'
+                                        }
+                                    });
+
+                                    $('input[name="abc"]').on('apply.daterangepicker', function(ev, picker) {
+                                        $(this).val(picker.startDate.format('MM/DD/YYYY'));
+                                    });
+
+                                    $('input[name="abc"]').on('cancel.daterangepicker', function(ev, picker) {
+                                        $(this).val('');
+                                    });
+                                    $(document).ready(function() {
+
+                                        $('.daterangepicker .drp-buttons .cancelBtn').html('Hủy');
+                                        $('.daterangepicker .drp-buttons .applyBtn').html('Áp dụng');
+                                    });
+                                });
+                            </script>
+                        </div>
+                        <div class="col-md-4 cart-change">
+                            <h6 class="type">Giao hàng ngay</h6>
+                            <span>Vui lòng chọn thời gian mong muốn</span>
+                        </div>
+                        <div class="col-md-4 cart-change">
+                            <a href="http://">Thay đổi</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <!-- cart bottom 2 -->
+            <div class="row">
+                <div class="col-md-6 cart-sticker">
+                    <span>Bạn có mã giảm giá?
+                    </span>
+                    <button type="button" class="btn btn-primary2" data-toggle="modal" data-target="#exampleModalCenter">
+                        Sử sụng mã giảm giá
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-sm" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <h5>Mã khuyến mại</h5>
+                                    <p>Sử dụng khuyến mãi để hưởng ưu đãi từ Moki</p>
+                                    <div class="voucher">
+                                        <input type="text" name="" id="" placeholder="Nhập mã voucher hoặc từ khóa">
+                                    </div>
+                                    <div class="row voucher-content">
+                                        <div class="col-md-1 voucher_content-text">
+                                            <span class="icon-delivery-truck"></span>
+                                        </div>
+                                        <div class="col-md-11 voucher_content-text">
+                                            <p class="type">Mã Freeship lên tới 5km
+                                                <input type="radio" name="" id="">
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="row voucher-content">
+                                        <div class="col-md-1 voucher_content-text">
+                                            <span class="icon-discount"></span>
+                                        </div>
+                                        <div class="col-md-11 voucher_content-text">
+                                            <p class="type">Giảm trực tiếp 20% trên giá món
+                                                <input type="radio" name="" id="">
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="row voucher-content">
+                                        <div class="col-md-1 voucher_content-text">
+                                            <span class="icon-discount"></span>
+                                        </div>
+                                        <div class="col-md-11 voucher_content-text">
+                                            <p class="type">Giảm trực tiếp 20% trên giá món
+                                                <input type="radio" name="" id="">
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="row voucher-content">
+                                        <div class="col-md-1 voucher_content-text">
+                                            <span class="icon-discount"></span>
+                                        </div>
+                                        <div class="col-md-11 voucher_content-text">
+                                            <p class="type">Giảm trực tiếp 20% trên giá món
+                                                <input type="radio" name="" id="">
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="row voucher-content">
+                                        <div class="col-md-1 voucher_content-text">
+                                            <span class="icon-discount"></span>
+                                        </div>
+                                        <div class="col-md-11 voucher_content-text">
+                                            <p class="type">Giảm trực tiếp 20% trên giá món
+                                                <input type="radio" name="" id="">
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- icon-discount -->
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Hủy bỏ</button>
+                                    <button type="button" class="btn btn-primary1">Áp dụng</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6 cart-change">
+                            <p>Tiền sản phẩm:</p>
+                            <p>Phí vận chuyển:</p>
+                            <p>Tiền sản phẩm:</p>
+                        </div>
+                        <div class="col-md-6 cart-change">
+                            <h6>12.000.000 đ</h6>
+                            <h6>34.000 đ</h6>
+                            <h6>-40.000 đ</h8>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <!-- cart bottom 3 -->
+            <div class="row">
+                <div class="col-md-6"></div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6 cart-change">
+                            <p class="type">Tổng tiền hàng:</p>
+                            <p>(12 sản phẩm)</p>
+                        </div>
+                        <div class="col-md-6 cart_checkout-total">
+                            <p>12.000.000 đ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- pay method -->
+            <div class="row pay_method">
+                <div class="col-md-6">
+                    <h6>Phương thức thanh toán</h6>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6 cart-change">
+                            <h6>Thanh toán khi nhận hàng</h6>
+                        </div>
+                        <div class="col-md-6 cart-change">
+                            <a href="http://">Thay đổi</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+            <!-- card price total -->
+            <div class="row">
+                <div class="col-md-6 cart-sticker">
+
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6 cart-change">
+                            <p>Tiền sản phẩm:</p>
+                            <p>Phí vận chuyển:</p>
+                            <p>Tiền sản phẩm:</p>
+                        </div>
+                        <div class="col-md-6 cart-change">
+                            <h6>12.000.000 đ</h6>
+                            <h6>34.000 đ</h6>
+                            <h6>-40.000 đ</h8>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- pick total -->
+            <div class="pick_total">
+                <div class="row">
+                    <div class="col-md-6 col-6">
+                    </div>
+                    <div class="col-md-6 col-6 pick-total">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <p class="type">Tổng tiền hàng:</p>
+                                <p>12 sản phẩm</p>
+                            </div>
+                            <div class="col-md-4 price-total">
+                                <p>12.000.000 đ</p>
+                            </div>
+                            <div class="col-md-4 pick_total-button">
+                                <a href="../view/cart_success.html"><button>Đặt mua ngay</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- footer -->
+            <div class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 col-xs-6 col_wrap_link">
+                            <div class="col-link">
+                                <h6 class="title_footer">Liên kết</h6>
+                                <ul class="list_footer">
+                                    <li class="item_footer"><a href="homepage.html" class="link_item_footer active">Trang chủ</a></li>
+                                    <li class="item_footer"><a href="" class="link_item_footer">Tạo thực đơn</a></li>
+                                    <li class="item_footer"><a href="cooking_recipe.html" class="link_item_footer">Công thức nấu ăn</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 col-xs-6 col_wrap_link">
+                            <div class="col-link">
+                                <h6 class="title_footer">Sản phẩm</h6>
+                                <ul class="list_footer">
+                                    <li class="item_footer"><a href="dish.html" class="link_item_footer">Đồ ăn</a></li>
+                                    <li class="item_footer"><a href="foods.html" class="link_item_footer">Thực phẩm</a></li>
+                                    <li class="item_footer"><a href="grocery.html" class="link_item_footer">Tạp hóa</a></li>
+                                    <li class="item_footer"><a href="party_menu.html" class="link_item_footer">Thực đơn tiệc</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 col-xs-6 col_wrap_link">
+                            <div class="col-link">
+                                <h6 class="title_footer">Liên kết khác</h6>
+                                <ul class="list_footer">
+                                    <li class="item_footer"><a href="" class="link_item_footer ">Chính sách đổi trả</a></li>
+                                    <li class="item_footer"><a href="" class="link_item_footer">Chính sách sử dụng</a></li>
+                                    <li class="item_footer"><a href="" class="link_item_footer">Điều khoản bảo mật</a></li>
+                                    <li class="item_footer"><a href="" class="link_item_footer">Điều khoản sử dụng</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-xs-6 col_wrap_link">
+                            <div class="col-link">
+                                <h6 class="title_footer">Liên hệ</h6>
+                                <ul class="list_footer ">
+                                    <li class="item_footer"><a href="callto:092.715.1535" class="link_item_footer">(+84) 092.715.1535</a></li>
+                                    <li class="item_footer"><a href="mailto:Contact.moki@gmail.com" class="link_item_footer">Contact.moki@gmail.com</a></li>
+                                    <li class="item_footer"><a href="" class="link_item_footer">Tòa CT2 Constrexim Thái Hà, Phạm Văn Đồng, Bắc Từ Liêm, Hà Nội</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-6 col-md-6 col-sm-6 col-xs-12 col_wrap_link">
+                            <div class="col-link">
+                                <h6 class="title_footer">Follow us on</h6>
+                                <ul class="list_footer list_follow">
+                                    <li class="item_footer"><a href="" class="link_item_footer"><span class="icon-facebook icon-follow"></span></a></li>
+                                    <li class="item_footer"><a href="" class="link_item_footer"><span class="icon-youtube icon-follow"></span></a></li>
+                                    <li class="item_footer"><a href="" class="link_item_footer"><span class="icon-twitter icon-follow"></span></a></li>
+                                    <li class="item_footer"><a href="" class="link_item_footer"><span class="icon-instagram icon-follow"></span></a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- finish footer -->
+            <div class="copyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12 text-xs-center">
+                            <p class="copy_text">MOKI © A product of Talentwind 2020. All Rights Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- finish copyright -->
+            <div class="navbar-fixed-bottom navbar-fixed-chat">
+                <a href="" class="btn btn-primary btn_chat float-xs-right">
+                    <span class="icon-chat-2 icon-chat"></span>
+                </a>
+            </div>
+        </div>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
+</body>
