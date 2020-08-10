@@ -256,7 +256,7 @@ h3.title_messaging {
     cursor: auto;
     display: none;
 }
-.icon-search:before {
+.headind_srch .wrapper_search_posts .icon-search:before {
     font-size: 15px;
     color: #848484;
 }

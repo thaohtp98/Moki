@@ -79,7 +79,7 @@ p.copy_text {
     border: 1px solid #A5CE36!important;
     position: absolute;
     right: 15px;
-    bottom: 100px;
+    bottom: 10px;
 }
 .btn.btn-primary.btn_chat.float-xs-right {
     width: 30px;
@@ -93,7 +93,7 @@ p.copy_text {
     border: 1px solid #A5CE36!important;
     /*position: absolute;*/
     right: 15px;
-    bottom: 200px;
+    bottom: 300px;
     position: relative;
 }
 .btn.btn-primary.btn_chat.float-xs-right:hover {
@@ -201,7 +201,7 @@ p.copy_text {
         margin-top: 15px;
     }
     .btn.btn-primary.btn_chat.float-xs-right {
-        bottom: 350px;
+        bottom: 400px;
     }
     .wrapper_messaging_popup {
         bottom: 200px;
