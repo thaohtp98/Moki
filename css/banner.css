@@ -18,7 +18,7 @@ a {
 /*css cho banner 28/07/2020 byhathao */
 
 .banner {
-    background: url(../images/banner.png) rgba(0, 0, 0, 0.6);
+    background: url(../images/banner.png);
     background-size: cover!important;
     -webkit-background-size: cover;
   	-moz-background-size: cover;
@@ -27,7 +27,7 @@ a {
 }
 .banner_foods {
 
-	background: url(../images/banner_foods.png) no-repeat center center;
+	background: url(../images/banner_food.png) no-repeat center center;
 	background-size: cover!important;
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
@@ -38,7 +38,7 @@ a {
 }
 .banner_cooking_recipe {
 
-	background: url(../images/banner_cooking_recipe.png) no-repeat center center;
+	background: url(../images/banner_food.png) no-repeat center center;
 	
 	background-size: cover!important;
 	-webkit-background-size: cover;
@@ -237,7 +237,7 @@ button.btn.btn-primary.btn_search:hover {
 		margin: 15px auto;
 	}
 
-	.col-xl-6.col-lg-6.col-md-6.col-sm-12.col_left_banner {
+	.col_left_banner {
 		text-align: center;
 	}
 
@@ -267,7 +267,7 @@ button.btn.btn-primary.btn_search:hover {
 		font-size: 12px;
 	}
 
-	.col-xl-6.col-lg-6.col-md-6.col-sm-12.col_right_banner {
+	.col_right_banner {
 		/* height: auto; */
 	}
 
@@ -299,7 +299,7 @@ button.btn.btn-primary.btn_search:hover {
 		margin: 15px auto;
 	}
 
-	.col-xl-6.col-lg-6.col-md-6.col-sm-12.col_left_banner {
+	.col_left_banner {
 		text-align: center;
 	}
 
@@ -336,11 +336,11 @@ button.btn.btn-primary.btn_search:hover {
     }
 
 	img.img_banner1 {
-	    left: 5%;
+	    left: -10%;
 	}
 
 	img.img_banner2 {
-	    left: 40%;
+	    left: 25%;
 	}
 	.icon_search {
 	    display: none;

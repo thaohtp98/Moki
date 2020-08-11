@@ -24,12 +24,12 @@ a {
 	color: #A5CE36;
 	display: inline-block;
 }
-button.btn.btn-primary.btn_share {
+.btn_share {
     padding: 0;
     background: none;
     border: none;
 }
-button.btn.btn-primary.btn_share:hover span {
+.btn_share:hover span {
 	color: #A5CE36;
 }
 .share_text {
