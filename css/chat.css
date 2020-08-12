@@ -15,7 +15,7 @@ img{ max-width:100%;}
   height: 100%;
 }
 .top_spac{ margin: 20px 0 0;}
-.wrapper_search_posts {
+.headind_srch .wrapper_search_posts {
     border: 1px solid rgba(0,0,0,.15);
     border-radius: 4px;
     display: flex;
@@ -23,6 +23,7 @@ img{ max-width:100%;}
     background: #fff;
     padding: 0 20px;
     height: 41px;
+    margin-bottom: 0;
 }
 .search_posts {
     border: none;
