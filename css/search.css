@@ -1,0 +1,46 @@
+.right-search{
+	display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.right-search  .result_search{
+	margin-right: 30px;
+}
+.right-search  .result_search span{
+	color: #FF3F34;
+	font-size: 16px;
+line-height: 24px;
+}
+.ketqua-search{
+	line-height: 40px;
+	margin-bottom: 0;
+	font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #333333;
+}
+.ketqua-search span{
+	color: #A5CE36
+}
+.border-bottom{
+	border-bottom: 1px solid #ddd;
+	padding-top: 25px;
+}
+
+.row-ketqua{
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+.pd-bot-50{
+	padding-bottom: 50px;
+}
+@media (max-width: 469px){
+	
+.row-ketqua  .col-xs-6{
+	max-width: 100%;
+	    flex: 0 0 100%;
+}
+.right-search{
+	margin-top: 20px;
+}
+}
