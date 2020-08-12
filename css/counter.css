@@ -32,6 +32,7 @@
 }
 .qty .icon-plus:before {
     color: #A5CE36;
+    font-size: 12px;
 }
 .qty .icon-minus {
     cursor: pointer;
@@ -49,6 +50,7 @@
 }
 .qty .icon-minus:before {
     color: #A5CE36;
+    font-size: 12px;
 }
 
 

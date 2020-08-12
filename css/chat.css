@@ -193,6 +193,7 @@ img{ max-width:100%;}
   width: 292px;
 }
 .input_msg_write input {
+  width: calc(100% - 33px);
   min-height: 41px;
   background: #FFFFFF;
   border-radius: 4px;
