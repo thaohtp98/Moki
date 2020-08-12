@@ -15,6 +15,7 @@
 	<link rel="stylesheet" href="../css/foods.css">
 	<link rel="stylesheet" href="../css/chat.css">
 	<link rel="stylesheet" href="../css/footer.css">
+	<link rel="stylesheet" href="../css/cart_checkout.css">
 	<link rel="stylesheet" type="text/css" href="../css/slick.css">
   	<link rel="stylesheet" type="text/css" href="../css/slick-theme.css">
  	<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -22,7 +23,7 @@
  	<link rel="stylesheet" href="../css/view.css">
 </head>
 <body>
-	<nav class="navbar navbar-light bg-faded navbar-fixed-top menu_top">
+	    <nav class="navbar navbar-light bg-faded navbar-fixed-top menu_top">
         <div class="container container_menu">
 
             <a class="navbar-brand link_logo" href="homepage.html"><img class="img_logo " src="../images/logo.png" alt=""></a>
@@ -32,16 +33,17 @@
                 <div class="dropdown-menu dropdown-language">
                     <a href="" class="dropdown-item"><img src="../images/flag.svg" alt=""></a>
                     
+
                 </div>
             </div>
             <button class="navbar-toggler hidden-xl-up float-lg-left" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
-			
-			</button>
+            
+            </button>
             <div class="collapse navbar-toggleable-lg wrapper_menu" id="exCollapsingNavbar2">
 
                 <ul class="nav navbar-nav float-xl-right">
-                    <li class="nav-item menu_item">
-                        <a class="nav-link menu_link " href="homepage.html">Trang chủ <span class="sr-only">(current)</span></a>
+                    <li class="nav-item menu_item ">
+                        <a class="nav-link menu_link" href="homepage.html">Trang chủ <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item menu_item">
                         <a class="nav-link menu_link" href="dish.html">Đồ ăn</a>
@@ -62,8 +64,100 @@
                         <a class="nav-link menu_link" href="login.html"><span class="icon-open-lock"></span>Đăng nhập</a>
                     </li>
                     <li class="nav-item menu_item menu_item_cart">
-
-                        <a class="nav-link menu_link menu_link_cart" href="cart.html"><span class="icon-shopping-cart"></span><span class="number_pro_cart cart">0</span></a>
+                  
+                        <!-- cart desktop -->
+                        <div class="dropdown">
+                            <a class="nav-link menu_link menu_link_cart" href="../view/cart.html">
+                                <span class="icon-shopping-cart"></span>
+                                <span class="number_pro_cart cart">0</span>
+                            </a>
+                            <div class="dropdown-content1">
+                                <p>Sản phẩm mới thêm</p>
+                                <!-- cart list desktop 1 -->
+                                <div class="row cart_list">
+                                    <div class="col-md-3 cart_list-pd">
+                                        <a href="http://">
+                                            <img src="../images/category_4.png" alt="" width="100%;">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 cart_list-pd">
+                                        <h6><a href="http://">Phở bò tái chín</a></h6>
+                                        <p class="type">Phân loại:Không hành,thêm thịt</p>
+                                    </div>
+                                    <div class="col-md-3 cart_list-pd" style="margin-top:10px;">
+                                        <p class="cart_list-price">150.000 đ</p><br>
+                                        <a href="#"><span class="cart_list-del">Xóa</span></a>
+                                    </div>
+                                </div>
+                                <!-- cart list desktop 2 -->
+                                <div class="row cart_list">
+                                    <div class="col-md-3 cart_list-pd">
+                                        <a href="http://">
+                                            <img src="../images/category_4.png" alt="" width="100%;">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 cart_list-pd">
+                                        <h6><a href="http://">Phở bò tái chín</a></h6>
+                                        <p class="type">Phân loại:Không hành,thêm thịt</p>
+                                    </div>
+                                    <div class="col-md-3 cart_list-pd" style="margin-top:10px;">
+                                        <p class="cart_list-price">150.000 đ</p><br>
+                                        <a href="#"><span class="cart_list-del">Xóa</span></a>
+                                    </div>
+                                </div>
+                                <!-- cart list desktop 3 -->
+                                <div class="row cart_list">
+                                    <div class="col-md-3 cart_list-pd">
+                                        <a href="http://">
+                                            <img src="../images/category_4.png" alt="" width="100%;">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 cart_list-pd">
+                                        <h6><a href="http://">Phở bò tái chín</a></h6>
+                                        <p class="type">Phân loại:Không hành,thêm thịt</p>
+                                    </div>
+                                    <div class="col-md-3 cart_list-pd" style="margin-top:10px;">
+                                        <p class="cart_list-price">150.000 đ</p><br>
+                                        <a href="#"><span class="cart_list-del">Xóa</span></a>
+                                    </div>
+                                </div>
+                                <!-- cart list desktop 4 -->
+                                <div class="row cart_list">
+                                    <div class="col-md-3 cart_list-pd">
+                                        <a href="http://">
+                                            <img src="../images/category_4.png" alt="" width="100%;">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 cart_list-pd">
+                                        <h6><a href="http://">Phở bò tái chín</a></h6>
+                                        <p class="type">Phân loại:Không hành,thêm thịt</p>
+                                    </div>
+                                    <div class="col-md-3 cart_list-pd" style="margin-top:10px;">
+                                        <p class="cart_list-price">150.000 đ</p><br>
+                                        <a href="#"><span class="cart_list-del">Xóa</span></a>
+                                    </div>
+                                </div>
+                                <!-- cart list desktop 5 -->
+                                <div class="row cart_list">
+                                    <div class="col-md-3 cart_list-pd">
+                                        <a href="http://">
+                                            <img src="../images/category_4.png" alt="" width="100%;">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 cart_list-pd">
+                                        <h6><a href="http://">Phở bò tái chín</a></h6>
+                                        <p class="type">Phân loại:Không hành,thêm thịt</p>
+                                    </div>
+                                    <div class="col-md-3 cart_list-pd" style="margin-top:10px;">
+                                        <p class="cart_list-price">150.000 đ</p><br>
+                                        <a href="#"><span class="cart_list-del">Xóa</span></a>
+                                    </div>
+                                </div>
+                                <div class="cart_listMB-button">
+                                    <a href="../view/cart.html"><button>Xem giỏ hàng</button></a>
+                                </div>
+                            </div>
+                        </div>
 
                     </li>
                     <li class="nav-item menu_item menu_item_language">

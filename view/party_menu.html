@@ -1,29 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Thực đơn tiệc</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">  
-	<script src="../vendor/bootstrap.js"></script>
- 	<script src="../main/main.js"></script>
-	<link rel="stylesheet" href="../vendor/bootstrap.css">
-	<link rel="stylesheet" href="../vendor/font-awesome.css">
- 	<link rel="stylesheet" href="../css/header.css">
- 	<link rel="stylesheet" href="../css/banner.css">
-	<link rel="stylesheet" href="../css/homepage.css">
-	<link rel="stylesheet" href="../css/foods.css">
-	<link rel="stylesheet" href="../css/chat.css">
-	<link rel="stylesheet" href="../css/footer.css">
-	<link rel="stylesheet" type="text/css" href="../css/slick.css">
-  	<link rel="stylesheet" type="text/css" href="../css/slick-theme.css">
- 	<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
- 	<link rel="stylesheet" href="../vendor/style.css">
- 	<link rel="stylesheet" href="../css/view.css">
- 	<link rel="stylesheet" href="../css/party_menu.css">
+    <meta charset="UTF-8">
+    <title>Thực đơn tiệc</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="../vendor/bootstrap.js"></script>
+    <script src="../main/main.js"></script>
+    <link rel="stylesheet" href="../vendor/bootstrap.css">
+    <link rel="stylesheet" href="../vendor/font-awesome.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/banner.css">
+    <link rel="stylesheet" href="../css/homepage.css">
+    <link rel="stylesheet" href="../css/foods.css">
+    <link rel="stylesheet" href="../css/chat.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/cart_checkout.css">
+    <link rel="stylesheet" type="text/css" href="../css/slick.css">
+    <link rel="stylesheet" type="text/css" href="../css/slick-theme.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../vendor/style.css">
+    <link rel="stylesheet" href="../css/view.css">
+    <link rel="stylesheet" href="../css/party_menu.css">
 </head>
+
 <body>
-	<nav class="navbar navbar-light bg-faded navbar-fixed-top menu_top">
+    <nav class="navbar navbar-light bg-faded navbar-fixed-top menu_top">
         <div class="container container_menu">
 
             <a class="navbar-brand link_logo" href="homepage.html"><img class="img_logo " src="../images/logo.png" alt=""></a>
@@ -33,15 +36,16 @@
                 <div class="dropdown-menu dropdown-language">
                     <a href="" class="dropdown-item"><img src="../images/flag.svg" alt=""></a>
                     
+
                 </div>
             </div>
             <button class="navbar-toggler hidden-xl-up float-lg-left" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
-			
-			</button>
+            
+            </button>
             <div class="collapse navbar-toggleable-lg wrapper_menu" id="exCollapsingNavbar2">
 
                 <ul class="nav navbar-nav float-xl-right">
-                    <li class="nav-item menu_item">
+                    <li class="nav-item menu_item ">
                         <a class="nav-link menu_link" href="homepage.html">Trang chủ <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item menu_item">
@@ -63,8 +67,100 @@
                         <a class="nav-link menu_link" href="login.html"><span class="icon-open-lock"></span>Đăng nhập</a>
                     </li>
                     <li class="nav-item menu_item menu_item_cart">
-
-                        <a class="nav-link menu_link menu_link_cart" href="cart.html"><span class="icon-shopping-cart"></span><span class="number_pro_cart cart">0</span></a>
+                  
+                        <!-- cart desktop -->
+                        <div class="dropdown">
+                            <a class="nav-link menu_link menu_link_cart" href="../view/cart.html">
+                                <span class="icon-shopping-cart"></span>
+                                <span class="number_pro_cart cart">0</span>
+                            </a>
+                            <div class="dropdown-content1">
+                                <p>Sản phẩm mới thêm</p>
+                                <!-- cart list desktop 1 -->
+                                <div class="row cart_list">
+                                    <div class="col-md-3 cart_list-pd">
+                                        <a href="http://">
+                                            <img src="../images/category_4.png" alt="" width="100%;">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 cart_list-pd">
+                                        <h6><a href="http://">Phở bò tái chín</a></h6>
+                                        <p class="type">Phân loại:Không hành,thêm thịt</p>
+                                    </div>
+                                    <div class="col-md-3 cart_list-pd" style="margin-top:10px;">
+                                        <p class="cart_list-price">150.000 đ</p><br>
+                                        <a href="#"><span class="cart_list-del">Xóa</span></a>
+                                    </div>
+                                </div>
+                                <!-- cart list desktop 2 -->
+                                <div class="row cart_list">
+                                    <div class="col-md-3 cart_list-pd">
+                                        <a href="http://">
+                                            <img src="../images/category_4.png" alt="" width="100%;">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 cart_list-pd">
+                                        <h6><a href="http://">Phở bò tái chín</a></h6>
+                                        <p class="type">Phân loại:Không hành,thêm thịt</p>
+                                    </div>
+                                    <div class="col-md-3 cart_list-pd" style="margin-top:10px;">
+                                        <p class="cart_list-price">150.000 đ</p><br>
+                                        <a href="#"><span class="cart_list-del">Xóa</span></a>
+                                    </div>
+                                </div>
+                                <!-- cart list desktop 3 -->
+                                <div class="row cart_list">
+                                    <div class="col-md-3 cart_list-pd">
+                                        <a href="http://">
+                                            <img src="../images/category_4.png" alt="" width="100%;">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 cart_list-pd">
+                                        <h6><a href="http://">Phở bò tái chín</a></h6>
+                                        <p class="type">Phân loại:Không hành,thêm thịt</p>
+                                    </div>
+                                    <div class="col-md-3 cart_list-pd" style="margin-top:10px;">
+                                        <p class="cart_list-price">150.000 đ</p><br>
+                                        <a href="#"><span class="cart_list-del">Xóa</span></a>
+                                    </div>
+                                </div>
+                                <!-- cart list desktop 4 -->
+                                <div class="row cart_list">
+                                    <div class="col-md-3 cart_list-pd">
+                                        <a href="http://">
+                                            <img src="../images/category_4.png" alt="" width="100%;">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 cart_list-pd">
+                                        <h6><a href="http://">Phở bò tái chín</a></h6>
+                                        <p class="type">Phân loại:Không hành,thêm thịt</p>
+                                    </div>
+                                    <div class="col-md-3 cart_list-pd" style="margin-top:10px;">
+                                        <p class="cart_list-price">150.000 đ</p><br>
+                                        <a href="#"><span class="cart_list-del">Xóa</span></a>
+                                    </div>
+                                </div>
+                                <!-- cart list desktop 5 -->
+                                <div class="row cart_list">
+                                    <div class="col-md-3 cart_list-pd">
+                                        <a href="http://">
+                                            <img src="../images/category_4.png" alt="" width="100%;">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 cart_list-pd">
+                                        <h6><a href="http://">Phở bò tái chín</a></h6>
+                                        <p class="type">Phân loại:Không hành,thêm thịt</p>
+                                    </div>
+                                    <div class="col-md-3 cart_list-pd" style="margin-top:10px;">
+                                        <p class="cart_list-price">150.000 đ</p><br>
+                                        <a href="#"><span class="cart_list-del">Xóa</span></a>
+                                    </div>
+                                </div>
+                                <div class="cart_listMB-button">
+                                    <a href="../view/cart.html"><button>Xem giỏ hàng</button></a>
+                                </div>
+                            </div>
+                        </div>
 
                     </li>
                     <li class="nav-item menu_item menu_item_language">
@@ -84,6 +180,7 @@
 
         </div>
     </nav> <!-- finish menu top -->
+
 	<div id="section-1">
 		<span ></span>
 	</div>
@@ -126,682 +223,696 @@
 									  <option>Quảng Ninh</option>
 									  <option>Đà Nẵng</option>
 									</select>
-								</div>
-							</form>
-						</div>
-						<div class="category">
-							<span class="icon-stats icon_search"></span>
-							<form>
-								<div class="form-group">
-									<label for="exampleFormControlSelect2" class="label_category label_group">Danh mục</label>
-									<select class="form-control no-border" id="exampleFormControlSelect2">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="category">
+                            <span class="icon-stats icon_search"></span>
+                            <form>
+                                <div class="form-group">
+                                    <label for="exampleFormControlSelect2" class="label_category label_group">Danh mục</label>
+                                    <select class="form-control no-border" id="exampleFormControlSelect2">
 									  <option>Thực phẩm</option>
 									  <option>Món ăn</option>
 									  <option>Tạp hóa</option>
 									  <option>Thực đơn tiệc</option>
 									  
 									</select>
-								</div>
-							</form>
-						</div>
-						<div class="wrapper_btn_search">
-							<button type="button" class="btn btn-primary btn_search">Tìm kiếm</button>
-						</div>
-						
-					</div>
-				</div>
-			</div>
-			<div class="row row-help">
-				<div class="col-xl-8 push-xl-2 text-xs-center">
-					<span class="text-white mr-1 text-help">Để chúng tôi giúp bạn?</span>
-					<span class="green-white text-help">Tìm thứ gì đó gần tôi</span>
-				</div>
-			</div>
-			
-		</div>
-	</div> <!-- finish banner -->
-	<div class="slick_wrapper slick_foods">
-		<div class="container container-slick">
-		    <div class="regular slider">
-		      	<div class="wrapper_img_slick _img_slick_foods">
-			        <a href="" class="link_slick_img"><img src="../images/category_1.png"></a>
-			        <div class="background-shadow"></div>
-			        <a href="" class="title_category">Category 1</a>
-		      	</div>
-		      	<div class="wrapper_img_slick _img_slick_foods">
-			        <a href="" class="link_slick_img"><img src="../images/category_2.png"></a>
-			        <div class="background-shadow"></div>
-			        <a href="" class="title_category">Category 2</a>
-		      	</div>
-		      	<div class="wrapper_img_slick _img_slick_foods">
-			        <a href="" class="link_slick_img"><img src="../images/category_3.png"></a>
-			        <div class="background-shadow"></div>
-			        <a href="" class="title_category">Category 3</a>
-		      	</div>
-		      	<div class="wrapper_img_slick _img_slick_foods">
-			        <a href="" class="link_slick_img"><img src="../images/category_4.png"></a>
-			        <div class="background-shadow"></div>
-			        <a href="" class="title_category">Category 4</a>
-		      	</div>
-		      	<div class="wrapper_img_slick _img_slick_foods">
-			        <a href="" class="link_slick_img"><img src="../images/category_5.png"></a>
-			        <div class="background-shadow"></div>
-			        <a href="" class="title_category">Category 5</a>
-		      	</div>
-		      	<div class="wrapper_img_slick _img_slick_foods">
-			        <a href="" class="link_slick_img"><img src="../images/category_6.png"></a>
-			        <div class="background-shadow"></div>
-			        <a href="" class="title_category">Category 6</a>
-		      	</div>
-		      	<div class="wrapper_img_slick _img_slick_foods">
-			        <a href="" class="link_slick_img"><img src="../images/category_2.png"></a>
-			        <div class="background-shadow"></div>
-			        <a href="" class="title_category">Category 2</a>
-		      	</div>
-		      	<div class="wrapper_img_slick _img_slick_foods">
-			        <a href="" class="link_slick_img"><img src="../images/category_2.png"></a>
-			        <div class="background-shadow"></div>
-			        <a href="" class="title_category">Category 2</a>
-		      	</div>
-		      	<div class="wrapper_img_slick _img_slick_foods">
-			        <a href="" class="link_slick_img"><img src="../images/category_2.png"></a>
-			        <div class="background-shadow"></div>
-			        <a href="" class="title_category">Category 2</a>
-		      	</div>
-		      	<div class="wrapper_img_slick _img_slick_foods">
-			        <a href="" class="link_slick_img"><img src="../images/category_2.png"></a>
-			        <div class="background-shadow"></div>
-			        <a href="" class="title_category">Category 2</a>
-		      	</div>
-		      	<div class="wrapper_img_slick _img_slick_foods">
-			        <a href="" class="link_slick_img"><img src="../images/category_2.png"></a>
-			        <div class="background-shadow"></div>
-			        <a href="" class="title_category">Category 2</a>
-		      	</div>
-		      	<div class="wrapper_img_slick _img_slick_foods">
-			        <a href="" class="link_slick_img"><img src="../images/category_2.png"></a>
-			        <div class="background-shadow"></div>
-			        <a href="" class="title_category">Category 2</a>
-		      	</div>
-		    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="wrapper_btn_search">
+                            <button type="button" class="btn btn-primary btn_search">Tìm kiếm</button>
+                        </div>
 
-		</div>
-	</div> <!-- finish slick_foods -->
-	<div class="product_foods">
-		<div class="container">
-			<div class="row">
-					
-				<div class="quick_find quick_find_area col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-6">
-					
-					<div class="btn-group btn_group_area">
-						<a href="" id="check_area" class="btn dropdown-toggle btn-area btn_group_title" data-toggle="dropdown" >Khu vực</a>
-						<div class="dropdown-menu dropdown-area">
-							<div class="row">
-								<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 col-select-option">
-									
-									<a href="" class="dropdown-item dropdown_item_area">
-										<div class="form-check">
-										  <input class="form-check-input check_input_area" type="checkbox"  value="Hoàn Kiếm" name="area" id="hoankiem">
-										  <label class="form-check-label area_check_label" for="hoankiem">
+                    </div>
+                </div>
+            </div>
+            <div class="row row-help">
+                <div class="col-xl-8 push-xl-2 text-xs-center">
+                    <span class="text-white mr-1 text-help">Để chúng tôi giúp bạn?</span>
+                    <span class="green-white text-help">Tìm thứ gì đó gần tôi</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- finish banner -->
+    <div class="slick_wrapper slick_foods">
+        <div class="container container-slick">
+            <div class="regular slider">
+                <div class="wrapper_img_slick _img_slick_foods">
+                    <a href="" class="link_slick_img"><img src="../images/category_1.png"></a>
+                    <div class="background-shadow"></div>
+                    <a href="" class="title_category">Category 1</a>
+                </div>
+                <div class="wrapper_img_slick _img_slick_foods">
+                    <a href="" class="link_slick_img"><img src="../images/category_2.png"></a>
+                    <div class="background-shadow"></div>
+                    <a href="" class="title_category">Category 2</a>
+                </div>
+                <div class="wrapper_img_slick _img_slick_foods">
+                    <a href="" class="link_slick_img"><img src="../images/category_3.png"></a>
+                    <div class="background-shadow"></div>
+                    <a href="" class="title_category">Category 3</a>
+                </div>
+                <div class="wrapper_img_slick _img_slick_foods">
+                    <a href="" class="link_slick_img"><img src="../images/category_4.png"></a>
+                    <div class="background-shadow"></div>
+                    <a href="" class="title_category">Category 4</a>
+                </div>
+                <div class="wrapper_img_slick _img_slick_foods">
+                    <a href="" class="link_slick_img"><img src="../images/category_5.png"></a>
+                    <div class="background-shadow"></div>
+                    <a href="" class="title_category">Category 5</a>
+                </div>
+                <div class="wrapper_img_slick _img_slick_foods">
+                    <a href="" class="link_slick_img"><img src="../images/category_6.png"></a>
+                    <div class="background-shadow"></div>
+                    <a href="" class="title_category">Category 6</a>
+                </div>
+                <div class="wrapper_img_slick _img_slick_foods">
+                    <a href="" class="link_slick_img"><img src="../images/category_2.png"></a>
+                    <div class="background-shadow"></div>
+                    <a href="" class="title_category">Category 2</a>
+                </div>
+                <div class="wrapper_img_slick _img_slick_foods">
+                    <a href="" class="link_slick_img"><img src="../images/category_2.png"></a>
+                    <div class="background-shadow"></div>
+                    <a href="" class="title_category">Category 2</a>
+                </div>
+                <div class="wrapper_img_slick _img_slick_foods">
+                    <a href="" class="link_slick_img"><img src="../images/category_2.png"></a>
+                    <div class="background-shadow"></div>
+                    <a href="" class="title_category">Category 2</a>
+                </div>
+                <div class="wrapper_img_slick _img_slick_foods">
+                    <a href="" class="link_slick_img"><img src="../images/category_2.png"></a>
+                    <div class="background-shadow"></div>
+                    <a href="" class="title_category">Category 2</a>
+                </div>
+                <div class="wrapper_img_slick _img_slick_foods">
+                    <a href="" class="link_slick_img"><img src="../images/category_2.png"></a>
+                    <div class="background-shadow"></div>
+                    <a href="" class="title_category">Category 2</a>
+                </div>
+                <div class="wrapper_img_slick _img_slick_foods">
+                    <a href="" class="link_slick_img"><img src="../images/category_2.png"></a>
+                    <div class="background-shadow"></div>
+                    <a href="" class="title_category">Category 2</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- finish slick_foods -->
+    <div class="product_foods">
+        <div class="container">
+            <div class="row">
+
+                <div class="quick_find quick_find_area col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-6">
+
+                    <div class="btn-group btn_group_area">
+                        <a href="" id="check_area" class="btn dropdown-toggle btn-area btn_group_title" data-toggle="dropdown">Khu vực</a>
+                        <div class="dropdown-menu dropdown-area">
+                            <div class="row">
+                                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 col-select-option">
+
+                                    <a href="" class="dropdown-item dropdown_item_area">
+                                        <div class="form-check">
+                                            <input class="form-check-input check_input_area" type="checkbox" value="Hoàn Kiếm" name="area" id="hoankiem">
+                                            <label class="form-check-label area_check_label" for="hoankiem">
 										    Hoàn Kiếm
 										  </label>
-										</div>
-									</a>
-									<a href="" class="dropdown-item dropdown_item_area">
-										<div class="form-check">
-										  <input class="form-check-input" type="checkbox" value="Ba Đình" id="defaultCheck2" name="area">
-										  <label class="form-check-label area_check_label" for="defaultCheck2">
+                                        </div>
+                                    </a>
+                                    <a href="" class="dropdown-item dropdown_item_area">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="Ba Đình" id="defaultCheck2" name="area">
+                                            <label class="form-check-label area_check_label" for="defaultCheck2">
 										    Ba Đình
 										  </label>
-										</div>
-									</a>
-									<a href="" class="dropdown-item dropdown_item_area">
-										<div class="form-check">
-										  <input class="form-check-input" type="checkbox" value="Hai Bà Trưng" id="defaultCheck3" name="area">
-										  <label class="form-check-label area_check_label" for="defaultCheck3">
+                                        </div>
+                                    </a>
+                                    <a href="" class="dropdown-item dropdown_item_area">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="Hai Bà Trưng" id="defaultCheck3" name="area">
+                                            <label class="form-check-label area_check_label" for="defaultCheck3">
 										    Hai Bà Trưng
 										  </label>
-										</div>
-									</a>
-									<a href="" class="dropdown-item dropdown_item_area">
-										<div class="form-check">
-										  <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
-										  <label class="form-check-label area_check_label" for="defaultCheck4">
+                                        </div>
+                                    </a>
+                                    <a href="" class="dropdown-item dropdown_item_area">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
+                                            <label class="form-check-label area_check_label" for="defaultCheck4">
 										    Long Biên
 										  </label>
-										</div>
-									</a>
-								</div>
-								<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 col-select-option">
-									
-								
-									<a href="" class="dropdown-item dropdown_item_area">
-										<div class="form-check">
-										  <input class="form-check-input" type="checkbox" value="" id="defaultCheck5">
-										  <label class="form-check-label area_check_label" for="defaultCheck5">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 col-select-option">
+
+
+                                    <a href="" class="dropdown-item dropdown_item_area">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck5">
+                                            <label class="form-check-label area_check_label" for="defaultCheck5">
 										    Bắc Từ Liêm
 										  </label>
-										</div>
-									</a>
-									<a href="" class="dropdown-item dropdown_item_area">
-										<div class="form-check">
-										  <input class="form-check-input" type="checkbox" value="" id="defaultCheck6">
-										  <label class="form-check-label area_check_label" for="defaultCheck6">
+                                        </div>
+                                    </a>
+                                    <a href="" class="dropdown-item dropdown_item_area">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck6">
+                                            <label class="form-check-label area_check_label" for="defaultCheck6">
 										    Cầu Giấy
 										  </label>
-										</div>
-									</a>
-									<a href="" class="dropdown-item dropdown_item_area">
-										<div class="form-check">
-										  <input class="form-check-input" type="checkbox" value="" id="defaultCheck7">
-										  <label class="form-check-label area_check_label" for="defaultCheck7">
+                                        </div>
+                                    </a>
+                                    <a href="" class="dropdown-item dropdown_item_area">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck7">
+                                            <label class="form-check-label area_check_label" for="defaultCheck7">
 										   Hoàng Mai
 										  </label>
-										</div>
-									</a>
-									<a href="" class="dropdown-item dropdown_item_area">
-										<div class="form-check">
-										  <input class="form-check-input" type="checkbox" value="" id="defaultCheck8">
-										  <label class="form-check-label area_check_label" for="defaultCheck8">
+                                        </div>
+                                    </a>
+                                    <a href="" class="dropdown-item dropdown_item_area">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck8">
+                                            <label class="form-check-label area_check_label" for="defaultCheck8">
 										   Tây Hồ
 										  </label>
-										</div>
-									</a>
-								</div>
-								<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 col-select-option">
-									
-								
-									<a href="" class="dropdown-item dropdown_item_area">
-										<div class="form-check">
-										  <input class="form-check-input" type="checkbox" value="" id="defaultCheck9">
-										  <label class="form-check-label area_check_label" for="defaultCheck9">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 col-select-option">
+
+
+                                    <a href="" class="dropdown-item dropdown_item_area">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck9">
+                                            <label class="form-check-label area_check_label" for="defaultCheck9">
 										    Hà Đông
 										  </label>
-										</div>
-									</a>
-									<a href="" class="dropdown-item dropdown_item_area">
-										<div class="form-check">
-										  <input class="form-check-input" type="checkbox" value="" id="defaultCheck10">
-										  <label class="form-check-label area_check_label" for="defaultCheck10">
+                                        </div>
+                                    </a>
+                                    <a href="" class="dropdown-item dropdown_item_area">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck10">
+                                            <label class="form-check-label area_check_label" for="defaultCheck10">
 										    Đống Đa
 										  </label>
-										</div>
-									</a>
-									<a href="" class="dropdown-item dropdown_item_area">
-										<div class="form-check">
-										  <input class="form-check-input" type="checkbox" value="" id="defaultCheck11">
-										  <label class="form-check-label area_check_label" for="defaultCheck11">
+                                        </div>
+                                    </a>
+                                    <a href="" class="dropdown-item dropdown_item_area">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck11">
+                                            <label class="form-check-label area_check_label" for="defaultCheck11">
 										    Nam Từ Liêm
 										  </label>
-										</div>
-									</a>
-									<a href="" class="dropdown-item dropdown_item_area">
-										<div class="form-check">
-										  <input class="form-check-input" type="checkbox" value="" id="defaultCheck12">
-										  <label class="form-check-label area_check_label" for="defaultCheck12">
+                                        </div>
+                                    </a>
+                                    <a href="" class="dropdown-item dropdown_item_area">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck12">
+                                            <label class="form-check-label area_check_label" for="defaultCheck12">
 										    Thanh Xuân
 										  </label>
-										</div>
-									</a>
-								</div>
-							</div>
-							
-						</div>
-					</div>
-					
-				</div>
-				<div class="quick_find quick_find_classify col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-6 ">
-					
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
 
-					<div class="btn-group btn_group_classify">
-						<a href="" class="btn dropdown-toggle btn-classify btn_group_title" data-toggle="dropdown">Phân loại</a>
-						<div class="dropdown-menu dropdown-area dropdown-classify ">
-							<div class="row">
-								<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 col-select-option">
-								
-							
-									<a href="" class="dropdown-item dropdown_item_area">
-										<div class="form-check">
-										  <input class="form-check-input check_input_area" type="checkbox"  value="" id="defaultCheck1">
-										  <label class="form-check-label area_check_label" for="defaultCheck1">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="quick_find quick_find_classify col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-6 ">
+
+
+                    <div class="btn-group btn_group_classify">
+                        <a href="" class="btn dropdown-toggle btn-classify btn_group_title" data-toggle="dropdown">Phân loại</a>
+                        <div class="dropdown-menu dropdown-area dropdown-classify ">
+                            <div class="row">
+                                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 col-select-option">
+
+
+                                    <a href="" class="dropdown-item dropdown_item_area">
+                                        <div class="form-check">
+                                            <input class="form-check-input check_input_area" type="checkbox" value="" id="defaultCheck1">
+                                            <label class="form-check-label area_check_label" for="defaultCheck1">
 										    Đồ ngọt
 										  </label>
-										</div>
-									</a>
-									<a href="" class="dropdown-item dropdown_item_area">
-										<div class="form-check">
-										  <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
-										  <label class="form-check-label area_check_label" for="defaultCheck2">
+                                        </div>
+                                    </a>
+                                    <a href="" class="dropdown-item dropdown_item_area">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                                            <label class="form-check-label area_check_label" for="defaultCheck2">
 										    Tráng miệng
 										  </label>
-										</div>
-									</a>
-									<a href="" class="dropdown-item dropdown_item_area">
-										<div class="form-check">
-										  <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
-										  <label class="form-check-label area_check_label" for="defaultCheck3">
+                                        </div>
+                                    </a>
+                                    <a href="" class="dropdown-item dropdown_item_area">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                                            <label class="form-check-label area_check_label" for="defaultCheck3">
 										    Gà rán
 										  </label>
-										</div>
-									</a>
-									<a href="" class="dropdown-item dropdown_item_area">
-										<div class="form-check">
-										  <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
-										  <label class="form-check-label area_check_label" for="defaultCheck4">
+                                        </div>
+                                    </a>
+                                    <a href="" class="dropdown-item dropdown_item_area">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
+                                            <label class="form-check-label area_check_label" for="defaultCheck4">
 										    Pizza
 										  </label>
-										</div>
-									</a>
-								</div>
-								<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 col-select-option">
-									
-								
-									<a href="" class="dropdown-item dropdown_item_area">
-										<div class="form-check">
-										  <input class="form-check-input" type="checkbox" value="" id="defaultCheck5">
-										  <label class="form-check-label area_check_label" for="defaultCheck5">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 col-select-option">
+
+
+                                    <a href="" class="dropdown-item dropdown_item_area">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck5">
+                                            <label class="form-check-label area_check_label" for="defaultCheck5">
 										    Bánh mỳ
 										  </label>
-										</div>
-									</a>
-									<a href="" class="dropdown-item dropdown_item_area">
-										<div class="form-check">
-										  <input class="form-check-input" type="checkbox" value="" id="defaultCheck6">
-										  <label class="form-check-label area_check_label" for="defaultCheck6">
+                                        </div>
+                                    </a>
+                                    <a href="" class="dropdown-item dropdown_item_area">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck6">
+                                            <label class="form-check-label area_check_label" for="defaultCheck6">
 										    Khai vị
 										  </label>
-										</div>
-									</a>
-									<a href="" class="dropdown-item dropdown_item_area">
-										<div class="form-check">
-										  <input class="form-check-input" type="checkbox" value="" id="defaultCheck7">
-										  <label class="form-check-label area_check_label" for="defaultCheck7">
+                                        </div>
+                                    </a>
+                                    <a href="" class="dropdown-item dropdown_item_area">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck7">
+                                            <label class="form-check-label area_check_label" for="defaultCheck7">
 										   Fastfood
 										  </label>
-										</div>
-									</a>
-									<a href="" class="dropdown-item dropdown_item_area">
-										<div class="form-check">
-										  <input class="form-check-input" type="checkbox" value="" id="defaultCheck8">
-										  <label class="form-check-label area_check_label" for="defaultCheck8">
+                                        </div>
+                                    </a>
+                                    <a href="" class="dropdown-item dropdown_item_area">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck8">
+                                            <label class="form-check-label area_check_label" for="defaultCheck8">
 										   Món lẩu
 										  </label>
-										</div>
-									</a>
-								</div>
-								<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 col-select-option">
-									
-								
-									<a href="" class="dropdown-item dropdown_item_area">
-										<div class="form-check">
-										  <input class="form-check-input" type="checkbox" value="" id="defaultCheck9">
-										  <label class="form-check-label area_check_label" for="defaultCheck9">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 col-select-option">
+
+
+                                    <a href="" class="dropdown-item dropdown_item_area">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck9">
+                                            <label class="form-check-label area_check_label" for="defaultCheck9">
 										    Đồ uống
 										  </label>
-										</div>
-									</a>
-									<a href="" class="dropdown-item dropdown_item_area">
-										<div class="form-check">
-										  <input class="form-check-input" type="checkbox" value="" id="defaultCheck10">
-										  <label class="form-check-label area_check_label" for="defaultCheck10">
+                                        </div>
+                                    </a>
+                                    <a href="" class="dropdown-item dropdown_item_area">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck10">
+                                            <label class="form-check-label area_check_label" for="defaultCheck10">
 										   	Cơm hộp 
 										  </label>
-										</div>
-									</a>
-									<a href="" class="dropdown-item dropdown_item_area">
-										<div class="form-check">
-										  <input class="form-check-input" type="checkbox" value="" id="defaultCheck11">
-										  <label class="form-check-label area_check_label" for="defaultCheck11">
+                                        </div>
+                                    </a>
+                                    <a href="" class="dropdown-item dropdown_item_area">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck11">
+                                            <label class="form-check-label area_check_label" for="defaultCheck11">
 										    Món chay
 										  </label>
-										</div>
-									</a>
-									<a href="" class="dropdown-item dropdown_item_area">
-										<div class="form-check">
-										  <input class="form-check-input" type="checkbox" value="" id="defaultCheck12">
-										  <label class="form-check-label area_check_label" for="defaultCheck12">
+                                        </div>
+                                    </a>
+                                    <a href="" class="dropdown-item dropdown_item_area">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck12">
+                                            <label class="form-check-label area_check_label" for="defaultCheck12">
 										    Ăn vặt
 										  </label>
-										</div>
-									</a>
-								</div>
-							</div>
-							
-						</div>
-					</div>
-				</div>
-				<div class="quick_find quick_find_price_range col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-6">
-					
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
 
-					<div class="btn-group btn_group_price">
-						<a href="" class="btn dropdown-toggle btn-price btn_group_title" data-toggle="dropdown">Khoảng giá</a>
-						<div class="dropdown-menu dropdown-area dropdown-price">
-							<div class="row">
-								<div class="col-xl-12">
-								<form>
-								  <div class="form-group">
-								    
-								    <input type="range" min="0" max="1000000" class="form-control-range range_price" id="formControlRange">
-								    <div class="formControl_price">
-								    	
-									    <label for="formControlRange min_price">1.000</label>
-									    <label for="formControlRange max_price">1.000.000</label>
-								    </div>
-								  </div>
-								</form>
-							
-									
-								</div>
-							</div>
-							
-						</div>
-					</div>
-				</div>
-				
-				<div class="quick_find quick_find_status col-xl-4 col-lg-4 col-md-4 col-sm-3 col-xs-6 text-xl-right text-lg-right text-md-right text-sm-right">
-					<div class="btn-group btn_group_status">
-						<a href="" class="btn dropdown-toggle btn-status btn_group_title" data-toggle="dropdown" aria-expanded="false">Tất cả</a>
-						<div class="dropdown-menu dropdown-status">
-							<a href="" class="dropdown-item">Tất cả</a>
-							<a href="" class="dropdown-item">Giảm giá</a>
-							<a href="" class="dropdown-item">Yêu thích</a>
-							<a href="" class="dropdown-item">Phổ biến</a>
-							<a href="" class="dropdown-item">Vừa xem</a>
-						</div>
-						
-					</div>
-				</div>
-				<div class="result_search col-xl-2 col-lg-2 col-md-2 col-sm-12 col-xs-12 text-lg-right text-xl-right text-md-right text-sm-left text-xs-left">
-					<div class="wrapper_result">
-						<span id="result">300</span>
-						<span class="text_result">kết quả</span>
-					</div>
-					
-				</div>
-			
-			</div>
-			<div class="row">
-				<div class="col-xl-12">
-					<hr>
-				</div>
-			</div>
-			
-			<div class="row ">
-				<div class="col-xl-12 text-xs-right wrapper_btnContainer">
-					<div id="btnContainer">
-						
-						<button class="btn_ active_btn" onclick="gridView()"><span class="icon-menu-1 icon-grid icon_btn_view"></span></button>
-						<button class="btn_" onclick="listView()"><span class="icon-list icon-list icon_btn_view"></span></button>
-						</div>
-						<br>
-					</div>
-				</div>
-			<div class="row row_product">
-				
-				<div class="col-xl-12 col-flex col-grid-4">
-					<div class="card card_food">
-						<div class="wrapper_img_product">
-							<a href="" class="link_product_img"><img src="../images/food.png"></a>
-							<a href="" class="label_img label_img_product">Yêu thích</a>
-							
-							<a class="cart" href="#">
-								<span class="icon-shopping-cart"></span>
-							</a>
-				        	<a class="view-detail" href="#">
-				        		<span class="icon-eye"></span>
-				        	</a>
-							
-						</div>
-						<div class="card_content_food">	
-							<div class="card-body card_body_food">
-								<a href="#" class="card-title card_title_food">Cơm rang gà Hải Nam phủ sốt nấm </a>
-								<p class="card-text text_food_notice">Cơm gà nóng hổi kèm sốt </p>
-								<p class="card-text card_text_food">
-									<span class="wrapper_price">
+                        </div>
+                    </div>
+                </div>
+                <div class="quick_find quick_find_price_range col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-6">
+
+
+                    <div class="btn-group btn_group_price">
+                        <a href="" class="btn dropdown-toggle btn-price btn_group_title" data-toggle="dropdown">Khoảng giá</a>
+                        <div class="dropdown-menu dropdown-area dropdown-price">
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <form>
+                                        <div class="form-group">
+
+                                            <input type="range" min="0" max="1000000" class="form-control-range range_price" id="formControlRange">
+                                            <div class="formControl_price">
+
+                                                <label for="formControlRange min_price">1.000</label>
+                                                <label for="formControlRange max_price">1.000.000</label>
+                                            </div>
+                                        </div>
+                                    </form>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="quick_find quick_find_status col-xl-4 col-lg-4 col-md-4 col-sm-3 col-xs-6 text-xl-right text-lg-right text-md-right text-sm-right">
+                    <div class="btn-group btn_group_status">
+                        <a href="" class="btn dropdown-toggle btn-status btn_group_title" data-toggle="dropdown" aria-expanded="false">Tất cả</a>
+                        <div class="dropdown-menu dropdown-status">
+                            <a href="" class="dropdown-item">Tất cả</a>
+                            <a href="" class="dropdown-item">Giảm giá</a>
+                            <a href="" class="dropdown-item">Yêu thích</a>
+                            <a href="" class="dropdown-item">Phổ biến</a>
+                            <a href="" class="dropdown-item">Vừa xem</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="result_search col-xl-2 col-lg-2 col-md-2 col-sm-12 col-xs-12 text-lg-right text-xl-right text-md-right text-sm-left text-xs-left">
+                    <div class="wrapper_result">
+                        <span id="result">300</span>
+                        <span class="text_result">kết quả</span>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-xl-12">
+                    <hr>
+                </div>
+            </div>
+
+            <div class="row ">
+                <div class="col-xl-12 text-xs-right wrapper_btnContainer">
+                    <div id="btnContainer">
+
+                        <button class="btn_ active_btn" onclick="gridView()"><span class="icon-menu-1 icon-grid icon_btn_view"></span></button>
+                        <button class="btn_" onclick="listView()"><span class="icon-list icon-list icon_btn_view"></span></button>
+                    </div>
+                    <br>
+                </div>
+            </div>
+            <div class="row row_product">
+
+                <div class="col-xl-12 col-flex col-grid-4">
+                    <div class="card card_food">
+                        <div class="wrapper_img_product">
+                            <a href="" class="link_product_img"><img src="../images/food.png"></a>
+                            <a href="" class="label_img label_img_product">Yêu thích</a>
+
+                            <a class="cart" href="#">
+                                <span class="icon-shopping-cart"></span>
+                            </a>
+                            <a class="view-detail" href="#">
+                                <span class="icon-eye"></span>
+                            </a>
+
+                        </div>
+                        <div class="card_content_food">
+                            <div class="card-body card_body_food">
+                                <a href="#" class="card-title card_title_food">Cơm rang gà Hải Nam phủ sốt nấm </a>
+                                <p class="card-text text_food_notice">Cơm gà nóng hổi kèm sốt </p>
+                                <p class="card-text card_text_food">
+                                    <span class="wrapper_price">
 										<span class="icon-money1"></span>
-										<span class="price">25.000</span>
-									</span>
-									<span class="wrapper_locate">
+                                    <span class="price">25.000</span>
+                                    </span>
+                                    <span class="wrapper_locate">
 										<span class="icon-location-pin"></span>
-										<span class="location">15km</span>
-									</span>
-								</p>
-							</div>
-							<div class="card-footer card_footer_food">
-								<div class="ultensils">
-									<img src="../images/utensils.png" alt="">
-								</div>
-								<div class="info_store">
-									<a href="" class="link_info_store"><h6 class="card-title name_store">Nhà hàng LETEFE Bistro @ Cafe Giảng Võ</h6></a>
-									<p class="card-text address_store">109K1 Phố Giảng Võ, Chợ Dừa, Đống Đa, ...</p>
-									
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="card card_food">
-						<div class="wrapper_img_product">
-							<a href="" class="link_product_img"><img src="../images/food.png"></a>
-							<a href="" class="label_img label_img_product">Yêu thích</a>
-							
-							<a class="cart" href="#">
-								<span class="icon-shopping-cart"></span>
-							</a>
-				        	<a class="view-detail" href="#">
-				        		<span class="icon-eye"></span>
-				        	</a>
-							
-						</div>
-						<div class="card_content_food">	
-							<div class="card-body card_body_food">
-								<a href="#" class="card-title card_title_food">Cơm rang gà Hải Nam phủ sốt nấm </a>
-								<p class="card-text text_food_notice">Cơm gà nóng hổi kèm sốt </p>
-								<p class="card-text card_text_food">
-									<span class="wrapper_price">
+                                    <span class="location">15km</span>
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="card-footer card_footer_food">
+                                <div class="ultensils">
+                                    <img src="../images/utensils.png" alt="">
+                                </div>
+                                <div class="info_store">
+                                    <a href="" class="link_info_store">
+                                        <h6 class="card-title name_store">Nhà hàng LETEFE Bistro @ Cafe Giảng Võ</h6>
+                                    </a>
+                                    <p class="card-text address_store">109K1 Phố Giảng Võ, Chợ Dừa, Đống Đa, ...</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card_food">
+                        <div class="wrapper_img_product">
+                            <a href="" class="link_product_img"><img src="../images/food.png"></a>
+                            <a href="" class="label_img label_img_product">Yêu thích</a>
+
+                            <a class="cart" href="#">
+                                <span class="icon-shopping-cart"></span>
+                            </a>
+                            <a class="view-detail" href="#">
+                                <span class="icon-eye"></span>
+                            </a>
+
+                        </div>
+                        <div class="card_content_food">
+                            <div class="card-body card_body_food">
+                                <a href="#" class="card-title card_title_food">Cơm rang gà Hải Nam phủ sốt nấm </a>
+                                <p class="card-text text_food_notice">Cơm gà nóng hổi kèm sốt </p>
+                                <p class="card-text card_text_food">
+                                    <span class="wrapper_price">
 										<span class="icon-money1"></span>
-										<span class="price">25.000</span>
-									</span>
-									<span class="wrapper_locate">
+                                    <span class="price">25.000</span>
+                                    </span>
+                                    <span class="wrapper_locate">
 										<span class="icon-location-pin"></span>
-										<span class="location">15km</span>
-									</span>
-								</p>
-							</div>
-							<div class="card-footer card_footer_food">
-								<div class="ultensils">
-									<img src="../images/utensils.png" alt="">
-								</div>
-								<div class="info_store">
-									<a href="" class="link_info_store"><h6 class="card-title name_store">Nhà hàng LETEFE Bistro @ Cafe Giảng Võ</h6></a>
-									<p class="card-text address_store">109K1 Phố Giảng Võ, Chợ Dừa, Đống Đa, ...</p>
-									
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="card card_food">
-						<div class="wrapper_img_product">
-							<a href="" class="link_product_img"><img src="../images/food.png"></a>
-							<a href="" class="label_img label_img_product">Yêu thích</a>
-							
-							<a class="cart" href="#">
-								<span class="icon-shopping-cart"></span>
-							</a>
-				        	<a class="view-detail" href="#">
-				        		<span class="icon-eye"></span>
-				        	</a>
-							
-						</div>
-						<div class="card_content_food">	
-							<div class="card-body card_body_food">
-								<a href="#" class="card-title card_title_food">Cơm rang gà Hải Nam phủ sốt nấm </a>
-								<p class="card-text text_food_notice">Cơm gà nóng hổi kèm sốt </p>
-								<p class="card-text card_text_food">
-									<span class="wrapper_price">
+                                    <span class="location">15km</span>
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="card-footer card_footer_food">
+                                <div class="ultensils">
+                                    <img src="../images/utensils.png" alt="">
+                                </div>
+                                <div class="info_store">
+                                    <a href="" class="link_info_store">
+                                        <h6 class="card-title name_store">Nhà hàng LETEFE Bistro @ Cafe Giảng Võ</h6>
+                                    </a>
+                                    <p class="card-text address_store">109K1 Phố Giảng Võ, Chợ Dừa, Đống Đa, ...</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card_food">
+                        <div class="wrapper_img_product">
+                            <a href="" class="link_product_img"><img src="../images/food.png"></a>
+                            <a href="" class="label_img label_img_product">Yêu thích</a>
+
+                            <a class="cart" href="#">
+                                <span class="icon-shopping-cart"></span>
+                            </a>
+                            <a class="view-detail" href="#">
+                                <span class="icon-eye"></span>
+                            </a>
+
+                        </div>
+                        <div class="card_content_food">
+                            <div class="card-body card_body_food">
+                                <a href="#" class="card-title card_title_food">Cơm rang gà Hải Nam phủ sốt nấm </a>
+                                <p class="card-text text_food_notice">Cơm gà nóng hổi kèm sốt </p>
+                                <p class="card-text card_text_food">
+                                    <span class="wrapper_price">
 										<span class="icon-money1"></span>
-										<span class="price">25.000</span>
-									</span>
-									<span class="wrapper_locate">
+                                    <span class="price">25.000</span>
+                                    </span>
+                                    <span class="wrapper_locate">
 										<span class="icon-location-pin"></span>
-										<span class="location">15km</span>
-									</span>
-								</p>
-							</div>
-							<div class="card-footer card_footer_food">
-								<div class="ultensils">
-									<img src="../images/utensils.png" alt="">
-								</div>
-								<div class="info_store">
-									<a href="" class="link_info_store"><h6 class="card-title name_store">Nhà hàng LETEFE Bistro @ Cafe Giảng Võ</h6></a>
-									<p class="card-text address_store">109K1 Phố Giảng Võ, Chợ Dừa, Đống Đa, ...</p>
-									
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="card card_food">
-						<div class="wrapper_img_product">
-							<a href="" class="link_product_img"><img src="../images/food.png"></a>
-							<a href="" class="label_img label_img_product">Yêu thích</a>
-							
-							<a class="cart" href="#">
-								<span class="icon-shopping-cart"></span>
-							</a>
-				        	<a class="view-detail" href="#">
-				        		<span class="icon-eye"></span>
-				        	</a>
-							
-						</div>
-						<div class="card_content_food">	
-							<div class="card-body card_body_food">
-								<a href="#" class="card-title card_title_food">Cơm rang gà Hải Nam phủ sốt nấm </a>
-								<p class="card-text text_food_notice">Cơm gà nóng hổi kèm sốt </p>
-								<p class="card-text card_text_food">
-									<span class="wrapper_price">
+                                    <span class="location">15km</span>
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="card-footer card_footer_food">
+                                <div class="ultensils">
+                                    <img src="../images/utensils.png" alt="">
+                                </div>
+                                <div class="info_store">
+                                    <a href="" class="link_info_store">
+                                        <h6 class="card-title name_store">Nhà hàng LETEFE Bistro @ Cafe Giảng Võ</h6>
+                                    </a>
+                                    <p class="card-text address_store">109K1 Phố Giảng Võ, Chợ Dừa, Đống Đa, ...</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card_food">
+                        <div class="wrapper_img_product">
+                            <a href="" class="link_product_img"><img src="../images/food.png"></a>
+                            <a href="" class="label_img label_img_product">Yêu thích</a>
+
+                            <a class="cart" href="#">
+                                <span class="icon-shopping-cart"></span>
+                            </a>
+                            <a class="view-detail" href="#">
+                                <span class="icon-eye"></span>
+                            </a>
+
+                        </div>
+                        <div class="card_content_food">
+                            <div class="card-body card_body_food">
+                                <a href="#" class="card-title card_title_food">Cơm rang gà Hải Nam phủ sốt nấm </a>
+                                <p class="card-text text_food_notice">Cơm gà nóng hổi kèm sốt </p>
+                                <p class="card-text card_text_food">
+                                    <span class="wrapper_price">
 										<span class="icon-money1"></span>
-										<span class="price">25.000</span>
-									</span>
-									<span class="wrapper_locate">
+                                    <span class="price">25.000</span>
+                                    </span>
+                                    <span class="wrapper_locate">
 										<span class="icon-location-pin"></span>
-										<span class="location">15km</span>
-									</span>
-								</p>
-							</div>
-							<div class="card-footer card_footer_food">
-								<div class="ultensils">
-									<img src="../images/utensils.png" alt="">
-								</div>
-								<div class="info_store">
-									<a href="" class="link_info_store"><h6 class="card-title name_store">Nhà hàng LETEFE Bistro @ Cafe Giảng Võ</h6></a>
-									<p class="card-text address_store">109K1 Phố Giảng Võ, Chợ Dừa, Đống Đa, ...</p>
-									
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="card card_food">
-						<div class="wrapper_img_product">
-							<a href="" class="link_product_img"><img src="../images/food.png"></a>
-							<a href="" class="label_img label_img_product">Yêu thích</a>
-							
-							<a class="cart" href="#">
-								<span class="icon-shopping-cart"></span>
-							</a>
-				        	<a class="view-detail" href="#">
-				        		<span class="icon-eye"></span>
-				        	</a>
-							
-						</div>
-						<div class="card_content_food">	
-							<div class="card-body card_body_food">
-								<a href="#" class="card-title card_title_food">Cơm rang gà Hải Nam phủ sốt nấm </a>
-								<p class="card-text text_food_notice">Cơm gà nóng hổi kèm sốt </p>
-								<p class="card-text card_text_food">
-									<span class="wrapper_price">
+                                    <span class="location">15km</span>
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="card-footer card_footer_food">
+                                <div class="ultensils">
+                                    <img src="../images/utensils.png" alt="">
+                                </div>
+                                <div class="info_store">
+                                    <a href="" class="link_info_store">
+                                        <h6 class="card-title name_store">Nhà hàng LETEFE Bistro @ Cafe Giảng Võ</h6>
+                                    </a>
+                                    <p class="card-text address_store">109K1 Phố Giảng Võ, Chợ Dừa, Đống Đa, ...</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card_food">
+                        <div class="wrapper_img_product">
+                            <a href="" class="link_product_img"><img src="../images/food.png"></a>
+                            <a href="" class="label_img label_img_product">Yêu thích</a>
+
+                            <a class="cart" href="#">
+                                <span class="icon-shopping-cart"></span>
+                            </a>
+                            <a class="view-detail" href="#">
+                                <span class="icon-eye"></span>
+                            </a>
+
+                        </div>
+                        <div class="card_content_food">
+                            <div class="card-body card_body_food">
+                                <a href="#" class="card-title card_title_food">Cơm rang gà Hải Nam phủ sốt nấm </a>
+                                <p class="card-text text_food_notice">Cơm gà nóng hổi kèm sốt </p>
+                                <p class="card-text card_text_food">
+                                    <span class="wrapper_price">
 										<span class="icon-money1"></span>
-										<span class="price">25.000</span>
-									</span>
-									<span class="wrapper_locate">
+                                    <span class="price">25.000</span>
+                                    </span>
+                                    <span class="wrapper_locate">
 										<span class="icon-location-pin"></span>
-										<span class="location">15km</span>
-									</span>
-								</p>
-							</div>
-							<div class="card-footer card_footer_food">
-								<div class="ultensils">
-									<img src="../images/utensils.png" alt="">
-								</div>
-								<div class="info_store">
-									<a href="" class="link_info_store"><h6 class="card-title name_store">Nhà hàng LETEFE Bistro @ Cafe Giảng Võ</h6></a>
-									<p class="card-text address_store">109K1 Phố Giảng Võ, Chợ Dừa, Đống Đa, ...</p>
-									
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="card card_food">
-						<div class="wrapper_img_product">
-							<a href="" class="link_product_img"><img src="../images/food.png"></a>
-							<a href="" class="label_img label_img_product">Yêu thích</a>
-							
-							<a class="cart" href="#">
-								<span class="icon-shopping-cart"></span>
-							</a>
-				        	<a class="view-detail" href="#">
-				        		<span class="icon-eye"></span>
-				        	</a>
-							
-						</div>
-						<div class="card_content_food">	
-							<div class="card-body card_body_food">
-								<a href="#" class="card-title card_title_food">Cơm rang gà Hải Nam phủ sốt nấm </a>
-								<p class="card-text text_food_notice">Cơm gà nóng hổi kèm sốt </p>
-								<p class="card-text card_text_food">
-									<span class="wrapper_price">
+                                    <span class="location">15km</span>
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="card-footer card_footer_food">
+                                <div class="ultensils">
+                                    <img src="../images/utensils.png" alt="">
+                                </div>
+                                <div class="info_store">
+                                    <a href="" class="link_info_store">
+                                        <h6 class="card-title name_store">Nhà hàng LETEFE Bistro @ Cafe Giảng Võ</h6>
+                                    </a>
+                                    <p class="card-text address_store">109K1 Phố Giảng Võ, Chợ Dừa, Đống Đa, ...</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card_food">
+                        <div class="wrapper_img_product">
+                            <a href="" class="link_product_img"><img src="../images/food.png"></a>
+                            <a href="" class="label_img label_img_product">Yêu thích</a>
+
+                            <a class="cart" href="#">
+                                <span class="icon-shopping-cart"></span>
+                            </a>
+                            <a class="view-detail" href="#">
+                                <span class="icon-eye"></span>
+                            </a>
+
+                        </div>
+                        <div class="card_content_food">
+                            <div class="card-body card_body_food">
+                                <a href="#" class="card-title card_title_food">Cơm rang gà Hải Nam phủ sốt nấm </a>
+                                <p class="card-text text_food_notice">Cơm gà nóng hổi kèm sốt </p>
+                                <p class="card-text card_text_food">
+                                    <span class="wrapper_price">
 										<span class="icon-money1"></span>
-										<span class="price">25.000</span>
-									</span>
-									<span class="wrapper_locate">
+                                    <span class="price">25.000</span>
+                                    </span>
+                                    <span class="wrapper_locate">
 										<span class="icon-location-pin"></span>
-										<span class="location">15km</span>
-									</span>
-								</p>
-							</div>
-							<div class="card-footer card_footer_food">
-								<div class="ultensils">
-									<img src="../images/utensils.png" alt="">
-								</div>
-								<div class="info_store">
-									<a href="" class="link_info_store"><h6 class="card-title name_store">Nhà hàng LETEFE Bistro @ Cafe Giảng Võ</h6></a>
-									<p class="card-text address_store">109K1 Phố Giảng Võ, Chợ Dừa, Đống Đa, ...</p>
-									
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="card card_food">
-						<div class="wrapper_img_product">
-							<a href="" class="link_product_img"><img src="../images/food.png"></a>
-							<a href="" class="label_img label_img_product">Yêu thích</a>
-							
-							<a class="cart" href="#">
-								<span class="icon-shopping-cart"></span>
-							</a>
-				        	<a class="view-detail" href="#">
-				        		<span class="icon-eye"></span>
-				        	</a>
-							
-						</div>
-						<div class="card_content_food">	
-							<div class="card-body card_body_food">
-								<a href="#" class="card-title card_title_food">Cơm rang gà Hải Nam phủ sốt nấm </a>
-								<p class="card-text text_food_notice">Cơm gà nóng hổi kèm sốt </p>
-								<p class="card-text card_text_food">
-									<span class="wrapper_price">
+                                    <span class="location">15km</span>
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="card-footer card_footer_food">
+                                <div class="ultensils">
+                                    <img src="../images/utensils.png" alt="">
+                                </div>
+                                <div class="info_store">
+                                    <a href="" class="link_info_store">
+                                        <h6 class="card-title name_store">Nhà hàng LETEFE Bistro @ Cafe Giảng Võ</h6>
+                                    </a>
+                                    <p class="card-text address_store">109K1 Phố Giảng Võ, Chợ Dừa, Đống Đa, ...</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card_food">
+                        <div class="wrapper_img_product">
+                            <a href="" class="link_product_img"><img src="../images/food.png"></a>
+                            <a href="" class="label_img label_img_product">Yêu thích</a>
+
+                            <a class="cart" href="#">
+                                <span class="icon-shopping-cart"></span>
+                            </a>
+                            <a class="view-detail" href="#">
+                                <span class="icon-eye"></span>
+                            </a>
+
+                        </div>
+                        <div class="card_content_food">
+                            <div class="card-body card_body_food">
+                                <a href="#" class="card-title card_title_food">Cơm rang gà Hải Nam phủ sốt nấm </a>
+                                <p class="card-text text_food_notice">Cơm gà nóng hổi kèm sốt </p>
+                                <p class="card-text card_text_food">
+                                    <span class="wrapper_price">
 										<span class="icon-money1"></span>
-										<span class="price">25.000</span>
-									</span>
-									<span class="wrapper_locate">
+                                    <span class="price">25.000</span>
+                                    </span>
+                                    <span class="wrapper_locate">
 										<span class="icon-location-pin"></span>
 										<span class="location">15km</span>
 									</span>
@@ -1062,5 +1173,7 @@
   	<script src="../main/chat.js" charset="utf-8"></script>
  	
  	
+
 </body>
+
 </html>

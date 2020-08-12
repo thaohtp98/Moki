@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<title> Sản phẩm chi tiết - Tạp hóa </title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">  
-	<script src="../vendor/bootstrap.js"></script>
- 	<script src="../main/main.js"></script>
-	<link rel="stylesheet" href="../vendor/bootstrap.css">
-	<link rel="stylesheet" href="../vendor/font-awesome.css">
- 	<link rel="stylesheet" href="../css/header.css">
-	<link rel="stylesheet" href="../css/homepage.css">
-	<link rel="stylesheet" href="../css/product_detail.css">
-	<link rel="stylesheet" href="../css/counter.css">
-	<link rel="stylesheet" href="../css/chat.css">
-	<link rel="stylesheet" href="../css/footer.css">
 
- 	<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
- 	<link rel="stylesheet" href="../vendor/style.css">
- 	
+<head>
+    <title> Sản phẩm chi tiết - Tạp hóa </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="../vendor/bootstrap.js"></script>
+    <script src="../main/main.js"></script>
+    <link rel="stylesheet" href="../vendor/bootstrap.css">
+    <link rel="stylesheet" href="../vendor/font-awesome.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/homepage.css">
+    <link rel="stylesheet" href="../css/product_detail.css">
+    <link rel="stylesheet" href="../css/counter.css">
+    <link rel="stylesheet" href="../css/chat.css">
+    <link rel="stylesheet" href="../css/cart_checkout.css">
+    <link rel="stylesheet" href="../css/footer.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../vendor/style.css">
+
 
 </head>
+
 <body>
 	<nav class="navbar navbar-light bg-faded navbar-fixed-top menu_top">
         <div class="container container_menu">
@@ -31,6 +34,7 @@
                 <div class="dropdown-menu dropdown-language">
                     <a href="" class="dropdown-item"><img src="../images/flag.svg" alt=""></a>
                     
+
                 </div>
             </div>
             <button class="navbar-toggler hidden-xl-up float-lg-left" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
@@ -39,7 +43,7 @@
             <div class="collapse navbar-toggleable-lg wrapper_menu" id="exCollapsingNavbar2">
 
                 <ul class="nav navbar-nav float-xl-right">
-                    <li class="nav-item menu_item">
+                    <li class="nav-item menu_item ">
                         <a class="nav-link menu_link" href="homepage.html">Trang chủ <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item menu_item">
@@ -61,8 +65,100 @@
                         <a class="nav-link menu_link" href="login.html"><span class="icon-open-lock"></span>Đăng nhập</a>
                     </li>
                     <li class="nav-item menu_item menu_item_cart">
-
-                        <a class="nav-link menu_link menu_link_cart" href="cart.html"><span class="icon-shopping-cart"></span><span class="number_pro_cart cart">0</span></a>
+                  
+                        <!-- cart desktop -->
+                        <div class="dropdown">
+                            <a class="nav-link menu_link menu_link_cart" href="../view/cart.html">
+                                <span class="icon-shopping-cart "></span>
+                                <span class="number_pro_cart cart">0</span>
+                            </a>
+                            <div class="dropdown-content1">
+                                <p>Sản phẩm mới thêm</p>
+                                <!-- cart list desktop 1 -->
+                                <div class="row cart_list">
+                                    <div class="col-md-3 cart_list-pd">
+                                        <a href="http://">
+                                            <img src="../images/category_4.png" alt="" width="100%;">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 cart_list-pd">
+                                        <h6><a href="http://">Phở bò tái chín</a></h6>
+                                        <p class="type">Phân loại:Không hành,thêm thịt</p>
+                                    </div>
+                                    <div class="col-md-3 cart_list-pd" style="margin-top:10px;">
+                                        <p class="cart_list-price">150.000 đ</p><br>
+                                        <a href="#"><span class="cart_list-del">Xóa</span></a>
+                                    </div>
+                                </div>
+                                <!-- cart list desktop 2 -->
+                                <div class="row cart_list">
+                                    <div class="col-md-3 cart_list-pd">
+                                        <a href="http://">
+                                            <img src="../images/category_4.png" alt="" width="100%;">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 cart_list-pd">
+                                        <h6><a href="http://">Phở bò tái chín</a></h6>
+                                        <p class="type">Phân loại:Không hành,thêm thịt</p>
+                                    </div>
+                                    <div class="col-md-3 cart_list-pd" style="margin-top:10px;">
+                                        <p class="cart_list-price">150.000 đ</p><br>
+                                        <a href="#"><span class="cart_list-del">Xóa</span></a>
+                                    </div>
+                                </div>
+                                <!-- cart list desktop 3 -->
+                                <div class="row cart_list">
+                                    <div class="col-md-3 cart_list-pd">
+                                        <a href="http://">
+                                            <img src="../images/category_4.png" alt="" width="100%;">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 cart_list-pd">
+                                        <h6><a href="http://">Phở bò tái chín</a></h6>
+                                        <p class="type">Phân loại:Không hành,thêm thịt</p>
+                                    </div>
+                                    <div class="col-md-3 cart_list-pd" style="margin-top:10px;">
+                                        <p class="cart_list-price">150.000 đ</p><br>
+                                        <a href="#"><span class="cart_list-del">Xóa</span></a>
+                                    </div>
+                                </div>
+                                <!-- cart list desktop 4 -->
+                                <div class="row cart_list">
+                                    <div class="col-md-3 cart_list-pd">
+                                        <a href="http://">
+                                            <img src="../images/category_4.png" alt="" width="100%;">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 cart_list-pd">
+                                        <h6><a href="http://">Phở bò tái chín</a></h6>
+                                        <p class="type">Phân loại:Không hành,thêm thịt</p>
+                                    </div>
+                                    <div class="col-md-3 cart_list-pd" style="margin-top:10px;">
+                                        <p class="cart_list-price">150.000 đ</p><br>
+                                        <a href="#"><span class="cart_list-del">Xóa</span></a>
+                                    </div>
+                                </div>
+                                <!-- cart list desktop 5 -->
+                                <div class="row cart_list">
+                                    <div class="col-md-3 cart_list-pd">
+                                        <a href="http://">
+                                            <img src="../images/category_4.png" alt="" width="100%;">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 cart_list-pd">
+                                        <h6><a href="http://">Phở bò tái chín</a></h6>
+                                        <p class="type">Phân loại:Không hành,thêm thịt</p>
+                                    </div>
+                                    <div class="col-md-3 cart_list-pd" style="margin-top:10px;">
+                                        <p class="cart_list-price">150.000 đ</p><br>
+                                        <a href="#"><span class="cart_list-del">Xóa</span></a>
+                                    </div>
+                                </div>
+                                <div class="cart_listMB-button">
+                                    <a href="../view/cart.html"><button>Xem giỏ hàng</button></a>
+                                </div>
+                            </div>
+                        </div>
 
                     </li>
                     <li class="nav-item menu_item menu_item_language">
@@ -82,6 +178,7 @@
 
         </div>
     </nav> <!-- finish menu top -->
+
 	<div id="section-1">
 		<span></span>
 	</div>
@@ -122,116 +219,118 @@
 						<div class="view_status">
 							<div class="status">
 								<span class="ellipse_status ellipse_status_onl">
-								
+
 								</span>
-							
-								<span class="text_status text_status_onl">Hiện đang mở cửa</span>
-							</div>
-							
-							<span class="time"><span class="icon-wall-clock "></span> Từ 7:00 - 23:00</span>
-							<div class="rating"> <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label> <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label> <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label> <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label> <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
-							</div>
 
-						</div>
-						<h6 class="price_product_detail">Giá từ 50.000 - 500.000 đ</h6>
-						<table class="table table_general_info">
-						  <thead>
-						    <tr>
-						      <th scope="col">Chuẩn bị</th>
-						      <th scope="col">Giấy phép kinh doanh</th>
-						      <th scope="col">Giấy phép an toàn vệ sinh</th>
-						      
-						    </tr>
-						  </thead>
-						  <tbody>
-						    <tr>
-						     
-						      <td>20 phút</td>
-						      <td>Đã xác nhận</td>
-						      <td>Chưa duyệt</td>
-						    </tr>
-						    
-						  </tbody>
-						</table>
-					</div>
-				</div>
-			</div>
+                                <span class="text_status text_status_onl">Hiện đang mở cửa</span>
+                            </div>
 
-		</div>
-	</div> <!-- finish product_detail -->
-	<div class="other_products">
-		<div class="container">
-			<div class="row">
-				<div class="col-xl-3 col-lg-2 col-left-tab">
-					<div class="row">
-						<div class="col-xl-12">
-							
-						
-							<div class="wrapper_topic_favourite">
-								
-								<ul class="list-group list-group-flush topic_favourite_group">
-									<li class="list-group-item topic_favourite_item cls-favourite-0 active">Món ăn yêu thích</li>
-								  	<li class="list-group-item topic_favourite_item cls-favourite-1">Phở bò</li>
-								  	<li class="list-group-item topic_favourite_item cls-favourite-2">Bún bò</li>
-								 	<li class="list-group-item topic_favourite_item cls-favourite-3">Miến gà</li>
-								  	<li class="list-group-item topic_favourite_item cls-favourite-4">Cơm rang</li>
-								  	<li class="list-group-item topic_favourite_item cls-favourite-5">Phở xào</li>
-								  	<li class="list-group-item topic_favourite_item cls-favourite-6">Mì xào</li>
-								  	<li class="list-group-item topic_favourite_item cls-favourite-7">Đồ uống</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					
-				</div>
-				<div class="col-xl-5 col-lg-6">	
-					<div class="row">
-						<div class="col-xl-12 margin-bottom-25">
-							<h6 class="text_col_main">Mã khuyến mãi</h6>
-							<div class="wrapper_promotion_code">							
-								<ul class="list-group list-group-flush promotion_code_group">
-								  	<li class="list-group-item promotion_code_item row m-0">
-								  		<span class="promotion_code_icon wrapper_icon_ship col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                            <span class="time"><span class="icon-wall-clock "></span> Từ 7:00 - 23:00</span>
+                            <div class="rating"> <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label> <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label> <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>                                <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label> <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+                            </div>
+
+                        </div>
+                        <h6 class="price_product_detail">Giá từ 50.000 - 500.000 đ</h6>
+                        <table class="table table_general_info">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Chuẩn bị</th>
+                                    <th scope="col">Giấy phép kinh doanh</th>
+                                    <th scope="col">Giấy phép an toàn vệ sinh</th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+
+                                    <td>20 phút</td>
+                                    <td>Đã xác nhận</td>
+                                    <td>Chưa duyệt</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- finish product_detail -->
+    <div class="other_products">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-lg-2 col-left-tab">
+                    <div class="row">
+                        <div class="col-xl-12">
+
+
+                            <div class="wrapper_topic_favourite">
+
+                                <ul class="list-group list-group-flush topic_favourite_group">
+                                    <li class="list-group-item topic_favourite_item cls-favourite-0 active">Món ăn yêu thích</li>
+                                    <li class="list-group-item topic_favourite_item cls-favourite-1">Phở bò</li>
+                                    <li class="list-group-item topic_favourite_item cls-favourite-2">Bún bò</li>
+                                    <li class="list-group-item topic_favourite_item cls-favourite-3">Miến gà</li>
+                                    <li class="list-group-item topic_favourite_item cls-favourite-4">Cơm rang</li>
+                                    <li class="list-group-item topic_favourite_item cls-favourite-5">Phở xào</li>
+                                    <li class="list-group-item topic_favourite_item cls-favourite-6">Mì xào</li>
+                                    <li class="list-group-item topic_favourite_item cls-favourite-7">Đồ uống</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-xl-5 col-lg-6">
+                    <div class="row">
+                        <div class="col-xl-12 margin-bottom-25">
+                            <h6 class="text_col_main">Mã khuyến mãi</h6>
+                            <div class="wrapper_promotion_code">
+                                <ul class="list-group list-group-flush promotion_code_group">
+                                    <li class="list-group-item promotion_code_item row m-0">
+                                        <span class="promotion_code_icon wrapper_icon_ship col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2">
 								  			<span class="icon-delivery-truck"></span>
-								  		</span>
-								  		<p id="p1" class="promotion_code col-xl-7 col-lg-7 col-md-7 col-sm-7 col-xs-7">Nhập mã Freeship lên tới 5km</p>
-								  		<button onclick="copyToClipboard('#p1')" class="btn_coppy col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3">Copy code<span class="icon-copy"></span></button>
-									</li>
-									<li class="list-group-item promotion_code_item row m-0">
-								  		<span class="promotion_code_icon wrapper_icon_percent col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                                        </span>
+                                        <p id="p1" class="promotion_code col-xl-7 col-lg-7 col-md-7 col-sm-7 col-xs-7">Nhập mã Freeship lên tới 5km</p>
+                                        <button onclick="copyToClipboard('#p1')" class="btn_coppy col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3">Copy code<span class="icon-copy"></span></button>
+                                    </li>
+                                    <li class="list-group-item promotion_code_item row m-0">
+                                        <span class="promotion_code_icon wrapper_icon_percent col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2">
 								  			<span class="icon-percentage"></span>
-								  		</span>
-								  		<p id="p2" class="promotion_code col-xl-7 col-lg-7 col-md-7 col-sm-7 col-xs-7">Giảm trực tiếp 20% trên giá món</p>
-								  		<button onclick="copyToClipboard('#p2')" class="btn_coppy  col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3">Copy code<span class="icon-copy"></span></button>
-									</li>
-								  
-								  
-								</ul>
-							</div>
-						</div>
-						<div class="col-xl-12 margin-bottom-25">
-							<div class="wrapper_search_posts">
-								<span class="icon-search icon_search_posts"></span>
-								<input class="form-control search_posts" type="text" placeholder="Tìm kiếm món ăn" aria-label="Search">
-							</div>
-						</div>
-						<div class="col-xl-12 margin-bottom-25 favourite-0-parent">
-							<h6 class="text_col_main">Món được yêu thích</h6>
-							<div class="wrapper_favourite">							
-								<ul class="list-group list-group-flush favourite_group">
-								  	
-									<li class="list-group-item favourite_item">
-								  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
-								  		<div class="wrapper_content_favourite">
-									  		<a href="#" class="link_favourite">Món ăn số 1</a>
-									  		
-									  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
-									  		<div class="wrapper_interactive row">
-										  		<span class="price_favourite col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">50.000 đ</span>
-										  		<!-- Button trigger modal -->
-												<a class="btn btn_add_cart col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12" data-toggle="modal" data-target="#exampleModalCenter">
+                                        </span>
+                                        <p id="p2" class="promotion_code col-xl-7 col-lg-7 col-md-7 col-sm-7 col-xs-7">Giảm trực tiếp 20% trên giá món</p>
+                                        <button onclick="copyToClipboard('#p2')" class="btn_coppy  col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3">Copy code<span class="icon-copy"></span></button>
+                                    </li>
+
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-12 margin-bottom-25">
+                            <div class="wrapper_search_posts">
+                                <span class="icon-search icon_search_posts"></span>
+                                <input class="form-control search_posts" type="text" placeholder="Tìm kiếm món ăn" aria-label="Search">
+                            </div>
+                        </div>
+                        <div class="col-xl-12 margin-bottom-25 favourite-0-parent">
+                            <h6 class="text_col_main">Món được yêu thích</h6>
+                            <div class="wrapper_favourite">
+                                <ul class="list-group list-group-flush favourite_group">
+
+                                    <li class="list-group-item favourite_item">
+                                        <a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+                                        <div class="wrapper_content_favourite">
+                                            <a href="#" class="link_favourite">Món ăn số 1</a>
+
+                                            <p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+                                            <div class="wrapper_interactive row">
+                                                <span class="price_favourite col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">50.000 đ</span>
+                                                <!-- Button trigger modal -->
+                                                <a class="btn btn_add_cart col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12" data-toggle="modal" data-target="#exampleModalCenter">
 												  Thêm vào giỏ hàng<span class="icon-plus"></span>
 												</a>
+
 
 												<!-- Modal -->
 												<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -240,50 +339,52 @@
 												      <div class="modal-header modal_header">
 												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 												          <span aria-hidden="true"><span class="icon-cancel"></span></span>
+
 												        </button>
-												        <ul class="list-group list-group-flush favourite_group">
-														  	<li class="list-group-item favourite_item">
-														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
-														  		<div class="wrapper_content_favourite">
-															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
-															  		
-															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
-															  	</div>
-															</li>
-														</ul>
-												        
-												      </div>
-												      <div class="modal-body modal_body">
-												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                <ul class="list-group list-group-flush favourite_group">
+                                                                    <li class="list-group-item favourite_item">
+                                                                        <a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+                                                                        <div class="wrapper_content_favourite">
+                                                                            <a href="#" class="link_favourite">Phở bò tái chín</a>
+
+                                                                            <p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+
+                                                            </div>
+                                                            <div class="modal-body modal_body">
+                                                                <h6 class="text_form_check">Size (Kích cỡ):</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát trẻ em
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát người lớn
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát đặc biệt (+5.000đ)
 															  </label>
-															</div>
-														</div>
-														<h6 class="text_form_check">Yêu cầu khác:</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                </div>
+                                                                <h6 class="text_form_check">Yêu cầu khác:</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Không hành
 															  </label>
+
 															</div>
 															
 														
@@ -342,50 +443,52 @@
 												      <div class="modal-header modal_header">
 												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 												          <span aria-hidden="true"><span class="icon-cancel"></span></span>
+
 												        </button>
-												        <ul class="list-group list-group-flush favourite_group">
-														  	<li class="list-group-item favourite_item">
-														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
-														  		<div class="wrapper_content_favourite">
-															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
-															  		
-															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
-															  	</div>
-															</li>
-														</ul>
-												        
-												      </div>
-												      <div class="modal-body modal_body">
-												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                <ul class="list-group list-group-flush favourite_group">
+                                                                    <li class="list-group-item favourite_item">
+                                                                        <a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+                                                                        <div class="wrapper_content_favourite">
+                                                                            <a href="#" class="link_favourite">Phở bò tái chín</a>
+
+                                                                            <p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+
+                                                            </div>
+                                                            <div class="modal-body modal_body">
+                                                                <h6 class="text_form_check">Size (Kích cỡ):</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát trẻ em
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát người lớn
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát đặc biệt (+5.000đ)
 															  </label>
-															</div>
-														</div>
-														<h6 class="text_form_check">Yêu cầu khác:</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                </div>
+                                                                <h6 class="text_form_check">Yêu cầu khác:</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Không hành
 															  </label>
+
 															</div>
 															
 														
@@ -444,50 +547,52 @@
 												      <div class="modal-header modal_header">
 												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 												          <span aria-hidden="true"><span class="icon-cancel"></span></span>
+
 												        </button>
-												        <ul class="list-group list-group-flush favourite_group">
-														  	<li class="list-group-item favourite_item">
-														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
-														  		<div class="wrapper_content_favourite">
-															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
-															  		
-															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
-															  	</div>
-															</li>
-														</ul>
-												        
-												      </div>
-												      <div class="modal-body modal_body">
-												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                <ul class="list-group list-group-flush favourite_group">
+                                                                    <li class="list-group-item favourite_item">
+                                                                        <a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+                                                                        <div class="wrapper_content_favourite">
+                                                                            <a href="#" class="link_favourite">Phở bò tái chín</a>
+
+                                                                            <p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+
+                                                            </div>
+                                                            <div class="modal-body modal_body">
+                                                                <h6 class="text_form_check">Size (Kích cỡ):</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát trẻ em
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát người lớn
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát đặc biệt (+5.000đ)
 															  </label>
-															</div>
-														</div>
-														<h6 class="text_form_check">Yêu cầu khác:</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                </div>
+                                                                <h6 class="text_form_check">Yêu cầu khác:</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Không hành
 															  </label>
+
 															</div>
 															
 														
@@ -557,50 +662,52 @@
 												      <div class="modal-header modal_header">
 												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 												          <span aria-hidden="true"><span class="icon-cancel"></span></span>
+
 												        </button>
-												        <ul class="list-group list-group-flush favourite_group">
-														  	<li class="list-group-item favourite_item">
-														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
-														  		<div class="wrapper_content_favourite">
-															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
-															  		
-															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
-															  	</div>
-															</li>
-														</ul>
-												        
-												      </div>
-												      <div class="modal-body modal_body">
-												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                <ul class="list-group list-group-flush favourite_group">
+                                                                    <li class="list-group-item favourite_item">
+                                                                        <a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+                                                                        <div class="wrapper_content_favourite">
+                                                                            <a href="#" class="link_favourite">Phở bò tái chín</a>
+
+                                                                            <p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+
+                                                            </div>
+                                                            <div class="modal-body modal_body">
+                                                                <h6 class="text_form_check">Size (Kích cỡ):</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát trẻ em
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát người lớn
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát đặc biệt (+5.000đ)
 															  </label>
-															</div>
-														</div>
-														<h6 class="text_form_check">Yêu cầu khác:</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                </div>
+                                                                <h6 class="text_form_check">Yêu cầu khác:</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Không hành
 															  </label>
+
 															</div>
 															
 														
@@ -659,50 +766,52 @@
 												      <div class="modal-header modal_header">
 												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 												          <span aria-hidden="true"><span class="icon-cancel"></span></span>
+
 												        </button>
-												        <ul class="list-group list-group-flush favourite_group">
-														  	<li class="list-group-item favourite_item">
-														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
-														  		<div class="wrapper_content_favourite">
-															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
-															  		
-															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
-															  	</div>
-															</li>
-														</ul>
-												        
-												      </div>
-												      <div class="modal-body modal_body">
-												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                <ul class="list-group list-group-flush favourite_group">
+                                                                    <li class="list-group-item favourite_item">
+                                                                        <a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+                                                                        <div class="wrapper_content_favourite">
+                                                                            <a href="#" class="link_favourite">Phở bò tái chín</a>
+
+                                                                            <p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+
+                                                            </div>
+                                                            <div class="modal-body modal_body">
+                                                                <h6 class="text_form_check">Size (Kích cỡ):</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát trẻ em
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát người lớn
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát đặc biệt (+5.000đ)
 															  </label>
-															</div>
-														</div>
-														<h6 class="text_form_check">Yêu cầu khác:</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                </div>
+                                                                <h6 class="text_form_check">Yêu cầu khác:</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Không hành
 															  </label>
+
 															</div>
 															
 														
@@ -761,50 +870,52 @@
 												      <div class="modal-header modal_header">
 												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 												          <span aria-hidden="true"><span class="icon-cancel"></span></span>
+
 												        </button>
-												        <ul class="list-group list-group-flush favourite_group">
-														  	<li class="list-group-item favourite_item">
-														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
-														  		<div class="wrapper_content_favourite">
-															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
-															  		
-															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
-															  	</div>
-															</li>
-														</ul>
-												        
-												      </div>
-												      <div class="modal-body modal_body">
-												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                <ul class="list-group list-group-flush favourite_group">
+                                                                    <li class="list-group-item favourite_item">
+                                                                        <a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+                                                                        <div class="wrapper_content_favourite">
+                                                                            <a href="#" class="link_favourite">Phở bò tái chín</a>
+
+                                                                            <p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+
+                                                            </div>
+                                                            <div class="modal-body modal_body">
+                                                                <h6 class="text_form_check">Size (Kích cỡ):</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát trẻ em
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát người lớn
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát đặc biệt (+5.000đ)
 															  </label>
-															</div>
-														</div>
-														<h6 class="text_form_check">Yêu cầu khác:</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                </div>
+                                                                <h6 class="text_form_check">Yêu cầu khác:</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Không hành
 															  </label>
+
 															</div>
 															
 														
@@ -874,50 +985,52 @@
 												      <div class="modal-header modal_header">
 												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 												          <span aria-hidden="true"><span class="icon-cancel"></span></span>
+
 												        </button>
-												        <ul class="list-group list-group-flush favourite_group">
-														  	<li class="list-group-item favourite_item">
-														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
-														  		<div class="wrapper_content_favourite">
-															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
-															  		
-															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
-															  	</div>
-															</li>
-														</ul>
-												        
-												      </div>
-												      <div class="modal-body modal_body">
-												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                <ul class="list-group list-group-flush favourite_group">
+                                                                    <li class="list-group-item favourite_item">
+                                                                        <a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+                                                                        <div class="wrapper_content_favourite">
+                                                                            <a href="#" class="link_favourite">Phở bò tái chín</a>
+
+                                                                            <p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+
+                                                            </div>
+                                                            <div class="modal-body modal_body">
+                                                                <h6 class="text_form_check">Size (Kích cỡ):</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát trẻ em
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát người lớn
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát đặc biệt (+5.000đ)
 															  </label>
-															</div>
-														</div>
-														<h6 class="text_form_check">Yêu cầu khác:</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                </div>
+                                                                <h6 class="text_form_check">Yêu cầu khác:</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Không hành
 															  </label>
+
 															</div>
 															
 														
@@ -976,50 +1089,52 @@
 												      <div class="modal-header modal_header">
 												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 												          <span aria-hidden="true"><span class="icon-cancel"></span></span>
+
 												        </button>
-												        <ul class="list-group list-group-flush favourite_group">
-														  	<li class="list-group-item favourite_item">
-														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
-														  		<div class="wrapper_content_favourite">
-															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
-															  		
-															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
-															  	</div>
-															</li>
-														</ul>
-												        
-												      </div>
-												      <div class="modal-body modal_body">
-												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                <ul class="list-group list-group-flush favourite_group">
+                                                                    <li class="list-group-item favourite_item">
+                                                                        <a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+                                                                        <div class="wrapper_content_favourite">
+                                                                            <a href="#" class="link_favourite">Phở bò tái chín</a>
+
+                                                                            <p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+
+                                                            </div>
+                                                            <div class="modal-body modal_body">
+                                                                <h6 class="text_form_check">Size (Kích cỡ):</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát trẻ em
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát người lớn
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát đặc biệt (+5.000đ)
 															  </label>
-															</div>
-														</div>
-														<h6 class="text_form_check">Yêu cầu khác:</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                </div>
+                                                                <h6 class="text_form_check">Yêu cầu khác:</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Không hành
 															  </label>
+
 															</div>
 															
 														
@@ -1078,50 +1193,52 @@
 												      <div class="modal-header modal_header">
 												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 												          <span aria-hidden="true"><span class="icon-cancel"></span></span>
+
 												        </button>
-												        <ul class="list-group list-group-flush favourite_group">
-														  	<li class="list-group-item favourite_item">
-														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
-														  		<div class="wrapper_content_favourite">
-															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
-															  		
-															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
-															  	</div>
-															</li>
-														</ul>
-												        
-												      </div>
-												      <div class="modal-body modal_body">
-												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                <ul class="list-group list-group-flush favourite_group">
+                                                                    <li class="list-group-item favourite_item">
+                                                                        <a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+                                                                        <div class="wrapper_content_favourite">
+                                                                            <a href="#" class="link_favourite">Phở bò tái chín</a>
+
+                                                                            <p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+
+                                                            </div>
+                                                            <div class="modal-body modal_body">
+                                                                <h6 class="text_form_check">Size (Kích cỡ):</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát trẻ em
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát người lớn
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát đặc biệt (+5.000đ)
 															  </label>
-															</div>
-														</div>
-														<h6 class="text_form_check">Yêu cầu khác:</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                </div>
+                                                                <h6 class="text_form_check">Yêu cầu khác:</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Không hành
 															  </label>
+
 															</div>
 															
 														
@@ -1191,50 +1308,52 @@
 												      <div class="modal-header modal_header">
 												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 												          <span aria-hidden="true"><span class="icon-cancel"></span></span>
+
 												        </button>
-												        <ul class="list-group list-group-flush favourite_group">
-														  	<li class="list-group-item favourite_item">
-														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
-														  		<div class="wrapper_content_favourite">
-															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
-															  		
-															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
-															  	</div>
-															</li>
-														</ul>
-												        
-												      </div>
-												      <div class="modal-body modal_body">
-												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                <ul class="list-group list-group-flush favourite_group">
+                                                                    <li class="list-group-item favourite_item">
+                                                                        <a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+                                                                        <div class="wrapper_content_favourite">
+                                                                            <a href="#" class="link_favourite">Phở bò tái chín</a>
+
+                                                                            <p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+
+                                                            </div>
+                                                            <div class="modal-body modal_body">
+                                                                <h6 class="text_form_check">Size (Kích cỡ):</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát trẻ em
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát người lớn
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát đặc biệt (+5.000đ)
 															  </label>
-															</div>
-														</div>
-														<h6 class="text_form_check">Yêu cầu khác:</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                </div>
+                                                                <h6 class="text_form_check">Yêu cầu khác:</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Không hành
 															  </label>
+
 															</div>
 															
 														
@@ -1293,50 +1412,52 @@
 												      <div class="modal-header modal_header">
 												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 												          <span aria-hidden="true"><span class="icon-cancel"></span></span>
+
 												        </button>
-												        <ul class="list-group list-group-flush favourite_group">
-														  	<li class="list-group-item favourite_item">
-														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
-														  		<div class="wrapper_content_favourite">
-															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
-															  		
-															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
-															  	</div>
-															</li>
-														</ul>
-												        
-												      </div>
-												      <div class="modal-body modal_body">
-												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                <ul class="list-group list-group-flush favourite_group">
+                                                                    <li class="list-group-item favourite_item">
+                                                                        <a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+                                                                        <div class="wrapper_content_favourite">
+                                                                            <a href="#" class="link_favourite">Phở bò tái chín</a>
+
+                                                                            <p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+
+                                                            </div>
+                                                            <div class="modal-body modal_body">
+                                                                <h6 class="text_form_check">Size (Kích cỡ):</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát trẻ em
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát người lớn
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát đặc biệt (+5.000đ)
 															  </label>
-															</div>
-														</div>
-														<h6 class="text_form_check">Yêu cầu khác:</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                </div>
+                                                                <h6 class="text_form_check">Yêu cầu khác:</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Không hành
 															  </label>
+
 															</div>
 															
 														
@@ -1395,50 +1516,52 @@
 												      <div class="modal-header modal_header">
 												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 												          <span aria-hidden="true"><span class="icon-cancel"></span></span>
+
 												        </button>
-												        <ul class="list-group list-group-flush favourite_group">
-														  	<li class="list-group-item favourite_item">
-														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
-														  		<div class="wrapper_content_favourite">
-															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
-															  		
-															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
-															  	</div>
-															</li>
-														</ul>
-												        
-												      </div>
-												      <div class="modal-body modal_body">
-												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                <ul class="list-group list-group-flush favourite_group">
+                                                                    <li class="list-group-item favourite_item">
+                                                                        <a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+                                                                        <div class="wrapper_content_favourite">
+                                                                            <a href="#" class="link_favourite">Phở bò tái chín</a>
+
+                                                                            <p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+
+                                                            </div>
+                                                            <div class="modal-body modal_body">
+                                                                <h6 class="text_form_check">Size (Kích cỡ):</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát trẻ em
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát người lớn
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát đặc biệt (+5.000đ)
 															  </label>
-															</div>
-														</div>
-														<h6 class="text_form_check">Yêu cầu khác:</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                </div>
+                                                                <h6 class="text_form_check">Yêu cầu khác:</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Không hành
 															  </label>
+
 															</div>
 															
 														
@@ -1508,50 +1631,52 @@
 												      <div class="modal-header modal_header">
 												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 												          <span aria-hidden="true"><span class="icon-cancel"></span></span>
+
 												        </button>
-												        <ul class="list-group list-group-flush favourite_group">
-														  	<li class="list-group-item favourite_item">
-														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
-														  		<div class="wrapper_content_favourite">
-															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
-															  		
-															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
-															  	</div>
-															</li>
-														</ul>
-												        
-												      </div>
-												      <div class="modal-body modal_body">
-												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                <ul class="list-group list-group-flush favourite_group">
+                                                                    <li class="list-group-item favourite_item">
+                                                                        <a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+                                                                        <div class="wrapper_content_favourite">
+                                                                            <a href="#" class="link_favourite">Phở bò tái chín</a>
+
+                                                                            <p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+
+                                                            </div>
+                                                            <div class="modal-body modal_body">
+                                                                <h6 class="text_form_check">Size (Kích cỡ):</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát trẻ em
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát người lớn
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát đặc biệt (+5.000đ)
 															  </label>
-															</div>
-														</div>
-														<h6 class="text_form_check">Yêu cầu khác:</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                </div>
+                                                                <h6 class="text_form_check">Yêu cầu khác:</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Không hành
 															  </label>
+
 															</div>
 															
 														
@@ -1610,50 +1735,52 @@
 												      <div class="modal-header modal_header">
 												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 												          <span aria-hidden="true"><span class="icon-cancel"></span></span>
+
 												        </button>
-												        <ul class="list-group list-group-flush favourite_group">
-														  	<li class="list-group-item favourite_item">
-														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
-														  		<div class="wrapper_content_favourite">
-															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
-															  		
-															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
-															  	</div>
-															</li>
-														</ul>
-												        
-												      </div>
-												      <div class="modal-body modal_body">
-												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                <ul class="list-group list-group-flush favourite_group">
+                                                                    <li class="list-group-item favourite_item">
+                                                                        <a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+                                                                        <div class="wrapper_content_favourite">
+                                                                            <a href="#" class="link_favourite">Phở bò tái chín</a>
+
+                                                                            <p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+
+                                                            </div>
+                                                            <div class="modal-body modal_body">
+                                                                <h6 class="text_form_check">Size (Kích cỡ):</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát trẻ em
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát người lớn
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát đặc biệt (+5.000đ)
 															  </label>
-															</div>
-														</div>
-														<h6 class="text_form_check">Yêu cầu khác:</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                </div>
+                                                                <h6 class="text_form_check">Yêu cầu khác:</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Không hành
 															  </label>
+
 															</div>
 															
 														
@@ -1712,50 +1839,52 @@
 												      <div class="modal-header modal_header">
 												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 												          <span aria-hidden="true"><span class="icon-cancel"></span></span>
+
 												        </button>
-												        <ul class="list-group list-group-flush favourite_group">
-														  	<li class="list-group-item favourite_item">
-														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
-														  		<div class="wrapper_content_favourite">
-															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
-															  		
-															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
-															  	</div>
-															</li>
-														</ul>
-												        
-												      </div>
-												      <div class="modal-body modal_body">
-												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                <ul class="list-group list-group-flush favourite_group">
+                                                                    <li class="list-group-item favourite_item">
+                                                                        <a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+                                                                        <div class="wrapper_content_favourite">
+                                                                            <a href="#" class="link_favourite">Phở bò tái chín</a>
+
+                                                                            <p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+
+                                                            </div>
+                                                            <div class="modal-body modal_body">
+                                                                <h6 class="text_form_check">Size (Kích cỡ):</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát trẻ em
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát người lớn
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát đặc biệt (+5.000đ)
 															  </label>
-															</div>
-														</div>
-														<h6 class="text_form_check">Yêu cầu khác:</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                </div>
+                                                                <h6 class="text_form_check">Yêu cầu khác:</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Không hành
 															  </label>
+
 															</div>
 															
 														
@@ -1825,50 +1954,52 @@
 												      <div class="modal-header modal_header">
 												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 												          <span aria-hidden="true"><span class="icon-cancel"></span></span>
+
 												        </button>
-												        <ul class="list-group list-group-flush favourite_group">
-														  	<li class="list-group-item favourite_item">
-														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
-														  		<div class="wrapper_content_favourite">
-															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
-															  		
-															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
-															  	</div>
-															</li>
-														</ul>
-												        
-												      </div>
-												      <div class="modal-body modal_body">
-												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                <ul class="list-group list-group-flush favourite_group">
+                                                                    <li class="list-group-item favourite_item">
+                                                                        <a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+                                                                        <div class="wrapper_content_favourite">
+                                                                            <a href="#" class="link_favourite">Phở bò tái chín</a>
+
+                                                                            <p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+
+                                                            </div>
+                                                            <div class="modal-body modal_body">
+                                                                <h6 class="text_form_check">Size (Kích cỡ):</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát trẻ em
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát người lớn
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát đặc biệt (+5.000đ)
 															  </label>
-															</div>
-														</div>
-														<h6 class="text_form_check">Yêu cầu khác:</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                </div>
+                                                                <h6 class="text_form_check">Yêu cầu khác:</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Không hành
 															  </label>
+
 															</div>
 															
 														
@@ -1927,50 +2058,52 @@
 												      <div class="modal-header modal_header">
 												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 												          <span aria-hidden="true"><span class="icon-cancel"></span></span>
+
 												        </button>
-												        <ul class="list-group list-group-flush favourite_group">
-														  	<li class="list-group-item favourite_item">
-														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
-														  		<div class="wrapper_content_favourite">
-															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
-															  		
-															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
-															  	</div>
-															</li>
-														</ul>
-												        
-												      </div>
-												      <div class="modal-body modal_body">
-												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                <ul class="list-group list-group-flush favourite_group">
+                                                                    <li class="list-group-item favourite_item">
+                                                                        <a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+                                                                        <div class="wrapper_content_favourite">
+                                                                            <a href="#" class="link_favourite">Phở bò tái chín</a>
+
+                                                                            <p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+
+                                                            </div>
+                                                            <div class="modal-body modal_body">
+                                                                <h6 class="text_form_check">Size (Kích cỡ):</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát trẻ em
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát người lớn
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát đặc biệt (+5.000đ)
 															  </label>
-															</div>
-														</div>
-														<h6 class="text_form_check">Yêu cầu khác:</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                </div>
+                                                                <h6 class="text_form_check">Yêu cầu khác:</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Không hành
 															  </label>
+
 															</div>
 															
 														
@@ -2029,50 +2162,52 @@
 												      <div class="modal-header modal_header">
 												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 												          <span aria-hidden="true"><span class="icon-cancel"></span></span>
+
 												        </button>
-												        <ul class="list-group list-group-flush favourite_group">
-														  	<li class="list-group-item favourite_item">
-														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
-														  		<div class="wrapper_content_favourite">
-															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
-															  		
-															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
-															  	</div>
-															</li>
-														</ul>
-												        
-												      </div>
-												      <div class="modal-body modal_body">
-												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                <ul class="list-group list-group-flush favourite_group">
+                                                                    <li class="list-group-item favourite_item">
+                                                                        <a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+                                                                        <div class="wrapper_content_favourite">
+                                                                            <a href="#" class="link_favourite">Phở bò tái chín</a>
+
+                                                                            <p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+
+                                                            </div>
+                                                            <div class="modal-body modal_body">
+                                                                <h6 class="text_form_check">Size (Kích cỡ):</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát trẻ em
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát người lớn
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát đặc biệt (+5.000đ)
 															  </label>
-															</div>
-														</div>
-														<h6 class="text_form_check">Yêu cầu khác:</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                </div>
+                                                                <h6 class="text_form_check">Yêu cầu khác:</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Không hành
 															  </label>
+
 															</div>
 															
 														
@@ -2142,50 +2277,52 @@
 												      <div class="modal-header modal_header">
 												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 												          <span aria-hidden="true"><span class="icon-cancel"></span></span>
+
 												        </button>
-												        <ul class="list-group list-group-flush favourite_group">
-														  	<li class="list-group-item favourite_item">
-														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
-														  		<div class="wrapper_content_favourite">
-															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
-															  		
-															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
-															  	</div>
-															</li>
-														</ul>
-												        
-												      </div>
-												      <div class="modal-body modal_body">
-												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                <ul class="list-group list-group-flush favourite_group">
+                                                                    <li class="list-group-item favourite_item">
+                                                                        <a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+                                                                        <div class="wrapper_content_favourite">
+                                                                            <a href="#" class="link_favourite">Phở bò tái chín</a>
+
+                                                                            <p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+
+                                                            </div>
+                                                            <div class="modal-body modal_body">
+                                                                <h6 class="text_form_check">Size (Kích cỡ):</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát trẻ em
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát người lớn
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát đặc biệt (+5.000đ)
 															  </label>
-															</div>
-														</div>
-														<h6 class="text_form_check">Yêu cầu khác:</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                </div>
+                                                                <h6 class="text_form_check">Yêu cầu khác:</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Không hành
 															  </label>
+
 															</div>
 															
 														
@@ -2244,50 +2381,52 @@
 												      <div class="modal-header modal_header">
 												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 												          <span aria-hidden="true"><span class="icon-cancel"></span></span>
+
 												        </button>
-												        <ul class="list-group list-group-flush favourite_group">
-														  	<li class="list-group-item favourite_item">
-														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
-														  		<div class="wrapper_content_favourite">
-															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
-															  		
-															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
-															  	</div>
-															</li>
-														</ul>
-												        
-												      </div>
-												      <div class="modal-body modal_body">
-												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                <ul class="list-group list-group-flush favourite_group">
+                                                                    <li class="list-group-item favourite_item">
+                                                                        <a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+                                                                        <div class="wrapper_content_favourite">
+                                                                            <a href="#" class="link_favourite">Phở bò tái chín</a>
+
+                                                                            <p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+
+                                                            </div>
+                                                            <div class="modal-body modal_body">
+                                                                <h6 class="text_form_check">Size (Kích cỡ):</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát trẻ em
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát người lớn
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát đặc biệt (+5.000đ)
 															  </label>
-															</div>
-														</div>
-														<h6 class="text_form_check">Yêu cầu khác:</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                </div>
+                                                                <h6 class="text_form_check">Yêu cầu khác:</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Không hành
 															  </label>
+
 															</div>
 															
 														
@@ -2346,50 +2485,52 @@
 												      <div class="modal-header modal_header">
 												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 												          <span aria-hidden="true"><span class="icon-cancel"></span></span>
+
 												        </button>
-												        <ul class="list-group list-group-flush favourite_group">
-														  	<li class="list-group-item favourite_item">
-														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
-														  		<div class="wrapper_content_favourite">
-															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
-															  		
-															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
-															  	</div>
-															</li>
-														</ul>
-												        
-												      </div>
-												      <div class="modal-body modal_body">
-												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                <ul class="list-group list-group-flush favourite_group">
+                                                                    <li class="list-group-item favourite_item">
+                                                                        <a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+                                                                        <div class="wrapper_content_favourite">
+                                                                            <a href="#" class="link_favourite">Phở bò tái chín</a>
+
+                                                                            <p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+
+                                                            </div>
+                                                            <div class="modal-body modal_body">
+                                                                <h6 class="text_form_check">Size (Kích cỡ):</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát trẻ em
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát người lớn
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát đặc biệt (+5.000đ)
 															  </label>
-															</div>
-														</div>
-														<h6 class="text_form_check">Yêu cầu khác:</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                </div>
+                                                                <h6 class="text_form_check">Yêu cầu khác:</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Không hành
 															  </label>
+
 															</div>
 															
 														
@@ -2459,50 +2600,52 @@
 												      <div class="modal-header modal_header">
 												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 												          <span aria-hidden="true"><span class="icon-cancel"></span></span>
+
 												        </button>
-												        <ul class="list-group list-group-flush favourite_group">
-														  	<li class="list-group-item favourite_item">
-														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
-														  		<div class="wrapper_content_favourite">
-															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
-															  		
-															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
-															  	</div>
-															</li>
-														</ul>
-												        
-												      </div>
-												      <div class="modal-body modal_body">
-												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                <ul class="list-group list-group-flush favourite_group">
+                                                                    <li class="list-group-item favourite_item">
+                                                                        <a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+                                                                        <div class="wrapper_content_favourite">
+                                                                            <a href="#" class="link_favourite">Phở bò tái chín</a>
+
+                                                                            <p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+
+                                                            </div>
+                                                            <div class="modal-body modal_body">
+                                                                <h6 class="text_form_check">Size (Kích cỡ):</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát trẻ em
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát người lớn
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát đặc biệt (+5.000đ)
 															  </label>
-															</div>
-														</div>
-														<h6 class="text_form_check">Yêu cầu khác:</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                </div>
+                                                                <h6 class="text_form_check">Yêu cầu khác:</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Không hành
 															  </label>
+
 															</div>
 															
 														
@@ -2561,50 +2704,52 @@
 												      <div class="modal-header modal_header">
 												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 												          <span aria-hidden="true"><span class="icon-cancel"></span></span>
+
 												        </button>
-												        <ul class="list-group list-group-flush favourite_group">
-														  	<li class="list-group-item favourite_item">
-														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
-														  		<div class="wrapper_content_favourite">
-															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
-															  		
-															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
-															  	</div>
-															</li>
-														</ul>
-												        
-												      </div>
-												      <div class="modal-body modal_body">
-												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                <ul class="list-group list-group-flush favourite_group">
+                                                                    <li class="list-group-item favourite_item">
+                                                                        <a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+                                                                        <div class="wrapper_content_favourite">
+                                                                            <a href="#" class="link_favourite">Phở bò tái chín</a>
+
+                                                                            <p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+
+                                                            </div>
+                                                            <div class="modal-body modal_body">
+                                                                <h6 class="text_form_check">Size (Kích cỡ):</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát trẻ em
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát người lớn
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát đặc biệt (+5.000đ)
 															  </label>
-															</div>
-														</div>
-														<h6 class="text_form_check">Yêu cầu khác:</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                </div>
+                                                                <h6 class="text_form_check">Yêu cầu khác:</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Không hành
 															  </label>
+
 															</div>
 															
 														
@@ -2663,50 +2808,52 @@
 												      <div class="modal-header modal_header">
 												      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 												          <span aria-hidden="true"><span class="icon-cancel"></span></span>
+
 												        </button>
-												        <ul class="list-group list-group-flush favourite_group">
-														  	<li class="list-group-item favourite_item">
-														  		<a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
-														  		<div class="wrapper_content_favourite">
-															  		<a href="#" class="link_favourite">Phở bò tái chín</a>
-															  		
-															  		<p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
-															  	</div>
-															</li>
-														</ul>
-												        
-												      </div>
-												      <div class="modal-body modal_body">
-												      	<h6 class="text_form_check">Size (Kích cỡ):</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                <ul class="list-group list-group-flush favourite_group">
+                                                                    <li class="list-group-item favourite_item">
+                                                                        <a href="#" class="link_img_favourite"><img src="../images/favourite.png" alt=""></a>
+                                                                        <div class="wrapper_content_favourite">
+                                                                            <a href="#" class="link_favourite">Phở bò tái chín</a>
+
+                                                                            <p class="content_favourite">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+
+                                                            </div>
+                                                            <div class="modal-body modal_body">
+                                                                <h6 class="text_form_check">Size (Kích cỡ):</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát trẻ em
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát người lớn
 															  </label>
-															</div>
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Bát đặc biệt (+5.000đ)
 															  </label>
-															</div>
-														</div>
-														<h6 class="text_form_check">Yêu cầu khác:</h6>
-												      	<div class="wrapper_form_check">
-												      	
-															<div class="form-check">
-															  <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
-															  <label class="form-check-label size_check_label" for="defaultCheck1">
+                                                                    </div>
+                                                                </div>
+                                                                <h6 class="text_form_check">Yêu cầu khác:</h6>
+                                                                <div class="wrapper_form_check">
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input check_input_size" type="checkbox" value="" id="defaultCheck1">
+                                                                        <label class="form-check-label size_check_label" for="defaultCheck1">
 															    Không hành
 															  </label>
+
 															</div>
 															
 														
@@ -2843,7 +2990,7 @@
 					<div class="col-link">
 						<h6 class="title_footer">Liên kết</h6>
 						<ul class="list_footer">
-							<li class="item_footer"><a href="homepage.html" class="link_item_footer active">Trang chủ</a></li>
+							<li class="item_footer"><a href="homepage.html" class="link_item_footer ">Trang chủ</a></li>
 							<li class="item_footer"><a href="" class="link_item_footer">Tạo thực đơn</a></li>
 							<li class="item_footer"><a href="cooking_recipe.html" class="link_item_footer">Công thức nấu ăn</a></li>
 						</ul>
@@ -2855,7 +3002,7 @@
 						<ul class="list_footer">
 							<li class="item_footer"><a href="dish.html" class="link_item_footer">Đồ ăn</a></li>
 							<li class="item_footer"><a href="foods.html" class="link_item_footer">Thực phẩm</a></li>
-							<li class="item_footer"><a href="grocery.html" class="link_item_footer">Tạp hóa</a></li>
+							<li class="item_footer active"><a href="grocery.html" class="link_item_footer active">Tạp hóa</a></li>
 							<li class="item_footer"><a href="party_menu.html" class="link_item_footer">Thực đơn tiệc</a></li>
 						</ul>
 					</div>
@@ -3073,6 +3220,7 @@
 
 
   	
+
 </body>
-	
+
 </html>
