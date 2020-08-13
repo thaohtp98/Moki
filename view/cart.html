@@ -284,485 +284,469 @@
         <!-- finish breadcrumb -->
 
         <!-- cart_content -->
-        <div class="container">
-            <div class="cart_content">
-                <div class="row">
-                    <div class="col-md-6 cart_content-left">
-                        <input type="checkbox" name="" id="">
-                        <span>Sản phẩm</span>
+        <div class="fluid" style="background-color: #E5E5E5;">
+            <div class="container">
+                <div class="cart_content">
+                    <div class="row" style="background-color: #fff; padding: 12px;">
+                        <div class="col-md-6 cart_content-left">
+                            <input type="checkbox" name="" id="">
+                            <span>Sản phẩm</span>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="price1">
+                                        Đơn giá
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="number1">
+                                        Số lượng
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="total">
+                                        Thành tiền
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="action">
+                                        Hành động
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-6">
+                    <!-- List product 1 -->
+                    <div class="row" style="background-color: #fff; padding: 12px; border-bottom: 1px solid #E6E8EE; margin-top: 20px;padding: 0px;">
+                        <div class="col-lg-12">
+                            <div class="cart_between">
+                                <div class="row" style="background-color: #fff; padding: 12px; border-bottom: 1px solid #E6E8EE;">
+                                    <div class="col-md-6 col-12 cart_between-left">
+                                        <input type="checkbox" name="" id="">
+                                        <a href="http://">
+                                            <span> &nbsp; Nhà hàng Talent Wins </span> &nbsp;</a>
+                                        <span class="icon-chat" style="color: #666666;"></span>
+                                    </div>
+                                    <div class="col-md-6 col-12 cart_between-right">
+                                        <a href="http://">
+                                            <p>Xem thêm</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cart_bottom">
+                                <div class="row cart_bottom-listPD" style="background-color: #fff; padding: 12px; border-bottom: 1px solid #E6E8EE;">
+                                    <div class="col-md-6">
+                                        <div class="row">
+                                            <div class="col-md-2 cart_bottom-button">
+                                                <button>Hết hàng</button>
+                                            </div>
+                                            <div class="col-md-2 cart_bottom-img">
+                                                <img src="../images/cart1.png" alt="" width="100%;">
+                                            </div>
+                                            <div class="col-md-5">
+                                                <h6>Bánh plan việt quất phủ hạnh nhân chiên giòn</h6>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <p>Size bé, không siro</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="row">
+                                            <div class="col-md-3 price">
+                                                <p>100.000 đ</p>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="check-number">
+                                                    <button onclick="var result = document.getElementById('qty'); var qty = result.value; if( !isNaN(qty) &amp; qty > 1 ) result.value--;return false;" class="btn-minus btn-cts" type="button">–</button>
+                                                    <input type="text" class="qty input-text" id="qty" name="quantity" size="4" value="1">
+                                                    <button onclick="var result = document.getElementById('qty'); var qty = result.value; if( !isNaN(qty)) result.value++;return false;" class="btn-plus btn-cts" type="button">+</button>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 total">
+                                                <p>100.000 đ</p>
+                                            </div>
+                                            <div class="col-md-3 action">
+                                                Xóa
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row cart_bottom-listPD" style="background-color: #fff; padding: 12px; border-bottom: 1px solid #E6E8EE;">
+                                    <div class="col-md-6">
+                                        <div class="row">
+                                            <div class="col-md-2 cart_bottom-button">
+                                                <input type="checkbox" name="" id="">
+                                            </div>
+                                            <div class="col-md-2 cart_bottom-img">
+                                                <img src="../images/cart1.png" alt="" width="100%;">
+                                            </div>
+                                            <div class="col-md-5">
+                                                <h6>Bánh plan việt quất phủ hạnh nhân chiên giòn</h6>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <p>Size lớn</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="row">
+                                            <div class="col-md-3 price">
+                                                <del>150.000 đ</del>
+                                                <p>100.000 đ</p>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="check-number">
+                                                    <button onclick="var result = document.getElementById('qty'); var qty = result.value; if( !isNaN(qty) &amp; qty > 1 ) result.value--;return false;" class="btn-minus btn-cts" type="button">–</button>
+                                                    <input type="text" class="qty input-text" id="qty" name="quantity" size="4" value="1">
+                                                    <button onclick="var result = document.getElementById('qty'); var qty = result.value; if( !isNaN(qty)) result.value++;return false;" class="btn-plus btn-cts" type="button">+</button>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 total">
+                                                <p>100.000 đ</p>
+                                            </div>
+                                            <div class="col-md-3 action">
+                                                Xóa
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row cart_bottom-listPD" style="padding: 12px;">
+                                    <div class="col-md-6">
+                                        <div class="row">
+                                            <div class="col-md-2 cart_bottom-button">
+                                                <input type="checkbox" name="" id="">
+                                            </div>
+                                            <div class="col-md-2 cart_bottom-img">
+                                                <img src="../images/cart1.png" alt="" width="100%;">
+                                            </div>
+                                            <div class="col-md-5">
+                                                <h6>Bánh plan việt quất phủ hạnh nhân chiên giòn</h6>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <p>Size vừa</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="row">
+                                            <div class="col-md-3 price">
+                                                <p>100.000 đ</p>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="check-number">
+                                                    <button onclick="var result = document.getElementById('qty'); var qty = result.value; if( !isNaN(qty) &amp; qty > 1 ) result.value--;return false;" class="btn-minus btn-cts" type="button">–</button>
+                                                    <input type="text" class="qty input-text" id="qty" name="quantity" size="4" value="1">
+                                                    <button onclick="var result = document.getElementById('qty'); var qty = result.value; if( !isNaN(qty)) result.value++;return false;" class="btn-plus btn-cts" type="button">+</button>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 total">
+                                                <p>100.000 đ</p>
+                                            </div>
+                                            <div class="col-md-3 action">
+                                                Xóa
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- List product 2 -->
+                    <div class="row" style="background-color: #fff; padding: 12px; border-bottom: 1px solid #E6E8EE; margin-top: 20px;padding: 0px;">
+                        <div class="col-lg-12">
+                            <div class="cart_between">
+                                <div class="row" style="background-color: #fff; padding: 12px; border-bottom: 1px solid #E6E8EE;">
+                                    <div class="col-md-6 col-12 cart_between-left">
+                                        <input type="checkbox" name="" id="">
+                                        <a href="http://">
+                                            <span> &nbsp; Nhà hàng Talent Wins </span> &nbsp;</a>
+                                        <span class="icon-chat" style="color: #666666;"></span>
+                                    </div>
+                                    <div class="col-md-6 col-12 cart_between-right">
+                                        <a href="http://">
+                                            <p>Xem thêm</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cart_bottom">
+                                <div class="row cart_bottom-listPD" style="background-color: #fff; padding: 12px; border-bottom: 1px solid #E6E8EE;">
+                                    <div class="col-md-6">
+                                        <div class="row">
+                                            <div class="col-md-2 cart_bottom-button">
+                                                <button>Hết hàng</button>
+                                            </div>
+                                            <div class="col-md-2 cart_bottom-img">
+                                                <img src="../images/cart1.png" alt="" width="100%;">
+                                            </div>
+                                            <div class="col-md-5">
+                                                <h6>Bánh plan việt quất phủ hạnh nhân chiên giòn</h6>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <p>Size bé, không siro</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="row">
+                                            <div class="col-md-3 price">
+                                                <p>100.000 đ</p>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="check-number">
+                                                    <button onclick="var result = document.getElementById('qty'); var qty = result.value; if( !isNaN(qty) &amp; qty > 1 ) result.value--;return false;" class="btn-minus btn-cts" type="button">–</button>
+                                                    <input type="text" class="qty input-text" id="qty" name="quantity" size="4" value="1">
+                                                    <button onclick="var result = document.getElementById('qty'); var qty = result.value; if( !isNaN(qty)) result.value++;return false;" class="btn-plus btn-cts" type="button">+</button>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 total">
+                                                <p>100.000 đ</p>
+                                            </div>
+                                            <div class="col-md-3 action">
+                                                Xóa
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row cart_bottom-listPD" style="background-color: #fff; padding: 12px; border-bottom: 1px solid #E6E8EE;">
+                                    <div class="col-md-6">
+                                        <div class="row">
+                                            <div class="col-md-2 cart_bottom-button">
+                                                <input type="checkbox" name="" id="">
+                                            </div>
+                                            <div class="col-md-2 cart_bottom-img">
+                                                <img src="../images/cart1.png" alt="" width="100%;">
+                                            </div>
+                                            <div class="col-md-5">
+                                                <h6>Bánh plan việt quất phủ hạnh nhân chiên giòn</h6>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <p>Size lớn</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="row">
+                                            <div class="col-md-3 price">
+                                                <del>150.000 đ</del>
+                                                <p>100.000 đ</p>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="check-number">
+                                                    <button onclick="var result = document.getElementById('qty'); var qty = result.value; if( !isNaN(qty) &amp; qty > 1 ) result.value--;return false;" class="btn-minus btn-cts" type="button">–</button>
+                                                    <input type="text" class="qty input-text" id="qty" name="quantity" size="4" value="1">
+                                                    <button onclick="var result = document.getElementById('qty'); var qty = result.value; if( !isNaN(qty)) result.value++;return false;" class="btn-plus btn-cts" type="button">+</button>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 total">
+                                                <p>100.000 đ</p>
+                                            </div>
+                                            <div class="col-md-3 action">
+                                                Xóa
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row cart_bottom-listPD" style="padding: 12px;">
+                                    <div class="col-md-6">
+                                        <div class="row">
+                                            <div class="col-md-2 cart_bottom-button">
+                                                <input type="checkbox" name="" id="">
+                                            </div>
+                                            <div class="col-md-2 cart_bottom-img">
+                                                <img src="../images/cart1.png" alt="" width="100%;">
+                                            </div>
+                                            <div class="col-md-5">
+                                                <h6>Bánh plan việt quất phủ hạnh nhân chiên giòn</h6>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <p>Size vừa</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="row">
+                                            <div class="col-md-3 price">
+                                                <p>100.000 đ</p>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="check-number">
+                                                    <button onclick="var result = document.getElementById('qty'); var qty = result.value; if( !isNaN(qty) &amp; qty > 1 ) result.value--;return false;" class="btn-minus btn-cts" type="button">–</button>
+                                                    <input type="text" class="qty input-text" id="qty" name="quantity" size="4" value="1">
+                                                    <button onclick="var result = document.getElementById('qty'); var qty = result.value; if( !isNaN(qty)) result.value++;return false;" class="btn-plus btn-cts" type="button">+</button>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 total">
+                                                <p>100.000 đ</p>
+                                            </div>
+                                            <div class="col-md-3 action">
+                                                Xóa
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- List product 3 -->
+                    <div class="row" style="background-color: #fff; padding: 12px; border-bottom: 1px solid #E6E8EE; margin-top: 20px;padding: 0px;">
+                        <div class="col-lg-12">
+                            <div class="cart_between">
+                                <div class="row" style="background-color: #fff; padding: 12px; border-bottom: 1px solid #E6E8EE;">
+                                    <div class="col-md-6 col-12 cart_between-left">
+                                        <input type="checkbox" name="" id="">
+                                        <a href="http://">
+                                            <span> &nbsp; Nhà hàng Talent Wins </span> &nbsp;</a>
+                                        <span class="icon-chat" style="color: #666666;"></span>
+                                    </div>
+                                    <div class="col-md-6 col-12 cart_between-right">
+                                        <a href="http://">
+                                            <p>Xem thêm</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cart_bottom">
+                                <div class="row cart_bottom-listPD" style="background-color: #fff; padding: 12px; border-bottom: 1px solid #E6E8EE;">
+                                    <div class="col-md-6">
+                                        <div class="row">
+                                            <div class="col-md-2 cart_bottom-button">
+                                                <button>Hết hàng</button>
+                                            </div>
+                                            <div class="col-md-2 cart_bottom-img">
+                                                <img src="../images/cart1.png" alt="" width="100%;">
+                                            </div>
+                                            <div class="col-md-5">
+                                                <h6>Bánh plan việt quất phủ hạnh nhân chiên giòn</h6>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <p>Size bé, không siro</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="row">
+                                            <div class="col-md-3 price">
+                                                <p>100.000 đ</p>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="check-number">
+                                                    <button onclick="var result = document.getElementById('qty'); var qty = result.value; if( !isNaN(qty) &amp; qty > 1 ) result.value--;return false;" class="btn-minus btn-cts" type="button">–</button>
+                                                    <input type="text" class="qty input-text" id="qty" name="quantity" size="4" value="1">
+                                                    <button onclick="var result = document.getElementById('qty'); var qty = result.value; if( !isNaN(qty)) result.value++;return false;" class="btn-plus btn-cts" type="button">+</button>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 total">
+                                                <p>100.000 đ</p>
+                                            </div>
+                                            <div class="col-md-3 action">
+                                                Xóa
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row cart_bottom-listPD" style="background-color: #fff; padding: 12px; border-bottom: 1px solid #E6E8EE;">
+                                    <div class="col-md-6">
+                                        <div class="row">
+                                            <div class="col-md-2 cart_bottom-button">
+                                                <input type="checkbox" name="" id="">
+                                            </div>
+                                            <div class="col-md-2 cart_bottom-img">
+                                                <img src="../images/cart1.png" alt="" width="100%;">
+                                            </div>
+                                            <div class="col-md-5">
+                                                <h6>Bánh plan việt quất phủ hạnh nhân chiên giòn</h6>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <p>Size lớn</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="row">
+                                            <div class="col-md-3 price">
+                                                <del>150.000 đ</del>
+                                                <p>100.000 đ</p>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="check-number">
+                                                    <button onclick="var result = document.getElementById('qty'); var qty = result.value; if( !isNaN(qty) &amp; qty > 1 ) result.value--;return false;" class="btn-minus btn-cts" type="button">–</button>
+                                                    <input type="text" class="qty input-text" id="qty" name="quantity" size="4" value="1">
+                                                    <button onclick="var result = document.getElementById('qty'); var qty = result.value; if( !isNaN(qty)) result.value++;return false;" class="btn-plus btn-cts" type="button">+</button>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 total">
+                                                <p>100.000 đ</p>
+                                            </div>
+                                            <div class="col-md-3 action">
+                                                Xóa
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row cart_bottom-listPD" style="padding: 12px;">
+                                    <div class="col-md-6">
+                                        <div class="row">
+                                            <div class="col-md-2 cart_bottom-button">
+                                                <input type="checkbox" name="" id="">
+                                            </div>
+                                            <div class="col-md-2 cart_bottom-img">
+                                                <img src="../images/cart1.png" alt="" width="100%;">
+                                            </div>
+                                            <div class="col-md-5">
+                                                <h6>Bánh plan việt quất phủ hạnh nhân chiên giòn</h6>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <p>Size vừa</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="row">
+                                            <div class="col-md-3 price">
+                                                <p>100.000 đ</p>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="check-number">
+                                                    <button onclick="var result = document.getElementById('qty'); var qty = result.value; if( !isNaN(qty) &amp; qty > 1 ) result.value--;return false;" class="btn-minus btn-cts" type="button">–</button>
+                                                    <input type="text" class="qty input-text" id="qty" name="quantity" size="4" value="1">
+                                                    <button onclick="var result = document.getElementById('qty'); var qty = result.value; if( !isNaN(qty)) result.value++;return false;" class="btn-plus btn-cts" type="button">+</button>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 total">
+                                                <p>100.000 đ</p>
+                                            </div>
+                                            <div class="col-md-3 action">
+                                                Xóa
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- pick total -->
+                    <div class="pick_total">
                         <div class="row">
-                            <div class="col-md-3">
-                                <div class="price1">
-                                    Đơn giá
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="number1">
-                                    Số lượng
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="total">
-                                    Thành tiền
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="action">
-                                    Hành động
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- List product 1 -->
-                <div class="cart_between">
-                    <div class="row">
-                        <div class="col-md-6 col-12 cart_between-left">
-                            <input type="checkbox" name="" id="">
-                            <a href="http://">
-                                <span>Nhà hàng Talent Wins </span> &nbsp;</a>
-                            <span class="icon-chat" style="color: #666666;"></span>
-                        </div>
-                        <div class="col-md-6 col-12 cart_between-right">
-                            <a href="http://">
-                                <p>Xem thêm</p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                            <div class="col-md-6 col-6">
 
-                <div class="cart_bottom">
-                    <div class="row cart_bottom-listPD">
-                        <div class="col-md-6">
-                            <div class="row">
-                                <div class="col-md-2 cart_bottom-button">
-                                    <button>Hết hàng</button>
-                                </div>
-                                <div class="col-md-2 cart_bottom-img">
-                                    <img src="../images/cart1.png" alt="" width="100%;">
-                                </div>
-                                <div class="col-md-5">
-                                    <h6>Bánh plan việt quất phủ hạnh nhân chiên giòn</h6>
-                                </div>
-                                <div class="col-md-3">
-                                    <p class="type">Phân loại &nbsp;
-                                        <span class="icon-down-arrow-1" style="font-size: 10px;"></span>
-                                    </p>
-                                    <p>Size bé, không siro</p>
-                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="row">
-                                <div class="col-md-3 price">
-                                    <p>100.000 đ</p>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="check-number">
-                                        <button onclick="var result = document.getElementById('qty'); var qty = result.value; if( !isNaN(qty) &amp; qty > 1 ) result.value--;return false;" class="btn-minus btn-cts" type="button">–</button>
-                                        <input type="text" class="qty input-text" id="qty" name="quantity" size="4" value="1">
-                                        <button onclick="var result = document.getElementById('qty'); var qty = result.value; if( !isNaN(qty)) result.value++;return false;" class="btn-plus btn-cts" type="button">+</button>
+                            <div class="col-md-6 col-6 pick-total">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <p class="type" style="float: right;">Tổng tiền hàng:</p>
+                                        <p style="float: right; clear: both;">12 sản phẩm</p>
                                     </div>
-                                </div>
-                                <div class="col-md-3 total">
-                                    <p>100.000 đ</p>
-                                </div>
-                                <div class="col-md-3 action">
-                                    Xóa
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row cart_bottom-listPD">
-                        <div class="col-md-6">
-                            <div class="row">
-                                <div class="col-md-2 cart_bottom-button">
-                                    <input type="checkbox" name="" id="">
-                                </div>
-                                <div class="col-md-2 cart_bottom-img">
-                                    <img src="../images/cart1.png" alt="" width="100%;">
-                                </div>
-                                <div class="col-md-5">
-                                    <h6>Bánh plan việt quất phủ hạnh nhân chiên giòn</h6>
-                                </div>
-                                <div class="col-md-3">
-                                    <p class="type">Phân loại &nbsp;
-                                        <span class="icon-down-arrow-1" style="font-size: 10px;"></span>
-                                    </p>
-                                    <p>Size lớn</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="row">
-                                <div class="col-md-3 price">
-                                    <del>150.000 đ</del>
-                                    <p>100.000 đ</p>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="check-number">
-                                        <button onclick="var result = document.getElementById('qty'); var qty = result.value; if( !isNaN(qty) &amp; qty > 1 ) result.value--;return false;" class="btn-minus btn-cts" type="button">–</button>
-                                        <input type="text" class="qty input-text" id="qty" name="quantity" size="4" value="1">
-                                        <button onclick="var result = document.getElementById('qty'); var qty = result.value; if( !isNaN(qty)) result.value++;return false;" class="btn-plus btn-cts" type="button">+</button>
+                                    <div class="col-lg-4 price-total">
+                                        <p style="float: right;">12.000.000 đ</p>
                                     </div>
-                                </div>
-                                <div class="col-md-3 total">
-                                    <p>100.000 đ</p>
-                                </div>
-                                <div class="col-md-3 action">
-                                    Xóa
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row cart_bottom-listPD">
-                        <div class="col-md-6">
-                            <div class="row">
-                                <div class="col-md-2 cart_bottom-button">
-                                    <input type="checkbox" name="" id="">
-                                </div>
-                                <div class="col-md-2 cart_bottom-img">
-                                    <img src="../images/cart1.png" alt="" width="100%;">
-                                </div>
-                                <div class="col-md-5">
-                                    <h6>Bánh plan việt quất phủ hạnh nhân chiên giòn</h6>
-                                </div>
-                                <div class="col-md-3">
-                                    <p class="type">Phân loại &nbsp;
-                                        <span class="icon-down-arrow-1" style="font-size: 10px;"></span>
-                                    </p>
-                                    <p>Size vừa</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="row">
-                                <div class="col-md-3 price">
-                                    <p>100.000 đ</p>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="check-number">
-                                        <button onclick="var result = document.getElementById('qty'); var qty = result.value; if( !isNaN(qty) &amp; qty > 1 ) result.value--;return false;" class="btn-minus btn-cts" type="button">–</button>
-                                        <input type="text" class="qty input-text" id="qty" name="quantity" size="4" value="1">
-                                        <button onclick="var result = document.getElementById('qty'); var qty = result.value; if( !isNaN(qty)) result.value++;return false;" class="btn-plus btn-cts" type="button">+</button>
+                                    <div class="col-lg-4 pick_total-button">
+                                        <a href="../view/cart_checkout.html"><button>Đặt mua ngay</button></a>
                                     </div>
-                                </div>
-                                <div class="col-md-3 total">
-                                    <p>100.000 đ</p>
-                                </div>
-                                <div class="col-md-3 action">
-                                    Xóa
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- List product 2 -->
-                <div class="cart_between">
-                    <div class="row">
-                        <div class="col-md-6 col-12 cart_between-left">
-                            <input type="checkbox" name="" id="">
-                            <a href="http://">
-                                <span>Nhà hàng Talent Wins </span> &nbsp;</a>
-                            <span class="icon-chat" style="color: #666666;"></span>
-                        </div>
-                        <div class="col-md-6 col-12 cart_between-right">
-                            <a href="http://">
-                                <p>Xem thêm</p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cart_bottom">
-                    <div class="row cart_bottom-listPD">
-                        <div class="col-md-6">
-                            <div class="row">
-                                <div class="col-md-2 cart_bottom-button">
-                                    <button>Hết hàng</button>
-                                </div>
-                                <div class="col-md-2 cart_bottom-img">
-                                    <img src="../images/cart1.png" alt="" width="100%;">
-                                </div>
-                                <div class="col-md-5">
-                                    <h6>Bánh plan việt quất phủ hạnh nhân chiên giòn</h6>
-                                </div>
-                                <div class="col-md-3">
-                                    <p class="type">Phân loại &nbsp;
-                                        <span class="icon-down-arrow-1" style="font-size: 10px;"></span>
-                                    </p>
-                                    <p>Size bé, không siro</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="row">
-                                <div class="col-md-3 price">
-                                    <p>100.000 đ</p>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="check-number">
-                                        <button onclick="var result = document.getElementById('qty'); var qty = result.value; if( !isNaN(qty) &amp; qty > 1 ) result.value--;return false;" class="btn-minus btn-cts" type="button">–</button>
-                                        <input type="text" class="qty input-text" id="qty" name="quantity" size="4" value="1">
-                                        <button onclick="var result = document.getElementById('qty'); var qty = result.value; if( !isNaN(qty)) result.value++;return false;" class="btn-plus btn-cts" type="button">+</button>
-                                    </div>
-                                </div>
-                                <div class="col-md-3 total">
-                                    <p>100.000 đ</p>
-                                </div>
-                                <div class="col-md-3 action">
-                                    Xóa
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row cart_bottom-listPD">
-                        <div class="col-md-6">
-                            <div class="row">
-                                <div class="col-md-2 cart_bottom-button">
-                                    <input type="checkbox" name="" id="">
-                                </div>
-                                <div class="col-md-2 cart_bottom-img">
-                                    <img src="../images/cart1.png" alt="" width="100%;">
-                                </div>
-                                <div class="col-md-5">
-                                    <h6>Bánh plan việt quất phủ hạnh nhân chiên giòn</h6>
-                                </div>
-                                <div class="col-md-3">
-                                    <p class="type">Phân loại &nbsp;
-                                        <span class="icon-down-arrow-1" style="font-size: 10px;"></span>
-                                    </p>
-                                    <p>Size lớn</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="row">
-                                <div class="col-md-3 price">
-                                    <del>150.000 đ</del>
-                                    <p>100.000 đ</p>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="check-number">
-                                        <button onclick="var result = document.getElementById('qty'); var qty = result.value; if( !isNaN(qty) &amp; qty > 1 ) result.value--;return false;" class="btn-minus btn-cts" type="button">–</button>
-                                        <input type="text" class="qty input-text" id="qty" name="quantity" size="4" value="1">
-                                        <button onclick="var result = document.getElementById('qty'); var qty = result.value; if( !isNaN(qty)) result.value++;return false;" class="btn-plus btn-cts" type="button">+</button>
-                                    </div>
-                                </div>
-                                <div class="col-md-3 total">
-                                    <p>100.000 đ</p>
-                                </div>
-                                <div class="col-md-3 action">
-                                    Xóa
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row cart_bottom-listPD">
-                        <div class="col-md-6">
-                            <div class="row">
-                                <div class="col-md-2 cart_bottom-button">
-                                    <input type="checkbox" name="" id="">
-                                </div>
-                                <div class="col-md-2 cart_bottom-img">
-                                    <img src="../images/cart1.png" alt="" width="100%;">
-                                </div>
-                                <div class="col-md-5">
-                                    <h6>Bánh plan việt quất phủ hạnh nhân chiên giòn</h6>
-                                </div>
-                                <div class="col-md-3">
-                                    <p class="type">Phân loại &nbsp;
-                                        <span class="icon-down-arrow-1" style="font-size: 10px;"></span>
-                                    </p>
-                                    <p>Size vừa</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="row">
-                                <div class="col-md-3 price">
-                                    <p>100.000 đ</p>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="check-number">
-                                        <button onclick="var result = document.getElementById('qty'); var qty = result.value; if( !isNaN(qty) &amp; qty > 1 ) result.value--;return false;" class="btn-minus btn-cts" type="button">–</button>
-                                        <input type="text" class="qty input-text" id="qty" name="quantity" size="4" value="1">
-                                        <button onclick="var result = document.getElementById('qty'); var qty = result.value; if( !isNaN(qty)) result.value++;return false;" class="btn-plus btn-cts" type="button">+</button>
-                                    </div>
-                                </div>
-                                <div class="col-md-3 total">
-                                    <p>100.000 đ</p>
-                                </div>
-                                <div class="col-md-3 action">
-                                    Xóa
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- List product 3 -->
-                <div class="cart_between">
-                    <div class="row">
-                        <div class="col-md-6 col-12 cart_between-left">
-                            <input type="checkbox" name="" id="">
-                            <a href="http://">
-                                <span>Nhà hàng Talent Wins </span> &nbsp;</a>
-                            <span class="icon-chat" style="color: #666666;"></span>
-                        </div>
-                        <div class="col-md-6 col-12 cart_between-right">
-                            <a href="http://">
-                                <p>Xem thêm</p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cart_bottom">
-                    <div class="row cart_bottom-listPD">
-                        <div class="col-md-6">
-                            <div class="row">
-                                <div class="col-md-2 cart_bottom-button">
-                                    <button>Hết hàng</button>
-                                </div>
-                                <div class="col-md-2 cart_bottom-img">
-                                    <img src="../images/cart1.png" alt="" width="100%;">
-                                </div>
-                                <div class="col-md-5">
-                                    <h6>Bánh plan việt quất phủ hạnh nhân chiên giòn</h6>
-                                </div>
-                                <div class="col-md-3">
-                                    <p class="type">Phân loại &nbsp;
-                                        <span class="icon-down-arrow-1" style="font-size: 10px;"></span>
-                                    </p>
-                                    <p>Size bé, không siro</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="row">
-                                <div class="col-md-3 price">
-                                    <p>100.000 đ</p>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="check-number">
-                                        <button onclick="var result = document.getElementById('qty'); var qty = result.value; if( !isNaN(qty) &amp; qty > 1 ) result.value--;return false;" class="btn-minus btn-cts" type="button">–</button>
-                                        <input type="text" class="qty input-text" id="qty" name="quantity" size="4" value="1">
-                                        <button onclick="var result = document.getElementById('qty'); var qty = result.value; if( !isNaN(qty)) result.value++;return false;" class="btn-plus btn-cts" type="button">+</button>
-                                    </div>
-                                </div>
-                                <div class="col-md-3 total">
-                                    <p>100.000 đ</p>
-                                </div>
-                                <div class="col-md-3 action">
-                                    Xóa
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row cart_bottom-listPD">
-                        <div class="col-md-6">
-                            <div class="row">
-                                <div class="col-md-2 cart_bottom-button">
-                                    <input type="checkbox" name="" id="">
-                                </div>
-                                <div class="col-md-2 cart_bottom-img">
-                                    <img src="../images/cart1.png" alt="" width="100%;">
-                                </div>
-                                <div class="col-md-5">
-                                    <h6>Bánh plan việt quất phủ hạnh nhân chiên giòn</h6>
-                                </div>
-                                <div class="col-md-3">
-                                    <p class="type">Phân loại &nbsp;
-                                        <span class="icon-down-arrow-1" style="font-size: 10px;"></span>
-                                    </p>
-                                    <p>Size lớn</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="row">
-                                <div class="col-md-3 price">
-                                    <del>150.000 đ</del>
-                                    <p>100.000 đ</p>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="check-number">
-                                        <button onclick="var result = document.getElementById('qty'); var qty = result.value; if( !isNaN(qty) &amp; qty > 1 ) result.value--;return false;" class="btn-minus btn-cts" type="button">–</button>
-                                        <input type="text" class="qty input-text" id="qty" name="quantity" size="4" value="1">
-                                        <button onclick="var result = document.getElementById('qty'); var qty = result.value; if( !isNaN(qty)) result.value++;return false;" class="btn-plus btn-cts" type="button">+</button>
-                                    </div>
-                                </div>
-                                <div class="col-md-3 total">
-                                    <p>100.000 đ</p>
-                                </div>
-                                <div class="col-md-3 action">
-                                    Xóa
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row cart_bottom-listPD">
-                        <div class="col-md-6">
-                            <div class="row">
-                                <div class="col-md-2 cart_bottom-button">
-                                    <input type="checkbox" name="" id="">
-                                </div>
-                                <div class="col-md-2 cart_bottom-img">
-                                    <img src="../images/cart1.png" alt="" width="100%;">
-                                </div>
-                                <div class="col-md-5">
-                                    <h6>Bánh plan việt quất phủ hạnh nhân chiên giòn</h6>
-                                </div>
-                                <div class="col-md-3">
-                                    <p class="type">Phân loại &nbsp;
-                                        <span class="icon-down-arrow-1" style="font-size: 10px;"></span>
-                                    </p>
-                                    <p>Size vừa</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="row">
-                                <div class="col-md-3 price">
-                                    <p>100.000 đ</p>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="check-number">
-                                        <button onclick="var result = document.getElementById('qty'); var qty = result.value; if( !isNaN(qty) &amp; qty > 1 ) result.value--;return false;" class="btn-minus btn-cts" type="button">–</button>
-                                        <input type="text" class="qty input-text" id="qty" name="quantity" size="4" value="1">
-                                        <button onclick="var result = document.getElementById('qty'); var qty = result.value; if( !isNaN(qty)) result.value++;return false;" class="btn-plus btn-cts" type="button">+</button>
-                                    </div>
-                                </div>
-                                <div class="col-md-3 total">
-                                    <p>100.000 đ</p>
-                                </div>
-                                <div class="col-md-3 action">
-                                    Xóa
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- pick total -->
-                <div class="pick_total">
-                    <div class="row">
-                        <div class="col-md-6 col-6">
-                            
-                        </div>
-                        <div class="col-md-6 col-6 pick-total">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <p class="type">Tổng tiền hàng:</p>
-                                    <p>12 sản phẩm</p>
-                                </div>
-                                <div class="col-md-4 price-total">
-                                    <p>12.000.000 đ</p>
-                                </div>
-                                <div class="col-md-4 pick_total-button">
-                                    <a href="../view/cart_checkout.html"><button>Đặt mua ngay</button></a>
                                 </div>
                             </div>
                         </div>

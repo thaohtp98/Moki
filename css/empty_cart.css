@@ -1,0 +1,28 @@
+.empty_cart {
+    text-align: center;
+}
+
+.empty-cart {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.empty-cart h6 {
+    padding-top: 30px;
+}
+
+.empty_cart-cancel {
+    border: 1px solid #E6E8EE;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.empty_cart-home {
+    border: 0px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #A5CE36;
+    border-radius: 4px;
+    color: white;
+}
