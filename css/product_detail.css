@@ -419,6 +419,7 @@ span.price_favourite {
     text-shadow: none;
     opacity: 1;
     background: #F9FAFC;
+    z-index: 3;
 }
 
 .modal_header.modal-header .close span {
