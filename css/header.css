@@ -386,7 +386,7 @@ li.breadcrumb-item.active .active {
         transition: 0.2s;
     }
 }
-@media only screen and (max-height: 415px) {
+@media only screen and (max-height: 415px) and (max-width: 823px) {
     * {
 
     }
