@@ -44,3 +44,55 @@ color: #333333;
 	margin-top: 20px;
 }
 }
+/*style 404*/
+
+.bg{
+	position:relative;
+}
+.img-404{
+font-weight: 500;
+ font-size: 130px;
+ text-align: center;
+ opacity: 0.7;
+ color: #848484;
+}
+.img-404 img{
+	margin-bottom: 20px;
+}
+.content-404{
+text-align: center;
+}
+.content-404 p{
+	font-size: 16px;
+line-height: 24px;
+color: #666666;
+}
+.button-404{
+	margin-top: 50px;
+}
+.button-404 .quaylai{
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #666666;
+border: 1px solid #E6E8EE;
+box-sizing: border-box;
+border-radius: 4px;
+background: #F2F3F8;
+padding: 12px 30px;
+margin-right: 10px;
+}
+.button-404 .trangchu{
+	background: #A5CE36;
+border-radius: 4px;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+padding: 12px 30px;
+}
+@media (max-width: 360px){
+.img-404{
+	font-size: 120px;
+}
+}

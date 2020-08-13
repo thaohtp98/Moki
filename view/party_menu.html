@@ -629,15 +629,15 @@
                 <div class="col-xl-12 text-xs-right wrapper_btnContainer">
                     <div id="btnContainer">
 
-                        <button class="btn_ active_btn" onclick="gridView()"><span class="icon-menu-1 icon-grid icon_btn_view"></span></button>
-                        <button class="btn_" onclick="listView()"><span class="icon-list icon-list icon_btn_view"></span></button>
+                        <button class="btn_ active_btn" ><span class="icon-menu-1 icon-grid icon_btn_view"></span></button>
+                        <button class="btn_" ><span class=" icon-list icon_btn_view"></span></button>
                     </div>
                     <br>
                 </div>
             </div>
-            <div class="row row_product">
+            <div class=" row_product">
 
-                <div class=" card-columns">
+                <div class=" card-columns ">
                     <div class="card card_food">
                         <div class="wrapper_img_product">
                             <a href="" class="link_product_img"><img src="../images/food.png"></a>
@@ -1595,7 +1595,15 @@
 		</div>
 	</div> <!-- finish btn scroll top -->
     <script type="text/javascript">
-                $(".xemthucdon").on("click", function() {
+
+            $('.icon-menu-1').on("click", function() {
+            $(".card-columns").removeClass('list-paty');
+         });
+            $('.icon-list').on("click", function() {
+            $(".card-columns").addClass('list-paty');
+         });
+
+        $(".xemthucdon").on("click", function() {
         $(this).toggleClass('up-icon');
         $(this).parent().find(".js-open").slideToggle('fast', function() {
             $(this).next().stop(true).toggleClass('open', $(this).is(":visible"));
