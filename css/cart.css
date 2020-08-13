@@ -7,6 +7,7 @@
 
 .cart_content {
     font-size: 14px;
+    padding: 30px;
 }
 
 .cart_content-left {
@@ -34,7 +35,7 @@
 /* cart between */
 
 .cart_between {
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 .cart_between-left span {
