@@ -591,14 +591,14 @@ a.view_detail:hover {
 
     /* css cho outstanding_partner */
     .card-body.partner_body {
-        padding: 0 10px!important;
+        padding: 0 12px!important;
     }
 
     .card-body.partner_body.cooking_body {
-        padding: 10px!important;
+        padding: 12px!important;
     }
     a.wrap_blog {
-        height: 90px;
+        height: 130px;
     }
     .ultensils_layer {
         left: 15px!important;
