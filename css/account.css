@@ -818,6 +818,7 @@ border-top: none;
 }
 .account-hover a:hover{
   background: #D7D9E2;
+  color: #333333;
 }
 .account:hover .account-hover{
   visibility: visible;
@@ -828,7 +829,7 @@ border-top: none;
   font-weight: 500;
 font-size: 14px;
 line-height: 21px;
-color: #333333;
+color: #333333!important;
 }
 .account>a span{
   margin-left: 5px;

@@ -73,7 +73,7 @@ line-height: 21px;
     text-align: right;
     transition: .2s;
     cursor: pointer;
-    padding-right: 10px;
+    padding-right: 5px;
 }
 .paty .xemthucdon span{
     font-size: 12px;
@@ -132,6 +132,25 @@ line-height: 21px;
     display: inline-block!important;
     width: 100%!important;
 }
+.card-columns .info_store{
+    width: 100%;
+    text-align: right;
+}
+.quick_find.v2 {
+    justify-content: flex-end;
+}
+.quick_find.v2 .wrapper_result {
+    margin-right: 30px;
+}
+.quick_find.v2 .wrapper_result span{
+    color: #FF3F34;
+    font-size: 16px;
+}
+select#exampleFormControlSelect1, select#exampleFormControlSelect2, input#formGroupExampleInput {
+    border: none;
+    padding-left: 0;
+}
+
 @media (max-width: 1024px){
 
 .card-columns {
@@ -166,4 +185,17 @@ position: inherit;
     height: auto;
 }
 
+}
+/*@media (max-width: 480px){
+
+.card-columns {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+}
+*/
+@media (max-width: 360px){
+.quick_find.v2 .wrapper_result {
+    margin-right: 5px;
+}
 }
