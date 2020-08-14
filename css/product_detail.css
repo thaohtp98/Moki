@@ -758,9 +758,32 @@ content: "";
 .topic_favourite_group.paty .list-group-item.topic_favourite_item{
 transition: .4s;
 }
-
-
-
+.footer-thucdontiec span span{
+    font-family: 'Barlow', sans-serif;
+    margin-left: 10px;
+}
+.footer-thucdontiec>span{
+font-size: 14px;
+color: #666666;
+}
+.footer-thucdontiec{
+    display: flex;
+    justify-content: space-around;
+        padding: 20px 0;
+}
+.footer-thucdontiec  .right-foor{
+    color: #333333;
+    font-weight: 500;
+}
+@media (max-width: 479px) {
+    .footer-thucdontiec{
+        display: inline-block;
+    }
+    .footer-thucdontiec>span{
+        display: block;
+        margin: 10px 0;
+    }
+}
 
 
 
