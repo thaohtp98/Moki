@@ -166,7 +166,7 @@ select#exampleFormControlSelect1, select#exampleFormControlSelect2, input#formGr
     -moz-column-count: 2;
     column-count: 2;
 }
-.card-columns.list-paty{
+/*.card-columns.list-paty{
         -webkit-column-count: 1;
     -moz-column-count: 1;
     column-count: 1;
@@ -183,17 +183,17 @@ position: inherit;
 }
 .card-columns.list-paty .wrapper_img_product{
     height: auto;
-}
+}*/
 
 }
-/*@media (max-width: 480px){
+@media (max-width: 480px){
 
 .card-columns {
     -webkit-column-count: 1;
     -moz-column-count: 1;
     column-count: 1;
 }
-*/
+}
 @media (max-width: 360px){
 .quick_find.v2 .wrapper_result {
     margin-right: 5px;

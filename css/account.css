@@ -227,7 +227,7 @@ max-width: 280px;
 }
 .bt-sua a, .bt-xoa a{
   text-decoration-line: underline!important;
-  color: #666666;
+  color: #666666!important;
   font-weight: 500;
 font-size: 14px;
 line-height: 21px;
@@ -407,7 +407,7 @@ color: #333333;
 .brand-heart a{
   font-size: 14px;
 line-height: 21px;
-color: #333333;
+color: #333333!important;
 }
 .price-heart span{
   font-size: 14px;
@@ -451,7 +451,7 @@ float: right;
   padding-top: 55px;
 }
 .quen-pas a{
-  color: #FF3F34;
+  color: #FF3F34!important;
   font-size: 14px;
 line-height: 21px;
 font-weight: 500;
@@ -524,6 +524,8 @@ width: 85px;
     padding: 0;
     min-width: 83px;
     top: 110%;
+    right: 0;
+    left: auto;
 }
 .dropdown.v1 .dropdown-menu .active a{
   color: #A5CE36;
@@ -532,6 +534,7 @@ width: 85px;
    font-weight: 500;
 font-size: 14px;
 line-height: 21px;
+color: #333333;
 }
 .dropdown.v1 a:hover{
   color: #A5CE36;
