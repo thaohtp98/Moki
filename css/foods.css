@@ -211,13 +211,13 @@ a.btn.dropdown-toggle.btn-status.btn_group_title {
     color: #666666!important;
 }
 .wrapper_result span {
-    /* font-family: Be Vietnam; */
     font-style: normal;
     font-weight: normal;
+    color: #FF3F34;
     font-size: 16px;
     line-height: 24px;
-    color: #666666;
 }
+
 /*css cho quick_find_status*/
 .btn-group.btn_group_status:hover {
     border: 1px solid #FF3F34;
@@ -388,7 +388,6 @@ span.wrapper_price span {
     font-family: Barlow;
     font-style: normal;
     font-weight: 500;
-
 }
 .price {
     margin-left: 5px;
@@ -469,9 +468,233 @@ span.wrapper_locate span.location {
 }
 /*query media*/
 /*css cho mobile*/
-@media only screen and (min-width: 260px) and (max-width: 576px) {
+@media only screen and (min-width: 260px) and (max-width: 319px) {
     * {
 
+    }
+
+    span.icon-location-pin {
+        display: none;
+    }
+
+    span.icon-money1 {
+        display: none;
+    }
+
+    span.price {
+        font-size: 15px!important;
+        line-height: 15px;
+        margin-left: 0;
+    }
+    .col-xl-12.col-flex {
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: repeat(2, 47%);
+    }
+    .card_food {
+        width: 100%;
+    }
+    .dropdown-area {
+        width: 100px!important;
+        height: 200px;
+        overflow-y: scroll;
+    }
+
+    .dropdown-menu.dropdown-area.dropdown-price {
+        padding: 0;
+        overflow: inherit;
+        border: none;
+        background: #fff;
+        height: auto;
+        top: 150%;
+    }
+    span.wrapper_price {
+        font-size: 16px;
+    }
+    span.wrapper_locate {
+        font-size: 13px;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 359px) {
+    * {
+
+    }
+
+    span.icon-location-pin {
+        font-size: 13px;
+    }
+    .wrapper_locate .icon-location-pin:before {
+        font-size: 13px!important;
+    }
+
+    span.location {
+        font-size: 13px!important;
+    }
+
+    span.icon-money1 {
+        font-size: 15px!important;
+    }
+    .icon-money1:before {
+        font-size: 15px;
+    }
+    span.price {
+        font-size: 13px!important;
+        line-height: 13px;
+    }
+    .col-xl-12.col-flex {
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: repeat(2, 47%);
+    }
+    .card_food {
+        width: 100%;
+    }
+    .dropdown-area {
+        width: 100px!important;
+        height: 200px;
+        overflow-y: scroll;
+    }
+
+    .dropdown-menu.dropdown-area.dropdown-price {
+        padding: 0;
+        overflow: inherit;
+        border: none;
+        background: #fff;
+        height: auto;
+        top: 150%;
+    }
+    span.wrapper_price {
+        height: 15px;
+        line-height: 15px;
+    }
+    span.wrapper_locate {
+        font-size: 13px;
+    }
+}
+@media only screen and (min-width: 360px) and (max-width: 374px) {
+    * {
+
+    }
+    span.price {
+        font-size: 15px!important;
+        line-height: 15px;
+    }
+    .col-xl-12.col-flex {
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: repeat(2, 47%);
+    }
+    .card_food {
+        width: 100%;
+    }
+    .dropdown-area {
+        width: 100px!important;
+        height: 200px;
+        overflow-y: scroll;
+    }
+
+    .dropdown-menu.dropdown-area.dropdown-price {
+        padding: 0;
+        overflow: inherit;
+        border: none;
+        background: #fff;
+        height: auto;
+        top: 150%;
+    }
+    span.wrapper_price {
+        height: 18px;
+        line-height: 18px;
+    }
+    span.wrapper_locate {
+        font-size: 13px;
+    }
+}
+@media only screen and (min-width: 375px) and (max-width: 410px) {
+    * {
+
+    }
+    span.price {
+        font-size: 15px!important;
+        line-height: 15px;
+    }
+    .col-xl-12.col-flex {
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: repeat(2, 47%);
+    }
+    .card_food {
+        width: 100%;
+    }
+    .dropdown-area {
+        width: 100px!important;
+        height: 200px;
+        overflow-y: scroll;
+    }
+
+    .dropdown-menu.dropdown-area.dropdown-price {
+        padding: 0;
+        overflow: inherit;
+        border: none;
+        background: #fff;
+        height: auto;
+        top: 150%;
+    }
+    span.wrapper_price {
+        font-size: 16px;
+    }
+    span.wrapper_locate {
+        font-size: 13px;
+    }
+}
+@media only screen and (min-width: 411px) and (max-width: 449px) {
+    * {
+
+    }
+    span.price {
+        font-size: 15px!important;
+        line-height: 15px;
+    }
+    .col-xl-12.col-flex {
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: repeat(2, 47%);
+    }
+    .card_food {
+        width: 100%;
+    }
+    .dropdown-area {
+        width: 100px!important;
+        height: 200px;
+        overflow-y: scroll;
+    }
+
+    .dropdown-menu.dropdown-area.dropdown-price {
+        padding: 0;
+        overflow: inherit;
+        border: none;
+        background: #fff;
+        height: auto;
+        top: 150%;
+    }
+    span.wrapper_price {
+    height: 18px;
+    line-height: 18px;
+    }
+    span.wrapper_locate {
+        font-size: 13px;
+    }
+}
+@media only screen and (min-width: 450px) and (max-width: 576px) {
+    * {
+
+    }
+
+    span.icon-money1 {
+        font-size: 16px;
+    }
+    span.price {
+        font-size: 16px!important;
+        line-height: 16px;
     }
     .col-xl-12.col-flex {
         display: grid;

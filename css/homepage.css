@@ -573,7 +573,7 @@ a.view_detail:hover {
         font-size: 12px;
     }
 }
-@media only screen and (min-width: 281px) and (max-width: 576px) {
+@media only screen and (min-width: 281px) and (max-width: 359px) {
     * {
 
     }
@@ -625,12 +625,119 @@ a.view_detail:hover {
 
     h4.card-title.name_partner {
         font-size: 13px;
+        height: 100%;
+        line-height: 15px;
+    }
+    .cooking_body a.link_info_parner.link_info_cooking {
+        font-size: 13px!important;
+        height: 45px!important;
+        line-height: 15px;
+        text-align: center;
+    }
+    .partner_body a.link_info_parner {
+        font-size: 13px!important;
+        height: 45px;
+        line-height: 15px;
+        text-align: center;
+    }
+    
+    .icon-location-partner {
+        display: none;
+    }
+    .rating>label {
+        font-size: 20px;
+    }
+    a.link_address_partner {
+        font-size: 13px;
+    }
+    /* finish css cho outstanding_partner */
+  
+    h4.card-title.name_partner.name_cooking {
+        font-size: 13px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        height: 45px;
+        line-height: 15px;
+    }
+    a.topic {
+        width: 100%;
+        margin: 0;
+        font-size: 13px;
+        display: block;
+        text-align: center;
+    }
+    span.time {
+        font-size: 13px;
+        display: block;
+        text-align: center;
+    }
+    a.card-text.view_detail {
+        text-align: center;
+        font-size: 12px;
+    }
+}
+@media only screen and (min-width: 360px) and (max-width: 410px) {
+    * {
+
+    }
+    ul.slick-dots {
+        display: none!important;
+    }
+
+    .row.row-help {
+        padding-bottom: 20px;
+    }
+    .slick-arrow {
+        display: none!important;
+    }
+
+    /* css cho outstanding_partner */
+    .card-body.partner_body {
+        padding: 0 12px!important;
+    }
+
+    .card-body.partner_body.cooking_body {
+        padding: 12px!important;
+    }
+    a.wrap_blog {
+        height: 130px;
+    }
+    .ultensils_layer {
+        left: 15px!important;
+        top: 180px;
+        width: 40px;
+        height: 40px;
+        display: none;
+    }
+
+    .ultensils_layer img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .wrapper_rating {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 15px!important;
+    }
+    p.card-text.address_partner {
+        font-size: 12px;
+    }
+
+    h4.card-title.name_partner {
+        font-size: 15px;
+        height: 45px;
+        line-height: 15px;
     }
 
     a.link_info_parner {
-        font-size: 13px!important;
-        height: 50px;
-        line-height: 25px;
+        font-size: 15px!important;
+        height: 45px!important;
+        line-height: 15px;
         text-align: center;
     }
     
@@ -650,7 +757,7 @@ a.view_detail:hover {
 
     }
     h4.card-title.name_partner.name_cooking {
-        font-size: 14px;
+        font-size: 15px;
         display: -webkit-box;
         -webkit-line-clamp: 3;
         -webkit-box-orient: vertical;
@@ -674,7 +781,105 @@ a.view_detail:hover {
         font-size: 12px;
     }
 }
+@media only screen and (min-width: 411px) and (max-width: 576px) {
+    ul.slick-dots {
+        display: none!important;
+    }
 
+    .row.row-help {
+        padding-bottom: 20px;
+    }
+    .slick-arrow {
+        display: none!important;
+    }
+
+    /* css cho outstanding_partner */
+    .card-body.partner_body {
+        padding: 0 12px!important;
+    }
+
+    .card-body.partner_body.cooking_body {
+        padding: 12px!important;
+    }
+    a.wrap_blog {
+        height: 130px;
+    }
+    .ultensils_layer {
+        left: 15px!important;
+        top: 180px;
+        width: 40px;
+        height: 40px;
+        display: none;
+    }
+
+    .ultensils_layer img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .wrapper_rating {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 15px!important;
+    }
+    p.card-text.address_partner {
+        font-size: 12px;
+    }
+
+    h4.card-title.name_partner {
+        font-size: 15px;
+        height: 45px;
+        line-height: 15px;
+    }
+
+    a.link_info_parner {
+        font-size: 13px!important;
+        height: 45px!important;
+        line-height: 15px;
+        text-align: center;
+    }
+    
+    .icon-location-partner {
+        display: none;
+    }
+    .rating>label {
+        font-size: 20px;
+    }
+    a.link_address_partner {
+        font-size: 13px;
+    }
+    /* finish css cho outstanding_partner */
+    /*     css cho phan cooking_recipe */
+    .link_info_cooking {
+        height: 80px!important;
+
+    }
+    h4.card-title.name_partner.name_cooking {
+        font-size: 15px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    a.topic {
+        width: 100%;
+        margin: 0;
+        font-size: 13px;
+        display: block;
+        text-align: center;
+    }
+    span.time {
+        font-size: 13px;
+        display: block;
+        text-align: center;
+    }
+    a.card-text.view_detail {
+        text-align: center;
+        font-size: 12px;
+    }
+}
 /*css cho tablet*/
 @media only screen and (min-width: 577px) and (max-width: 767px) {
     * {
