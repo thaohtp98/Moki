@@ -202,6 +202,10 @@ span.time_news.time_blog_detail {
     * {
 
     }
+
+	.topic_blog {
+		width: 30%;
+	}
     .wrapper_before_blog.wrapper_other_blog {
 		margin-bottom: 30px;
 	}
