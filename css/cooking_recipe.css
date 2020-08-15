@@ -283,6 +283,10 @@ span.time_news {
     * {
 
     }
+
+    span.time_news.time_blog_detail {
+        margin-left: 0;
+    }
     nav.navigation_page {
         justify-content: center;
     }
