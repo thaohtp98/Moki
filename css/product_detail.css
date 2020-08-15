@@ -489,7 +489,7 @@ label.form-check-label.size_check_label {
     flex-direction: row-reverse;
 }
 .btn_footer_modal {
-    width: 92px;
+    width: 104px;
     height: 41px;
     box-sizing: border-box;
     border-radius: 4px;
@@ -500,7 +500,7 @@ label.form-check-label.size_check_label {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-
+    padding: 12px 25px;
 }
 .btn_footer_modal.btn_book {
     background: #A5CE36;
@@ -512,7 +512,7 @@ label.form-check-label.size_check_label {
     background: #F9FAFC;
     border: 1px solid #E6E8EE;
     color: #666666;
-    
+    width: 92px!important;
 }
 
 .modal_header ul li.list-group-item.favourite_item {
