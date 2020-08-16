@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/cart.css">
     <link rel="stylesheet" href="../css/cart_checkout.css">
+    <link rel="stylesheet" type="text/css" href="../css/style_date.css">
+    <link rel="stylesheet" type="text/css" href="../css/account.css">
     <link rel="stylesheet" href="../css/blog_detail.css">
     <link rel="stylesheet" type="text/css" href="../css/slick.css">
     <link rel="stylesheet" type="text/css" href="../css/slick-theme.css">
@@ -23,10 +25,10 @@
     <link rel="stylesheet" href="../vendor/style.css">
 
     <!-- link date -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" /> -->
 </head>
 
 <body>
@@ -133,7 +135,7 @@
                     </a>
                     <div class="dropdown-menu dropdown-language">
                         <a href="" class="dropdown-item"><img src="../images/flag.svg" alt=""></a>
-                        
+
                     </div>
                 </div>
                 <button class="navbar-toggler hidden-xl-up float-lg-left" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
@@ -265,7 +267,7 @@
                                 <a href="" class="btn dropdown-toggle btn-language" data-toggle="dropdown"><img src="../images/flag.svg" alt=""></a>
                                 <div class="dropdown-menu dropdown-language">
                                     <a href="" class="dropdown-item"><img src="../images/flag.svg" alt=""></a>
-                                    
+
                                 </div>
                             </div>
 
@@ -306,8 +308,45 @@
                     <button>Mặc định</button>
                 </div>
                 <div class="col-md-2 cart-change">
-                    <a href="http://">Thay đổi</a>
+                    <a href="javascript:;" class="" title="Sửa" data-toggle="modal" data-target="#myModal">Thay đổi</a>
                 </div>
+                <!-- thay đổi địa chỉ -->
+      <div class="modal fade" id="myModal" role="dialog">
+         <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+               <div class="modal-header v1">
+                  <h4 class="modal-title">Thay đổi địa chỉ</h4>
+                  <p>Xin vui lòng nhập những thay đổi của bạn</p>
+               </div>
+               <form action="" class="form-tt">
+                  <div class="modal-body">
+                     <p style="text-align: left;">Họ và tên</p>
+                     <input type="text" name="ho" value="Nguyễn Văn A" required="" >
+                     <p style="text-align: left;">Số điện thoại</p>
+                     <input type="text" name="ten" value="0919 919 191 " required="">
+                     <p style="text-align: left;">Địa chỉ</p>
+                     <input type="text" name="ten" value="Tòa CT2 Constrexim Thái Hà, Phạm Văn Đồng " required="">
+                     <p style="text-align: left;">Quận/Huyện</p>
+                     <select onchange="sortby(this.value)">
+                        <option class="valued" value="default">Quận Nam Từ Liên</option>
+                        <option value="price-asc">Quận BẮc Từ Liêm</option>
+                     </select>
+                     <p style="text-align: left;">Tỉnh/Thành Phố</p>
+                     <select onchange="sortby(this.value)">
+                        <option class="valued" value="default">Hà Nội</option>
+                        <option value="price-asc">Đà Nẵng</option>
+                     </select>
+                  </div>
+                  <div class="modal-footer">
+                     <a href="#">Làm mới trường</a>
+                     <button type="button" class="btn btn-default" data-dismiss="modal">Hủy bỏ</button>
+                     <button type="summit" value="Đăng ký" class="btn btn-primary" data-dismiss="" >Hoàn Thành</button>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
             </div>
             <!-- list product cart-->
             <div class="cart_content">
@@ -434,7 +473,7 @@
                 <div class="col-md-6">
                     <div class="row">
                         <div class="col-md-4 cart_checkout-date">
-                            <input type="text" name="abc" placeholder="Thời gian giao hàng:" value="" />
+                            <!-- <input type="text" name="abc" placeholder="Thời gian giao hàng:" value="" />
                             <script>
                                 $(function() {
                                     $('input[name="abc"]').daterangepicker({
@@ -460,15 +499,24 @@
                                         $('.daterangepicker .drp-buttons .applyBtn').html('Áp dụng');
                                     });
                                 });
-                            </script>
+                            </script> -->
                         </div>
                         <div class="col-md-4 cart-change">
-                            <h6 class="type">Giao hàng ngay</h6>
-                            <span>Vui lòng chọn thời gian mong muốn</span>
+                            <h6 class="type">
+                                <!-- <a href="#12" id="datetime-rimo" class="add" >
+                                    <span style="color: black; font-size: 14px;">Giao hàng ngay </span>                                   
+                                </a>   --> 
+                                <div class="form-group pmd-textfield pmd-textfield-floating-label">
+                                    <label class="control-label" for="regular1"></label>
+                                    <input type="text" data-format="yyyy-MM-dd" class="form-control" id="datepicker-start" placeholder="Giao hàng ngay" style="width: 63%; float: right;">
+                                </div>      
+                                            
+                            </h6>
+                            <span style="text-align: left;">Vui lòng chọn thời gian mong muốn</span>
                         </div>
                         <div class="col-md-4 cart-change">
-                            <a href="http://">Thay đổi</a>
-                        </div>
+                            <a href="#">Thay đổi</a>
+                        </div>                   
                     </div>
                 </div>
             </div>
@@ -487,7 +535,7 @@
                         <div class="modal-dialog modal-sm" role="document">
                             <div class="modal-content">
                                 <div class="modal-body">
-                                    <h5>Mã khuyến mại</h5>
+                                    <h5 style="margin-top: 20px;">Mã khuyến mại</h5>
                                     <p>Sử dụng khuyến mãi để hưởng ưu đãi từ Moki</p>
                                     <div class="voucher">
                                         <input type="text" name="" id="" placeholder="Nhập mã voucher hoặc từ khóa">
@@ -588,16 +636,23 @@
             <!-- pay method -->
             <div class="row pay_method">
                 <div class="col-md-6">
-                    <h6>Phương thức thanh toán</h6>
+                    <h6 style="float: right;">Phương thức thanh toán</h6>
                 </div>
                 <div class="col-md-6">
                     <div class="row">
                         <div class="col-md-6 cart-change">
-                            <h6>Thanh toán khi nhận hàng</h6>
+                            <h6 class="check_pay">Thanh toán khi nhận hàng</h6>
                         </div>
                         <div class="col-md-6 cart-change">
-                            <a href="http://">Thay đổi</a>
+                            <a href="javascript:;" onclick="myFun()" id="event-pay">Thay đổi</a>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <!-- click event pay method -->
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="event_pay">                     
                     </div>
                 </div>
             </div>
@@ -631,14 +686,14 @@
                     <div class="col-md-6 col-6 pick-total">
                         <div class="row">
                             <div class="col-md-4">
-                                <p class="type">Tổng tiền hàng:</p>
-                                <p>12 sản phẩm</p>
+                                <p class="type" style="float: right;">Tổng tiền hàng:</p><br>
+                                <p style="float: right;">12 sản phẩm</p>
                             </div>
-                            <div class="col-md-4 price-total">
-                                <p>12.000.000 đ</p>
+                            <div class="col-md-4 price-total" style="float: right;">
+                                <p style="float: right;">12.000.000 đ</p>
                             </div>
                             <div class="col-md-4 pick_total-button">
-                                <a href="../view/cart_success.html"><button>Đặt mua ngay</button></a>
+                                <a href="../view/cart_success.html"><button style="float: right;">Đặt mua ngay</button></a>
                             </div>
                         </div>
                     </div>
@@ -688,7 +743,7 @@
                                     <li class="item_footer"><a href="callto:092.715.1535" class="link_item_footer">(+84) 092.715.1535</a></li>
                                     <li class="item_footer"><a href="mailto:lienhe@moki.com.vn" class="link_item_footer">lienhe@moki.com.vn</a></li>
                                     <li class="item_footer"><a href="" class="link_item_footer">Số nhà 29/42 Trần Bình, Mai Dịch, Cầu Giấy, Hà Nội</a></li>
-                                    
+
                                 </ul>
                             </div>
                         </div>
@@ -700,13 +755,14 @@
                                     <li class="item_footer"><a href="" class="link_item_footer"><span class="icon-youtube icon-follow"></span></a></li>
                                     <li class="item_footer"><a href="" class="link_item_footer"><span class="icon-twitter icon-follow"></span></a></li>
                                     <li class="item_footer"><a href="" class="link_item_footer"><span class="icon-instagram icon-follow"></span></a></li>
-                                    
+
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div> <!-- finish footer -->
+            </div>
+            <!-- finish footer -->
             <!-- finish footer -->
             <div class="copyright">
                 <div class="container">
@@ -730,4 +786,64 @@
         <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
+        <!-- Datepicker moment with locales -->
+        <script  src="../main/moment-with-locales.js"></script>
+        <!-- Propeller Bootstrap datetimepicker -->
+        <script  src="../main/bootstrap-datetimepicker.js"></script>
+        <script>
+
+  // Linked date and time picker 
+  // start date date and time picker 
+  $('#datepicker-start').datetimepicker();
+      $('#datepicker-start').datetimepicker({
+      pickTime: false
+    });
+    // Bootstrap DateTimePicker v4
+    $('#datepicker-start').datetimepicker({
+      format: 'DD/MM/YYYY'
+    });
+  
+
+  // End date date and time picker 
+  $('#datepicker-end').datetimepicker({
+    useCurrent: false 
+  });
+    $('#datetime-add').on('click',function(){
+        $("#datetime-add").removeClass("add");
+        $("#datetime-rimo").addClass("add");
+        $(".input-date").addClass("add");
+       $("#datepicker-start").focus();
+    });
+     $('#datetime-rimo').on('click',function(){
+         $("#datetime-rimo").removeClass("add");
+        $("#datetime-add").addClass("add");
+        $(".input-date").removeClass("add");
+       $("#datepicker-start").val("");
+       $("#datepicker-end").val("");
+    });
+
+    
+  
+  // start date picke on chagne event [select minimun date for end date datepicker]
+  // $("#datepicker-start").on("dp.change", function (e) {
+  //   $('#datepicker-end').data("DateTimePicker").minDate(e.date);
+  //   $('#datepicker-end').focus();
+
+
+  // });
+  // Start date picke on chagne event [select maxmimum date for start date datepicker]
+  $("#datepicker-end").on("dp.change", function (e) {
+    $('#datepicker-start').data("DateTimePicker").maxDate(e.date);
+    $('body').click();
+  });
+
+
+
+</script>
+<!-- click button pay method -->
+<script>
+    function myFun() {
+    document.getElementById("event_pay").innerHTML = '<button class="event_pay-disable" disabled>VNPay</button><button class="event_pay-active">Ví momo</button><button class="event_pay-active">Thanh toán khi nhận hàng</button><button class="event_pay-cancel"><span class="icon-cancel" id="pay-cancel"></span></button>';
+}
+</script>
 </body>
