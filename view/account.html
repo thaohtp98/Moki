@@ -105,7 +105,7 @@
 
          <div class="container">
             <div class="row">
-            	<!-- tabs account -->
+               <!-- tabs account -->
                <div class="col-xs-12 col-lg-4 col-xs-12">
                   <div class="tabs-left">
                      <div class="amin">
@@ -129,7 +129,7 @@
                </div>
                <div class="col-xs-12 col-lg-8  col-xs-12">
                   <div class="tabs-right">
-                  	<!-- Tabs thông tin cá nhân -->
+                     <!-- Tabs thông tin cá nhân -->
                      <div id="thongtin" class="tabcontent">
                         <div class="header-tabs-right">
                            <h3><i class="icon-user-1"></i> Thông tin cá nhân</h3>
@@ -183,7 +183,7 @@
                            <button type="summit" value="Đăng ký" class="btn btn-primary">Cập nhập</button>
                         </div>
                      </div>
-					<!-- Tabs địa chỉ nhận hàng -->
+               <!-- Tabs địa chỉ nhận hàng -->
                      <div id="diachi" class="tabcontent">
                         <div class="header-tabs-right">
                            <h3><i class="icon-location-pin"></i> Địa chỉ nhận hàng</h3>
@@ -259,7 +259,7 @@
                            </div>
                         </div>
                      </div>
-					<!-- tabs sản phẩm yêu thích -->
+               <!-- tabs sản phẩm yêu thích -->
                      <div id="sanpham" class="tabcontent">
                         <div class="header-tabs-right">
                            <h3><i class="icon-heart"></i> Sản phẩn yêu thích</h3>
@@ -450,19 +450,19 @@
                               <h3><i class="icon-shopping-cart-4"></i> Lịch sử mua hàng</h3>
                               <div class="button-header-right v2 datetime1">
                                  <form action="" class="datetime">
-                                 	<div class="input-date">
+                                    <div class="input-date">
                                         <div class="form-group pmd-textfield pmd-textfield-floating-label">
-									      <label class="control-label" for="regular1"></label>
-									      <input type="text" data-format="yyyy-MM-dd" class="form-control" id="datepicker-start">
-									    </div>
-									    <span class="center-date">-</span>
-									    <div class="form-group pmd-textfield pmd-textfield-floating-label">
-									      <label class="control-label" for="regular1"></label>
-									      <input type="text" data-format="yyyy-MM-dd" class="form-control" id="datepicker-end">
-									  	</div>
-										</div>
-									  <a  href="#123"  id="datetime-add" class="add"><span class="icon-calendar1"></span></a>
-									  <a  href="#12"  id="datetime-rimo"><span class="icon-counterclockwise"></span></a>
+                                 <label class="control-label" for="regular1"></label>
+                                 <input type="text" data-format="yyyy-MM-dd" class="form-control" id="datepicker-start">
+                               </div>
+                               <span class="center-date">-</span>
+                               <div class="form-group pmd-textfield pmd-textfield-floating-label">
+                                 <label class="control-label" for="regular1"></label>
+                                 <input type="text" data-format="yyyy-MM-dd" class="form-control" id="datepicker-end">
+                              </div>
+                              </div>
+                             <a  href="#123"  id="datetime-add" class="add"><span class="icon-calendar1"></span></a>
+                             <a  href="#12"  id="datetime-rimo"><span class="icon-counterclockwise"></span></a>
                                  </form>
                                  <div class="dropdown v1 open">
                                     <button class="dropdown-toggle text-left" type="button" data-toggle="dropdown" aria-expanded="true">
@@ -1279,9 +1279,9 @@
 
       <script>
 
-		
+      
 
-      	//click yêu cầu trả hàng
+         //click yêu cầu trả hàng
          $('.check-tab2').on("click", function() {
             $(".ycth").addClass('on');
             $(".remove-ycth").addClass('add ');
@@ -1389,8 +1389,8 @@
                      <h6 class="title_footer">Liên hệ</h6>
                      <ul class="list_footer ">
                         <li class="item_footer"><a href="callto:092.715.1535" class="link_item_footer">(+84) 092.715.1535</a></li>
-                        <li class="item_footer"><a href="mailto:Contact.moki@gmail.com" class="link_item_footer">Contact.moki@gmail.com</a></li>
-                        <li class="item_footer"><a href="" class="link_item_footer">Tòa CT2 Constrexim Thái Hà, Phạm Văn Đồng, Bắc Từ Liêm, Hà Nội</a></li>
+                        <li class="item_footer"><a href="mailto:Contact.moki@gmail.com" class="link_item_footer">lienhe@moki.com.vn</a></li>
+                        <li class="item_footer"><a href="" class="link_item_footer">Số nhà 29/42 Trần Bình, Mai Dịch, Cầu Giấy, Hà Nội</a></li>
                      </ul>
                   </div>
                </div>
@@ -1413,7 +1413,7 @@
          <div class="container">
             <div class="row">
                <div class="col-xl-12 text-xs-center">
-                  <p class="copy_text">MOKI © A product of Talentwind 2020. All Rights Reserved.</p>
+                  <p class="copy_text">MOKI © A product of TalentWins 2020. All Rights Reserved.</p>
                </div>
             </div>
          </div>
@@ -1539,15 +1539,15 @@
     useCurrent: false 
   });
     $('#datetime-add').on('click',function(){
-    	$("#datetime-add").removeClass("add");
-    	$("#datetime-rimo").addClass("add");
-    	$(".input-date").addClass("add");
+      $("#datetime-add").removeClass("add");
+      $("#datetime-rimo").addClass("add");
+      $(".input-date").addClass("add");
        $("#datepicker-start").focus();
     });
      $('#datetime-rimo').on('click',function(){
-     	 $("#datetime-rimo").removeClass("add");
-    	$("#datetime-add").addClass("add");
-    	$(".input-date").removeClass("add");
+       $("#datetime-rimo").removeClass("add");
+      $("#datetime-add").addClass("add");
+      $(".input-date").removeClass("add");
        $("#datepicker-start").val("");
        $("#datepicker-end").val("");
     });

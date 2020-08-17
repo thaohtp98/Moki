@@ -131,6 +131,13 @@ h6.text_or {
     a.btn.btn-primary.btn_chat.float-xs-right {
         bottom: calc(100vh - 40px)!important;
     }
+    a.navbar-brand.link_logo {
+        margin-bottom: 20px!important;
+        margin-top: 25px;
+    }
+    .wrapper_social_network {
+        margin-bottom: 20px;
+    }
 }
 @media only screen and (min-width: 360px) and (max-width: 576px) {
     * {
