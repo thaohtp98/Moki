@@ -18,6 +18,22 @@ a {
 body {
     background: #F9FAFC;
 }
+/*css cho alert*/
+.alert.alert-primary.alert_note {
+    height: 77px;
+    background: #D2FAE6;
+    padding: 15px 20px;
+    border-radius: 4px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #666666;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
 /*css cho product_detail 07/08/2020 byhathao*/
 .product_detail {
     padding: 50px 0;
