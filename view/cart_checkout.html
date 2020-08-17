@@ -485,16 +485,13 @@
                                             cancelLabel: 'Hủy'
                                         }
                                     });
-
                                     $('input[name="abc"]').on('apply.daterangepicker', function(ev, picker) {
                                         $(this).val(picker.startDate.format('MM/DD/YYYY'));
                                     });
-
                                     $('input[name="abc"]').on('cancel.daterangepicker', function(ev, picker) {
                                         $(this).val('');
                                     });
                                     $(document).ready(function() {
-
                                         $('.daterangepicker .drp-buttons .cancelBtn').html('Hủy');
                                         $('.daterangepicker .drp-buttons .applyBtn').html('Áp dụng');
                                     });
@@ -847,3 +844,4 @@
 }
 </script>
 </body>
+
