@@ -141,7 +141,7 @@
     margin: 0px;
     display: block;
     float: left;
-    width: 30px;
+    width: 25px;
     text-align: center;
     box-shadow: none;
     border-radius: 0px;
@@ -152,10 +152,6 @@
 
 
 /* pick total */
-
-.pick_total {
-    /* margin-top: 40px; */
-}
 
 .price-total p {
     font-size: 25px;
