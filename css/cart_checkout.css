@@ -154,9 +154,11 @@
 
 /* pay method */
 
-.pay_method {
-    padding-top: 30px;
-}
+
+/* .pay_method {
+    padding-left: 30px;
+    padding-right: 30px;
+} */
 
 
 /* shopping cart desktop*/
@@ -175,7 +177,7 @@
     padding: 12px 16px;
     z-index: 1;
     float: left;
-    left: -330px;
+    left: -400px;
 }
 
 .dropdown:hover .dropdown-content1 {
@@ -197,6 +199,10 @@
 .cart_list-pd h6 {
     font-size: 14px;
     margin-top: 10px;
+}
+
+.cart_list-pd h6 a {
+    color: #333;
 }
 
 .cart_list-pd a:hover {
@@ -342,4 +348,8 @@
     float: right;
     display: flex;
     align-items: center;
+}
+
+.pick-total {
+    padding: 0px;
 }
