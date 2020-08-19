@@ -88,14 +88,14 @@ a.btn.btn_add_cart.btn_add_cart1 .icon-shopping-cart {
     line-height: 24px;
     color: #666666;
 }
-.name_provided {
+a.name_provided {
     font-family: Barlow;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    text-decoration-line: underline;
-    color: #FF3F34;
+    text-decoration-line: underline!important;
+    color: #FF3F34!important;
 }
 .same_supplier {
     font-family: Barlow;
@@ -363,7 +363,7 @@ a.link_view_detail:hover {
 }
 /*css cho other_products*/
 .other_products {
-    padding: 50px 0 25px 0;
+    padding: 40px 0;
 }
 .active {
     color: #A5CE36;
