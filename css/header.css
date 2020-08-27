@@ -12,7 +12,7 @@
     font-family: butlong;
 }
 /*reset css*/
-*{margin: 0; padding: 0; font-family: 'Barlow', sans-serif; color: #333333} 
+*{margin: 0; padding: 0; font-family: 'Barlow', sans-serif; color: #333333;} 
 a {
     text-decoration: none;
 }
