@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title> Tạo thực đơn  </title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <script src="../vendor/bootstrap.js"></script>
+      <script src="../main/main.js"></script>
+      <link rel="stylesheet" href="../vendor/bootstrap.css">
+      <link rel="stylesheet" href="../vendor/font-awesome.css">
+      <link rel="stylesheet" href="../css/account.css">
+      <link rel="stylesheet" href="../css/style_date.css">
+      <link rel="stylesheet" href="../css/create_menus.css">
+      <link rel="stylesheet" href="../css/header.css">
+      <link rel="stylesheet" href="../css/banner.css">
+      <link rel="stylesheet" href="../css/homepage.css">
+      <link rel="stylesheet" href="../css/footer.css">
+      <link rel="stylesheet" type="text/css" href="../css/slick.css">
+      <link rel="stylesheet" type="text/css" href="../css/slick-theme.css">
+      <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="../vendor/style.css">
+   </head>
+   <body>
+      <nav class="navbar navbar-light bg-faded navbar-fixed-top menu_top">
+         <div class="container container_menu">
+            <a class="navbar-brand link_logo" href="homepage.html"><img class="img_logo " src="../images/logo.png" alt=""></a>
+            <div class="account display-1200">
+               <img class="img-account-header" style="margin-right: 20px;" src="../images/ad.png" alt="">
+               <div class="account-hover">
+                  <a title="" href="#">Thông tin cá nhân</a>
+                  <a title="" href="#">Địa chỉ nhận hàng</a>
+                  <a title="" href="#">Sản phẩm yêu thích</a>
+                  <a title="" href="#">Lịch sử mua hàng</a>
+                  <a title="" href="#">Thay đổi mật khẩu</a>
+                  <a title="" href="#">Đăng xuất</a>
+               </div>
+            </div>
+            <a class="nav-link menu_link menu_link_cart display-none" href="#"><span class="icon-shopping-cart icon-cart-header"></span><span class="number_pro_cart cart">0</span></a>
+            <div class="btn-group display-none">
+               <a href="" class="btn dropdown-toggle btn-language" data-toggle="dropdown"><img src="../images/vn.png" style="width: 30px; height: 20px; margin-right: 10px;" alt="">Vie</a>
+               <div class="dropdown-menu dropdown-language">
+                  <a href="" class="dropdown-item"><img src="../images/vn.png" style="width: 30px; height: 20px; margin-right: 10px;" alt="">Vie</a>
+                  <a href="" class="dropdown-item"><img src="../images/eng.jpg" style="width: 30px; height: 20px; margin-right: 10px;" alt="">Eng</a>
+               </div>
+            </div>
+            <button class="navbar-toggler hidden-xl-up float-lg-left" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
+            </button>
+            <div class="collapse navbar-toggleable-lg wrapper_menu" id="exCollapsingNavbar2">
+               <ul class="nav navbar-nav float-xl-right">
+                  <li class="nav-item menu_item active">
+                     <a class="nav-link menu_link active" href="homepage.html">Trang chủ <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item menu_item">
+                     <a class="nav-link menu_link" href="dish.html">Đồ ăn</a>
+                  </li>
+                  <li class="nav-item menu_item">
+                     <a class="nav-link menu_link" href="foods.html">Thực phẩm</a>
+                  </li>
+                  <li class="nav-item menu_item">
+                     <a class="nav-link menu_link" href="grocery.html">Tạp hóa</a>
+                  </li>
+                  <li class="nav-item menu_item">
+                     <a class="nav-link menu_link" href="party_menu.html">Thực đơn tiệc</a>
+                  </li>
+                  <li class="nav-item menu_item">
+                     <a class="nav-link menu_link" href="#">Tạo thực đơn</a>
+                  </li>
+                  <li class="nav-item menu_item menu_item_login">
+                     <div class="account">
+                        <img class="img-account-header" src="../images/ad.png" alt="">
+                        <a href="">Nguyễn Văn A <span class="icon-down-arrow-1"></span></a>
+                        <div class="account-hover">
+                           <a title="" href="#">Thông tin cá nhân</a>
+                           <a title="" href="#">Địa chỉ nhận hàng</a>
+                           <a title="" href="#">Sản phẩm yêu thích</a>
+                           <a title="" href="#">Lịch sử mua hàng</a>
+                           <a title="" href="#">Thay đổi mật khẩu</a>
+                           <a title="" href="#"><label class="form-check-label area_check_label" for="37">
+                                                Đăng xuất
+                                            </label></a>
+                        </div>
+                     </div>
+                  </li>
+                  <li class="nav-item menu_item menu_item_cart">
+                     <a class="nav-link menu_link menu_link_cart" href="#"><span class="icon-shopping-cart"></span><span class="number_pro_cart cart">0</span></a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <!-- finish menu_top -->
+      <div id="section-1">
+         <span ></span>
+      </div>
+               <nav aria-label="breadcrumb" class="brea">
+      
+      <ol class="breadcrumb breadcrumb_wrapper">
+         <div class="container">
+           <li class="breadcrumb-item"><a href="homepage.html"><span class="icon-home"></span></a></li>
+             <li class="breadcrumb-item"><a href="trangchu.html">Tài khoản</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Thông tin cá nhân</li>
+            
+         </div>
+      </ol>
+      
+   </nav> <!-- finish breadcrumb -->
+
+         <div class="container ">
+            <div class="create-menus-title-time">
+                            <div class=" row time-title ">
+        <div class="col-lg-9 col-md-9 col-sm-8 col-zs-12">
+                    <!-- Date and time picker with disbaled dates -->
+                <div class="input-date-menu">
+                    <div class="form-group pmd-textfield pmd-textfield-floating-label v2">
+                     <p><span class="icon-calendar1"></span> Thực đơn cho ngày : </p>
+                     <input type="text" data-format="YYYY-DD-MM" value="08/25/2020" class="form-control" id="datepicker-start">
+
+                   </div>
+                </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-4 col-zs-12">
+            <div class="button-time" >
+                <a  href="#123"  id="datetime-add" class="add"><span class="icon-calendar1"></span></a>
+                <span> Chọn thời gian </span></div>
+        </div>
+            </div>
+            </div> 
+            <div class="create-menus-title-time">
+            <div class="row">
+                <div class="col-lg-12 create-menus-button">
+                <div class="create">
+                    <a href="#1" type="button" data-toggle="modal" data-target="#myModal1"><span class="icon-community"></span> Tạo ngẫu nhiên</a>
+                </div>
+                <div class="coppy">
+                                        <!-- Date and time picker with disbaled dates -->
+                
+                    <a href="#1" id="datetime-add2"><span class="icon-writing"></span> Sao chép thực đơn</a>
+                    <div class="input-date-menu2">
+                    <div class="form-group pmd-textfield pmd-textfield-floating-label ">
+                     <input type="text" data-format="YYYY-DD-MM" class="form-control" id="datepicker-start2">
+
+                   </div>
+                </div>
+                </div>
+                <div class="close1">
+                    <a href="#1"><span class="icon-trash"></span> Xóa tất cả</a>
+                </div>
+                <div class="share">
+                    <span class="icon-share"> <span>Chia sẻ thực đơn: </span></span>
+                     <a href="#1"><span class="icon-facebook"></span></a>
+                     <a href=""><span class="icon-twitter"></span></a>
+                     <a href=""><span class="icon-instagram"></span></a>
+                </div>
+                </div>
+            </div>
+            <div class="row">
+
+               <div class="col-xs-12 col-lg-5 col-xs-12">
+
+               </div>
+               <div class="col-xs-12 col-lg-7  col-xs-12">
+
+               </div>
+            </div>
+            </div>     
+
+         </div>
+
+            <!-- Tao ngẫu nhiên -->
+      <div class="modal fade create1" id="myModal1" role="dialog">
+         <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+               <div class="modal-header v1">
+                <button type="button" class="close" data-dismiss="modal"><span class="icon-cancel"></span></button>
+                  <h4 class="modal-title"> Tạo thực đơn ngẫu nhiên</h4>
+                  <p>Hãy cho chúng tôi biết thêm về nhu cầu của bạn</p>
+               </div>
+               <form action="" class="form-tt">
+                  <div class="modal-body">
+                     <p>Số lượng người</p>
+                     <input type="number" name="ho" value="" required="" placeholder="5" >
+                     <p>Số lượng món chính</p>
+                     <input type="number" name="ten" value="" required="" placeholder="4">
+                     <p>Số lượng món phụ</p>
+                     <input type="number" name="ten" value="" required="" placeholder="2">
+                     <p>Số lượng món khai vị</p>
+                     <input type="number" name="ten" value="" required="" placeholder="0">
+                     <p>Loại tráng miệng</p>
+                     <select onchange="sortby(this.value)">
+                        <option class="valued" value="default">Trái cây</option>
+                        <option value="price-asc">Ôi</option>
+                     </select>
+                     <p>Loại đồ uống</p>
+                     <select onchange="sortby(this.value)">
+                        <option class="valued" value="default">Có Cồn</option>
+                        <option value="price-asc">Bia</option>
+                     </select>
+                  </div>
+                  <div class="modal-footer">
+                     <a href="#">Làm mới trường</a>
+                     <button type="button" class="btn btn-default" data-dismiss="modal">Hủy bỏ</button>
+                     <button type="summit" value="Đăng ký" class="btn btn-primary" data-dismiss="" >Hoàn Thành</button>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+
+
+
+
+      <div class="footer">
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 col-xs-6 col_wrap_link">
+                  <div class="col-link">
+                     <h6 class="title_footer">Liên kết</h6>
+                     <ul class="list_footer">
+                        <li class="item_footer"><a href="homepage.html" class="link_item_footer active">Trang chủ</a></li>
+                        <li class="item_footer"><a href="" class="link_item_footer">Tạo thực đơn</a></li>
+                        <li class="item_footer"><a href="cooking_recipe.html" class="link_item_footer">Công thức nấu ăn</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 col-xs-6 col_wrap_link">
+                  <div class="col-link">
+                     <h6 class="title_footer">Sản phẩm</h6>
+                     <ul class="list_footer">
+                        <li class="item_footer"><a href="dish.html" class="link_item_footer">Đồ ăn</a></li>
+                        <li class="item_footer"><a href="foods.html" class="link_item_footer">Thực phẩm</a></li>
+                        <li class="item_footer"><a href="grocery.html" class="link_item_footer">Tạp hóa</a></li>
+                        <li class="item_footer"><a href="party_menu.html" class="link_item_footer">Thực đơn tiệc</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 col-xs-6 col_wrap_link">
+                  <div class="col-link">
+                     <h6 class="title_footer">Liên kết khác</h6>
+                     <ul class="list_footer">
+                        <li class="item_footer"><a href="" class="link_item_footer ">Chính sách đổi trả</a></li>
+                        <li class="item_footer"><a href="" class="link_item_footer">Chính sách sử dụng</a></li>
+                        <li class="item_footer"><a href="" class="link_item_footer">Điều khoản bảo mật</a></li>
+                        <li class="item_footer"><a href="" class="link_item_footer">Điều khoản sử dụng</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-xs-6 col_wrap_link">
+                  <div class="col-link">
+                     <h6 class="title_footer">Liên hệ</h6>
+                     <ul class="list_footer ">
+                        <li class="item_footer"><a href="callto:092.715.1535" class="link_item_footer">(+84) 092.715.1535</a></li>
+                        <li class="item_footer"><a href="mailto:Contact.moki@gmail.com" class="link_item_footer">lienhe@moki.com.vn</a></li>
+                        <li class="item_footer"><a href="" class="link_item_footer">Số nhà 29/42 Trần Bình, Mai Dịch, Cầu Giấy, Hà Nội</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-xl-2 col-lg-6 col-md-6 col-sm-6 col-xs-12 col_wrap_link">
+                  <div class="col-link">
+                     <h6 class="title_footer">Follow us on</h6>
+                     <ul class="list_footer list_follow">
+                        <li class="item_footer"><a href="" class="link_item_footer"><span class="icon-facebook icon-follow"></span></a></li>
+                        <li class="item_footer"><a href="" class="link_item_footer"><span class="icon-youtube icon-follow"></span></a></li>
+                        <li class="item_footer"><a href="" class="link_item_footer"><span class="icon-twitter icon-follow"></span></a></li>
+                        <li class="item_footer"><a href="" class="link_item_footer"><span class="icon-instagram icon-follow"></span></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- finish footer -->
+      <div class="copyright">
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-12 text-xs-center">
+                  <p class="copy_text">MOKI © A product of TalentWins 2020. All Rights Reserved.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- finish copyright -->
+      <div class="navbar-fixed-bottom navbar-fixed-chat">
+         <a href="" class="btn btn-primary btn_chat float-xs-right">
+         <span class="icon-chat-2 icon-chat"></span>
+         </a>
+      </div>
+      <!-- finish btn chat -->
+      <div class="navbar-fixed-bottom">
+         <a href="" class="btn btn-primary btn_ontop float-xs-right">
+         <span class="icon-up-arrow-1 icon-ontop"></span>
+         </a>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- finish btn scroll top -->
+      <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+      <script src="../main/slick.js" charset="utf-8"></script>
+      <script src="../main/slick-homepage.js" charset="utf-8"></script>
+<!-- Datepicker moment with locales -->
+<script  src="../main/moment-with-locales.js"></script>
+<!-- Propeller Bootstrap datetimepicker -->
+<script  src="../main/bootstrap-datetimepicker.js"></script>
+
+<script>
+
+  // Linked date and time picker 
+  // start date date and time picker 
+  $('#datepicker-start').datetimepicker();
+      $('#datepicker-start').datetimepicker({
+      pickTime: true
+    });
+
+    $('#datetime-add').on('click',function(){
+       $("#datepicker-start").focus();
+    });
+
+  // start date picke on chagne event [select minimun date for end date datepicker]
+  $("#datepicker-start").on("dp.change", function (e) {
+    $('.container').click();
+
+
+  });
+    // Linked date and time picker 
+  // start date date and time picker 
+  $('#datepicker-start2').datetimepicker();
+      $('#datepicker-start2').datetimepicker({
+      pickTime: true
+    });
+
+    $('#datetime-add2').on('click',function(){
+       $("#datepicker-start2").focus();
+    });
+
+  // start date picke on chagne event [select minimun date for end date datepicker]
+  $("#datepicker-start2").on("dp.change", function (e) {
+    $('.container').click();
+
+
+  });
+$('.accordion-toggle').datetimepicker({
+  showClose: true,
+  icons: {
+    close: 'OK'
+  }
+});
+$(document).ready(function() {
+  $(".accordion-toggle").on("dp.show", function(e) {
+    $('.OK').html("OK");
+  });
+});
+
+</script>
+
+   </body>
+</html>
+<!-- sửa title thay đổi địa chỉ -->

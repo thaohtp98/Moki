@@ -1,0 +1,122 @@
+.create-menus-title-time{
+	background: #fff;
+	border: 1px solid #E6E8EE;
+box-sizing: border-box;
+border-radius: 4px 4px 0px 0px;
+padding: 20px 30px;
+}
+.content-create-menus .time-title{
+	padding-top: 20px
+}
+.button-time{
+	display: flex;
+	    align-items: center;
+	        justify-content: flex-end;
+}
+.form-group.pmd-textfield.v2 {
+	display: flex;
+	    align-items: center;
+}
+
+.input-date-menu span{
+font-size: 24px;
+line-height: 24px;
+color: #333333;
+margin-right: 10px;
+}
+.input-date-menu p{
+	font-weight: 500;
+font-size: 24px;
+line-height: 30px;
+color: #333333;
+margin-bottom: 0;
+padding-right: 5px;
+}
+.input-date-menu .form-group input{
+		font-weight: 500;
+font-size: 24px;
+line-height: 30px;
+color: #333333;
+width: 130px;
+padding-bottom: 0;
+}
+.button-time a{
+font-size: 14px;
+line-height: 21px;
+color: #666666;
+    padding: 4px!important;
+    text-align: center;
+}
+.button-time a span{
+	font-size: 14px;
+}
+.button-time span{
+	color: #666666;
+	font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+}
+.create-menus-button {
+	display: flex;
+	    align-items: center;
+}
+.create-menus-button>div{
+	margin-right: 30px;
+
+}
+.create-menus-button>span{
+	font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+color: #333333;
+}
+.create-menus-button a{
+	font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+color: #333333;
+text-decoration: none;
+
+}
+.create-menus-button a span{
+ padding-right: 10px;
+}
+.create-menus-button .share a span{
+	margin-left: 10px;
+	padding-right: 0;
+	transition: .3s
+}
+.create1 .modal-header {
+	position: relative;
+}
+.create1 .modal-header .close{
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	outline: none!important;
+}
+.create1 .modal-header.close span{
+	font-size: 14px;
+	color: #333333;
+}
+.create1 .modal-footer a{
+	color: #666666!important;
+	outline: none!important;
+	transition: .3s;
+}
+.create1 .modal-footer a:hover{
+	color: #A5CE36!important;
+}
+.create-menus-button .share a:hover span{
+	color:#A5CE36; 
+}
+.create-menus-button .coppy{
+	display: flex;
+}
+.create-menus-button .input-date-menu2{
+	margin-right: 5px;
+}
+.picker-switch.accordion-toggle{
+  display: block!important;
+}
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/

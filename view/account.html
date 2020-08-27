@@ -141,37 +141,39 @@
             <button class="navbar-toggler hidden-xl-up float-lg-left" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
             </button>
             <div class="collapse navbar-toggleable-lg wrapper_menu" id="exCollapsingNavbar2">
-                <ul class="nav navbar-nav float-xl-right">
-                    <li class="nav-item menu_item active">
-                        <a class="nav-link menu_link active" href="homepage.html">Trang chủ <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item menu_item">
-                        <a class="nav-link menu_link" href="dish.html">Đồ ăn</a>
-                    </li>
-                    <li class="nav-item menu_item">
-                        <a class="nav-link menu_link" href="foods.html">Thực phẩm</a>
-                    </li>
-                    <li class="nav-item menu_item">
-                        <a class="nav-link menu_link" href="grocery.html">Tạp hóa</a>
-                    </li>
-                    <li class="nav-item menu_item">
-                        <a class="nav-link menu_link" href="party_menu.html">Thực đơn tiệc</a>
-                    </li>
-                    <li class="nav-item menu_item">
-                        <a class="nav-link menu_link" href="#">Tạo thực đơn</a>
-                    </li>
-                    <li class="nav-item menu_item menu_item_login">
-                        <div class="account">
-                            <img class="img-account-header" src="../images/ad.png" alt="">
-                            <a href="">Nguyễn Văn A <span class="icon-down-arrow-1"></span></a>
-                            <div class="account-hover">
-                                <a title="" href="#">Thông tin cá nhân</a>
-                                <a title="" href="#">Địa chỉ nhận hàng</a>
-                                <a title="" href="#">Sản phẩm yêu thích</a>
-                                <a title="" href="#">Lịch sử mua hàng</a>
-                                <a title="" href="#">Thay đổi mật khẩu</a>
-                                <a title="" href="#">Đăng xuất</a>
-                            </div>
+               <ul class="nav navbar-nav float-xl-right">
+                  <li class="nav-item menu_item active">
+                     <a class="nav-link menu_link active" href="homepage.html">Trang chủ <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item menu_item">
+                     <a class="nav-link menu_link" href="dish.html">Đồ ăn</a>
+                  </li>
+                  <li class="nav-item menu_item">
+                     <a class="nav-link menu_link" href="foods.html">Thực phẩm</a>
+                  </li>
+                  <li class="nav-item menu_item">
+                     <a class="nav-link menu_link" href="grocery.html">Tạp hóa</a>
+                  </li>
+                  <li class="nav-item menu_item">
+                     <a class="nav-link menu_link" href="party_menu.html">Thực đơn tiệc</a>
+                  </li>
+                  <li class="nav-item menu_item">
+                     <a class="nav-link menu_link" href="#">Tạo thực đơn</a>
+                  </li>
+                  <li class="nav-item menu_item menu_item_login">
+                     <div class="account">
+                        <img class="img-account-header" src="../images/ad.png" alt="">
+                        <a href="">Nguyễn Văn A <span class="icon-down-arrow-1"></span></a>
+                        <div class="account-hover">
+                           <a title="" href="#">Thông tin cá nhân</a>
+                           <a title="" href="#">Địa chỉ nhận hàng</a>
+                           <a title="" href="#">Sản phẩm yêu thích</a>
+                           <a title="" href="#">Lịch sử mua hàng</a>
+                           <a title="" href="#">Thay đổi mật khẩu</a>
+                           <a title="" href="#"><label class="form-check-label area_check_label" for="37">
+                                                Đăng xuất
+                                            </label></a>
+
                         </div>
                     </li>
                     <li class="nav-item menu_item menu_item_cart">
@@ -1910,6 +1912,14 @@
             $("#datepicker-end").val("");
         });
 
+<<<<<<< HEAD
+  
+  // start date picke on chagne event [select minimun date for end date datepicker]
+  $("#datepicker-start").on("dp.change", function (e) {
+    $('#datepicker-end').data("DateTimePicker").minDate(e.date);
+    $('#datepicker-end').focus();
+=======
+>>>>>>> 84d10761210a66e8a2c6ba6a785dcf6d112e2a59
 
 
         // start date picke on chagne event [select minimun date for end date datepicker]
