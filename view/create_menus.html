@@ -671,6 +671,7 @@
 <script  src="../main/moment-with-locales.js"></script>
 <!-- Propeller Bootstrap datetimepicker -->
 <script  src="../main/bootstrap-datetimepicker.js"></script>
+<script  src="../main/bootstrap-datetimepicker2.js"></script>
 
 <script>
 
@@ -708,17 +709,16 @@
 
 
   });
-$('.accordion-toggle').datetimepicker({
-  showClose: true,
-  icons: {
-    close: 'OK'
-  }
+  (function ($, moment) {
+$.fn.datetimepicker.defaults = {
+    showClose: true,
+}
 });
-$(document).ready(function() {
-  $(".accordion-toggle").on("dp.show", function(e) {
-    $('.OK').html("OK");
+
+  $("#datepicker-start2").on("dp.show", function(e) {
+    $('.glyphicon').html("OK");
+
   });
-});
 
 </script>
 
