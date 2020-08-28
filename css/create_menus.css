@@ -24,7 +24,7 @@ line-height: 24px;
 color: #333333;
 margin-right: 10px;
 }
-.input-date-menu p{
+.input-date-menu h4{
 	font-weight: 500;
 font-size: 24px;
 line-height: 30px;
@@ -37,7 +37,7 @@ padding-right: 5px;
 font-size: 24px;
 line-height: 30px;
 color: #333333;
-width: 130px;
+width: 124px;
 padding-bottom: 0;
 }
 .button-time a{
@@ -73,7 +73,7 @@ color: #333333;
 .create-menus-button a{
 	font-weight: 500;
 font-size: 14px;
-line-height: 21px;
+line-height: 30px;
 color: #333333;
 text-decoration: none;
 
@@ -116,8 +116,112 @@ text-decoration: none;
 .create-menus-button .input-date-menu2{
 	margin-right: 5px;
 }
+
+
+
+
+.coppy { 
+min-width: 150px;
+}
+
 .coppy .picker-switch.accordion-toggle{
   display: block!important;
+ position: relative;
+ background: #fff;
+}
+.coppy .pmd-time{
+	display: none;
+}
+.coppy-time {
+top: 10px;
+right: 10px;
+	color: #A5CE36;
+	position: absolute;
+	cursor: pointer;
+	font-size: 14px;
+line-height: 21px;
+}
+.input-date-menu2 input#datepicker-start2{
+	padding-bottom: 0;
+	width: 81px;
+}
+.add2 .coppy-1{
+	display: none;
+}
+
+.input-date-menu2{
+	display: none;
+}
+.input-date-menu2.add2{
+	display: block;
+}
+.breakfast1{
+	display: flex;
+	background: #F9FAFC;
+border: 1px solid #E6E8EE;
+box-sizing: border-box;
+border-radius: 4px;
+padding: 10px 30px;
+}
+.breakfast1 .breakfast-right{
+	width: 50%;
+	text-align: right;
+}
+.breakfast1 .breakfast-left{
+	width: 50%;
+}
+.breakfast1 .breakfast-left a{
+	font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+color: #333333;
+}
+.breakfast1 .breakfast-left a span{
+font-size: 12px;
+line-height: 21px;
+color: #666666;
+margin-left: 10px;
+}
+.breakfast1 .breakfast-right a span{
+font-size: 14px;
+line-height: 21px;
+color: #666666;
+margin-left: 10px;
+}
+
+
+
+
+.time-create {
+	display: flex;
+}
+.end3 .picker-switch.accordion-toggle{
+  display: block!important;
+ position: relative;
+ background: #fff;
+}
+.end3 .pmd-time{
+	display: none;
+}
+.input-date3{
+	display: flex;
+}
+#datetime-add3 {
+	line-height: 40px;
+	margin-right: 10px;
+	color: #666666;
+    font-weight: 500;
+    font-size: 16px;
+}
+#datetime-add3 span{
+	margin-right: 5px;
+}
+input#datepicker-start3, input#datepicker-end3{
+	padding-bottom: 0;
+	padding-top: 10px;
+}
+.input-date3 .center-date{
+	line-height: 40px;
 }
 
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
