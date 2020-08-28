@@ -108,20 +108,36 @@
          <div class="container ">
             <div class="create-menus-title-time">
                             <div class=" row time-title ">
-        <div class="col-lg-9 col-md-9 col-sm-8 col-zs-12">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                     <!-- Date and time picker with disbaled dates -->
                 <div class="input-date-menu">
                     <div class="form-group pmd-textfield pmd-textfield-floating-label v2">
-                     <p><span class="icon-calendar1"></span> Thực đơn cho ngày : </p>
+                     <h4><span class="icon-calendar1"></span> Thực đơn cho ngày : </h4>
                      <input type="text" data-format="YYYY-DD-MM" value="08/25/2020" class="form-control" id="datepicker-start">
 
                    </div>
                 </div>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-4 col-zs-12">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+<div class="time-create">
+                            <form action="" class="datetime">
+                            <a href="#123" id="datetime-add3" class="add"><span class="icon-calendar1"></span> Xem nhiều ngày</a>
+                <div class="input-date3">
+                    <div class="form-group pmd-textfield pmd-textfield-floating-label">
+                        <input type="text" data-format="yyyy-MM-dd" class="form-control" id="datepicker-start3">
+                    </div>
+                    <span class="center-date">-</span>
+                    <div class="form-group pmd-textfield pmd-textfield-floating-label end3">
+                        <input type="text" data-format="yyyy-MM-dd" class="form-control" id="datepicker-end3">
+                    </div>
+                </div>
+                
+            </form>
             <div class="button-time" >
                 <a  href="#123"  id="datetime-add" class="add"><span class="icon-calendar1"></span></a>
-                <span> Chọn thời gian </span></div>
+                <span> Chọn thời gian </span>
+            </div>
+</div>
         </div>
             </div>
             </div> 
@@ -134,7 +150,7 @@
                 <div class="coppy">
                                         <!-- Date and time picker with disbaled dates -->
                 
-                    <a href="#1" id="datetime-add2"><span class="icon-writing"></span> Sao chép thực đơn</a>
+                    <a href="#1" id="datetime-add2"><span class="icon-copy"></span> <span class="coppy-1">Sao chép thực đơn</span></a>
                     <div class="input-date-menu2">
                     <div class="form-group pmd-textfield pmd-textfield-floating-label ">
                      <input type="text" data-format="YYYY-DD-MM" class="form-control" id="datepicker-start2">
@@ -156,7 +172,22 @@
             <div class="row">
 
                <div class="col-xs-12 col-lg-5 col-xs-12">
-
+<!--                 <div class="breakfast1">
+                    <div class="">
+                        <div class="breakfast-left">
+                             <a href="#1">Bữa sáng <span class="icon-pencil"></span></a>
+                        </div>
+                    <div class="breakfast-right">
+                        <a href="#1" class="icon-sub-menu"> <span class="icon-down-arrow-1"></span></a>
+                        <a href="#1" class=""> <span class="icon-up-arrow-1"></span></a>
+                        <a href="#1" class="close"> <span class=" icon-trash"></span></a>
+                        
+                    </div>
+                    </div>
+                    <div class="js-open-menu">
+                        dsnfsdfdkklflk
+                    </div>
+                </div> -->
                </div>
                <div class="col-xs-12 col-lg-7  col-xs-12">
 
@@ -383,9 +414,15 @@
 <script  src="../main/moment-with-locales.js"></script>
 <!-- Propeller Bootstrap datetimepicker -->
 <script  src="../main/bootstrap-datetimepicker.js"></script>
-<script  src="../main/bootstrap-datetimepicker2.js"></script>
 
 <script>
+    $(".breakfast-right .icon-down-arrow-1").on("click", function() {
+         $(".js-open-menu").addClass('open');
+    });
+        $(".breakfast-right .icon-up-arrow-1").on("click", function() {
+         $(".js-open-menu").removeClass('open');
+    });
+
 
   // Linked date and time picker 
   // start date date and time picker 
@@ -412,6 +449,8 @@
     });
 
     $('#datetime-add2').on('click',function(){
+        $("#datetime-add2").addClass("add2");
+            $(".input-date-menu2").addClass("add2");
        $("#datepicker-start2").focus();
     });
 
@@ -421,16 +460,43 @@
 
 
   });
-  (function ($, moment) {
-$.fn.datetimepicker.defaults = {
-    showClose: true,
-}
-});
 
   $("#datepicker-start2").on("dp.show", function(e) {
-    $('.glyphicon').html("OK");
+    $('.coppy-time').html("Sao chép");
 
   });
+
+
+
+          $('#datepicker-start3').datetimepicker();
+        $('#datepicker-start3').datetimepicker({
+            pickTime: false
+        });
+        $('#datepicker-end3').datetimepicker({
+            useCurrent: false
+        });
+          $('#datetime-add3').on('click', function() {
+            $("#datepicker-start3").focus();
+        });
+
+
+        // start date picke on chagne event [select minimun date for end date datepicker]
+        $("#datepicker-start3").on("dp.change", function(e) {
+            $('#datepicker-end3').data("DateTimePicker").minDate(e.date);
+            $('#datepicker-end3').focus();
+
+
+        });
+        // Start date picke on chagne event [select maxmimum date for start date datepicker]
+        $("#datepicker-end3").on("dp.change", function(e) {
+            $('#datepicker-start3').data("DateTimePicker").maxDate(e.date);
+        });
+          $("#datepicker-end3").on("dp.show", function(e) {
+    $('.coppy-time').html("Xem ngay");
+
+  });
+    $('.coppy-time').attr( 'id', 'myModal1' );
+
 
 </script>
 
