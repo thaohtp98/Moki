@@ -1,3 +1,131 @@
+/*css col-5 28/08/2020*/
+ul, li {
+    margin: 0;
+}
+.title_menu_eat {
+    display: flex;
+    border: 1px solid #E6E8EE;
+    border-radius: 4px 4px 0px 0px;
+    background: #F9FAFC;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+.title_left_menu .name_title_menu {
+    height: 21px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+    margin: 0;
+}
+.icon_title_right {
+    cursor: pointer;
+    margin-left: 10px;
+}
+.title_right_menu .icon_title_right:before {
+    font-size: 12px;
+    color: #666666;
+}
+.wrapper_btn_delete {
+    cursor: pointer;
+
+}
+.wrapper_btn_delete .icon-trash.icon_delete_item:before {
+    font-size: 14px;
+    color: #666666!important;
+}
+.item_foods_menu {
+    padding: 10px 30px!important;
+    margin: 0!important;
+    border: none!important;
+
+}
+.list_menu_eat {
+    border: 1px solid #E6E8EE;
+    border-top: none!important;
+    border-radius: 0px 0px 4px 4px ;
+}
+.icon-down-arrow-1.icon_title_right:before {
+    font-size: 12px;
+    color: #666666;
+}
+.is-hidden { display: none; }
+.wrapper_breakfast {
+    margin-bottom: 15px;
+}
+.btn_save_change {
+    width: 104px;
+    height: 34px;
+    background: #A5CE36;
+    border-radius: 4px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.btn_watch_food {
+    width: 104px;
+    height: 34px;
+    background: #A5CE36;
+    border-radius: 4px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    float: left;
+    margin-bottom: 15px;
+
+}
+.btn_watch_food:hover {
+    color: #ffffff;
+    background: #B0DB39!important;
+    border: 1px solid #B0DB39!important;
+    transition: 0.2s;
+
+}
+.btn_save_change:hover {
+    color: #ffffff;
+    background: #B0DB39!important;
+    border: 1px solid #B0DB39!important;
+    transition: 0.2s;
+}
+.list_menu_eat.list_food_menu_ {
+    padding: 10px 30px;
+}
+.list_menu_eat.list_food_menu_ li.item_menu_foodp1 span {
+    height: 21px;
+    font-family: Barlow;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+    margin: 0;
+
+}
+li.item_menu_foodp1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px dotted #A5CE36;
+    padding: 8px 20px;
+    margin-bottom: 5px;
+}
+li.item_menu_foodp1:last-child {
+    margin-bottom: 0;
+}
 
 /*css col-7 tao thuc don 27/08/2020*/
 button {
@@ -14,6 +142,7 @@ button:focus {
 }
 .item_tabs {
     margin-right: 10px;
+    margin-left: 0!important;
 }
 a.btn_tabs {
     background: #F9FAFC;
@@ -25,6 +154,9 @@ a.btn_tabs {
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
+    display: flex!important;
+    align-items: center;
+    justify-content: center;
 }
 a.btn_tabs.active {
     background: #A5CE36!important;
@@ -67,7 +199,12 @@ ul.tag_content {
     display: flex;
     align-items: center;
     /* margin-bottom: 20px; */
-    width: 190px;
+    width: 100%;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 h6.tag_title {
     margin-bottom: 0;
@@ -108,7 +245,7 @@ h6.tag_title {
 .name_pane_foods {
     font-family: Barlow;
     height: 27px;
-    width: auto;
+    width: 100%;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -117,6 +254,11 @@ h6.tag_title {
     background: none;
     margin-bottom: 5px;
     cursor: pointer;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .btn_add_menu {
     padding: 0;
@@ -374,7 +516,7 @@ span.icon-advertising.icon_notification:before {
     overflow-y: scroll;
     padding: 30px;
 }
-.modal_content_detail .modal-header,.modal-body,.modal-footer {
+.modal_content_detail .modal-header,.modal_content_detail .modal-body,.modal_content_detail .modal-footer {
     padding: 0!important;
     border: none;
 }
@@ -518,10 +660,10 @@ p.price_ {
 .tab_pane {
     height: auto;
     max-height: 1060px;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 .info_pane_foods {
-    width: 170px;
+    width: 190px;
 }
 .btn.btn_favourite {
     color: #FF3F34!important;
@@ -548,10 +690,18 @@ p.price_ {
     display: flex;
     align-items: center;
 }
-
-@media only screen and (max-width: 576px) and (min-width: 260px) {
+@media only screen and (max-width: 319px) and (min-width: 260px) {
     * {
 
+    }
+    .btn_watch_food {
+        width: auto;
+    }
+    .info_pane_foods {
+        width: auto!important;
+    }
+    .name_pane_foods {
+        font-size: 15px;
     }
     .tab_pane_foods {
         display: flex;
@@ -560,7 +710,7 @@ p.price_ {
     }
     .wrapper_info_pane {
         margin-bottom: 10px;
-        flex-wrap: wrap;
+        display: flex;
     }
     .wrapper_search_posts {
         padding: 12px;
@@ -569,4 +719,195 @@ p.price_ {
         padding: 0!important;
         margin-left: -3px!important;
     }
+    
+    .nav_pills {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: repeat(2, 47%);
+
+    }
+    .item_tabs {
+        margin-right: 0!important;
+        margin-left: 0!important;
+        margin-top: 10px;
+    }
+    .btn_save_change {
+        float: right;
+    }
+    a.btn_tabs.active {
+        padding: 5px 15px; 
+        font-size: 10px;
+
+    }
+    a.btn_tabs {
+        padding: 5px 15px!important; 
+        font-size: 10px;
+    }
+    .item_tabs:last-child {
+        margin-right: 0!important;
+    }
+    .nav-pills::after {
+        content: none;
+    }
+}
+@media only screen and (max-width: 359px) and (min-width: 320px) {
+    * {
+
+    }
+    .info_pane_foods {
+        width: auto!important;
+    }
+    .name_pane_foods {
+        font-size: 15px;
+    }
+    .tab_pane_foods {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 12px;
+    }
+    .wrapper_info_pane {
+        margin-bottom: 10px;
+        display: flex;
+    }
+    .wrapper_search_posts {
+        padding: 12px;
+    }
+    .choose_meal {
+        padding: 0!important;
+        margin-left: -3px!important;
+    }
+    
+    .nav_pills {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: repeat(2, 47%);
+
+    }
+    .item_tabs {
+        margin-right: 0!important;
+        margin-left: 0!important;
+        margin-top: 10px;
+    }
+    .btn_save_change {
+        float: right;
+    }
+    a.btn_tabs.active {
+        padding: 5px 15px; 
+        font-size: 10px;
+
+    }
+    a.btn_tabs {
+        padding: 5px 15px!important; 
+        font-size: 10px;
+    }
+    .item_tabs:last-child {
+        margin-right: 0!important;
+    }
+    .nav-pills::after {
+        content: none;
+    }
+}
+@media only screen and (max-width: 576px) and (min-width: 360px) {
+    * {
+
+    }
+    .info_pane_foods {
+        width: auto!important;
+    }
+    .name_pane_foods {
+        font-size: 15px;
+    }
+    .tab_pane_foods {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 12px;
+    }
+    .wrapper_info_pane {
+        margin-bottom: 10px;
+        display: flex;
+    }
+    .wrapper_search_posts {
+        padding: 12px;
+    }
+    .choose_meal {
+        padding: 0!important;
+        margin-left: -3px!important;
+    }
+    
+    .nav_pills {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: repeat(2, 43%);
+
+    }
+    .item_tabs {
+        margin-right: 0!important;
+        margin-left: 0!important;
+        margin-top: 10px;
+    }
+    .btn_save_change {
+        float: right;
+    }
+    a.btn_tabs.active {
+        padding: 5px 15px; 
+        font-size: 10px;
+
+    }
+    a.btn_tabs {
+        padding: 5px 15px!important; 
+        font-size: 10px;
+    }
+    .item_tabs:last-child {
+        margin-right: 0!important;
+    }
+    .nav-pills::after {
+        content: none;
+    }
+}
+@media only screen and (max-width: 767px) and (min-width: 577px) {
+    * {
+    }
+    
+    .name_pane_foods {
+        font-size: 16px;
+    }
+    .info_pane_foods {
+        width: 140px;
+    }
+    .name_pane_foods {
+        font-size: 14px;
+    }
+    .tab_pane_foods {
+        padding: 12px;
+    }
+}
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+    * {
+    }
+    
+    .tab_pane_foods {
+        padding: 12px;
+    }
+    .name_pane_foods {
+        font-size: 16px;
+    }
+    .info_pane_foods {
+        width: 160px;
+    }
+    .name_pane_foods {
+        font-size: 14px;
+    }
+    .tab_pane_foods .img_pane_foods {
+        margin-right: 12px;
+    }
+
 }
