@@ -11,6 +11,7 @@
       <link rel="stylesheet" href="../css/account.css">
       <link rel="stylesheet" href="../css/style_date.css">
       <link rel="stylesheet" href="../css/create_menus.css">
+      <link rel="stylesheet" href="../css/create_menu.css">
       <link rel="stylesheet" href="../css/header.css">
       <link rel="stylesheet" href="../css/banner.css">
       <link rel="stylesheet" href="../css/homepage.css">
@@ -92,18 +93,18 @@
       <div id="section-1">
          <span ></span>
       </div>
-               <nav aria-label="breadcrumb" class="brea">
+      <nav aria-label="breadcrumb" class="brea">
       
-      <ol class="breadcrumb breadcrumb_wrapper">
-         <div class="container">
-           <li class="breadcrumb-item"><a href="homepage.html"><span class="icon-home"></span></a></li>
-             <li class="breadcrumb-item"><a href="trangchu.html">Tài khoản</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Thông tin cá nhân</li>
-            
-         </div>
-      </ol>
-      
-   </nav> <!-- finish breadcrumb -->
+        <ol class="breadcrumb breadcrumb_wrapper">
+           <div class="container">
+             <li class="breadcrumb-item"><a href="homepage.html"><span class="icon-home"></span></a></li>
+               <li class="breadcrumb-item"><a href="trangchu.html">Tài khoản</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Thông tin cá nhân</li>
+              
+           </div>
+        </ol>
+        
+      </nav> <!-- finish breadcrumb -->
 
          <div class="container ">
             <div class="create-menus-title-time">
@@ -158,10 +159,294 @@
                <div class="col-xs-12 col-lg-5 col-xs-12">
 
                </div>
-               <div class="col-xs-12 col-lg-7  col-xs-12">
+               <div class="col-xs-12 col-lg-7 col-xs-12">
+                  <div class="row">
+                    <ul class="nav nav-pills nav_pills col-xl-12" id="pills-tab" role="tablist">
+                      <li class="nav-item item_tabs">
+                        <a class="nav-link active btn_tabs" id="pills-1-tab" data-toggle="pill" href="#pills-1" role="tab" aria-controls="pills-1" aria-selected="true">Gợi ý từ Moki</a>
+                      </li>
+                      <li class="nav-item item_tabs">
+                        <a class="nav-link btn_tabs" id="pills-2-tab" data-toggle="pill" href="#pills-2" role="tab" aria-controls="pills-2" aria-selected="false">Món ăn yêu thích</a>
+                      </li>
+                      <li class="nav-item item_tabs">
+                        <a class="nav-link btn_tabs" id="pills-3-tab" data-toggle="pill" href="#pills-3" role="tab" aria-controls="pills-3" aria-selected="false">Món ăn của bạn</a>
+                      </li>
+                      <li class="nav-item item_tabs">
+                        <a class="nav-link btn_tabs" id="pills-4-tab" data-toggle="pill" href="#pills-4" role="tab" aria-controls="pills-4" aria-selected="false">Món ăn D</a>
+                      </li>
+                    </ul>
+                    <div class="col-xl-12 col_search">
+                        <div class="wrapper_search_posts">
+                            <span class="icon-search icon_search_posts"></span>
+                            <input class="form-control search_posts" type="text" placeholder="Tìm kiếm món ăn" aria-label="Search">
+                        </div>
+                    </div>
+                    <!-- <div class="col-xl-12 tag_topic">
+                      <div class="wrapper_tag_topic">                      
+                        <h6 class="tag_title">Tag:</h6>
+                        <ul class="tag_content">
+                          <li class="item_tag_content"><a href="#" class="link_tag_content">Phở,</a></li>
+                          <li class="item_tag_content"><a href="#" class="link_tag_content">Bún,</a></li>
+                          <li class="item_tag_content"><a href="#" class="link_tag_content">Miến,</a></li>
+                          <li class="item_tag_content"><a href="#" class="link_tag_content">Cháo,</a></li>
+                          <li class="item_tag_content"><a href="#" class="link_tag_content">Xôi,</a></li>
+                          <li class="item_tag_content"><a href="#" class="link_tag_content">Cơm,</a></li>
+                          <li class="item_tag_content"><a href="#" class="link_tag_content">Tag món ăn..,</a></li>
+                        </ul>
+                      </div>
+                    </div> -->
+                    <div class="tab-content tab_content col-xl-12" id="pills-tabContent">
+                      <div class="tab-pane tab_pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-1-tab">
+                        <div class="tab_pane_foods">
+                          <div class="wrapper_info_pane">
+                            <img src="../images/tab-pane.png" alt="" class="img_pane_foods">
+                            <div class="info_pane_foods">
+                              
+                              <!-- Button trigger modal -->
+                              <h5 class=" name_pane_foods" data-toggle="modal" data-target="#detail_pane_foods">
+                                Đây là tên món gì đó
+                              </h5>
+                              <div class="wrapper_tag_topic">                      
+                             
+                                <ul class="tag_content">
+                                  <li class="item_tag_content">Giảm cân,</li>
+                                  <li class="item_tag_content">Giảm cân,</li>
+                                  <li class="item_tag_content">Giảm cân,</li>
+                                  <li class="item_tag_content">Giảm cân,</li>
+                                  <li class="item_tag_content">Giảm cân,</li>
+                                 
+                                </ul>
+                              </div>
 
+                              <!-- Modal -->
+                              <div class="modal fade modal_pane_food" id="detail_pane_foods" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                  <div class="modal-dialog modal-dialog-centered modal_detail_foods" role="document">
+                                      <div class="modal-content modal_content_detail">
+                                          <div class="modal-header modal_header">
+                                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true"><span class="icon-cancel"></span></span>
+
+                                              </button>
+                                              
+
+                                          </div>
+                                          <div class="modal-body modal_body">
+                                            <div class="wrapper_product_menu">
+                                              
+                                            
+                                              <img src="../images/img_foods_detail.png" alt="" class="img_product_menu">
+                                              <div class="info_product_menu">
+                                                <h3 class="name_">Cơm gà rang sốt bơ</h3>
+                                                <p class="ingredient">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+                                                <p class="price_">
+                                                  Giá: <span>50.000đ - 100.000đ</span>
+                                                </p>
+                                                <a href="product_detail_dish.html" class="btn btn_order_" target="_blank" >
+                                                  <span class="icon-shopping-cart"></span>Đặt mua món ăn
+                                                </a>
+                                              </div>
+                                            </div>
+                                            <div class="content_recipe_menu">
+                                              <h3 class="title_recipte_menu">Công thức nấu cơm gà rang sốt bơ</h3>
+                                              <div class="wrapper_recipe_menu">
+                                                
+                                                <p>
+                                                    Chỉ là món thịt và đậu phụ quen thuộc thôi nhưng khi om với chút nấm hương lại mềm ngọt và ngon cơm vô cùng!
+                                                </p>
+                                                <h5 class="item_content_blog">Nguyên liệu</h5>
+                                                <ul >
+                                                    <li >150g thịt lợn</li>
+                                                    <li >6 tai nấm hương tươi</li>
+                                                    <li >300g đậu phụ</li>
+                                                    <li >10g hành lá, 2 tép tỏi, 1 mẩu gừng</li>
+                                                    <li >15ml nước tương, 15ml dầu hào</li>
+                                                    <li > 240ml nước lọc</li>
+                                                    <li >Gia vị xốt: 1 thìa canh tinh bột ngô, 75ml nước lọc, 2g bột hạt tiêu đen, 2g muối</li>
+
+                                                </ul>
+                                                <h5 class="item_content_blog">Cách làm</h5>
+                                                <p>Đậu phụ rửa qua rồi ngâm trong nước sôi pha chút muối trong 3 phút sau đó cắt thành miếng vừa ăn. Thịt lợn rửa sạch băm nhỏ. Nấm hương rửa sạch thái khối nhỏ.</p>
+                                                <img src="../images/dauphuthanhmieng.png" alt="" style="width: 100%;">
+                                                <p style="text-align: center;" class="text-muted"><small>Đậu cắt thành miếng</small></p>
+                                                <p>Tỏi gừng băm nhỏ, gốc hành thái nhỏ. Lấy phần gia vị xốt cho vào bát rồi hòa đều và để sang một bên. Đun nóng chút dầu ăn trong chảo, cho tỏi gừng và gốc hành vào xào thơm sau đó đổ thịt băm vào đảo tơi cho thịt chuyển
+                                                    màu trắng.</p>
+                                                <h5 class="item_content_blog">Thành phẩm</h5>
+                                                <p>Món đậu phụ thịt băm om nấm có mùi thơm hấp dẫn đặc trưng chắc chắn sẽ khơi dậy sự thèm ăn của bạn và gia đình. Đậu phụ mềm và mịn, nấm hương thơm nức quyện với vị ngọt của thịt băm ngon cơm vô cùng.</p>
+                                                <img src="../images/thanhpham.png" alt="" style="width: 100%;">
+                                                <p style="text-align: center;" class="text-muted"><small>Chúc bạn làm được món đậu phụ thịt băm om nấm thật ngon nhé!</small></p>
+                                            </div>
+                                            </div>  
+                                              
+
+
+                                          </div>
+                                          <div class="modal-footer modal_footer">
+                                              
+
+                                              
+                                              <div class="wrapper_btn_modal">
+
+
+                                                  <!-- <button type="button" class="btn btn_footer_modal btn_book">Đặt ngay</button> -->
+                                                  <button type="button" class="btn btn_footer_modal btn_cancel" data-dismiss="modal">Đóng</button>
+
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                            </div> 
+                          </div>
+                          <div class="wrapper_btn_intern">
+                            
+                            <select id="choose-meal" class="choose_meal" name="meals">
+                              <option value="" class="option_meal">Chọn bữa ăn</option>
+                              <option value="breakfast" class="option_meal">Bữa sáng</option>
+                              <option value="lunch" class="option_meal">Bữa trưa</option>
+                              <option value="dinner" class="option_meal">Bữa tối</option>
+                              <option value="side-meal" class="option_meal">Bữa phụ</option>
+                            </select>
+                            <div class="btn btn_add_menu" id="btn_add_menu1" >
+                              Thêm vào thực đơn<span class="icon-plus"></span>
+                            </div>
+
+                            
+                          
+                            
+                          </div>
+                          <div class="btn btn_favourite ">Yêu thích<span class="icon-heart"></span></div>
+                          
+                        </div>
+                        <div class="tab_pane_foods">
+                          <div class="wrapper_info_pane">
+                            <img src="../images/tab-pane.png" alt="" class="img_pane_foods">
+                            <div class="info_pane_foods">
+                              
+                              <!-- Button trigger modal -->
+                              <h5 class=" name_pane_foods" data-toggle="modal" data-target="#detail_pane_foods">
+                                Đây là tên món gì đó
+                              </h5>
+                              <div class="wrapper_tag_topic">                      
+                             
+                                <ul class="tag_content">
+                                  <li class="item_tag_content">Giảm cân,</li>
+                                  <li class="item_tag_content">Giảm cân,</li>
+                                  <li class="item_tag_content">Giảm cân,</li>
+                                  <li class="item_tag_content">Giảm cân,</li>
+                                  <li class="item_tag_content">Giảm cân,</li>
+                                 
+                                </ul>
+                              </div>
+
+                              <!-- Modal -->
+                              <div class="modal fade modal_pane_food" id="detail_pane_foods" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                  <div class="modal-dialog modal-dialog-centered modal_detail_foods" role="document">
+                                      <div class="modal-content modal_content_detail">
+                                          <div class="modal-header modal_header">
+                                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true"><span class="icon-cancel"></span></span>
+
+                                              </button>
+                                              
+
+                                          </div>
+                                          <div class="modal-body modal_body">
+                                            <div class="wrapper_product_menu">
+                                              
+                                            
+                                              <img src="../images/img_foods_detail.png" alt="" class="img_product_menu">
+                                              <div class="info_product_menu">
+                                                <h3 class="name_">Cơm gà rang sốt bơ</h3>
+                                                <p class="ingredient">Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng ăn kèm chanh hoặc giấm </p>
+                                                <p class="price_">
+                                                  Giá: <span>50.000đ - 100.000đ</span>
+                                                </p>
+                                                <a href="product_detail_dish.html" class="btn btn_order_" target="_blank" >
+                                                  <span class="icon-shopping-cart"></span>Đặt mua món ăn
+                                                </a>
+                                              </div>
+                                            </div>
+                                            <div class="content_recipe_menu">
+                                              <h3 class="title_recipte_menu">Công thức nấu cơm gà rang sốt bơ</h3>
+                                              <div class="wrapper_recipe_menu">
+                                                
+                                                <p>
+                                                    Chỉ là món thịt và đậu phụ quen thuộc thôi nhưng khi om với chút nấm hương lại mềm ngọt và ngon cơm vô cùng!
+                                                </p>
+                                                <h5 class="item_content_blog">Nguyên liệu</h5>
+                                                <ul >
+                                                    <li >150g thịt lợn</li>
+                                                    <li >6 tai nấm hương tươi</li>
+                                                    <li >300g đậu phụ</li>
+                                                    <li >10g hành lá, 2 tép tỏi, 1 mẩu gừng</li>
+                                                    <li >15ml nước tương, 15ml dầu hào</li>
+                                                    <li > 240ml nước lọc</li>
+                                                    <li >Gia vị xốt: 1 thìa canh tinh bột ngô, 75ml nước lọc, 2g bột hạt tiêu đen, 2g muối</li>
+
+                                                </ul>
+                                                <h5 class="item_content_blog">Cách làm</h5>
+                                                <p>Đậu phụ rửa qua rồi ngâm trong nước sôi pha chút muối trong 3 phút sau đó cắt thành miếng vừa ăn. Thịt lợn rửa sạch băm nhỏ. Nấm hương rửa sạch thái khối nhỏ.</p>
+                                                <img src="../images/dauphuthanhmieng.png" alt="" style="width: 100%;">
+                                                <p style="text-align: center;" class="text-muted"><small>Đậu cắt thành miếng</small></p>
+                                                <p>Tỏi gừng băm nhỏ, gốc hành thái nhỏ. Lấy phần gia vị xốt cho vào bát rồi hòa đều và để sang một bên. Đun nóng chút dầu ăn trong chảo, cho tỏi gừng và gốc hành vào xào thơm sau đó đổ thịt băm vào đảo tơi cho thịt chuyển
+                                                    màu trắng.</p>
+                                                <h5 class="item_content_blog">Thành phẩm</h5>
+                                                <p>Món đậu phụ thịt băm om nấm có mùi thơm hấp dẫn đặc trưng chắc chắn sẽ khơi dậy sự thèm ăn của bạn và gia đình. Đậu phụ mềm và mịn, nấm hương thơm nức quyện với vị ngọt của thịt băm ngon cơm vô cùng.</p>
+                                                <img src="../images/thanhpham.png" alt="" style="width: 100%;">
+                                                <p style="text-align: center;" class="text-muted"><small>Chúc bạn làm được món đậu phụ thịt băm om nấm thật ngon nhé!</small></p>
+                                            </div>
+                                            </div>  
+                                              
+
+
+                                          </div>
+                                          <div class="modal-footer modal_footer">
+                                              
+
+                                              
+                                              <div class="wrapper_btn_modal">
+
+
+                                                  <!-- <button type="button" class="btn btn_footer_modal btn_book">Đặt ngay</button> -->
+                                                  <button type="button" class="btn btn_footer_modal btn_cancel" data-dismiss="modal">Đóng</button>
+
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                            </div> 
+                          </div>
+                          <div class="wrapper_btn_intern">
+                            
+                            <select id="choose-meal" class="choose_meal" name="meals">
+                              <option value="" class="option_meal">Chọn bữa ăn</option>
+                              <option value="breakfast" class="option_meal">Bữa sáng</option>
+                              <option value="lunch" class="option_meal">Bữa trưa</option>
+                              <option value="dinner" class="option_meal">Bữa tối</option>
+                              <option value="side-meal" class="option_meal">Bữa phụ</option>
+                            </select>
+                            <div class="btn btn_add_menu" id="btn_add_menu1" >
+                              Thêm vào thực đơn<span class="icon-plus"></span>
+                            </div>
+
+                            
+                          
+                            
+                          </div>
+                          <div class="btn btn_favourite ">Yêu thích<span class="icon-heart"></span></div>
+                          
+                        </div>
+                       
+                        
+                      </div>
+                      <div class="tab-pane tab_pane fade" id="pills-2" role="tabpanel" aria-labelledby="pills-2-tab">B</div>
+                      <div class="tab-pane tab_pane fade" id="pills-3" role="tabpanel" aria-labelledby="pills-3-tab">C</div>
+                      <div class="tab-pane tab_pane fade" id="pills-4" role="tabpanel" aria-labelledby="pills-4-tab">D</div>
+                    </div>
+                  </div>
                </div>
-            </div>
+            
             </div>     
 
          </div>
@@ -379,6 +664,9 @@
       <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
       <script src="../main/slick.js" charset="utf-8"></script>
       <script src="../main/slick-homepage.js" charset="utf-8"></script>
+      <script src="../main/choose-meal.js" charset="utf-8"></script>
+      <script src="../main/favourite.js" charset="utf-8"></script>
+
 <!-- Datepicker moment with locales -->
 <script  src="../main/moment-with-locales.js"></script>
 <!-- Propeller Bootstrap datetimepicker -->

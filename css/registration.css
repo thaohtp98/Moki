@@ -74,7 +74,7 @@
     * {
 
     }
-    col_main_login .navbar-brand.link_logo {
+    .col_main_login .navbar-brand.link_logo {
 		margin-top: 20px!important;
 	}
     .wrapper_login {
@@ -136,7 +136,7 @@
     }
     .col_main_login {
 	    position: absolute;
-	    top: 140px;
+	    top: 100px;
 	    transform: translate(-50%, -50%);
 	}
 	.btn_registration {
