@@ -145,6 +145,9 @@ line-height: 21px;
 	padding-bottom: 0;
 	width: 81px;
 }
+.input-date-menu2 .xemnhieungay{
+	display: none!important;
+}
 .add2 .coppy-1{
 	display: none;
 }
@@ -222,6 +225,26 @@ input#datepicker-start3, input#datepicker-end3{
 }
 .input-date3 .center-date{
 	line-height: 40px;
+}
+.time-create .picker-switch.accordion-toggle{
+  display: block!important;
+ position: relative;
+ background: #fff;
+}
+.time-create .picker-switch.accordion-toggle{
+  display: none;
+}
+.time-create .pmd-time{
+	display: none;
+}
+.time-create .xemnhieungay {
+top: 10px;
+right: 10px;
+	color: #A5CE36;
+	position: absolute;
+	cursor: pointer;
+	font-size: 14px;
+line-height: 21px;
 }
 
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
