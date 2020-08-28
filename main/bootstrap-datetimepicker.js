@@ -2065,7 +2065,7 @@
             next: 'material-icons pmd-sm pmd-keyboard-arrow-right',
             today: 'glyphicon glyphicon-screenshot',
             clear: 'glyphicon glyphicon-trash',
-            close: 'glyphicon glyphicon-remove'
+            close: 'glyphicon coppy-time'
         },
         useStrict: false,
         sideBySide: false,
@@ -2075,7 +2075,7 @@
         toolbarPlacement: 'default',
         showTodayButton: false,
         showClear: false,
-        showClose: false,
+        showClose: true,
         widgetPositioning: {
             horizontal: 'auto',
             vertical: 'auto'
