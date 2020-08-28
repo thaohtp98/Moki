@@ -321,7 +321,7 @@
                     row.push($('<a>').attr('data-action', 'togglePicker').append($('<span>').addClass(options.icons.time)));
                 }
                 if (options.showClear) {
-                    row.push($('<td>').append($('<a>').attr('data-action', 'clear').append($('<span>').addClass(options.icons.clear))));
+                    row.push($('<td>').append($('<a>').attr('data-target','#myModal1').attr('data-toggle','modal').append($('<span>').addClass(options.icons.clear))));
                 }
                 if (options.showClose) {
                     row.push($('<td>').append($('<a>').attr('data-action', 'close').append($('<span>').addClass(options.icons.close))));
@@ -922,8 +922,7 @@
 					yearonly = moment(day.date(parseInt($(e.target).text(), 10))).format('YYYY'),
 					dateonly = moment(day.date(parseInt($(e.target).text(), 10))).format('DD'),
 					dayname = moment(day.date(parseInt($(e.target).text(), 10))).format('ddd');
-							
-					widget.find('p.dayname').text(dayname + (','));
+						z
 					widget.find('p.monthonly').text(monthonly);
 					widget.find('p.dateonly').text(dateonly);
 					widget.find('p.yearonly').text(yearonly);
@@ -2064,8 +2063,8 @@
             previous: 'material-icons pmd-sm pmd-keyboard-arrow-left',
             next: 'material-icons pmd-sm pmd-keyboard-arrow-right',
             today: 'glyphicon glyphicon-screenshot',
-            clear: 'glyphicon glyphicon-trash',
-            close: 'glyphicon coppy-time'
+            clear: 'glyphicon xemnhieungay',
+            close: 'glyphicon coppy-time '
         },
         useStrict: false,
         sideBySide: false,
@@ -2074,7 +2073,7 @@
         viewMode: 'days',
         toolbarPlacement: 'default',
         showTodayButton: false,
-        showClear: false,
+        showClear: true,
         showClose: true,
         widgetPositioning: {
             horizontal: 'auto',

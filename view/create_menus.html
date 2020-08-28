@@ -124,12 +124,12 @@
                             <form action="" class="datetime">
                             <a href="#123" id="datetime-add3" class="add"><span class="icon-calendar1"></span> Xem nhiều ngày</a>
                 <div class="input-date3">
-                    <div class="form-group pmd-textfield pmd-textfield-floating-label">
-                        <input type="text" data-format="yyyy-MM-dd" class="form-control" id="datepicker-start3">
+                    <div class="form-group pmd-textfield pmd-textfield-floating-label start3">
+                        <input type="text" data-format="YYYY-MM-DD" class="form-control" id="datepicker-start3">
                     </div>
                     <span class="center-date">-</span>
                     <div class="form-group pmd-textfield pmd-textfield-floating-label end3">
-                        <input type="text" data-format="yyyy-MM-dd" class="form-control" id="datepicker-end3">
+                        <input type="text" data-format="YYYY-MM-DD" class="form-control" id="datepicker-end3">
                     </div>
                 </div>
                 
@@ -146,7 +146,7 @@
             <div class="row">
                 <div class="col-lg-12 create-menus-button">
                 <div class="create">
-                    <a href="#1" type="button" data-toggle="modal" data-target="#myModal1"><span class="icon-community"></span> Tạo ngẫu nhiên</a>
+                    <a  href="#1"><span class="icon-community"></span> Tạo ngẫu nhiên</a>
                 </div>
                 <div class="coppy">
                                         <!-- Date and time picker with disbaled dates -->
@@ -3060,13 +3060,6 @@
 <script  src="../main/bootstrap-datetimepicker.js"></script>
 
 <script>
-    $(".breakfast-right .icon-down-arrow-1").on("click", function() {
-         $(".js-open-menu").addClass('open');
-    });
-        $(".breakfast-right .icon-up-arrow-1").on("click", function() {
-         $(".js-open-menu").removeClass('open');
-    });
-
 
   // Linked date and time picker 
   // start date date and time picker 
@@ -3101,8 +3094,6 @@
   // start date picke on chagne event [select minimun date for end date datepicker]
   $("#datepicker-start2").on("dp.change", function (e) {
     $('.container').click();
-
-
   });
 
   $("#datepicker-start2").on("dp.show", function(e) {
@@ -3111,7 +3102,7 @@
   });
 
 
-
+// xem nhiều thực đơn
           $('#datepicker-start3').datetimepicker();
         $('#datepicker-start3').datetimepicker({
             pickTime: false
@@ -3128,18 +3119,17 @@
         $("#datepicker-start3").on("dp.change", function(e) {
             $('#datepicker-end3').data("DateTimePicker").minDate(e.date);
             $('#datepicker-end3').focus();
-
-
         });
         // Start date picke on chagne event [select maxmimum date for start date datepicker]
         $("#datepicker-end3").on("dp.change", function(e) {
             $('#datepicker-start3').data("DateTimePicker").maxDate(e.date);
         });
           $("#datepicker-end3").on("dp.show", function(e) {
-    $('.coppy-time').html("Xem ngay");
+    $('.xemnhieungay').html("Xem ngay");
 
   });
-    $('.coppy-time').attr( 'id', 'myModal1' );
+
+
 
 
 </script>
