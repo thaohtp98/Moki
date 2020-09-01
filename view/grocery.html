@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="../css/foods.css">
     <link rel="stylesheet" href="../css/chat.css">
     <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/menu_app.css">
     <link rel="stylesheet" href="../css/cart_checkout.css">
     <link rel="stylesheet" type="text/css" href="../css/slick.css">
     <link rel="stylesheet" type="text/css" href="../css/slick-theme.css">
@@ -154,7 +155,7 @@
                         <a class="nav-link menu_link" href="party_menu.html">Thực đơn tiệc</a>
                     </li>
                     <li class="nav-item menu_item">
-                        <a class="nav-link menu_link" href="#">Tạo thực đơn</a>
+                        <a class="nav-link menu_link" href="create_menus.html">Tạo thực đơn</a>
                     </li>
                     <li class="nav-item menu_item menu_item_login">
                         <a class="nav-link menu_link" href="login.html"><span class="icon-open-lock"></span>Đăng nhập</a>
@@ -1156,39 +1157,7 @@
     <div class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 col-xs-6 col_wrap_link">
-                    <div class="col-link">
-                        <h6 class="title_footer">Liên kết</h6>
-                        <ul class="list_footer">
-                            <li class="item_footer"><a href="homepage.html" class="link_item_footer">Trang chủ</a></li>
-                            <li class="item_footer"><a href="" class="link_item_footer">Tạo thực đơn</a></li>
-                            <li class="item_footer"><a href="cooking_recipe.html" class="link_item_footer">Công thức nấu ăn</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 col-xs-6 col_wrap_link">
-                    <div class="col-link">
-                        <h6 class="title_footer">Sản phẩm</h6>
-                        <ul class="list_footer">
-                            <li class="item_footer"><a href="dish.html" class="link_item_footer">Đồ ăn</a></li>
-                            <li class="item_footer"><a href="foods.html" class="link_item_footer">Thực phẩm</a></li>
-                            <li class="item_footer"><a href="grocery.html" class="link_item_footer active">Tạp hóa</a></li>
-                            <li class="item_footer"><a href="party_menu.html" class="link_item_footer">Thực đơn tiệc</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 col-xs-6 col_wrap_link">
-                    <div class="col-link">
-                        <h6 class="title_footer">Liên kết khác</h6>
-                        <ul class="list_footer">
-                            <li class="item_footer"><a href="" class="link_item_footer ">Chính sách đổi trả</a></li>
-                            <li class="item_footer"><a href="" class="link_item_footer">Chính sách sử dụng</a></li>
-                            <li class="item_footer"><a href="" class="link_item_footer">Điều khoản bảo mật</a></li>
-                            <li class="item_footer"><a href="" class="link_item_footer">Điều khoản sử dụng</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-xs-6 col_wrap_link">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-6 col_wrap_link">
                     <div class="col-link">
                         <h6 class="title_footer">Liên hệ</h6>
                         <ul class="list_footer ">
@@ -1197,9 +1166,51 @@
                             <li class="item_footer"><a href="" class="link_item_footer">Số nhà 29/42 Trần Bình, Mai Dịch,<br> Cầu Giấy, Hà Nội</a></li>
 
                         </ul>
+                        <ul class="list_footer list_follow">
+                            <li class="item_footer"><a href="" class="link_item_footer"><span class="icon-facebook icon-follow"></span></a></li>
+                            <li class="item_footer"><a href="" class="link_item_footer"><span class="icon-youtube icon-follow"></span></a></li>
+                            <li class="item_footer"><a href="" class="link_item_footer"><span class="icon-twitter icon-follow"></span></a></li>
+                            <li class="item_footer"><a href="" class="link_item_footer"><span class="icon-instagram icon-follow"></span></a></li>
+
+                        </ul>
                     </div>
                 </div>
-                <div class="col-xl-2 col-lg-6 col-md-6 col-sm-6 col-xs-12 col_wrap_link">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-6 col_wrap_link">
+                    <div class="col-link">
+                        <h6 class="title_footer">Sản phẩm</h6>
+                        <ul class="list_footer">
+                            <li class="item_footer"><a href="dish.html" class="link_item_footer">Đồ ăn</a></li>
+                            <li class="item_footer"><a href="foods.html" class="link_item_footer">Thực phẩm</a></li>
+                            <li class="item_footer"><a href="grocery.html" class="link_item_footer">Tạp hóa</a></li>
+                            <li class="item_footer"><a href="party_menu.html" class="link_item_footer">Thực đơn tiệc</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-6 col_wrap_link">
+                    <div class="col-link">
+                        <h6 class="title_footer">Chính sách</h6>
+                        <ul class="list_footer">
+                            <li class="item_footer"><a href="" class="link_item_footer ">Chính sách đổi trả</a></li>
+                            <li class="item_footer"><a href="" class="link_item_footer">Chính sách sử dụng</a></li>
+                            <li class="item_footer"><a href="" class="link_item_footer">Điều khoản bảo mật</a></li>
+                            <li class="item_footer"><a href="" class="link_item_footer">Điều khoản sử dụng</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-6 col_wrap_link">
+                    <div class="col-link">
+                        <h6 class="title_footer">Liên kết</h6>
+                        <ul class="list_footer">
+                            <li class="item_footer"><a href="homepage.html" class="link_item_footer active">Trang chủ</a></li>
+                            <li class="item_footer"><a href="create_menus.html" class="link_item_footer">Tạo thực đơn</a></li>
+                            <li class="item_footer"><a href="cooking_recipe.html" class="link_item_footer">Công thức nấu ăn</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                
+                
+                <!-- <div class="col-xl-2 col-lg-6 col-md-6 col-sm-6 col-xs-12 col_wrap_link">
                     <div class="col-link">
                         <h6 class="title_footer">Follow us on</h6>
                         <ul class="list_footer list_follow">
@@ -1210,22 +1221,21 @@
 
                         </ul>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
-    </div>
-    <!-- finish footer -->
+    </div> <!-- finish footer -->
+
     <div class="copyright">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12 text-xs-center">
-                    <p class="copy_text">MOKI © A product of TalentWins 2020. All Rights Reserved.</p>
+                    <p class="copy_text">MOKI © A product of Web88 2020. All Rights Reserved.</p>
                 </div>
             </div>
         </div>
 
-    </div>
-    <!-- finish copyright -->
+    </div> <!-- finish copyright -->
     <div class="navbar-fixed-bottom navbar-fixed-chat">
         <div class="wrapper_btn_chat">
             <div class="btn btn-primary btn_chat float-xs-right" id="btn_messaging">
@@ -1235,159 +1245,180 @@
         </div>
         <div class="wrapper_messaging_popup" id="messaging_popup">
             <h3 class="title_messaging">
-                <span>Hỏi đáp CSKH</span>
-                <button type="" class="cancel_messaging"><span class="icon-cancel"></span></button>
+              <span>Hỏi đáp CSKH</span>
+              <button type="" class="cancel_messaging"><span class="icon-cancel"></span></button>
             </h3>
             <div class="messaging">
 
+
+
                 <div class="inbox_msg">
-                    <div class="inbox_people">
-                        <div class="headind_srch">
-                            <div class="wrapper_search_posts">
-                                <span class="icon-search icon_search_posts"></span>
-                                <input class="form-control search_posts" type="text" placeholder="Tìm kiếm" aria-label="Search">
-                            </div>
+                  <div class="inbox_people">
+                    <div class="headind_srch">
+                      <div class="wrapper_search_posts">
+                        <span class="icon-search icon_search_posts"></span>
+                        <input class="form-control search_posts" type="text" placeholder="Tìm kiếm" aria-label="Search">
+                      </div>
 
-                        </div>
-                        <div class="inbox_chat">
-
-                            <div class="chat_list">
-                                <div class="chat_people">
-                                    <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
-                                    <div class="chat_ib">
-                                        <h5>Nhà hàng Talents Wind <span class="chat_date">3 giờ trước</span></h5>
-                                        <p>Xác nhận đơn hàng mã số #78888 của ...</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="chat_list">
-                                <div class="chat_people">
-                                    <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
-                                    <div class="chat_ib">
-                                        <h5>Nhà hàng Talents Wind <span class="chat_date">3 giờ trước</span></h5>
-                                        <p>Xác nhận đơn hàng mã số #78888 của ...</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="chat_list">
-                                <div class="chat_people">
-                                    <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
-                                    <div class="chat_ib">
-                                        <h5>Nhà hàng Talents Wind <span class="chat_date">3 giờ trước</span></h5>
-                                        <p>Xác nhận đơn hàng mã số #78888 của ...</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="chat_list">
-                                <div class="chat_people">
-                                    <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
-                                    <div class="chat_ib">
-                                        <h5>Nhà hàng Talents Wind <span class="chat_date">3 giờ trước</span></h5>
-                                        <p>Xác nhận đơn hàng mã số #78888 của ...</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="chat_list">
-                                <div class="chat_people">
-                                    <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
-                                    <div class="chat_ib">
-                                        <h5>Nhà hàng Talents Wind <span class="chat_date">3 giờ trước</span></h5>
-                                        <p>Xác nhận đơn hàng mã số #78888 của ...</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="chat_list">
-                                <div class="chat_people">
-                                    <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
-                                    <div class="chat_ib">
-                                        <h5>Nhà hàng Talents Wind <span class="chat_date">3 giờ trước</span></h5>
-                                        <p>Xác nhận đơn hàng mã số #78888 của ...</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="chat_list">
-                                <div class="chat_people">
-                                    <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
-                                    <div class="chat_ib">
-                                        <h5>Nhà hàng Talents Wind <span class="chat_date">3 giờ trước</span></h5>
-                                        <p>Xác nhận đơn hàng mã số #78888 của ...</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
-                    <div class="mesgs">
-                        <div class="chat_list active_chat">
-                            <div class="chat_people">
-                                <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
-                                <div class="chat_ib">
-                                    <h5 class="title_active_chat">Nhà hàng Talents Wind
-                                        <div class="status_active_chat"></div>
-                                    </h5>
-                                    <p>Online now</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="msg_history">
-                            <div class="incoming_msg">
-                                <div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
-                                <div class="received_msg">
-                                    <div class="received_withd_msg">
-                                        <p>Lorem Ipsum is simply dummy text of the des printing and typesetting industry. Lorem psum has been the industry's standard dummy text ever since the 1500 when an unknown printer took a galley of type and scrambled
-                                            it </p>
-                                        <span class="time_date"> 3 phút trước</span></div>
-                                </div>
-                            </div>
-                            <div class="outgoing_msg">
-                                <div class="sent_msg">
-                                    <p>Lorem Ipsum is simply dummy text of the des printing and typesetting industry. Lorem psum has been the industry's standard dummy text ever since the 1500 when an unknown printer took a galley of type and scrambled it
-                                    </p>
-                                    <span class="time_date"> 3 phút trước</span> </div>
-                            </div>
-                            <div class="incoming_msg">
-                                <div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
-                                <div class="received_msg">
-                                    <div class="received_withd_msg">
-                                        <p>Test, which is a new approach to have</p>
-                                        <span class="time_date"> 3 phút trước</span></div>
-                                </div>
-                            </div>
-                            <div class="outgoing_msg">
-                                <div class="sent_msg">
-                                    <p>Apollo University, Delhi, India Test</p>
-                                    <span class="time_date"> 3 phút trước</span> </div>
-                            </div>
-                            <div class="incoming_msg">
-                                <div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
-                                <div class="received_msg">
-                                    <div class="received_withd_msg">
-                                        <p>Lorem Ipsum is simply dummy text of the des printing and typesetting industry. Lorem psum has been the industry's standard dummy text ever since the 1500 when an unknown printer took a galley of type and scrambled
-                                            it
-                                        </p>
-                                        <span class="time_date"> 3 phút trước</span></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="type_msg">
-                            <div class="input_msg_write">
-                                <input class="form-control write_msg" type="text" placeholder="Nhập văn bản">
+                    <div class="inbox_chat">
 
-                                <button class="msg_send_btn" type="button"><span class="icon-right-arrow-1"></span></button>
-                            </div>
+                    <div class="chat_list">
+                      <div class="chat_people">
+                        <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+                        <div class="chat_ib">
+                          <h5>Nhà hàng Talents Wind <span class="chat_date">3 giờ trước</span></h5>
+                          <p>Xác nhận đơn hàng mã số #78888 của ...</p>
                         </div>
+                      </div>
+                    </div>
+                    <div class="chat_list">
+                      <div class="chat_people">
+                        <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+                        <div class="chat_ib">
+                          <h5>Nhà hàng Talents Wind <span class="chat_date">3 giờ trước</span></h5>
+                          <p>Xác nhận đơn hàng mã số #78888 của ...</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="chat_list">
+                      <div class="chat_people">
+                        <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+                        <div class="chat_ib">
+                          <h5>Nhà hàng Talents Wind <span class="chat_date">3 giờ trước</span></h5>
+                          <p>Xác nhận đơn hàng mã số #78888 của ...</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="chat_list">
+                      <div class="chat_people">
+                        <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+                        <div class="chat_ib">
+                          <h5>Nhà hàng Talents Wind <span class="chat_date">3 giờ trước</span></h5>
+                          <p>Xác nhận đơn hàng mã số #78888 của ...</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="chat_list">
+                      <div class="chat_people">
+                        <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+                        <div class="chat_ib">
+                          <h5>Nhà hàng Talents Wind <span class="chat_date">3 giờ trước</span></h5>
+                          <p>Xác nhận đơn hàng mã số #78888 của ...</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="chat_list">
+                      <div class="chat_people">
+                        <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+                        <div class="chat_ib">
+                          <h5>Nhà hàng Talents Wind <span class="chat_date">3 giờ trước</span></h5>
+                          <p>Xác nhận đơn hàng mã số #78888 của ...</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="chat_list">
+                      <div class="chat_people">
+                        <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+                        <div class="chat_ib">
+                          <h5>Nhà hàng Talents Wind <span class="chat_date">3 giờ trước</span></h5>
+                          <p>Xác nhận đơn hàng mã số #78888 của ...</p>
+                        </div>
+                      </div>
+                    </div>
                     </div>
                 </div>
+                <div class="mesgs">
+                  <div class="chat_list active_chat">
+                    <div class="chat_people">
+                      <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+                      <div class="chat_ib">
+                        <h5 class="title_active_chat">Nhà hàng Talents Wind <div class="status_active_chat"></div></h5>
+                        <p>Online now</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="msg_history">
+                    <div class="incoming_msg">
+                      <div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+                      <div class="received_msg">
+                        <div class="received_withd_msg">
+                          <p>Lorem Ipsum is simply dummy text of the des printing and typesetting industry. Lorem psum has been the industry's standard dummy text ever since the 1500 when an unknown printer took a galley of type and scrambled it </p>
+                          <span class="time_date"> 3 phút trước</span></div>
+                      </div>
+                    </div>
+                    <div class="outgoing_msg">
+                      <div class="sent_msg">
+                        <p>Lorem Ipsum is simply dummy text of the des printing and typesetting industry. Lorem psum has been the industry's standard dummy text ever since the 1500 when an unknown printer took a galley of type and scrambled it </p>
+                        <span class="time_date"> 3 phút trước</span> </div>
+                    </div>
+                    <div class="incoming_msg">
+                      <div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+                      <div class="received_msg">
+                        <div class="received_withd_msg">
+                          <p>Test, which is a new approach to have</p>
+                          <span class="time_date"> 3 phút trước</span></div>
+                      </div>
+                    </div>
+                    <div class="outgoing_msg">
+                      <div class="sent_msg">
+                        <p>Apollo University, Delhi, India Test</p>
+                        <span class="time_date"> 3 phút trước</span> </div>
+                    </div>
+                    <div class="incoming_msg">
+                      <div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+                      <div class="received_msg">
+                        <div class="received_withd_msg">
+                          <p>Lorem Ipsum is simply dummy text of the des printing and typesetting industry. Lorem psum has been the industry's standard dummy text ever since the 1500 when an unknown printer took a galley of type and scrambled it</p>
+                          <span class="time_date"> 3 phút trước</span></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="type_msg">
+                    <div class="input_msg_write">
+                      <input class="form-control write_msg" type="text" placeholder="Nhập văn bản">
+
+                      <button class="msg_send_btn" type="button"><span class="icon-right-arrow-1"></span></button>
+                    </div>
+                  </div>
+                </div>
             </div>
+          </div>
         </div>
-    </div>
-    <!-- finish btn chat -->
+    </div> <!-- finish btn chat -->
     <div class="navbar-fixed-bottom">
         <div class="btn btn-primary btn_ontop float-xs-right">
             <span class="icon-up-arrow-1 icon-ontop"></span>
 
         </div>
+    </div> <!-- finish btn scroll top -->
+    <div class="wrapper_bottom_app">
+        
+    
+        <nav class="navbar navbar-sticky-bottom  menu_app">
+          <li class="nav-item nav_item_bottom active">
+            <span class="icon-knowledge icon_app_bottom"></span>
+            <a class="nav-link nav_link_bottom active" href="#">Đồ ăn</a>
+          </li>
+          <li class="nav-item nav_item_bottom">
+           
+            <span class="icon-leaf icon_app_bottom"></span>
+            <a class="nav-link nav_link_bottom" href="#">Thực phẩm</a>
+          </li>
+          <li class="nav-item nav_item_bottom">
+            <span class="icon-smart-home icon_app_bottom"></span>
+            <a class="nav-link nav_link_bottom" href="#">Tạp hóa</a>
+          </li>
+          <!-- <li class="nav-item nav_item_bottom">
+            <span class="icon-content icon_app_bottom"></span>
+            <a class="nav-link nav_link_bottom" href="#">Thực đơn tiệc</a>
+          </li> -->
+          <li class="nav-item nav_item_bottom">
+            <span class="icon-createbill-01 icon_app_bottom"></span>
+            <a class="nav-link nav_link_bottom" href="create_menus.html">Tạo thực đơn</a>
+          </li>
+        </nav>
     </div>
-    <!-- finish btn scroll top -->
     <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
     <script src="../main/slick.js" charset="utf-8"></script>
     <script src="../main/slick-foods.js" charset="utf-8"></script>
