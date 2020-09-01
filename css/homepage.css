@@ -81,6 +81,28 @@ a.nav-link.menu_link.active {
     /*box-shadow: 0px 4px 30px rgba(11, 20, 45, 0.1);*/
     border-radius: 4px;
 }
+.regular_trademark.slider{
+    margin: 0!important;
+}
+.wrapper_slick_trademark {
+    height: 120px!important;
+}
+.wrapper_slick_trademark a {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.wrapper_slick_trademark .slick-slide img.img_trade_mark {
+    height: 120px!important;
+    
+}
+.regular_trademark .slick-arrow {
+    display: none!important;
+}
+.regular_trademark .slick-dots {
+    display: none!important;
+}
 a.link_slick_img {
     width: 100%;
     display: block;
@@ -458,7 +480,7 @@ a.view_detail:hover {
 /*css cho trademark*/
 .trademark {
     background: #F2F3F8;
-    padding: 10px 0;
+    padding: 30px 0;
 }
 .wrapper_trademark {
     height: 100%;

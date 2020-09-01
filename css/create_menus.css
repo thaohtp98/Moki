@@ -5,6 +5,9 @@ box-sizing: border-box;
 border-radius: 4px 4px 0px 0px;
 padding: 20px 30px;
 }
+.create-menus-title-time.v2{
+	margin-bottom: 50px;
+}
 .content-create-menus .time-title{
 	padding-top: 20px
 }
@@ -58,11 +61,15 @@ line-height: 24px;
 }
 .create-menus-button {
 	display: flex;
-	    align-items: center;
+	align-items: center;
+	padding-bottom: 20px;
 }
 .create-menus-button>div{
 	margin-right: 30px;
 
+}
+.create-menus-button>div a:focus span,  .create-menus-button>div a:focus {
+	color: #A5CE36;
 }
 .create-menus-button>span{
 	font-weight: 500;
@@ -246,5 +253,78 @@ right: 10px;
 	font-size: 14px;
 line-height: 21px;
 }
-
+.modal.create1  .close {
+	color: #333333;
+	font-size: 16px;
+	opacity: 1;
+}
+.modal.create1 .list_menu_eat{
+padding: 0 10px;
+}
+.modal.create1 .list_menu_eat .wrapper_breakfast{
+	margin-bottom: 0;
+}
+.modal.create1 .list_menu_eat .wrapper_breakfast .title_menu_eat{
+	background: #fff;
+	border: none!important;
+}
+.modal.create1 .list_menu_eat .wrapper_breakfast  .list_menu_eat{
+	border: none!important;
+}
+.modal.create1 .modal-content .modal-body{
+	max-height: 400px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+#myModal10 .modal-dialog{
+	max-width: 430px;
+}
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media (max-width: 1024px){
+	.time-title .col-lg-6{
+	flex: 0 0 100%;
+    max-width: 100%;
+    margin: 5px 0;
+	}
+	.create-menus-button{
+		display: block;
+	}
+	.create-menus-button>div{
+		width: 50%;
+		margin: 0;
+		float: left;
+	}
+}
+@media (max-width: 991px){
+	.time-title .col-lg-6{
+	flex: 0 0 100%;
+    max-width: 100%;
+    margin: 5px 0;
+	}
+}
+@media (max-width: 679px){
+.input-date-menu span, .input-date-menu h4 , .input-date-menu .form-group input {
+	font-size: 16px;
+}
+.input-date-menu .form-group input{
+	width: 82px;
+}
+.time-create{
+	display: block;
+}
+#datetime-add3{
+	margin-right: 3px;
+}
+.button-time{
+	justify-content: end;
+}
+.create-menus-button>div{
+	width: 100%;
+}
+.time-create .datetime{
+	justify-content: end;
+}
+.create-menus-title-time{
+	padding: 10px;
+}
+}
